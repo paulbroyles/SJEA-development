@@ -10,12 +10,15 @@
 
     <!-- *************************************************************************
      This XSLT was written by Matthew Christy of the TAMU IDHMC for Tim
-     Stinson's "Seige of Jerusalem" project. It is an online publication 
+     Stinson's "Seige of Jerusalem" project. It is an online publication
      of multiple copies of "The Seige of Jerusalem" including transcriptions
-     in various formats (Scribal, Critical, Diplomatic, and All) and 
+     in various formats (Scribal, Critical, Diplomatic, and All) and
      page images in jpeg and tiff formats.
-     
+
      4/27/2012: First draft
+     
+     Modifications were made by Paul Broyles, CLIR Postdoctoral Fellow for
+     Data Curation in Medieval Studies, North Carolina State University (pab).
     -->
 
     <!--mjc: Variables-->
@@ -322,6 +325,7 @@
     <!--     ====         -->
     <!--mjc: turn <head> into <div> and create headings -->
     <!--     based on view types.                       -->
+    <!--mdavis edited to handle marginalia in the head section 07-02-2015 -->
     <!--*************************-->
     <xsl:template match="tei:head">
         <xsl:param name="view" tunnel="yes"/>
@@ -329,11 +333,27 @@
         <xsl:if test="$view!='critical'">
             <xsl:choose>
                 <xsl:when test="@rend">
-                    <h2><span class="passus-{substring-after(substring-before(@rend, ')'), '(')}"><xsl:apply-templates/></span></h2>
+                    <h2>
+                        <xsl:choose>
+                            <xsl:when test="tei:marginalia">
+                                <xsl:call-template name="generateMarginalia">
+                                    <xsl:with-param name="margin" select="tei:marginalia"/>
+                                </xsl:call-template>
+                            </xsl:when>
+                        </xsl:choose>
+                        <span class="passus-{substring-after(substring-before(@rend, ')'), '(')}"><xsl:apply-templates/></span></h2>
                 </xsl:when>
                 
                 <xsl:when test="@place">
-                    <h2><span class="passus-{@place}"><xsl:apply-templates/></span></h2>
+                    <h2>
+                        <xsl:choose>
+                            <xsl:when test="tei:marginalia">
+                                <xsl:call-template name="generateMarginalia">
+                                    <xsl:with-param name="margin" select="tei:marginalia"/>
+                                </xsl:call-template>
+                            </xsl:when>
+                        </xsl:choose>
+                        <span class="passus-{@place}"><xsl:apply-templates/></span></h2>
                 </xsl:when>
             </xsl:choose>
         </xsl:if>
@@ -726,7 +746,7 @@
                         <span><xsl:value-of select="./descendant::tei:corr"/></span>
                     </xsl:when>
                     <xsl:when test="./descendant::tei:expan">
-                        <span name="{./tei:abbr/text()}"><xsl:value-of select="./tei:expan/tei:seg"/></span>
+                        <span name="{./tei:abbr/text()}"><xsl:apply-templates select="./tei:expan"/></span>
                     </xsl:when>
                 </xsl:choose>
             </xsl:when>
@@ -734,13 +754,13 @@
             <xsl:when test="$view = 'scribal'">
                 <xsl:choose>
                     <xsl:when test="./descendant::tei:orig">
-                        <span class="orig"><xsl:apply-templates select="./descendant::tei:orig"/><xsl:value-of xml:space="preserve"> </xsl:value-of></span> 
+                        <span class="orig"><xsl:apply-templates select="./descendant::tei:orig"/><xsl:text xml:space="preserve"> </xsl:text></span> 
                     </xsl:when>
                     <xsl:when test="./descendant::tei:sic">
                         <span class="sic"><xsl:value-of select="./descendant::tei:sic"/></span>
                     </xsl:when>
                     <xsl:when test="./descendant::tei:expan">
-                        <span class="expan" name="{./tei:abbr/text()}"><i><xsl:value-of select="./tei:expan/tei:seg"/></i></span>
+                        <span class="expan" name="{./tei:abbr/text()}"><i><xsl:apply-templates select="./tei:expan"/></i></span>
                     </xsl:when>
                 </xsl:choose>
             </xsl:when>
@@ -748,13 +768,13 @@
             <xsl:when test="$view = 'diplomatic'">
                 <xsl:choose>
                     <xsl:when test="./descendant::tei:orig">
-                        <span><xsl:apply-templates select="./descendant::tei:orig"/><xsl:value-of xml:space="preserve"> </xsl:value-of></span>
+                        <span><xsl:apply-templates select="./descendant::tei:orig"/><xsl:text xml:space="preserve"> </xsl:text></span>
                     </xsl:when>
                     <xsl:when test="./descendant::tei:sic">
                         <span><xsl:value-of select="./descendant::tei:sic"/></span>
                     </xsl:when>
                     <xsl:when test="./descendant::tei:expan">
-                        <span class="expan" name="{./tei:abbr/text()}"><i><xsl:value-of select="./tei:expan/tei:seg"/></i></span>
+                        <span class="expan" name="{./tei:abbr/text()}"><i><xsl:apply-templates select="./tei:expan"/></i></span>
                     </xsl:when>
                 </xsl:choose>
             </xsl:when>
@@ -768,7 +788,7 @@
                         <span class="sic"><xsl:value-of select="./descendant::tei:sic"/> / </span><span class="corr"><xsl:value-of select="./descendant::tei:corr"/></span>
                     </xsl:when>
                     <xsl:when test="./descendant::tei:expan">
-                        <span class="expan" name="{./tei:abbr/text()}"><i><xsl:value-of select="./tei:expan/tei:seg"/></i></span>
+                        <span class="expan" name="{./tei:abbr/text()}"><i><xsl:apply-templates select="./tei:expan"/></i></span>
                     </xsl:when>
                 </xsl:choose>
             </xsl:when>
@@ -779,6 +799,74 @@
     
     
     
+    <!-- Following is old code for the TEI:choice template.  -->
+    <!--
+    <xsl:template match="tei:choice">
+        <xsl:param name="view" tunnel="yes"/>
+
+        <xsl:choose>
+            <xsl:when test="$view = 'critical'">
+                <xsl:choose>
+                    <xsl:when test="./descendant::tei:orig">
+                        <span><xsl:apply-templates select="./descendant::tei:reg"/></span>
+                    </xsl:when>
+                    <xsl:when test="./descendant::tei:sic">
+                        <span><xsl:value-of select="./descendant::tei:corr"/></span>
+                    </xsl:when>
+                    <xsl:when test="./descendant::tei:expan">
+                        <span name="{./tei:abbr/text()}"><xsl:value-of select="./tei:expan/tei:seg"/></span>
+                    </xsl:when>
+                </xsl:choose>
+            </xsl:when>
+
+            <xsl:when test="$view = 'scribal'">
+                <xsl:choose>
+                    <xsl:when test="./descendant::tei:orig">
+                        <span class="orig"><xsl:apply-templates select="./descendant::tei:orig"/><xsl:value-of xml:space="preserve"> </xsl:value-of></span>
+                    </xsl:when>
+                    <xsl:when test="./descendant::tei:sic">
+                        <span class="sic"><xsl:value-of select="./descendant::tei:sic"/></span>
+                    </xsl:when>
+                    <xsl:when test="./descendant::tei:expan">
+                        <span class="expan" name="{./tei:abbr/text()}"><i><xsl:value-of select="./tei:expan/tei:seg"/></i></span>
+                    </xsl:when>
+                </xsl:choose>
+            </xsl:when>
+
+            <xsl:when test="$view = 'diplomatic'">
+                <xsl:choose>
+                    <xsl:when test="./descendant::tei:orig">
+                        <span><xsl:apply-templates select="./descendant::tei:orig"/><xsl:value-of xml:space="preserve"> </xsl:value-of></span>
+                    </xsl:when>
+                    <xsl:when test="./descendant::tei:sic">
+                        <span><xsl:value-of select="./descendant::tei:sic"/></span>
+                    </xsl:when>
+                    <xsl:when test="./descendant::tei:expan">
+                        <span class="expan" name="{./tei:abbr/text()}"><i><xsl:value-of select="./tei:expan/tei:seg"/></i></span>
+                    </xsl:when>
+                </xsl:choose>
+            </xsl:when>
+
+            <xsl:when test="$view = 'alltags'">
+                <xsl:choose>
+                    <xsl:when test="./descendant::tei:orig">
+                        <span class="orig"><xsl:value-of select="./descendant::tei:orig"/> / </span><span class="reg"><xsl:apply-templates select="./descendant::tei:reg"/></span>
+                    </xsl:when>
+                    <xsl:when test="./descendant::tei:sic">
+                        <span class="sic"><xsl:value-of select="./descendant::tei:sic"/> / </span><span class="corr"><xsl:value-of select="./descendant::tei:corr"/></span>
+                    </xsl:when>
+                    <xsl:when test="./descendant::tei:expan">
+                        <span class="expan" name="{./tei:abbr/text()}"><i><xsl:value-of select="./tei:expan/tei:seg"/></i></span>
+                    </xsl:when>
+                </xsl:choose>
+            </xsl:when>
+
+        </xsl:choose>
+    </xsl:template>
+    -->
+
+
+
     <!--*************************-->
     <!--mjc: add template-->
     <!--     ===         -->
@@ -910,6 +998,33 @@
         </xsl:choose>
     </xsl:template>
     
+
+    <!--*************************-->
+    <!--pab: space template-->
+    <!--     ========      -->
+    <!--pab: replace horizontal <space> with      -->
+    <!--     number of nbsp characters listed in  -->
+    <!--     extent.                              -->
+    <!--*************************-->
+    <xsl:template match="tei:space[@dim='horizontal']">
+        <xsl:variable name="len" as="xs:integer">
+            <xsl:choose>
+                <xsl:when test="@quantity castable as xs:integer and @unit='chars'">
+                    <xsl:value-of select="@quantity"/>
+                </xsl:when>
+                <xsl:when test="@extent castable as xs:integer">
+                    <xsl:value-of select="@extent"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="0"/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
+        <xsl:for-each select="1 to $len">
+            <xsl:text>&#8194;</xsl:text>
+        </xsl:for-each>
+    
+    </xsl:template>
 
     <xsl:template match="text()">
         <xsl:value-of select="normalize-space()" />
