@@ -36,3 +36,14 @@
       margin: 10px 5px 10px 0; }
     #content #content-display #terms-list {
       margin: 0 0 0 50px; }
+
+#sidebar .endorsement {
+  padding: 30px 25px 0 25px;
+  width: fit-content;
+  display: table; }
+  #sidebar .endorsement .endorsement_sub-text {
+    text-align: center;
+    color: black;
+    font-size: smaller; }
+  #sidebar .endorsement .endorsement_seal {
+    max-width: 100%; }
