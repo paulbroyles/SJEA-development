@@ -159,7 +159,11 @@ body {
     position: relative;
     font-family: "Times New Roman", Times, serif;
     text-align: justify;
-    margin: 15px 23px 0 25px; }
+    margin: 15px 23px 0 25px;
+    padding: 0 0 65px 0;}
+     
+ }
+
 
 #footer-spacer {
   background-color: transparent;

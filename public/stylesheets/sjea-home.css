@@ -8,7 +8,7 @@
   background-position: top right;
   background-size: 100%; }
   #content #content-display {
-    padding: 135px  80px 0 80px; }
+    width: 85%;}
     #content #content-display #home-image {
       background-image: url(/images/home_image.jpg);
       background-repeat: no-repeat;

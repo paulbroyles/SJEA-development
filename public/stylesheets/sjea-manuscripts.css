@@ -1,6 +1,10 @@
 * {
   margin: 0;
   padding: 0; }
+  
+  #content-controls {
+      z-index: 1;
+  }
 
 #content #content-controls #view-control {
   float: left;

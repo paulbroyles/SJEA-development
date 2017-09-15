@@ -166,7 +166,7 @@
 
 .image { width: 140px; height: 165px; }
 
-.imageDiv { float: right; clear: right; padding-right: 90px; }
+.imageDiv { float: right; clear: right; padding-right: 150px; }
 
 .add-supralinear, .margin-supralinear, .add-topCenter, .add-bottomCenter, .add-bottomLeft, .add-marginLeft, .add-marginRight { color: gray}
 
@@ -178,7 +178,7 @@
 .margin-marginLeft { position: absolute; left: -75px; }
 .margin-bottomLeft { position: relative; left: 95px; }
 
-.marginRight { position: absolute; right: 100px; }
+.marginRight { position: absolute; right: -150px; }
 .margin-marginRight { position: relative; right: -150px; }
 
 .topCenter, .center, .bottomCenter { position: absolute; left: 250px;}
