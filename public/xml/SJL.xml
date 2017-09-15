@@ -5832,7 +5832,10 @@
                         </seg>
                         <g ref="#puncelev"/>
                         <seg type="bverse">
-                            <seg ana="#xij">xij</seg>
+                            <choice>
+                                <orig>xij</orig>
+                                <reg><seg ana="#twelf">twelf</seg></reg>
+                            </choice>
                             <seg ana="#sikere">siker<expan>e</expan></seg>
                             <seg ana="#knyȝtes">knyȝtes</seg>
                         </seg>
@@ -6183,7 +6186,8 @@
                             <seg ana="#blecken">blecken</seg>
                             <seg ana="#with">w<expan>i</expan>t<expan>h</expan></seg>
                             <seg ana="#bleche">bleche</seg>
-                        </seg>
+                         </seg>
+                        
                         <g ref="#puncelev"/>
                         <seg type="bverse">
                             <seg ana="#and">&amp;</seg>
@@ -9119,8 +9123,7 @@
 
                     <l xml:id="L.0539" n="HL.0542">
                         <seg type="averse">
-                            <seg ana="#for">for</seg>
-                            <seg ana="#iustes">Iustes</seg>
+                            <seg ana="#for-iustes">for<seg type="shadowHyphen">-</seg>Iustes</seg>
                             <seg ana="#þe">þe</seg>
                             <seg ana="#iolieste">Iolieste</seg>
                         </seg>
@@ -10897,7 +10900,10 @@
                         <g ref="#puncelev"/>
                         <seg type="bverse">
                             <seg ana="#on">on</seg>
-                            <seg ana="#xij">xij</seg>
+                            <choice>
+                                <orig>xij</orig>
+                                <reg><seg ana="#twelf">twelf</seg></reg>
+                            </choice>
                             <seg ana="#grete">grete</seg>
                             <seg ana="#postes">postes</seg>
                         </seg>
@@ -15897,8 +15903,7 @@
                         <seg type="bverse">
                             <seg ana="#þe">þe</seg>
                             <seg ana="#burwe">burwe</seg>
-                            <seg ana="#for">for</seg>
-                            <seg ana="#to">to</seg>
+                            <seg ana="#for-to">for<seg type="shadowHyphen">-</seg>to</seg>
                             <seg ana="#passe">passe</seg>
                         </seg>
                     </l>
@@ -18571,7 +18576,7 @@
                     </l>
 
                 </div2>
-                <div2 type="passus" n="2">
+                <div2 type="passus" n="4">
                     <l xml:id="L.1108" n="HL.1113">
                         <seg type="averse">
                             <seg ana="#as"><hi rend="o3"><hi rend="rb">A</hi></hi>s</seg>
@@ -19797,7 +19802,10 @@
 
                     <l xml:id="L.1181" n="HL.1187">
                         <seg type="averse">
-                            <seg ana="#xv">XV</seg>
+                            <choice>
+                                <orig>XV</orig>
+                                <reg><seg ana="#fiftene">fiftene</seg></reg>
+                            </choice>
                             <seg ana="#þousand">þousand</seg>
                             <seg ana="#men">me<expan>n</expan></seg>
                         </seg>
