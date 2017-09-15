@@ -42,7 +42,10 @@
           var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
         })();
 
-    </script>
+		$(function() {
+    	moveScroller();
+  		});
+        </script>
 
   </head>
 
@@ -123,7 +126,7 @@
 
           <div id="transcription-name" href=""></div>
 
-          <div id="content-controls">
+<div id="content-controls">
               <div>
 
                 <select id="view-control">
@@ -149,7 +152,7 @@
                  <a id="color-key-6" class="color-key standard-tooltip" title="Fuchsia in the AllTags style sheet represents text that is unclear for any reason."></a>
                  <a id="color-key-7" class="color-key standard-tooltip" title="Gray in the Scribal and AllTags style sheets represents additions to the text (the contents of an &amp;lt;ADD&amp;gt; tag)."></a>
 
-                 <span id="key-text">Color key:<span>
+                 <span id="key-text">Color key:</span>
 
               </div>  <!-- color-key-div -->
 
@@ -162,7 +165,7 @@
                  fragment containing a portion of one column of text on either side. Each of these
                  is presented here with full transcriptions linked to images of all extant manuscript
                  leaves containing versions of the poem. Detailed instructions for interacting with the
-                 transcriptions and images may be found in the How to Use section. Each transcription is
+                 transcriptions and images may be found in the <a href="/index.html?page=use">How to Use</a> section. Each transcription is
                  accompanied by a description that covers dating, codicology, history, scribal practices, and
                  dialect and contains a bibliography of previous descriptions and literature concerning the
                  manuscript. Clicking on the name of a manuscript will take you directly to the transcription
