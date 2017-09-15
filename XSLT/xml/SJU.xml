@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="../allitSeenet.rnc" type="compact"?><?xml-stylesheet type="text/css" href="stylesheets/Diplomatic.css"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="../allitSeenet.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -128,7 +129,7 @@
 
                     <l xml:id="U.0003" n="HL.0003">
                         <seg type="averse">
-                            <seg ana="#while">While</seg>
+                            <seg ana="#while">while</seg>
                             <seg ana="#pilat">pilat</seg>
                             <seg ana="#was">was</seg>
                             <seg ana="#prouost">p<expan>ro</expan>uost</seg>
@@ -185,6 +186,7 @@
                             <seg ana="#that">that</seg>
                             <seg ana="#crist">crist</seg>
                             <seg ana="#dyed">dyed</seg>
+                            <seg type="punct">.</seg>
                         </seg>
                     </l>
 
@@ -289,6 +291,7 @@
                             <seg ana="#in">in</seg>
                             <seg ana="#the">the</seg>
                             <seg ana="#strete">strete</seg>
+                            <seg type="punct">.</seg>
                         </seg>
                     </l>
 
@@ -328,9 +331,9 @@
 
                     <l xml:id="U.0015" n="HL.0015">
                         <seg type="averse">
-                            <seg ana="#þif">þif</seg>
+                            <seg ana="#ȝif">Ȝif</seg>
                             <seg ana="#thou">thou</seg>
-                            <seg ana="#ne">ne</seg>
+                            <seg ana="#be">be</seg>
                             <seg ana="#profete">p<expan>ro</expan>fete</seg>
                             <seg ana="#of">of</seg>
                             <seg ana="#pris">pris</seg>
@@ -345,7 +348,7 @@
 
                     <l xml:id="U.0016" n="HL.0016">
                         <seg type="averse">
-                            <seg ana="#whiche">Whiche</seg>
+                            <seg ana="#whiche">whiche</seg>
                             <seg ana="#beern">beern</seg>
                             <seg ana="#here">here</seg>
                             <seg ana="#a-boute">a<seg type="shadowHyphen">-</seg>boute</seg>
@@ -542,7 +545,7 @@
 
                     <l xml:id="U.0027" n="HL.0029">
                         <seg type="averse">
-                            <seg ana="#while">While</seg>
+                            <seg ana="#while">while</seg>
                             <seg ana="#noye">noye</seg>
                             <seg ana="#negħt">negħt</seg>
                             <seg ana="#him">him</seg>
@@ -570,6 +573,7 @@
                             <seg ana="#myddes">myddes</seg>
                             <seg ana="#the">the</seg>
                             <seg ana="#face">face</seg>
+                            <seg type="punct">.</seg>
                         </seg>
                     </l>
 
@@ -609,7 +613,7 @@
                         <seg type="averse">
                             <seg ana="#his">his</seg>
                             <seg ana="#fader">fader</seg>
-                            <seg ana="#vespasian">vespasian</seg>
+                            <seg ana="#vespasian">Vespasian</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -645,7 +649,7 @@
                             <seg ana="#vp">vp</seg>
                             <seg ana="#in">in</seg>
                             <seg ana="#his">his</seg>
-                            <seg ana="#heues">heues</seg>
+                            <seg ana="#heued">heued</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -710,7 +714,7 @@
 
                     <l xml:id="U.0037" n="HL.0037">
                         <seg type="averse">
-                            <seg ana="#was">Was</seg>
+                            <seg ana="#was">was</seg>
                             <seg ana="#neuer">neuer</seg>
                             <seg ana="#sekenes">sekenes</seg>
                             <seg ana="#so">so</seg>
@@ -1268,7 +1272,7 @@
 
                     <l xml:id="U.0069" n="HL.0075">
                         <seg type="averse">
-                            <seg ana="#withħ">Withħ</seg>
+                            <seg ana="#witħ">witħ</seg>
                             <seg ana="#muche">muche</seg>
                             <seg ana="#anger">anger</seg>
                             <seg ana="#at">at</seg>
@@ -1313,7 +1317,7 @@
                         <seg type="bverse">
                             <seg ana="#barons">barons</seg>
                             <seg ana="#and">and</seg>
-                            <seg ana="#kny&#541;tes">kny&#541;tes</seg>
+                            <seg ana="#knygtes">knygtes</seg>
                         </seg>
                     </l>
 
@@ -1403,6 +1407,7 @@
                             <seg ana="#hem">hem</seg>
                             <seg ana="#had">had</seg>
                             <seg ana="#borne">borne</seg>
+                            <seg type="punct">.</seg>
                         </seg>
                     </l>
 
@@ -1427,7 +1432,7 @@
                     <l xml:id="U.0078" n="HL.0084">
                         <seg type="averse">
                             <seg ana="#to">To</seg>
-                            <seg ana="#nero">nero</seg>
+                            <seg ana="#nero">Nero</seg>
                             <seg ana="#sent">sent</seg>
                             <seg ana="#am">am</seg>
                             <seg ana="#i">I</seg>
@@ -1643,7 +1648,7 @@
 
                     <l xml:id="U.0090" n="HL.0098">
                         <seg type="averse">
-                            <seg ana="#what">What</seg>
+                            <seg ana="#what">what</seg>
                             <seg ana="#medicine">medicine</seg>
                             <seg ana="#most">most</seg>
                             <seg ana="#is">is</seg>
@@ -1659,7 +1664,7 @@
 
                     <l xml:id="U.0091" n="HL.0099">
                         <seg type="averse">
-                            <seg ana="#wheter">Wheter</seg>
+                            <seg ana="#wheter">wheter</seg>
                             <seg ana="#gummes">gu<expan>m</expan>mes</seg>
                             <seg ana="#or">or</seg>
                             <seg ana="#grees">grees</seg>
@@ -1803,8 +1808,7 @@
 
                     <l xml:id="U.0099" n="HL.0107">
                         <seg type="averse">
-                            <seg ana="#with">With</seg>
-                            <seg ana="#outen">outen</seg>
+                            <seg ana="#with-outen">with<seg type="shadowHyphen">-</seg>outen</seg>
                             <seg ana="#housbondes">housbondes</seg>
                             <seg ana="#help">help</seg>
                         </seg>
@@ -1824,7 +1828,7 @@
                             <seg ana="#and">and</seg>
                             <seg ana="#a">a</seg>
                             <seg ana="#knaue">knaue</seg>
-                            <seg ana="#chiled">chiled</seg>
+                            <seg ana="#child">child</seg>
                         </seg>
                         <seg type="bverse">
                             <seg ana="#conceiued">conceiued</seg>
@@ -1861,8 +1865,7 @@
                         <seg type="punct">/</seg>
                         <seg type="bverse">
                             <seg ana="#yproued">yproued</seg>
-                            <seg ana="#to">to</seg>
-                            <seg ana="#geder">geder</seg>
+                            <seg ana="#to-geder">to<seg type="shadowHyphen">-</seg>geder</seg>
                         </seg>
                     </l>
 
@@ -1901,6 +1904,7 @@
                             <seg ana="#clerkes">clerkes</seg>
                             <seg ana="#vs">vs</seg>
                             <seg ana="#techen">techen</seg>
+                            <seg type="punct">/</seg>
                         </seg>
                     </l>
 
@@ -1910,7 +1914,7 @@
                                 <hi rend="rb">¶</hi>
                             </seg>
                             <seg ana="#the">The</seg>
-                            <seg ana="#frist">frist</seg>
+                            <seg ana="#first">first</seg>
                             <seg ana="#is">is</seg>
                             <seg ana="#the">the</seg>
                             <seg ana="#fader">fader</seg>
@@ -1930,7 +1934,7 @@
                             <seg ana="#sone">sone</seg>
                             <seg ana="#is">is</seg>
                             <seg ana="#the">the</seg>
-                            <seg ana="#secund">secund</seg>
+                            <seg ana="#secunde">secund<expan>e</expan></seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -2004,7 +2008,7 @@
                         <seg type="bverse">
                             <seg ana="#was">was</seg>
                             <seg ana="#euer">euer</seg>
-                            <seg ana="#byginne">byginne</seg>
+                            <seg ana="#bygunne">bygunne</seg>
                         </seg>
                     </l>
 
@@ -2112,7 +2116,7 @@
 
                     <l xml:id="U.0117" n="HL.0125">
                         <seg type="averse">
-                            <seg ana="#wyne">Wyne</seg>
+                            <seg ana="#wyne">wyne</seg>
                             <seg ana="#of">of</seg>
                             <seg ana="#water">water</seg>
                             <seg ana="#he">he</seg>
@@ -2156,8 +2160,7 @@
                         <seg type="bverse">
                             <seg ana="#he">he</seg>
                             <seg ana="#put">put</seg>
-                            <seg ana="#in">in</seg>
-                            <seg ana="#to">to</seg>
+                            <seg ana="#in-to">in<seg type="shadowHyphen">-</seg>to</seg>
                             <seg ana="#hele">hele</seg>
                         </seg>
                     </l>
@@ -2269,7 +2272,7 @@
 
                     <l xml:id="U.0126" n="HL.0134">
                         <seg type="averse">
-                            <seg ana="#with">With</seg>
+                            <seg ana="#with">with</seg>
                             <seg ana="#two">two</seg>
                             <seg ana="#fisshes">fisshes</seg>
                             <seg ana="#he">he</seg>
@@ -2484,7 +2487,7 @@
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
-                            <seg ana="#phełip">phełip</seg>
+                            <seg ana="#phelip">phelip</seg>
                             <seg ana="#he">he</seg>
                             <seg ana="#higħt">higħt</seg>
                         </seg>
@@ -2492,7 +2495,7 @@
 
                     <l xml:id="U.0139" n="HL.0147">
                         <seg type="averse">
-                            <seg ana="#tho">Tho</seg>
+                            <seg ana="#the">The</seg>
                             <seg ana="#sext">sext</seg>
                             <seg ana="#symond">Symond</seg>
                             <seg ana="#is">is</seg>
@@ -2525,10 +2528,13 @@
                     <l xml:id="U.0141" n="HL.0149">
                         <seg type="averse">
                             <seg ana="#the">The</seg>
-                            <seg ana="#viij">viij</seg>
+                            <choice>
+                                <orig>.viij.</orig>
+                                <seg ana="eightethe#">eightethe</seg>
+                            </choice>
                             <seg ana="#man">man</seg>
                             <seg ana="#is">is</seg>
-                            <seg ana="#mathewe">mathewe</seg>
+                            <seg ana="#mathewe">Mathewe</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -2571,14 +2577,14 @@
 
                     <l xml:id="U.0144" n="HL.0152">
                         <seg type="averse">
-                            <seg ana="#a-forne">A-forne</seg>
+                            <seg ana="#a-forne">A<seg type="shadowHyphen">-</seg>forne</seg>
                             <seg ana="#princes">princes</seg>
                             <seg ana="#to">to</seg>
                             <seg ana="#preche">p<expan>re</expan>che</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
-                            <seg ana="#petres">petres</seg>
+                            <seg ana="#petres">Petres</seg>
                             <seg ana="#brother">brother</seg>
                         </seg>
                     </l>
@@ -2607,7 +2613,12 @@
                         <seg type="averse">
                             <seg ana="#iudas">Iudas</seg>
                             <seg ana="#that">that</seg>
-                            <seg ana="#iħuiesu">iħu<expan>Iesu</expan></seg>
+                            <choice>
+                                <abbr>Ihu</abbr>
+                                <expan>
+                                    <seg ana="#iesu">Iesu</seg>
+                                </expan>
+                            </choice>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -2622,8 +2633,7 @@
                         <seg type="averse">
                             <seg ana="#and">And</seg>
                             <seg ana="#sen">sen</seg>
-                            <seg ana="#hym">hym</seg>
-                            <seg ana="#self">self</seg>
+                            <seg ana="#him-self">him<seg type="shadowHyphen">-</seg>self</seg>
                             <seg ana="#slougħ">slougħ</seg>
                         </seg>
                         <seg type="punct">/</seg>
@@ -2795,23 +2805,20 @@
                             <seg ana="#than">than</seg>
                             <seg ana="#this">this</seg>
                             <seg ana="#worthly">worthly</seg>
-                            <seg ana="#wyf">wyf</seg>
+                            <seg ana="#wyf">wyf<del rend="erasure">..</del><add place="inline">/</add></seg>
                         </seg>
-                        <seg type="punct">/</seg>
                         <seg type="bverse">
                             <seg ana="#of">of</seg>
                             <seg ana="#whom">whom</seg>
-                            <seg type="punct">.</seg>
                             <seg ana="#i">I</seg>
-                            <seg type="punct">.</seg>
-                            <seg ana="#frist">frist</seg>
+                            <seg ana="#first">first</seg>
                             <seg ana="#tolde">tolde</seg>
                         </seg>
                     </l>
 
                     <l xml:id="U.0158" n="HL.0166">
                         <seg type="averse">
-                            <seg ana="#hath">hath</seg>
+                            <seg ana="#hatħ">hatħ</seg>
                             <seg ana="#his">his</seg>
                             <seg ana="#visage">visage</seg>
                             <seg ana="#in">in</seg>
@@ -2910,8 +2917,8 @@
                         <seg type="bverse">
                             <seg ana="#in">in</seg>
                             <seg ana="#an">an</seg>
-                            <seg ana="#hand">hand</seg>
-                            <seg ana="#while">while</seg>
+                            <seg ana="#hand-while">hand<seg type="shadowHyphen">-</seg>while</seg> 
+                            <seg type="punct">.</seg>
                         </seg>
                     </l>
 
@@ -2950,7 +2957,7 @@
 
                     <l xml:id="U.0166" n="HL.0175">
                         <seg type="averse">
-                            <seg ana="#whi">Whi</seg>
+                            <seg ana="#whi">whi</seg>
                             <seg ana="#ne">ne</seg>
                             <seg ana="#had">had</seg>
                             <seg ana="#thi">thi</seg>
@@ -2967,7 +2974,7 @@
 
                     <l xml:id="U.0167" n="HL.0176">
                         <seg type="averse">
-                            <seg ana="#when">When</seg>
+                            <seg ana="#when">when</seg>
                             <seg ana="#pilat">pilat</seg>
                             <seg ana="#prouost">p<expan>ro</expan>uost</seg>
                             <seg ana="#was">was</seg>
@@ -3022,8 +3029,7 @@
 
                     <l xml:id="U.0170" n="HL.0179">
                         <seg type="averse">
-                            <seg ana="#with">With</seg>
-                            <seg ana="#out">out</seg>
+                            <seg ana="#witħ-out">witħ<seg type="shadowHyphen">-</seg>out</seg>
                             <seg ana="#faute">faute</seg>
                             <seg ana="#was">was</seg>
                             <seg ana="#his">his</seg>
@@ -3033,7 +3039,7 @@
                         <seg type="bverse">
                             <seg ana="#and">and</seg>
                             <seg ana="#his">his</seg>
-                            <seg ana="#flessh">flessh</seg>
+                            <seg ana="#flessħ">flessħ</seg>
                             <seg ana="#als">als</seg>
                         </seg>
                     </l>
@@ -3051,8 +3057,7 @@
                             <seg ana="#that">that</seg>
                             <seg ana="#neuer">neuer</seg>
                             <seg ana="#was">was</seg>
-                            <seg ana="#y">y</seg>
-                            <seg ana="#hurt">hurt</seg>
+                            <seg ana="#y-hurt">y<seg type="shadowHyphen">-</seg>hurt</seg>
                         </seg>
                     </l>
 
@@ -3076,7 +3081,7 @@
 
                     <l xml:id="U.0173" n="HL.0182">
                         <seg type="averse">
-                            <seg ana="#was">Was</seg>
+                            <seg ana="#was">was</seg>
                             <seg ana="#neuer">neuer</seg>
                             <seg ana="#werk">werk</seg>
                             <seg ana="#that">that</seg>
@@ -3148,7 +3153,7 @@
                             <seg ana="#to">To</seg>
                             <seg ana="#stir">stir</seg>
                             <seg ana="#nero">Nero</seg>
-                            <seg ana="#with">with</seg>
+                            <seg ana="#witħ">witħ</seg>
                             <seg ana="#noye">noye</seg>
                         </seg>
                         <seg type="punct">/</seg>
@@ -3191,14 +3196,16 @@
                         <seg type="bverse">
                             <seg ana="#and">and</seg>
                             <seg ana="#thine">thine</seg>
-                            <seg ana="#deth">deth</seg>
+                            <seg ana="#detħ">detħ</seg>
                             <seg ana="#venge">venge</seg>
+                            <marginalia place="marginLeft" hand="handX">I<expan>us</expan></marginalia>
                         </seg>
                     </l>
                 </div2>
                 <div2 n="1" type="passus" org="uniform" sample="complete">
                     <head rend="align(center)">
                         <hi rend="rb"><hi rend="BinR">Primus passus</hi></hi>
+                        
                     </head>
                     
                     <l xml:id="U.0180" n="HL.0189">
@@ -3258,8 +3265,7 @@
                     <l xml:id="U.0183" n="HL.0192">
                         <seg type="averse">
                             <seg ana="#and">And</seg>
-                            <seg ana="#there">there</seg>
-                            <seg ana="#with">with</seg>
+                            <seg ana="#there-witħ">there<seg type="shadowHyphen">-</seg>witħ</seg>
                             <seg ana="#baptist">baptist</seg>
                             <seg ana="#be">be</seg>
                         </seg>
@@ -3267,7 +3273,7 @@
                         <seg type="bverse">
                             <seg ana="#in">in</seg>
                             <seg ana="#water">water</seg>
-                            <seg ana="#yblissed">yblissed</seg>
+                            <seg ana="#y-blissed">y<seg type="shadowHyphen">-</seg>blissed</seg>
                         </seg>
                     </l>
 
@@ -3463,7 +3469,7 @@
                             <seg ana="#be">be</seg>
                             <seg ana="#ded">ded</seg>
                             <seg ana="#for">for</seg>
-                            <seg ana="#tħi">tħi</seg>
+                            <seg ana="#thi">thi</seg>
                             <seg ana="#detħ">detħ</seg>
                         </seg>
                         <seg type="punct">/</seg>
@@ -3483,7 +3489,7 @@
                             </seg>
                             <seg ana="#that">That</seg>
                             <seg ana="#tyme">tyme</seg>
-                            <seg ana="#petre">Petre</seg>
+                            <seg ana="#petre">petre</seg>
                             <seg ana="#was">was</seg>
                             <seg ana="#pope">pope</seg>
                         </seg>
@@ -3527,7 +3533,7 @@
                             <seg ana="#and">and</seg>
                             <seg ana="#to">to</seg>
                             <seg ana="#the">the</seg>
-                            <seg ana="#faith">faith</seg>
+                            <seg ana="#faitħ">faitħ</seg>
                             <seg ana="#turned">t<expan>ur</expan>ned</seg>
                         </seg>
                     </l>
@@ -3545,10 +3551,10 @@
                             <seg ana="#that">that</seg>
                             <seg ana="#the">the</seg>
                             <seg ana="#waspes">waspes</seg>
-                            <seg ana="#had">had<note place="unspecified">Line 199 has "b" written in the margin to the left, whereas line 201 has "a."  Presumably this is because the lines are out of order - they should be in the order 201, 199, 200 to match other texts; see note in HL, p.19.</note></seg>
+                            <seg ana="#had">had<note place="unspecified">Line 199 has "b" written in the margin to the left, and "a" is written beside line 201.  This is to correct the line order - they should be in the order 201, 199, 200 the order found in other manuscripts.</note></seg>
                         </seg>
                     </l>
-
+                    <marginalia place="marginLeft" hand="handx">a</marginalia>
                     <l xml:id="U.0200" n="HL.0210">
                         <seg type="averse">
                             <seg ana="#sone">Sone</seg>
@@ -3581,7 +3587,7 @@
                             <seg ana="#ynowe">ynowe</seg>
                         </seg>
                     </l>
-
+                    <marginalia place="marginLeft" hand="handx">b</marginalia>
                     <l xml:id="U.0202" n="HL.0211">
                         <seg type="averse">
                             <seg ana="#of">Of</seg>
@@ -3639,7 +3645,7 @@
                     <l xml:id="U.0205" n="HL.0216">
                         <seg type="averse">
                             <seg ana="#and">And</seg>
-                            <seg ana="#alke">alke</seg>
+                            <seg ana="#aske">aske</seg>
                             <seg ana="#of">of</seg>
                             <seg ana="#nero">Nero</seg>
                             <seg ana="#a">a</seg>
@@ -3656,8 +3662,7 @@
 
                     <l xml:id="U.0206" n="HL.0217">
                         <seg type="averse">
-                            <seg ana="#with">With</seg>
-                            <seg ana="#out">out</seg>
+                            <seg ana="#with-out">with<seg type="shadowHyphen">-</seg>out</seg>
                             <seg ana="#tribuit">tribuit</seg>
                             <seg ana="#to">to</seg>
                             <seg ana="#be">be</seg>
@@ -3674,7 +3679,7 @@
                         <seg type="averse">
                             <seg ana="#the">The</seg>
                             <seg ana="#knyghtes">knyghtes</seg>
-                            <seg ana="#with">with</seg>
+                            <seg ana="#witħ">witħ</seg>
                             <seg ana="#the">the</seg>
                             <seg ana="#kerchief">kerchief</seg>
                         </seg>
@@ -3692,8 +3697,7 @@
                             <seg ana="#pope">pope</seg>
                             <seg ana="#yaf">yaf</seg>
                             <seg ana="#pardon">pardon</seg>
-                            <seg ana="#there">there</seg>
-                            <seg ana="#to">to</seg>
+                            <seg ana="#there-to">there<seg type="shadowHyphen">-</seg>to</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -3706,7 +3710,7 @@
 
                     <l xml:id="U.0209" n="HL.0220">
                         <seg type="averse">
-                            <seg ana="#with">With</seg>
+                            <seg ana="#witħ">witħ</seg>
                             <seg ana="#procession">p<expan>ro</expan>cession</seg>
                             <seg ana="#and">and</seg>
                             <seg ana="#pres">pres</seg>
@@ -3817,7 +3821,7 @@
                             <seg ana="#for">For</seg>
                             <seg ana="#the">the</seg>
                             <seg ana="#dolorous">dolorous</seg>
-                            <seg ana="#deth">deth</seg>
+                            <seg ana="#detħ">detħ</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -3965,7 +3969,7 @@
                         <seg type="averse">
                             <seg ana="#the">The</seg>
                             <seg ana="#veyle">veyle</seg>
-                            <seg ana="#with">with</seg>
+                            <seg ana="#witħ">witħ</seg>
                             <seg ana="#veronica">Veronica</seg>
                         </seg>
                         <seg type="punct">/</seg>
@@ -4015,8 +4019,7 @@
                             <seg ana="#in">In</seg>
                             <seg ana="#her">her</seg>
                             <seg ana="#temple">temple</seg>
-                            <seg ana="#by">by</seg>
-                            <seg ana="#tid">tid</seg>
+                            <seg ana="#by-tid">by<seg type="shadowHyphen">-</seg>tid</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -4065,8 +4068,7 @@
 
                     <l xml:id="U.0230" n="HL.0241">
                         <seg type="averse">
-                            <seg ana="#in">In</seg>
-                            <seg ana="#to">to</seg>
+                            <seg ana="#in-to">In<seg type="shadowHyphen">-</seg>to</seg>
                             <seg ana="#the">the</seg>
                             <seg ana="#paleis">paleis</seg>
                             <seg ana="#the">the</seg>
@@ -4135,10 +4137,9 @@
                     <l xml:id="U.0234" n="HL.0245">
                         <seg type="averse">
                             <seg ana="#the">The</seg>
-                            <seg ana="#cloth">cloth</seg>
+                            <seg ana="#clotħ">clotħ</seg>
                             <seg ana="#clered">clered</seg>
-                            <seg ana="#it">it</seg>
-                            <seg ana="#self">self</seg>
+                            <seg ana="#it-self">it<seg type="shadowHyphen">-</seg>self</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -4161,7 +4162,7 @@
                         <seg type="punct">/</seg>
                         <seg type="bverse">
                             <seg ana="#for">for</seg>
-                            <seg ana="#higħt">higħt</seg>
+                            <seg ana="#ligħt">ligħt</seg>
                             <seg ana="#that">that</seg>
                             <seg ana="#it">it</seg>
                             <seg ana="#yaf">yaf</seg>
@@ -4492,7 +4493,7 @@
                         <seg type="averse">
                             <seg ana="#for">For</seg>
                             <seg ana="#his">his</seg>
-                            <seg ana="#tribut">tribut</seg>
+                            <seg ana="#tribuit">tribuit</seg>
                             <seg ana="#is">is</seg>
                             <seg ana="#tynt">tynt</seg>
                         </seg>
@@ -4533,6 +4534,7 @@
                             <seg ana="#the">the</seg>
                             <seg ana="#empire">empire</seg>
                             <seg ana="#aboute">aboute</seg>
+                            <seg type="punct">.</seg>
                         </seg>
                     </l>
 
@@ -4579,8 +4581,7 @@
                         <seg type="bverse">
                             <seg ana="#the">the</seg>
                             <seg ana="#dukes">dukes</seg>
-                            <seg ana="#for">for</seg>
-                            <seg ana="#to">to</seg>
+                            <seg ana="#for-to">for<seg type="shadowHyphen">-</seg>to</seg>
                             <seg ana="#wende">wende</seg>
                         </seg>
                     </l>
@@ -4611,15 +4612,13 @@
                             <seg ana="#that">That</seg>
                             <seg ana="#trauail">trauail</seg>
                             <seg ana="#to">to</seg>
-                            <seg ana="#vnder">vnder</seg>
-                            <seg ana="#take">take</seg>
+                            <seg ana="#vnder-take">vnder<seg type="shadowHyphen">-</seg>take</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
                             <seg ana="#and">and</seg>
                             <seg ana="#titus">Titus</seg>
-                            <seg ana="#an">an</seg>
-                            <seg ana="#other">other</seg>
+                            <seg ana="#an-other">an<seg type="shadowHyphen">-</seg>other</seg>
                         </seg>
                     </l>
 
@@ -4647,8 +4646,7 @@
                             <seg ana="#forther">forther</seg>
                             <seg ana="#sibbe">sibbe</seg>
                             <seg ana="#to">to</seg>
-                            <seg ana="#him">him</seg>
-                            <seg ana="#self">self</seg>
+                            <seg ana="#him-self">him<seg type="shadowHyphen">-</seg>self</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -4734,7 +4732,7 @@
                             </seg>
                             <seg ana="#then">Then</seg>
                             <seg ana="#is">is</seg>
-                            <seg ana="#ruthyng">ruthyng</seg>
+                            <seg ana="#rutlyng">rutlyng</seg>
                             <seg ana="#in">in</seg>
                             <seg ana="#rome">Rome</seg>
                         </seg>
@@ -4794,7 +4792,7 @@
                             <seg ana="#and">and</seg>
                             <seg ana="#ałł">ałł</seg>
                             <seg ana="#the">the</seg>
-                            <seg ana="#geng">geng</seg>
+                            <seg ana="#genge">genge</seg>
                             <seg ana="#after">after</seg>
                         </seg>
                     </l>
@@ -4819,9 +4817,9 @@
 
                     <l xml:id="U.0273" n="HL.0286">
                         <seg type="averse">
-                            <seg ana="#ytrussed">Ytrussed</seg>
+                            <seg ana="#y-trussed">Y<seg type="shadowHyphen">-</seg>trussed</seg>
                             <seg ana="#and">and</seg>
-                            <seg ana="#tried">tried</seg>
+                            <seg ana="#tired">tired</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -4873,7 +4871,7 @@
                             <seg ana="#were">were</seg>
                             <seg ana="#floignes">floignes</seg>
                             <seg ana="#on">on</seg>
-                            <seg ana="#fote">fote</seg>
+                            <seg ana="#fote">f<add place="supralinear" hand="hand1">l</add>ote</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -5007,7 +5005,6 @@
                         <seg type="bverse">
                             <seg ana="#thow">thow</seg>
                             <seg ana="#may">may</seg>
-                            <seg ana="#may">may</seg>
                             <seg ana="#sorougħ">sorougħ</seg>
                             <seg ana="#euer">euer</seg>
                         </seg>
@@ -5118,7 +5115,7 @@
                             <seg ana="#iew">iew</seg>
                             <seg ana="#for">for</seg>
                             <choice>
-                                <abbr>Ihu&#x02DC;</abbr>
+                                <abbr>Ihu</abbr>
                                 <expan>
                                     <seg ana="#iesu">Iesu</seg>
                                 </expan>
@@ -5131,6 +5128,8 @@
                             <seg ana="#in">in</seg>
                             <seg ana="#yow">yow</seg>
                             <seg ana="#more">more</seg>
+                            <seg type="punct">.</seg>
+                            <marginalia place="marginLeft" hand="handX">II</marginalia>
                         </seg>
                     </l>
                 </div2>
@@ -5143,16 +5142,14 @@
                         <seg type="averse">
                             <seg ana="#thei"><hi rend="o2"><hi rend="bl">T</hi></hi>hei</seg>
                             <seg ana="#setten">setten</seg>
-                            <seg ana="#vp">vp</seg>
-                            <seg ana="#on">on</seg>
+                            <seg ana="#vp-on">vp<seg type="shadowHyphen">-</seg>on</seg>
                             <seg ana="#ilk">ilk</seg>
                             <seg ana="#side">side</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
                             <seg ana="#surre">Surr<expan>e</expan></seg>
-                            <seg ana="#witħ">witħ</seg>
-                            <seg ana="#inne">inne</seg>
+                            <seg ana="#witħ-inne">witħ<seg type="shadowHyphen">-</seg>inne</seg>
                         </seg>
                     </l>
 
@@ -5175,7 +5172,7 @@
 
                     <l xml:id="U.0294" n="HL.0307">
                         <seg type="averse">
-                            <seg ana="#was">Was</seg>
+                            <seg ana="#was">was</seg>
                             <seg ana="#nogħt">nogħt</seg>
                             <seg ana="#but">but</seg>
                             <seg ana="#roring">roring</seg>
@@ -5311,7 +5308,7 @@
                     <l xml:id="U.0302" n="HL.0315">
                         <seg type="averse">
                             <seg ana="#a">A</seg>
-                            <seg ana="#cite">cite</seg>
+                            <seg ana="#cite">Cite</seg>
                             <seg ana="#vndir">vndir</seg>
                             <seg ana="#syon">syon</seg>
                         </seg>
@@ -5326,7 +5323,7 @@
 
                     <l xml:id="U.0303" n="HL.0316">
                         <seg type="averse">
-                            <seg ana="#with">With</seg>
+                            <seg ana="#witħ">witħ</seg>
                             <seg ana="#many">many</seg>
                             <seg ana="#turret">turret</seg>
                             <seg ana="#and">and</seg>
@@ -5360,7 +5357,7 @@
 
                     <l xml:id="U.0305" n="HL.0323">
                         <seg type="averse">
-                            <seg ana="#their">Their</seg>
+                            <seg ana="#thei">Thei</seg>
                             <seg ana="#did">did</seg>
                             <seg ana="#hem">hem</seg>
                             <seg ana="#alle">alle</seg>
@@ -5424,7 +5421,7 @@
                         <seg type="punct">/</seg>
                         <seg type="bverse">
                             <seg ana="#thei">thei</seg>
-                            <seg ana="#reised">reised</seg>
+                            <seg ana="#reiled">reiled</seg>
                             <seg ana="#ful">ful</seg>
                             <seg ana="#hye">hye</seg>
                         </seg>
@@ -5478,7 +5475,7 @@
 
                     <l xml:id="U.0312" n="HL.0331">
                         <seg type="averse">
-                            <seg ana="#with">With</seg>
+                            <seg ana="#with">with</seg>
                             <seg ana="#grete">grete</seg>
                             <seg ana="#draguns">draguns</seg>
                             <seg ana="#and">and</seg>
@@ -5489,7 +5486,7 @@
                             <seg ana="#al">al</seg>
                             <seg ana="#in">in</seg>
                             <seg ana="#gold">gold</seg>
-                            <seg ana="#wrougłłt">wrougłłt</seg>
+                            <seg ana="#wrougħt">wrougħt</seg>
                         </seg>
                     </l>
 
@@ -5847,8 +5844,7 @@
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
-                            <seg ana="#witħ">witħ</seg>
-                            <seg ana="#out">out</seg>
+                            <seg ana="#witħ-out">witħ<seg type="shadowHyphen">-</seg>out</seg>
                             <seg ana="#gere">gere</seg>
                             <seg ana="#more">more</seg>
                         </seg>
@@ -5872,6 +5868,7 @@
                             <seg ana="#iugement">iugement</seg>
                             <seg ana="#to">to</seg>
                             <seg ana="#take">take</seg>
+                            <seg type="punct">.</seg>
                         </seg>
                     </l>
 
@@ -5892,7 +5889,7 @@
                                     <seg ana="#iesu">Iesu</seg>
                                 </expan>
                             </choice>
-                            <seg ana="#betraied">betraied</seg>
+                            <seg ana="#be-traied">be<seg type="shadowHyphen">-</seg>traied</seg>
                         </seg>
                     </l>
 
@@ -5942,7 +5939,7 @@
                                 <hi rend="rb">¶</hi>
                             </seg>
                             <seg ana="#this">This</seg>
-                            <seg ana="#sondeours">sondeours</seg>
+                            <seg ana="#soudeours">soudeours</seg>
                             <seg ana="#sent">sent</seg>
                             <seg ana="#fortħ">fortħ</seg>
                         </seg>
@@ -5966,7 +5963,7 @@
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
-                            <seg ana="#linggenen">linggenen</seg>
+                            <seg ana="#linggenen">li<add place="supralinear" hand="hand1">n</add>ggenen</seg>
                             <seg ana="#ałł">ałł</seg>
                         </seg>
                     </l>
@@ -5991,7 +5988,7 @@
 
                     <l xml:id="U.0341" n="HL.0361">
                         <seg type="averse">
-                            <seg ana="#when">When</seg>
+                            <seg ana="#when">when</seg>
                             <seg ana="#thise">thise</seg>
                             <seg ana="#knyghtes">knyghtes</seg>
                             <seg ana="#of">of</seg>
@@ -6014,8 +6011,7 @@
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
-                            <seg ana="#with">with</seg>
-                            <seg ana="#out">out</seg>
+                            <seg ana="#with-out">with<seg type="shadowHyphen">-</seg>out</seg>
                             <seg ana="#tale">tale</seg>
                             <seg ana="#more">more</seg>
                         </seg>
@@ -6065,8 +6061,7 @@
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
-                            <seg ana="#in">in</seg>
-                            <seg ana="#to">to</seg>
+                            <seg ana="#in-to">in<seg type="shadowHyphen">-</seg>to</seg>
                             <seg ana="#her">her</seg>
                             <seg ana="#nether">nether</seg>
                             <seg ana="#hyue">hyue</seg>
@@ -6145,7 +6140,7 @@
 
                     <l xml:id="U.0350" n="HL.0370">
                         <seg type="averse">
-                            <seg ana="#we">We</seg>
+                            <seg ana="#we">we</seg>
                             <seg ana="#drede">drede</seg>
                             <seg ana="#nogħt">nogħt</seg>
                             <seg ana="#his">his</seg>
@@ -6182,8 +6177,7 @@
 
                     <l xml:id="U.0352" n="HL.0372">
                         <seg type="averse">
-                            <seg ana="#to">To</seg>
-                            <seg ana="#morn">morn</seg>
+                            <seg ana="#to-morn">To<seg type="shadowHyphen">-</seg>morn</seg>
                             <seg ana="#prime">prime</seg>
                             <seg ana="#ere">ere</seg>
                             <seg ana="#it">it</seg>
@@ -6238,7 +6232,7 @@
 
                     <l xml:id="U.0355" n="HL.0375">
                         <seg type="averse">
-                            <seg ana="#was">Was</seg>
+                            <seg ana="#was">was</seg>
                             <seg ana="#neuer">neuer</seg>
                             <seg ana="#vespasian">Vespasian</seg>
                             <seg ana="#so">so</seg>
@@ -6310,10 +6304,10 @@
                     <l xml:id="U.0359" n="HL.0379">
                         <seg type="averse">
                             <seg ana="#of">Of</seg>
-                            <seg ana="#this">this</seg>
+                            <seg ana="#thi">thi</seg>
                             <seg ana="#manace">manace</seg>
                             <seg ana="#and">and</seg>
-                            <seg ana="#this">this</seg>
+                            <seg ana="#thi">thi</seg>
                             <seg ana="#mygħt">mygħt</seg>
                         </seg>
                         <seg type="punct">/</seg>
@@ -6368,8 +6362,7 @@
 
                     <l xml:id="U.0362" n="HL.0382">
                         <seg type="averse">
-                            <seg ana="#to">To</seg>
-                            <seg ana="#morn">morn</seg>
+                            <seg ana="#to-morn">To<seg type="shadowHyphen">-</seg>morn</seg>
                             <seg ana="#prime">prime</seg>
                             <seg ana="#ere">ere</seg>
                             <seg ana="#it">it</seg>
@@ -6391,8 +6384,7 @@
                             <seg ana="#shal">shal</seg>
                             <seg ana="#sattel">sattel</seg>
                             <seg ana="#on">on</seg>
-                            <seg ana="#this">this</seg>
-                            <seg ana="#self">self</seg>
+                            <seg ana="#thi-self">thi<seg type="shadowHyphen">-</seg>self</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -6525,7 +6517,7 @@
 
                     <l xml:id="U.0371" n="HL.0391">
                         <seg type="averse">
-                            <seg ana="#when">When</seg>
+                            <seg ana="#when">when</seg>
                             <seg ana="#ougħt">ougħt</seg>
                             <seg ana="#failed">failed</seg>
                             <seg ana="#in">in</seg>
@@ -6575,7 +6567,7 @@
 
                     <l xml:id="U.0374" n="HL.0394">
                         <seg type="averse">
-                            <seg ana="#wyde">Wyde</seg>
+                            <seg ana="#wyde">wyde</seg>
                             <seg ana="#gapand">gapand</seg>
                             <seg ana="#the">the</seg>
                             <seg ana="#gomes">gomes</seg>
@@ -6584,8 +6576,7 @@
                         <seg type="bverse">
                             <seg ana="#of">of</seg>
                             <seg ana="#gold">gold</seg>
-                            <seg ana="#for">for</seg>
-                            <seg ana="#to">to</seg>
+                            <seg ana="#for-to">for<seg type="shadowHyphen">-</seg>to</seg>
                             <seg ana="#shewe">shewe</seg>
                         </seg>
                     </l>
@@ -6633,8 +6624,7 @@
                             <seg ana="#of">of</seg>
                             <seg ana="#the">the</seg>
                             <seg ana="#pointes">pointes</seg>
-                            <seg ana="#y">y</seg>
-                            <seg ana="#pigħt">pigħt</seg>
+                            <seg ana="#y-pigħt">y<seg type="shadowHyphen">-</seg>pigħt</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -6692,6 +6682,7 @@
                             <seg ana="#the">the</seg>
                             <seg ana="#world">world</seg>
                             <seg ana="#riche">riche</seg>
+                            <seg type="punct">.</seg>
                         </seg>
                     </l>
 
@@ -6744,8 +6735,7 @@
                         <seg type="bverse">
                             <seg ana="#the">the</seg>
                             <seg ana="#lordes">lordes</seg>
-                            <seg ana="#a">a</seg>
-                            <seg ana="#forne">forne</seg>
+                            <seg ana="#a-forne">a<seg type="shadowHyphen">-</seg>forne</seg>
                         </seg>
                     </l>
 
@@ -6780,9 +6770,9 @@
                         <seg type="punct">/</seg>
                         <seg type="bverse">
                             <seg ana="#no">no</seg>
-                            <seg ana="#sauthyng">sauthyng</seg>
+                            <seg ana="#sautlyng">sautlyng</seg>
                             <seg ana="#shul">shul</seg>
-                            <seg ana="#ri">ri</seg>
+                            <seg ana="#riXX">ri<del rend="erasure">..</del></seg>
                         </seg>
                     </l>
 
@@ -6855,7 +6845,7 @@
 
                     <l xml:id="U.0390" n="HL.0414">
                         <seg type="averse">
-                            <seg ana="#with">With</seg>
+                            <seg ana="#witħ">witħ</seg>
                             <seg ana="#a">a</seg>
                             <seg ana="#teneful">teneful</seg>
                             <seg ana="#toure">toure</seg>
@@ -6891,8 +6881,7 @@
                         <seg type="averse">
                             <seg ana="#foure">Foure</seg>
                             <seg ana="#myle">myle</seg>
-                            <seg ana="#ther">ther</seg>
-                            <seg ana="#fro">fro</seg>
+                            <seg ana="#ther-fro">ther<seg type="shadowHyphen">-</seg>fro</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -6916,7 +6905,7 @@
                         <seg type="bverse">
                             <seg ana="#that">that</seg>
                             <seg ana="#boldely">boldely</seg>
-                            <seg ana="#ringen">ringen</seg>
+                            <seg ana="#rungen">rungen</seg>
                         </seg>
                     </l>
 
@@ -7011,8 +7000,7 @@
                             <seg type="punct">
                                 <hi rend="rb">¶</hi>
                             </seg>
-                            <seg ana="#a">A</seg>
-                            <seg ana="#forn">forn</seg>
+                            <seg ana="#a-forn">A<seg type="shadowHyphen">-</seg>forn</seg>
                             <seg ana="#the">the</seg>
                             <seg ana="#foure">foure</seg>
                             <seg ana="#yates">yates</seg>
@@ -7080,7 +7068,7 @@
 
                     <l xml:id="U.0403" n="HL.0425">
                         <seg type="averse">
-                            <seg ana="#was">Was</seg>
+                            <seg ana="#was">was</seg>
                             <seg ana="#nogħt">nogħt</seg>
                             <seg ana="#whils">whils</seg>
                             <seg ana="#the">the</seg>
@@ -7138,7 +7126,7 @@
                         <seg type="punct">/</seg>
                         <seg type="bverse">
                             <seg ana="#witħ">witħ</seg>
-                            <seg ana="#stregħt">stregħt</seg>
+                            <seg ana="#strengħt">strengħt</seg>
                             <seg ana="#on">on</seg>
                             <seg ana="#her">her</seg>
                             <seg ana="#bak">bak</seg>
@@ -7169,7 +7157,7 @@
                             <seg ana="#he">he</seg>
                             <seg ana="#digħt">digħt</seg>
                             <seg ana="#him">him</seg>
-                            <seg ana="#forth">forth</seg>
+                            <seg ana="#fortħ">fortħ</seg>
                             <seg ana="#to">to</seg>
                             <seg ana="#the">the</seg>
                             <seg ana="#day">day</seg>
@@ -7239,7 +7227,7 @@
                     <milestone n="193v" unit="fol." entity="U193v"/>
                     <l xml:id="U.0412" n="HL.0434">
                         <seg type="averse">
-                            <seg ana="#witħ">Witħ</seg>
+                            <seg ana="#witħ">witħ</seg>
                             <seg ana="#sextene">sextene</seg>
                             <seg ana="#thousand">thousand</seg>
                         </seg>
@@ -7308,7 +7296,7 @@
                     <l xml:id="U.0416" n="HL.0438">
                         <seg type="averse">
                             <seg ana="#sir">Sir</seg>
-                            <seg ana="#sabyn">sabyn</seg>
+                            <seg ana="#sabyn">Sabyn</seg>
                             <seg ana="#of">of</seg>
                             <seg ana="#surre">Surr<expan>e</expan></seg>
                         </seg>
@@ -7389,6 +7377,7 @@
                             <seg ana="#harme">harme</seg>
                             <seg ana="#to">to</seg>
                             <seg ana="#kepe">kepe</seg>
+                            <seg type="punct">.</seg>
                         </seg>
                     </l>
 
@@ -7422,8 +7411,8 @@
                             <seg ana="#and">and</seg>
                             <seg ana="#blys">blys</seg>
                             <seg ana="#vs">vs</seg>
-                            <seg ana="#by">by</seg>
-                            <seg ana="#tide">tide</seg>
+                            <seg ana="#by-tid">by<seg type="shadowHyphen">-</seg>tid</seg>
+                            <marginalia place="marginLeft" hand="handX">III</marginalia>
                         </seg>
                     </l>
                 </div2>
@@ -7462,15 +7451,13 @@
                         <seg type="bverse">
                             <seg ana="#in">in</seg>
                             <seg ana="#hauberk">hauberk</seg>
-                            <seg ana="#y">y</seg>
-                            <seg ana="#tired">tired</seg>
+                            <seg ana="#y-tired">y<seg type="shadowHyphen">-</seg>tired</seg>
                         </seg>
                     </l>
 
                     <l xml:id="U.0425" n="HL.0447">
                         <seg type="averse">
-                            <seg ana="#witħ">witħ</seg>
-                            <seg ana="#outen">outen</seg>
+                            <seg ana="#witħ-outen">witħ<seg type="shadowHyphen">-</seg>outen</seg>
                             <seg ana="#folk">folk</seg>
                             <seg ana="#vpon">vpon</seg>
                             <seg ana="#fote">fote</seg>
@@ -7486,7 +7473,7 @@
                     <l xml:id="U.0426" n="HL.0448">
                         <seg type="averse">
                             <seg ana="#that">That</seg>
-                            <seg ana="#persed">p<expan>er</expan>sed</seg>
+                            <seg ana="#presed">p<expan>re</expan>sed</seg>
                             <seg ana="#out">out</seg>
                             <seg ana="#to">to</seg>
                             <seg ana="#the">the</seg>
@@ -7511,7 +7498,7 @@
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
-                            <seg ana="#defesable">defesable</seg>
+                            <seg ana="#defensable">defensable</seg>
                             <seg ana="#beestes">beestes</seg>
                         </seg>
                     </l>
@@ -7525,7 +7512,6 @@
                             <seg ana="#her">her</seg>
                             <seg ana="#bak">bak</seg>
                         </seg>
-                        <seg type="punct">/</seg>
                         <seg type="bverse">
                             <seg ana="#out">out</seg>
                             <seg ana="#of">of</seg>
@@ -7554,7 +7540,7 @@
                         <seg type="averse">
                             <seg ana="#nyghe">Nyghe</seg>
                             <seg ana="#an">an</seg>
-                            <seg ana="#hundred">hundred</seg>
+                            <seg ana="#hunderd">hunderd</seg>
                             <seg ana="#on">on</seg>
                             <seg ana="#hye">hye</seg>
                         </seg>
@@ -7562,8 +7548,7 @@
                         <seg type="bverse">
                             <seg ana="#and">and</seg>
                             <seg ana="#hurdist">hurdist</seg>
-                            <seg ana="#witħ">witħ</seg>
-                            <seg ana="#inne">inne</seg>
+                            <seg ana="#witħ-inne">witħ<seg type="shadowHyphen">-</seg>inne</seg>
                         </seg>
                     </l>
 
@@ -7588,8 +7573,7 @@
                         <seg type="averse">
                             <seg ana="#an">An</seg>
                             <seg ana="#hunderd">hunderd</seg>
-                            <seg ana="#y">y</seg>
-                            <seg ana="#armed">armed</seg>
+                            <seg ana="#y-armed">y<seg type="shadowHyphen">-</seg>armed</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -7607,14 +7591,13 @@
                             <seg ana="#witħ">witħ</seg>
                             <seg ana="#a">a</seg>
                             <seg ana="#bigge">bigge</seg>
-                            <seg ana="#tourre">tourre</seg>
+                            <seg ana="#toure">toure</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
                             <seg ana="#bolde">bolde</seg>
                             <seg ana="#men">men</seg>
-                            <seg ana="#there">there</seg>
-                            <seg ana="#inne">inne</seg>
+                            <seg ana="#there-inne">there<seg type="shadowHyphen">-</seg>inne</seg>
                         </seg>
                     </l>
 
@@ -7728,8 +7711,7 @@
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
-                            <seg ana="#who">who</seg>
-                            <seg ana="#so">so</seg>
+                            <seg ana="#who-so">who<seg type="shadowHyphen">-</seg>so</seg>
                             <seg ana="#wyte">wyte</seg>
                             <seg ana="#mygħt">mygħt</seg>
                         </seg>
@@ -7755,7 +7737,7 @@
                     <milestone n="194r" unit="fol." entity="U194r"/>
                     <l xml:id="U.0442" n="HL.0464">
                         <seg type="averse">
-                            <seg ana="#was">Was</seg>
+                            <seg ana="#was">was</seg>
                             <seg ana="#funden">funden</seg>
                             <seg ana="#fay">fay</seg>
                             <seg ana="#in">in</seg>
@@ -7849,8 +7831,7 @@
                         <seg type="punct">/</seg>
                         <seg type="bverse">
                             <seg ana="#walwed">walwed</seg>
-                            <seg ana="#thre">thre</seg>
-                            <seg ana="#in">in</seg>
+                            <seg ana="#there-in">there<seg type="shadowHyphen">-</seg>in</seg>
                         </seg>
                     </l>
 
@@ -7877,8 +7858,7 @@
                             <seg ana="#a">A</seg>
                             <seg ana="#chosen">chosen</seg>
                             <seg ana="#chariot">chariot</seg>
-                            <seg ana="#there">there</seg>
-                            <seg ana="#by">by</seg>
+                            <seg ana="#there-by">there<seg type="shadowHyphen">-</seg>by</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -7951,13 +7931,13 @@
                             <seg ana="#put">put</seg>
                             <seg ana="#on">on</seg>
                             <seg ana="#his">his</seg>
-                            <seg ana="#beest">beest</seg>
+                            <seg ana="#brest">brest</seg>
                         </seg>
                     </l>
 
                     <l xml:id="U.0454" n="HL.0476">
                         <seg type="averse">
-                            <seg ana="#witħ">Witħ</seg>
+                            <seg ana="#witħ">witħ</seg>
                             <seg ana="#many">many</seg>
                             <seg ana="#precious">p<expan>re</expan>cious</seg>
                             <seg ana="#perles">p<expan>er</expan>les</seg>
@@ -7987,7 +7967,7 @@
                             <seg ana="#that">that</seg>
                             <seg ana="#loude">loude</seg>
                             <seg ana="#gan">gan</seg>
-                            <seg ana="#sang">sang</seg>
+                            <seg ana="#synge">synge</seg>
                         </seg>
                     </l>
 
@@ -8002,7 +7982,7 @@
                         <seg type="punct">/</seg>
                         <seg type="bverse">
                             <seg ana="#and">and</seg>
-                            <seg ana="#psal,es">psal,es</seg>
+                            <seg ana="#psalmes">psalmes</seg>
                             <seg ana="#thei">thei</seg>
                             <seg ana="#redde">redde</seg>
                         </seg>
@@ -8079,7 +8059,7 @@
 
                     <l xml:id="U.0461" n="HL.0483">
                         <seg type="averse">
-                            <seg ana="#when">When</seg>
+                            <seg ana="#when">when</seg>
                             <seg ana="#pharao">pharao</seg>
                             <seg ana="#and">and</seg>
                             <seg ana="#his">his</seg>
@@ -8116,7 +8096,7 @@
                             <seg type="punct">
                                 <hi rend="rb">¶</hi>
                             </seg>
-                            <seg ana="#when">When</seg>
+                            <seg ana="#when">when</seg>
                             <seg ana="#the">the</seg>
                             <seg ana="#faithles">faithles</seg>
                             <seg ana="#folk">folk</seg>
@@ -8135,8 +8115,7 @@
                         <seg type="averse">
                             <seg ana="#and">And</seg>
                             <seg ana="#bataild">bataild</seg>
-                            <seg ana="#a">a</seg>
-                            <seg ana="#forne">forne</seg>
+                            <seg ana="#a-forne">a<seg type="shadowHyphen">-</seg>forne</seg>
                             <seg ana="#the">the</seg>
                             <seg ana="#bent">bent</seg>
                         </seg>
@@ -8151,7 +8130,7 @@
 
                     <l xml:id="U.0465" n="HL.0487">
                         <seg type="averse">
-                            <seg ana="#with">With</seg>
+                            <seg ana="#with">with</seg>
                             <seg ana="#baners">baners</seg>
                             <seg ana="#and">and</seg>
                             <seg ana="#bemewede">bemewede</seg>
@@ -8198,7 +8177,7 @@
 
                     <l xml:id="U.0468" n="HL.0490">
                         <seg type="averse">
-                            <seg ana="#witħ">Witħ</seg>
+                            <seg ana="#witħ">witħ</seg>
                             <seg ana="#baners">baners</seg>
                             <seg ana="#al">al</seg>
                             <seg ana="#ouersprad">ouersprad</seg>
@@ -8234,8 +8213,7 @@
                             <seg ana="#he">he</seg>
                             <seg ana="#said">said</seg>
                             <seg ana="#lordes">lordes</seg>
-                            <seg ana="#a">a</seg>
-                            <seg ana="#loud">loud</seg>
+                            <seg ana="#a-loud">a<seg type="shadowHyphen">-</seg>loud</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -8273,7 +8251,7 @@
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
-                            <seg ana="#ner">ner</seg>
+                            <seg ana="#ne">ne</seg>
                             <seg ana="#beern">beern</seg>
                             <seg ana="#that">that</seg>
                             <seg ana="#me">me</seg>
@@ -8320,7 +8298,7 @@
                         <seg type="averse">
                             <seg ana="#byholde">Byholde</seg>
                             <seg ana="#vnto">vnto</seg>
-                            <seg ana="#heuenwars">heuenwars</seg>
+                            <seg ana="#heuenward">heuenward</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -8351,7 +8329,7 @@
 
                     <l xml:id="U.0477" n="HL.0499">
                         <seg type="averse">
-                            <seg ana="#late">late</seg>
+                            <seg ana="#late">Late</seg>
                             <seg ana="#neuer">neuer</seg>
                             <seg ana="#thise">thise</seg>
                             <seg ana="#laweles">laweles</seg>
@@ -8390,8 +8368,8 @@
                             <seg type="punct">
                                 <hi rend="bl">¶</hi>
                             </seg>
-                            <seg ana="#y">Y</seg>
-                            <seg ana="#quite-cleyme">quite-cleyme</seg>
+                            <seg ana="#i">I</seg>
+                            <seg ana="#quite-cleyme">quite<seg type="shadowHyphen">-</seg>cleyme</seg>
                             <seg ana="#the">the</seg>
                             <seg ana="#querel">querel</seg>
                         </seg>
@@ -8476,8 +8454,7 @@
                     <l xml:id="U.0484" n="HL.0506">
                         <seg type="averse">
                             <seg ana="#ne">Ne</seg>
-                            <seg ana="#for">for</seg>
-                            <seg ana="#to">to</seg>
+                            <seg ana="#for-to">for<seg type="shadowHyphen">-</seg>to</seg>
                             <seg ana="#trete">trete</seg>
                             <seg ana="#for">for</seg>
                             <seg ana="#no">no</seg>
@@ -8498,7 +8475,7 @@
                             <seg ana="#his">his</seg>
                             <seg ana="#querelle">querelle</seg>
                             <seg ana="#i">I</seg>
-                            <seg ana="#quite-cleyme">quite-cleyme</seg>
+                            <seg ana="#quitecleyme">quitecleyme</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -8543,7 +8520,7 @@
                         <seg type="bverse">
                             <seg ana="#vs">vs</seg>
                             <seg ana="#mynnes">mynnes</seg>
-                            <seg ana="#today">today</seg>
+                            <seg ana="#to-day">to<seg type="shadowHyphen">-</seg>day</seg>
                         </seg>
                     </l>
 
@@ -8600,7 +8577,7 @@
 
                     <l xml:id="U.0491" n="HL.0513">
                         <seg type="averse">
-                            <seg ana="#lat">lat</seg>
+                            <seg ana="#lat">Lat</seg>
                             <seg ana="#neuer">neuer</seg>
                             <seg ana="#this">this</seg>
                             <seg ana="#faithles">faithles</seg>
@@ -8663,7 +8640,7 @@
                             <seg ana="#and">and</seg>
                             <seg ana="#fals">fals</seg>
                             <seg ana="#of">of</seg>
-                            <seg ana="#byleue">byleue</seg>
+                            <seg ana="#by-leue">by<seg type="shadowHyphen">-</seg>leue</seg>
                         </seg>
                     </l>
 
@@ -8755,7 +8732,7 @@
 
                     <l xml:id="U.0500" n="HL.0524">
                         <seg type="averse">
-                            <seg ana="#to-day">To-day</seg>
+                            <seg ana="#to-day">To<seg type="shadowHyphen">-</seg>day</seg>
                             <seg ana="#that">that</seg>
                             <seg ana="#fleetħ">fleetħ</seg>
                             <seg ana="#eny">eny</seg>
@@ -8824,8 +8801,7 @@
                         <seg type="averse">
                             <seg ana="#knyghtes">knyghtes</seg>
                             <seg ana="#crossen">crossen</seg>
-                            <seg ana="#hem">hem</seg>
-                            <seg ana="#self">self</seg>
+                            <seg ana="#hem-self">hem<seg type="shadowHyphen">-</seg>self</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -8890,7 +8866,7 @@
                     <l xml:id="U.0508" n="HL.0532">
                         <seg type="averse">
                             <seg ana="#as">As</seg>
-                            <seg ana="#women">women</seg>
+                            <seg ana="#women">wo<expan>m</expan>men</seg>
                             <seg ana="#shrillen">shrillen</seg>
                             <seg ana="#on">on</seg>
                             <seg ana="#hye">hye</seg>
@@ -8919,8 +8895,7 @@
                         <seg type="bverse">
                             <seg ana="#and">and</seg>
                             <seg ana="#lopen">lopen</seg>
-                            <seg ana="#to">to</seg>
-                            <seg ana="#geder">geder</seg>
+                            <seg ana="#to-geder">to<seg type="shadowHyphen">-</seg>geder</seg>
                         </seg>
                     </l>
 
@@ -8991,10 +8966,9 @@
 
                     <l xml:id="U.0514" n="HL.0538">
                         <seg type="averse">
-                            <seg ana="#knyghtes">knyghtes</seg>
+                            <seg ana="#knyghtes">Knyghtes</seg>
                             <seg ana="#kneled">kneled</seg>
-                            <seg ana="#a">a</seg>
-                            <seg ana="#doun">doun</seg>
+                            <seg ana="#a-doun">a<seg type="shadowHyphen">-</seg>doun</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -9122,7 +9096,7 @@
                             <seg ana="#whils">whils</seg>
                             <seg ana="#the">the</seg>
                             <seg ana="#blade">blade</seg>
-                            <seg ana="#lasteth">lasteth</seg>
+                            <seg ana="#lastetħ">lastetħ</seg>
                         </seg>
                     </l>
 
@@ -9155,8 +9129,7 @@
                         <seg type="punct">/</seg>
                         <seg type="bverse">
                             <seg ana="#hent">hent</seg>
-                            <seg ana="#who">who</seg>
-                            <seg ana="#so">so</seg>
+                            <seg ana="#who-so">who<seg type="shadowHyphen">-</seg>so</seg>
                             <seg ana="#wolde">wolde</seg>
                         </seg>
                     </l>
@@ -9201,7 +9174,7 @@
                     <l xml:id="U.0526" n="HL.0551">
                         <seg type="averse">
                             <seg ana="#for">For</seg>
-                            <seg ana="#shiuering">shiuering</seg>
+                            <seg ana="#shimering">shimering</seg>
                             <seg ana="#of">of</seg>
                             <seg ana="#sheldes">sheldes</seg>
                         </seg>
@@ -9292,8 +9265,7 @@
                         <seg type="bverse">
                             <seg ana="#thei">thei</seg>
                             <seg ana="#girden">girden</seg>
-                            <seg ana="#to">to</seg>
-                            <seg ana="#geder">geder</seg>
+                            <seg ana="#to-geder">to<seg type="shadowHyphen">-</seg>geder</seg>
                         </seg>
                     </l>
 
@@ -9322,8 +9294,7 @@
                         <seg type="bverse">
                             <seg ana="#on">on</seg>
                             <seg ana="#shuldres">shuldres</seg>
-                            <seg ana="#to">to</seg>
-                            <seg ana="#cleuen">cleuen</seg>
+                            <seg ana="#to-cleuen">to<seg type="shadowHyphen">-</seg>cleuen</seg>
                         </seg>
                     </l>
 
@@ -9340,7 +9311,7 @@
                             <seg ana="#that">that</seg>
                             <seg ana="#sharp">sharp</seg>
                             <seg ana="#were">were</seg>
-                            <seg ana="#y-grounden">y-grounden</seg>
+                            <seg ana="#y-grounden">y<seg type="shadowHyphen">-</seg>grounden</seg>
                         </seg>
                     </l>
 
@@ -9372,8 +9343,7 @@
                         <seg type="bverse">
                             <seg ana="#and">and</seg>
                             <seg ana="#hurtlen">hurtlen</seg>
-                            <seg ana="#to">to</seg>
-                            <seg ana="#gedir">gedir</seg>
+                            <seg ana="#to-gedir">to<seg type="shadowHyphen">-</seg>gedir</seg>
                         </seg>
                     </l>
 
@@ -9415,7 +9385,7 @@
                             <seg ana="#out">out</seg>
                             <seg ana="#of">of</seg>
                             <seg ana="#gay">gay</seg>
-                            <seg ana="#gold">gold</seg>
+                            <seg ana="#golde">golde</seg>
                             <seg ana="#wede">wede</seg>
                         </seg>
                         <seg type="punct">/</seg>
@@ -9442,7 +9412,7 @@
                             <seg ana="#when">when</seg>
                             <seg ana="#he">he</seg>
                             <seg ana="#sawe">sawe</seg>
-                            <seg ana="#tume">tume</seg>
+                            <seg ana="#tyme">tyme</seg>
                         </seg>
                     </l>
 
@@ -9451,6 +9421,7 @@
                             <seg ana="#and">And</seg>
                             <seg ana="#rode">rode</seg>
                             <seg ana="#witħ">witħ</seg>
+                            <seg ana="#the">the</seg>
                             <seg ana="#rereward">rereward</seg>
                         </seg>
                         <seg type="punct">/</seg>
@@ -9532,7 +9503,7 @@
                         <seg type="averse">
                             <seg ana="#ropes">Ropes</seg>
                             <seg ana="#respen">respen</seg>
-                            <seg ana="#a-rigħt">a-rigħt</seg>
+                            <seg ana="#a-rigħt">a<seg type="shadowHyphen">-</seg>rigħt</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -9568,7 +9539,7 @@
                             </seg>
                             <seg ana="#claterd">Claterd</seg>
                             <seg ana="#castels">castels</seg>
-                            <seg ana="#a-doun">a-doun</seg>
+                            <seg ana="#a-doun">a<seg type="shadowHyphen">-</seg>doun</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -9588,7 +9559,7 @@
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
-                            <seg ana="#drwoen">drwoen</seg>
+                            <seg ana="#drowen">drowen</seg>
                             <seg ana="#wel">wel</seg>
                             <seg ana="#swithe">swithe</seg>
                         </seg>
@@ -9656,14 +9627,14 @@
                         <seg type="punct">/</seg>
                         <seg type="bverse">
                             <seg ana="#alle">alle</seg>
-                            <seg ana="#a-doun">a-doun</seg>
+                            <seg ana="#a-doun">a<seg type="shadowHyphen">-</seg>doun</seg>
                             <seg ana="#yede">yede</seg>
                         </seg>
                     </l>
 
                     <l xml:id="U.0554" n="HL.0579">
                         <seg type="averse">
-                            <seg ana="#when">When</seg>
+                            <seg ana="#when">when</seg>
                             <seg ana="#hurdys">hurdys</seg>
                             <seg ana="#and">and</seg>
                             <seg ana="#hard">hard</seg>
@@ -9672,8 +9643,7 @@
                         <seg type="punct">/</seg>
                         <seg type="bverse">
                             <seg ana="#hurtled">hurtled</seg>
-                            <seg ana="#to">to</seg>
-                            <seg ana="#gedir">gedir</seg>
+                            <seg ana="#to-gedir">to<seg type="shadowHyphen">-</seg>gedir</seg>
                         </seg>
                     </l>
 
@@ -9713,7 +9683,7 @@
 
                     <l xml:id="U.0557" n="HL.0582">
                         <seg type="averse">
-                            <seg ana="#was">Was</seg>
+                            <seg ana="#was">was</seg>
                             <seg ana="#none">none</seg>
                             <seg ana="#left">left</seg>
                             <seg ana="#vpon">vpon</seg>
@@ -9780,11 +9750,10 @@
 
                     <l xml:id="U.0561" n="HL.0586">
                         <seg type="averse">
-                            <seg ana="#witħ">Witħ</seg>
+                            <seg ana="#witħ">witħ</seg>
                             <seg ana="#twelue">twelue</seg>
                             <seg ana="#maistres">maistres</seg>
-                            <seg ana="#y">y</seg>
-                            <seg ana="#made">made</seg>
+                            <seg ana="#y-made">y<seg type="shadowHyphen">-</seg>made</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -9879,7 +9848,7 @@
 
                     <l xml:id="U.0567" n="HL.0592">
                         <seg type="averse">
-                            <seg ana="#where">Where</seg>
+                            <seg ana="#where">where</seg>
                             <seg ana="#the">the</seg>
                             <seg ana="#standard">standard</seg>
                             <seg ana="#stode">stode</seg>
@@ -10081,9 +10050,9 @@
 
                     <l xml:id="U.0579" n="HL.0604">
                         <seg type="averse">
-                            <seg ana="#witħ">Witħ</seg>
+                            <seg ana="#witħ">witħ</seg>
                             <seg ana="#dede">dede</seg>
-                            <seg ana="#bodyes">bodyes</seg>
+                            <seg ana="#bodys">bodys</seg>
                             <seg ana="#al">al</seg>
                             <seg ana="#aboute">aboute</seg>
                         </seg>
@@ -10180,14 +10149,14 @@
                             <seg ana="#os">os</seg>
                             <seg ana="#when">when</seg>
                             <seg ana="#thei">thei</seg>
-                            <seg ana="#frist">frist</seg>
+                            <seg ana="#first">first</seg>
                             <seg ana="#kome">kome</seg>
                         </seg>
                     </l>
 
                     <l xml:id="U.0585" n="HL.0610">
                         <seg type="averse">
-                            <seg ana="#wele">Wele</seg>
+                            <seg ana="#wele">wele</seg>
                             <seg ana="#araied">araied</seg>
                             <seg ana="#ilk">ilk</seg>
                             <seg ana="#a">a</seg>
@@ -10277,7 +10246,7 @@
 
                     <l xml:id="U.0590" n="HL.0614">
                         <seg type="averse">
-                            <seg ana="#were">Were</seg>
+                            <seg ana="#were">were</seg>
                             <seg ana="#founden">founden</seg>
                             <seg ana="#fay">fay</seg>
                             <seg ana="#in">in</seg>
@@ -10289,7 +10258,7 @@
                             <seg ana="#and">and</seg>
                             <seg ana="#noght">noght</seg>
                             <seg ana="#one">one</seg>
-                            <seg ana="#yskaped">yskaped</seg>
+                            <seg ana="#y-skaped">y<seg type="shadowHyphen">-</seg>skaped</seg>
                         </seg>
                     </l>
 
@@ -10321,8 +10290,7 @@
                         <seg type="bverse">
                             <seg ana="#the">the</seg>
                             <seg ana="#walles">walles</seg>
-                            <seg ana="#witħ">witħ</seg>
-                            <seg ana="#inne">inne</seg>
+                            <seg ana="#witħ-inne">witħ<seg type="shadowHyphen">-</seg>inne</seg>
                         </seg>
                     </l>
 
@@ -10411,7 +10379,7 @@
 
                     <l xml:id="U.0598" n="HL.0622">
                         <seg type="averse">
-                            <seg ana="#fressh">Fressh</seg>
+                            <seg ana="#fressħ">Fressħ</seg>
                             <seg ana="#vnfounded">vnfounded</seg>
                             <seg ana="#folk">folk</seg>
                         </seg>
@@ -10441,7 +10409,7 @@
 
                     <l xml:id="U.0600" n="HL.0624">
                         <seg type="averse">
-                            <seg ana="#witħ">Witħ</seg>
+                            <seg ana="#witħ">witħ</seg>
                             <seg ana="#grete">grete</seg>
                             <seg ana="#stones">stones</seg>
                             <seg ana="#of">of</seg>
@@ -10530,7 +10498,7 @@
 
                     <l xml:id="U.0605" n="HL.0632">
                         <seg type="averse">
-                            <seg ana="#wanted">Wanted</seg>
+                            <seg ana="#wanted">wanted</seg>
                             <seg ana="#hem">hem</seg>
                             <seg ana="#noght">noght</seg>
                             <seg ana="#a">a</seg>
@@ -10579,7 +10547,7 @@
 
                     <l xml:id="U.0608" n="HL.0635">
                         <seg type="averse">
-                            <seg ana="#witħ">Witħ</seg>
+                            <seg ana="#witħ">witħ</seg>
                             <seg ana="#gode">gode</seg>
                             <seg ana="#wayte">wayte</seg>
                             <seg ana="#aboute">aboute</seg>
@@ -10610,6 +10578,7 @@
                             <seg ana="#harmles">harmles</seg>
                             <seg ana="#shuld">shuld</seg>
                             <seg ana="#passe">passe</seg>
+                            <marginalia place="marginLeft" hand="handX">IIII</marginalia>
                         </seg>
                     </l>
                 </div2>
@@ -10647,8 +10616,7 @@
                         <seg type="bverse">
                             <seg ana="#the">the</seg>
                             <seg ana="#host">host</seg>
-                            <seg ana="#for">for</seg>
-                            <seg ana="#to">to</seg>
+                            <seg ana="#for-to">for<seg type="shadowHyphen">-</seg>to</seg>
                             <seg ana="#reise">reise</seg>
                         </seg>
                     </l>
@@ -10681,8 +10649,7 @@
                         <seg type="punct">/</seg>
                         <seg type="bverse">
                             <seg ana="#bare">bare</seg>
-                            <seg ana="#for">for</seg>
-                            <seg ana="#to">to</seg>
+                            <seg ana="#for-to">for<seg type="shadowHyphen">-</seg>to</seg>
                             <seg ana="#make">make</seg>
                         </seg>
                     </l>
@@ -10855,7 +10822,10 @@
                         <seg type="punct">/</seg>
                         <seg type="bverse">
                             <seg ana="#on">on</seg>
-                            <seg ana="#xii">xii</seg>
+                            <choice>
+                                <orig>xii</orig>
+                                <reg><seg ana="twelue">twelue</seg></reg>
+                            </choice>
                             <seg ana="#grete">grete</seg>
                             <seg ana="#postes">postes</seg>
                         </seg>
@@ -10966,7 +10936,7 @@
 
                     <l xml:id="U.0631" n="HL.0666">
                         <seg type="averse">
-                            <seg ana="#wonder">Wonder</seg>
+                            <seg ana="#wonder">wonder</seg>
                             <seg ana="#hye">hye</seg>
                             <seg ana="#to">to</seg>
                             <seg ana="#biholde">biholde</seg>
@@ -11017,8 +10987,7 @@
 
                     <l xml:id="U.0634" n="HL.0669">
                         <seg type="averse">
-                            <seg ana="#bowe">Bowe</seg>
-                            <seg ana="#men">men</seg>
+                            <seg ana="#bowe-men">Bowe<seg type="shadowHyphen">-</seg>men</seg>
                             <seg ana="#atte">atte</seg>
                             <seg ana="#bank">bank</seg>
                         </seg>
@@ -11048,7 +11017,7 @@
 
                     <l xml:id="U.0636" n="HL.0671">
                         <seg type="averse">
-                            <seg ana="#with">With</seg>
+                            <seg ana="#witħ">witħ</seg>
                             <seg ana="#arwes">arwes</seg>
                             <seg ana="#and">and</seg>
                             <seg ana="#arblastes">arblastes</seg>
@@ -11058,7 +11027,7 @@
                             <seg ana="#and">and</seg>
                             <seg ana="#al">al</seg>
                             <seg ana="#that">that</seg>
-                            <seg ana="#hamre">hamre</seg>
+                            <seg ana="#harme">harme</seg>
                             <seg ana="#mygħt">mygħt</seg>
                         </seg>
                     </l>
@@ -11073,7 +11042,7 @@
                         <seg type="punct">/</seg>
                         <seg type="bverse">
                             <seg ana="#that">that</seg>
-                            <seg ana="#defese">defese</seg>
+                            <seg ana="#defense">defense</seg>
                             <seg ana="#made">made</seg>
                         </seg>
                     </l>
@@ -11117,7 +11086,7 @@
                     <l xml:id="U.0640" n="HL.0675">
                         <seg type="averse">
                             <seg ana="#brinnyng">Brinnyng</seg>
-                            <seg ana="#brinstone">brinstone</seg>
+                            <seg ana="#brinston">brinston</seg>
                             <seg ana="#and">and</seg>
                             <seg ana="#lede">lede</seg>
                         </seg>
@@ -11133,8 +11102,7 @@
                         <seg type="averse">
                             <seg ana="#shoten">Shoten</seg>
                             <seg ana="#sheluyng">sheluyng</seg>
-                            <seg ana="#a">a</seg>
-                            <seg ana="#doun">doun</seg>
+                            <seg ana="#a-doun">a<seg type="shadowHyphen">-</seg>doun</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -11222,8 +11190,7 @@
                             <seg ana="#that">that</seg>
                             <seg ana="#the">the</seg>
                             <seg ana="#wretches">wretches</seg>
-                            <seg ana="#witħ">witħ</seg>
-                            <seg ana="#inne">inne</seg>
+                            <seg ana="#witħ-inne">witħ<seg type="shadowHyphen">-</seg>inne</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -11260,9 +11227,8 @@
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
-                            <seg ana="#witħ">witħ</seg>
-                            <seg ana="#out">out</seg>
-                            <seg ana="#fressh">fressh</seg>
+                            <seg ana="#witħ-out">witħ<seg type="shadowHyphen">-</seg>out</seg>
+                            <seg ana="#fressħ">fressħ</seg>
                             <seg ana="#harmes">harmes</seg>
                         </seg>
                     </l>
@@ -11386,14 +11352,14 @@
                         <seg type="bverse">
                             <seg ana="#there">there</seg>
                             <seg ana="#eny">eny</seg>
-                            <seg ana="#coms">coms</seg>
+                            <seg ana="#cours">cours</seg>
                             <seg ana="#yede">yede</seg>
                         </seg>
                     </l>
 
                     <l xml:id="U.0656" n="HL.0691">
                         <seg type="averse">
-                            <seg ana="#with">With</seg>
+                            <seg ana="#witħ">witħ</seg>
                             <seg ana="#stokkes">stokkes</seg>
                             <seg ana="#and">and</seg>
                             <seg ana="#stones">stones</seg>
@@ -11458,7 +11424,7 @@
 
                     <l xml:id="U.0660" n="HL.0695">
                         <seg type="averse">
-                            <seg ana="#what">What</seg>
+                            <seg ana="#what">what</seg>
                             <seg ana="#detħ">detħ</seg>
                             <seg ana="#by">by</seg>
                             <seg ana="#her">her</seg>
@@ -11475,7 +11441,7 @@
 
                     <l xml:id="U.0661" n="HL.0696">
                         <seg type="averse">
-                            <seg ana="#witħ">Witħ</seg>
+                            <seg ana="#witħ">witħ</seg>
                             <seg ana="#tho">tho</seg>
                             <seg ana="#lettred">lettred</seg>
                             <seg ana="#ledes">ledes</seg>
@@ -11494,8 +11460,7 @@
                             <seg type="punct">
                                 <hi rend="rb">¶</hi>
                             </seg>
-                            <seg ana="#domes">Domes</seg>
-                            <seg ana="#men">men</seg>
+                            <seg ana="#domes-men">Domes<seg type="shadowHyphen">-</seg>men</seg>
                             <seg ana="#vpon">vpon</seg>
                             <seg ana="#dayes">dayes</seg>
                         </seg>
@@ -11513,7 +11478,7 @@
                             <seg ana="#ilk">ilk</seg>
                             <seg ana="#freke">freke</seg>
                             <seg ana="#were">were</seg>
-                            <seg ana="#yfleyne">yfleyne</seg>
+                            <seg ana="#y-fleyne">y<seg type="shadowHyphen">-</seg>fleyne</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -11531,7 +11496,7 @@
                             <seg ana="#than">than</seg>
                             <seg ana="#witħ">witħ</seg>
                             <seg ana="#bondes">bondes</seg>
-                            <seg ana="#ybounden">ybounden</seg>
+                            <seg ana="#y-bounden">y<seg type="shadowHyphen">-</seg>bounden</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -11576,7 +11541,7 @@
 
                     <l xml:id="U.0667" n="HL.0702">
                         <seg type="averse">
-                            <seg ana="#witħ">Witħ</seg>
+                            <seg ana="#witħ">witħ</seg>
                             <seg ana="#hony">hony</seg>
                             <seg ana="#on">on</seg>
                             <seg ana="#ilk">ilk</seg>
@@ -11593,7 +11558,7 @@
 
                     <l xml:id="U.0668" n="HL.0703">
                         <seg type="averse">
-                            <seg ana="#witħ">Witħ</seg>
+                            <seg ana="#witħ">witħ</seg>
                             <seg ana="#curres">curres</seg>
                             <seg ana="#and">and</seg>
                             <seg ana="#cattes">cattes</seg>
@@ -11638,6 +11603,7 @@
                             <seg ana="#anger">anger</seg>
                             <seg ana="#him">him</seg>
                             <seg ana="#more">more</seg>
+                            <seg type="punct">.</seg>
                         </seg>
                     </l>
 
@@ -11662,8 +11628,7 @@
                             <seg ana="#tille">Tille</seg>
                             <seg ana="#the">the</seg>
                             <seg ana="#sonne">sonne</seg>
-                            <seg ana="#a">a</seg>
-                            <seg ana="#doun">doun</seg>
+                            <seg ana="#a-doun">a<seg type="shadowHyphen">-</seg>doun</seg>
                             <seg ana="#set">set</seg>
                         </seg>
                         <seg type="punct">/</seg>
@@ -11769,8 +11734,7 @@
                             <seg ana="#seuen">Seuen</seg>
                             <seg ana="#score">score</seg>
                             <seg ana="#slowe">slowe</seg>
-                            <seg ana="#hem">hem</seg>
-                            <seg ana="#self">self</seg>
+                            <seg ana="#hem">hem<seg type="shadowHyphen">-</seg>self</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -11786,8 +11750,7 @@
                         <seg type="averse">
                             <seg ana="#thei">Thei</seg>
                             <seg ana="#hent">hent</seg>
-                            <seg ana="#hem">hem</seg>
-                            <seg ana="#self">self</seg>
+                            <seg ana="#hem">hem<seg type="shadowHyphen">-</seg>self</seg>
                             <seg ana="#by">by</seg>
                             <seg ana="#the">the</seg>
                             <seg ana="#heer">heer</seg>
@@ -11863,8 +11826,7 @@
                             <seg ana="#thei">Thei</seg>
                             <seg ana="#casten">casten</seg>
                             <seg ana="#caiphas">Caiphas</seg>
-                            <seg ana="#ther">ther</seg>
-                            <seg ana="#inne">inne</seg>
+                            <seg ana="#ther-inne">ther<seg type="shadowHyphen">-</seg>inne</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -12004,7 +11966,7 @@
                             <seg type="punct">
                                 <hi rend="rb">¶</hi>
                             </seg>
-                            <seg ana="#when">When</seg>
+                            <seg ana="#when">when</seg>
                             <seg ana="#crist">crist</seg>
                             <seg ana="#at">at</seg>
                             <seg ana="#her">her</seg>
@@ -12090,8 +12052,7 @@
                             <seg ana="#brigħt">Brigħt</seg>
                             <seg ana="#fyre">fyre</seg>
                             <seg ana="#al">al</seg>
-                            <seg ana="#o">o</seg>
-                            <seg ana="#brode">brode</seg>
+                            <seg ana="#o-brode">o<seg type="shadowHyphen">-</seg>brode</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -12114,7 +12075,7 @@
                         <seg type="punct">/</seg>
                         <seg type="bverse">
                             <seg ana="#carpen">carpen</seg>
-                            <seg ana="#to-geder">to-geder</seg>
+                            <seg ana="#to-geder">to<seg type="shadowHyphen">-</seg>geder</seg>
                         </seg>
                     </l>
 
@@ -12190,8 +12151,7 @@
                             <seg ana="#and">And</seg>
                             <seg ana="#ofte">ofte</seg>
                             <seg ana="#tyme">tyme</seg>
-                            <seg ana="#by">by</seg>
-                            <seg ana="#twene">twene</seg>
+                            <seg ana="#by">by<seg type="shadowHyphen">-</seg>twene</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -12204,7 +12164,7 @@
 
                     <l xml:id="U.0703" n="HL.0741">
                         <seg type="averse">
-                            <seg ana="#when">When</seg>
+                            <seg ana="#when">when</seg>
                             <seg ana="#shadowe">shadowe</seg>
                             <seg ana="#and">and</seg>
                             <seg ana="#shire">shire</seg>
@@ -12275,6 +12235,7 @@
                             <seg ana="#vespasian">Vespasian</seg>
                             <seg ana="#buskes">buskes</seg>
                             <seg ana="#out">out</seg>
+                            <seg ana="#of">of</seg>
                             <seg ana="#bed">bed</seg>
                         </seg>
                         <seg type="punct">/</seg>
@@ -12317,8 +12278,7 @@
                         <seg type="bverse">
                             <seg ana="#witħ">witħ</seg>
                             <seg ana="#a">a</seg>
-                            <seg ana="#brest">brest</seg>
-                            <seg ana="#plate">plate</seg>
+                            <seg ana="#brest-plate">brest<seg type="shadowHyphen">-</seg>plate</seg>
                         </seg>
                     </l>
 
@@ -12342,8 +12302,7 @@
 
                     <l xml:id="U.0711" n="HL.0750">
                         <seg type="averse">
-                            <seg ana="#there">There</seg>
-                            <seg ana="#on">on</seg>
+                            <seg ana="#there-on">There<seg type="shadowHyphen">-</seg>on</seg>
                             <seg ana="#kast">kast</seg>
                             <seg ana="#he">he</seg>
                             <seg ana="#a">a</seg>
@@ -12368,8 +12327,7 @@
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
-                            <seg ana="#witħ">witħ</seg>
-                            <seg ana="#outen">outen</seg>
+                            <seg ana="#witħ-outen">witħ<seg type="shadowHyphen">-</seg>outen</seg>
                             <seg ana="#gere">gere</seg>
                             <seg ana="#more">more</seg>
                         </seg>
@@ -12377,7 +12335,7 @@
 
                     <l xml:id="U.0713" n="HL.0752">
                         <seg type="averse">
-                            <seg ana="#he">he</seg>
+                            <seg ana="#he">He</seg>
                             <seg ana="#laid">laid</seg>
                             <seg ana="#on">on</seg>
                             <seg ana="#his">his</seg>
@@ -12410,7 +12368,7 @@
                     <l xml:id="U.0715" n="HL.0754">
                         <seg type="averse">
                             <seg ana="#of">Of</seg>
-                            <seg ana="#pine">pine</seg>
+                            <seg ana="#pure">pure</seg>
                             <seg ana="#polist">polist</seg>
                             <seg ana="#gold">gold</seg>
                         </seg>
@@ -12442,7 +12400,7 @@
 
                     <l xml:id="U.0717" n="HL.0756">
                         <seg type="averse">
-                            <seg ana="#yboiled">yboiled</seg>
+                            <seg ana="#ybocled">ybocled</seg>
                             <seg ana="#witħ">witħ</seg>
                             <seg ana="#fyne">fyne</seg>
                             <seg ana="#gold">gold</seg>
@@ -12480,7 +12438,7 @@
                             <seg ana="#then">then</seg>
                             <seg ana="#he">he</seg>
                             <seg ana="#hyed">hyed</seg>
-                            <seg ana="#hym">hym</seg>
+                            <seg ana="#him">him</seg>
                             <seg ana="#in">in</seg>
                             <seg ana="#hast">hast</seg>
                         </seg>
@@ -12510,7 +12468,7 @@
 
                     <l xml:id="U.0721" n="HL.0760">
                         <seg type="averse">
-                            <seg ana="#wit&#254;">Wit&#254;</seg>
+                            <seg ana="#witħ">witħ</seg>
                             <seg ana="#viser">viser</seg>
                             <seg ana="#and">and</seg>
                             <seg ana="#auentail">auentail</seg>
@@ -12581,7 +12539,7 @@
                             <seg ana="#so">so</seg>
                             <seg ana="#witħ">witħ</seg>
                             <seg ana="#saphirs">saphirs</seg>
-                            <seg ana="#ysette">ysette</seg>
+                            <seg ana="#y-sette">y<seg type="shadowHyphen">-</seg>sette</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -12594,7 +12552,7 @@
 
                     <l xml:id="U.0726" n="HL.0765">
                         <seg type="averse">
-                            <seg ana="#he">he</seg>
+                            <seg ana="#he">He</seg>
                             <seg ana="#strides">strides</seg>
                             <seg ana="#on">on</seg>
                             <seg ana="#a">a</seg>
@@ -12630,7 +12588,7 @@
                     <milestone n="198v" unit="fol." entity="U198v"/>
                     <l xml:id="U.0728" n="HL.0767">
                         <seg type="averse">
-                            <seg ana="#his">his</seg>
+                            <seg ana="#his">His</seg>
                             <seg ana="#segges">segges</seg>
                             <seg ana="#syen">syen</seg>
                             <seg ana="#hym">hym</seg>
@@ -12699,7 +12657,7 @@
 
                     <l xml:id="U.0732" n="HL.0771">
                         <seg type="averse">
-                            <seg ana="#komes">komes</seg>
+                            <seg ana="#komes">Komes</seg>
                             <seg ana="#out">out</seg>
                             <seg ana="#keitifs">keitifs</seg>
                         </seg>
@@ -12735,7 +12693,7 @@
                             <seg type="punct">
                                 <hi rend="rb">¶</hi>
                             </seg>
-                            <seg ana="#ye">ye</seg>
+                            <seg ana="#ye">Ye</seg>
                             <seg ana="#may">may</seg>
                             <seg ana="#fetche">fetche</seg>
                             <seg ana="#yow">yow</seg>
@@ -12799,8 +12757,7 @@
                         <seg type="bverse">
                             <seg ana="#passe">passe</seg>
                             <seg ana="#it">it</seg>
-                            <seg ana="#who">who</seg>
-                            <seg ana="#so">so</seg>
+                            <seg ana="#who-so">who<seg type="shadowHyphen">-</seg>so</seg>
                             <seg ana="#mygħt">mygħt</seg>
                         </seg>
                     </l>
@@ -12834,7 +12791,7 @@
                         <seg type="bverse">
                             <seg ana="#ayeins">ayeins</seg>
                             <seg ana="#fyue">fyue</seg>
-                            <seg ana="#hundred">hundred</seg>
+                            <seg ana="#hunderd">hunderd</seg>
                         </seg>
                     </l>
 
@@ -12892,7 +12849,7 @@
 
                     <l xml:id="U.0743" n="HL.0783">
                         <seg type="averse">
-                            <seg ana="#was">Was</seg>
+                            <seg ana="#was">was</seg>
                             <seg ana="#none">none</seg>
                             <seg ana="#that">that</seg>
                             <seg ana="#warpen">warpen</seg>
@@ -12910,7 +12867,7 @@
 
                     <l xml:id="U.0744" n="HL.0784">
                         <seg type="averse">
-                            <seg ana="#yif">yif</seg>
+                            <seg ana="#yif">Yif</seg>
                             <seg ana="#eny">eny</seg>
                             <seg ana="#stirtes">stirtes</seg>
                             <seg ana="#on">on</seg>
@@ -13020,7 +12977,7 @@
 
                     <l xml:id="U.0750" n="HL.0790">
                         <seg type="averse">
-                            <seg ana="#wrougħt">Wrougħt</seg>
+                            <seg ana="#wrougħt">wrougħt</seg>
                             <seg ana="#had">had</seg>
                             <seg ana="#a">a</seg>
                             <seg ana="#wonder">wonder</seg>
@@ -13053,7 +13010,7 @@
 
                     <l xml:id="U.0752" n="HL.0792">
                         <seg type="averse">
-                            <seg ana="#water">Water</seg>
+                            <seg ana="#water">water</seg>
                             <seg ana="#wasshen">wasshen</seg>
                             <seg ana="#os">os</seg>
                             <seg ana="#thei">thei</seg>
@@ -13088,8 +13045,7 @@
                         <seg type="averse">
                             <seg ana="#reke">Reke</seg>
                             <seg ana="#risetħ">risetħ</seg>
-                            <seg ana="#ther">ther</seg>
-                            <seg ana="#fro">fro</seg>
+                            <seg ana="#ther-fro">ther<seg type="shadowHyphen">-</seg>fro</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -13159,7 +13115,7 @@
                             <seg ana="#loude">loude</seg>
                             <seg ana="#laught">laught</seg>
                             <seg ana="#he">he</seg>
-                            <seg ana="#ther-of">ther-of</seg>
+                            <seg ana="#ther-of">ther<seg type="shadowHyphen">-</seg>of</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -13310,7 +13266,7 @@
                         <seg type="averse">
                             <seg ana="#ayeins">Ayeins</seg>
                             <seg ana="#the">the</seg>
-                            <seg ana="#streght">streght</seg>
+                            <seg ana="#strenght">strenght</seg>
                             <seg ana="#of">of</seg>
                             <seg ana="#the">the</seg>
                             <seg ana="#stroke">stroke</seg>
@@ -13320,7 +13276,7 @@
                             <seg ana="#there">there</seg>
                             <seg ana="#the">the</seg>
                             <seg ana="#stone">stone</seg>
-                            <seg ana="#huttes">huttes</seg>
+                            <seg ana="#hittes">hittes</seg>
                         </seg>
                     </l>
 
@@ -13331,7 +13287,7 @@
                             <seg ana="#dered">dered</seg>
                             <seg ana="#nogħt">nogħt</seg>
                             <seg ana="#a">a</seg>
-                            <seg ana="#dissh">dissh</seg>
+                            <seg ana="#dissħ">dissħ</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -13372,6 +13328,7 @@
                             <seg ana="#selly">selly</seg>
                             <seg ana="#were">were</seg>
                             <seg ana="#kene">kene</seg>
+                            <seg type="punct">.</seg>
                         </seg>
                     </l>
 
@@ -13398,7 +13355,7 @@
                             <seg ana="#ałł">ałł</seg>
                             <seg ana="#thei">thei</seg>
                             <seg ana="#dasshen">dasshen</seg>
-                            <seg ana="#a-doun">a-doun</seg>
+                            <seg ana="#a-doun">a<seg type="shadowHyphen">-</seg>doun</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -13430,7 +13387,7 @@
 
                     <l xml:id="U.0774" n="HL.0814">
                         <seg type="averse">
-                            <seg ana="#witħ">Witħ</seg>
+                            <seg ana="#witħ">witħ</seg>
                             <seg ana="#brennyng">brennyng</seg>
                             <seg ana="#oyle">oyle</seg>
                             <seg ana="#men">men</seg>
@@ -13473,8 +13430,7 @@
                         <seg type="bverse">
                             <seg ana="#witħ">witħ</seg>
                             <seg ana="#an">an</seg>
-                            <seg ana="#hand">hand</seg>
-                            <seg ana="#dart">dart</seg>
+                            <seg ana="#hand">hand</seg><seg type="shadowHyphen">-</seg><seg ana="#dart">dart</seg>      
                         </seg>
                     </l>
 
@@ -13572,14 +13528,14 @@
                         <seg type="punct">/</seg>
                         <seg type="bverse">
                             <seg ana="#engines">engines</seg>
-                            <seg ana="#bydne">bydne</seg>
+                            <seg ana="#bydene">bydene</seg>
                         </seg>
                     </l>
 
                     <l xml:id="U.0783" n="HL.0824">
                         <seg type="averse">
-                            <seg ana="#were">Were</seg>
-                            <seg ana="#ybent">ybent</seg>
+                            <seg ana="#were">were</seg>
+                            <seg ana="#y-bent">y<seg type="shadowHyphen">-</seg>bent</seg>
                             <seg ana="#atte">atte</seg>
                             <seg ana="#bank">bank</seg>
                         </seg>
@@ -13639,7 +13595,7 @@
                         <seg type="bverse">
                             <seg ana="#the">the</seg>
                             <seg ana="#polel">polel</seg>
-                            <seg ana="#sortħ">sortħ</seg>
+                            <seg ana="#fortħ">fortħ</seg>
                             <seg ana="#strikes">strikes</seg>
                         </seg>
                     </l>
@@ -13647,8 +13603,7 @@
                     <l xml:id="U.0787" n="HL.0828">
                         <seg type="averse">
                             <seg ana="#that">That</seg>
-                            <seg ana="#in">in</seg>
-                            <seg ana="#to">to</seg>
+                            <seg ana="#in-to">in<seg type="shadowHyphen">-</seg>to</seg>
                             <seg ana="#the">the</seg>
                             <seg ana="#felde">felde</seg>
                             <seg ana="#flewe">flewe</seg>
@@ -13685,7 +13640,7 @@
 
                     <l xml:id="U.0789" n="HL.0830">
                         <seg type="averse">
-                            <seg ana="#witħ">Witħ</seg>
+                            <seg ana="#witħ">witħ</seg>
                             <seg ana="#a">a</seg>
                             <seg ana="#stone">stone</seg>
                             <seg ana="#out">out</seg>
@@ -13731,7 +13686,7 @@
                         <seg type="bverse">
                             <seg ana="#ouer">ouer</seg>
                             <seg ana="#the">the</seg>
-                            <seg ana="#burgħ">burgħ</seg>
+                            <seg ana="#burgh">burgh</seg>
                             <seg ana="#walles">walles</seg>
                         </seg>
                     </l>
@@ -13740,7 +13695,7 @@
                         <seg type="averse">
                             <seg ana="#beerns">Beerns</seg>
                             <seg ana="#were">were</seg>
-                            <seg ana="#y-brayned">y-brayned</seg>
+                            <seg ana="#y-brayned">y<seg type="shadowHyphen">-</seg>brayned</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -13754,7 +13709,7 @@
 
                     <l xml:id="U.0793" n="HL.0834">
                         <seg type="averse">
-                            <seg ana="#women">Women</seg>
+                            <seg ana="#women">wo<expan>m</expan>men</seg>
                             <seg ana="#wyde">wyde</seg>
                             <seg ana="#open">open</seg>
                             <seg ana="#went">went</seg>
@@ -13843,7 +13798,7 @@
 
                     <l xml:id="U.0798" n="HL.0840">
                         <seg type="averse">
-                            <seg ana="#witħ">Witħ</seg>
+                            <seg ana="#witħ">witħ</seg>
                             <seg ana="#arwes">arwes</seg>
                             <seg ana="#and">and</seg>
                             <seg ana="#arblastes">arblastes</seg>
@@ -13875,7 +13830,7 @@
                         <seg type="averse">
                             <seg ana="#driued">Driued</seg>
                             <seg ana="#dartes">dartes</seg>
-                            <seg ana="#a-doun">a-doun</seg>
+                            <seg ana="#a-doun">a<seg type="shadowHyphen">-</seg>doun</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -13907,7 +13862,7 @@
 
                     <l xml:id="U.0802" n="HL.0844">
                         <seg type="averse">
-                            <seg ana="#was">Was</seg>
+                            <seg ana="#was">was</seg>
                             <seg ana="#muche">muche</seg>
                             <seg ana="#leuer">leuer</seg>
                             <seg ana="#a">a</seg>
@@ -13916,8 +13871,7 @@
                         <seg type="punct">/</seg>
                         <seg type="bverse">
                             <seg ana="#then">then</seg>
-                            <seg ana="#any">any</seg>
-                            <seg ana="#thing">thing</seg>
+                            <seg ana="#any-thing">any<seg type="shadowHyphen">-</seg>thing</seg>
                             <seg ana="#elles">elles</seg>
                         </seg>
                     </l>
@@ -13961,7 +13915,7 @@
 
                     <l xml:id="U.0805" n="HL.0848">
                         <seg type="averse">
-                            <seg ana="#wonder">Wonder</seg>
+                            <seg ana="#wonder">wonder</seg>
                             <seg ana="#wery">wery</seg>
                             <seg ana="#of">of</seg>
                             <seg ana="#werk">werk</seg>
@@ -14006,7 +13960,7 @@
 
                     <l xml:id="U.0808" n="HL.0851">
                         <seg type="averse">
-                            <seg ana="#wassh">wassh</seg>
+                            <seg ana="#wassħ">wassħ</seg>
                             <seg ana="#her">her</seg>
                             <seg ana="#woundes">woundes</seg>
                             <seg ana="#witħ">witħ</seg>
@@ -14023,7 +13977,7 @@
 
                     <l xml:id="U.0809" n="HL.0852">
                         <seg type="averse">
-                            <seg ana="#witħ">Witħ</seg>
+                            <seg ana="#witħ">witħ</seg>
                             <seg ana="#oile">oile</seg>
                             <seg ana="#and">and</seg>
                             <seg ana="#witħ">witħ</seg>
@@ -14093,7 +14047,7 @@
                         <seg type="averse">
                             <seg ana="#and">And</seg>
                             <seg ana="#witħ">witħ</seg>
-                            <seg ana="#nakers">nakers</seg>
+                            <seg ana="#nakeris">nakeris</seg>
                             <seg ana="#noyse">noyse</seg>
                         </seg>
                         <seg type="punct">/</seg>
@@ -14237,10 +14191,10 @@
                             <seg ana="#layken">layken</seg>
                             <seg ana="#witħ">witħ</seg>
                             <seg ana="#thise">thise</seg>
+                            <seg ana="#ledes">ledes</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
-                            <seg ana="#ledes">ledes</seg>
                             <seg ana="#vs">vs</seg>
                             <seg ana="#limpetħ">limpetħ</seg>
                             <seg ana="#the">the</seg>
@@ -14324,7 +14278,7 @@
                             <seg type="punct">
                                 <hi rend="rb">¶</hi>
                             </seg>
-                            <seg ana="#when">When</seg>
+                            <seg ana="#when">when</seg>
                             <seg ana="#we">we</seg>
                             <seg ana="#shal">shal</seg>
                             <seg ana="#houen">houen</seg>
@@ -14354,8 +14308,7 @@
                         <seg type="bverse">
                             <seg ana="#lighten">lighten</seg>
                             <seg ana="#on">on</seg>
-                            <seg ana="#ouer">ouer</seg>
-                            <seg ana="#seluen">seluen</seg>
+                            <seg ana="#oure-seluen">oure<seg type="shadowHyphen">-</seg>seluen</seg>
                         </seg>
                     </l>
 
@@ -14379,7 +14332,7 @@
 
                     <l xml:id="U.0829" n="HL.0878">
                         <seg type="averse">
-                            <seg ana="#wolde">Wolde</seg>
+                            <seg ana="#wolde">wolde</seg>
                             <seg ana="#ye">ye</seg>
                             <seg ana="#stynt">stynt</seg>
                             <seg ana="#of">of</seg>
@@ -14392,17 +14345,16 @@
                             <seg ana="#thei">thei</seg>
                             <seg ana="#her">her</seg>
                             <seg ana="#vitailes">vitailes</seg>
-                            <seg ana="#spendes">spendes</seg>
+                            <seg ana="#spende">spende</seg>
                         </seg>
                     </l>
 
                     <l xml:id="U.0830" n="HL.0880">
                         <seg type="averse">
-                            <seg ana="#with">With</seg>
-                            <seg ana="#outen">outen</seg>
+                            <seg ana="#with-outen">with<seg type="shadowHyphen">-</seg>outen</seg>
                             <seg ana="#wounde">wounde</seg>
                             <seg ana="#or">or</seg>
-                            <seg ana="#wek">wek</seg>
+                            <seg ana="#werk">werk</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -14526,7 +14478,7 @@
 
                     <l xml:id="U.0837" n="HL.0888">
                         <seg type="averse">
-                            <seg ana="#witħ">Witħ</seg>
+                            <seg ana="#witħ">witħ</seg>
                             <seg ana="#watches">watches</seg>
                             <seg ana="#and">and</seg>
                             <seg ana="#wyles">wyles</seg>
@@ -14563,7 +14515,7 @@
                             <seg ana="#se">se</seg>
                             <seg ana="#the">the</seg>
                             <seg ana="#ratches">ratches</seg>
-                            <seg ana="#y-renne">y-renne</seg>
+                            <seg ana="#y-renne">y<seg type="shadowHyphen">-</seg>renne</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -14616,8 +14568,7 @@
                             <seg ana="#a">a</seg>
                             <seg ana="#segge">segge</seg>
                             <seg ana="#by">by</seg>
-                            <seg ana="#hym">hym</seg>
-                            <seg ana="#self">self</seg>
+                            <seg ana="#him-self">him<seg type="shadowHyphen">-</seg>self</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -14685,9 +14636,9 @@
                     
                     <l xml:id="U.0846" n="HL.0897">
                         <seg type="averse">
-                            <seg ana="#in"><hi rend="o7"><hi rend="bl">I</hi></hi>n</seg>
+                            <seg ana="#in"><hi rend="o7"><hi rend="bl">I</hi></hi>N</seg>
                             <seg ana="#rome">Rome</seg>
-                            <seg ana="#hath">hath</seg>
+                            <seg ana="#hatħ">hatħ</seg>
                             <seg ana="#nero">Nero</seg>
                             <seg ana="#by">by</seg>
                             <seg ana="#nowe">nowe</seg>
@@ -14705,7 +14656,7 @@
                             <seg ana="#to">To</seg>
                             <seg ana="#detħ">detħ</seg>
                             <seg ana="#pyned">pyned</seg>
-                            <seg ana="#to">to</seg>
+                            <seg ana="#the">the</seg>
                             <seg ana="#pope">pope</seg>
                         </seg>
                         <seg type="punct">/</seg>
@@ -14728,8 +14679,7 @@
                             <seg ana="#and">and</seg>
                             <seg ana="#poule">poule</seg>
                             <seg ana="#yit">yit</seg>
-                            <seg ana="#ther">ther</seg>
-                            <seg ana="#to">to</seg>
+                            <seg ana="#ther-to">ther<seg type="shadowHyphen">-</seg>to</seg>
                         </seg>
                     </l>
 
@@ -14760,16 +14710,16 @@
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
-                            <seg ana="#y-murdred">y-murdred</seg>
+                            <seg ana="#y-murdred">y<seg type="shadowHyphen">-</seg>murdred</seg>
                             <seg ana="#to">to</seg>
-                            <seg ana="#deth">deth</seg>
+                            <seg ana="#detħ">detħ</seg>
                         </seg>
                     </l>
 
                     <l xml:id="U.0851" n="HL.0902">
                         <seg type="averse">
                             <seg ana="#and">And</seg>
-                            <seg ana="#cumbred">cumbred</seg>
+                            <seg ana="#cumberd">cumberd</seg>
                             <seg ana="#cristen">cristen</seg>
                             <seg ana="#fele">fele</seg>
                         </seg>
@@ -14826,6 +14776,7 @@
                             <seg ana="#the">the</seg>
                             <seg ana="#paleis">paleis</seg>
                         </seg>
+                        <seg type="punct">/</seg>
                         <seg type="bverse">
                             <seg ana="#porail">porail</seg>
                             <seg ana="#and">and</seg>
@@ -14846,7 +14797,7 @@
                             <seg ana="#and">and</seg>
                             <seg ana="#ałł">ałł</seg>
                             <seg ana="#his">his</seg>
-                            <seg ana="#burgh">burgh</seg>
+                            <seg ana="#burgħ">burgħ</seg>
                             <seg ana="#riche">riche</seg>
                         </seg>
                     </l>
@@ -14922,7 +14873,7 @@
 
                     <l xml:id="U.0860" n="HL.0911">
                         <seg type="averse">
-                            <seg ana="#witħ">Witħ</seg>
+                            <seg ana="#witħ">witħ</seg>
                             <seg ana="#him">him</seg>
                             <seg ana="#a">a</seg>
                             <seg ana="#tronchon">tronchon</seg>
@@ -14965,7 +14916,7 @@
                             <seg ana="#trunchon">trunchon</seg>
                             <seg ana="#witħ">witħ</seg>
                             <seg ana="#his">his</seg>
-                            <seg ana="#teeth">teeth</seg>
+                            <seg ana="#teetħ">teetħ</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -15059,8 +15010,7 @@
 
                     <l xml:id="U.0868" n="HL.0919">
                         <seg type="averse">
-                            <seg ana="#him">him</seg>
-                            <seg ana="#self">self</seg>
+                            <seg ana="#him-self">him<seg type="shadowHyphen">-</seg>self</seg>
                             <seg ana="#he">he</seg>
                             <seg ana="#stryke">stryke</seg>
                             <seg ana="#witħ">witħ</seg>
@@ -15135,7 +15085,7 @@
                             <seg ana="#myle">myle</seg>
                             <seg ana="#out">out</seg>
                             <seg ana="#of">of</seg>
-                            <seg ana="#rome">ROme</seg>
+                            <seg ana="#rome">Rome</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -15167,15 +15117,14 @@
                         <seg type="averse">
                             <seg ana="#the">The</seg>
                             <seg ana="#grete">grete</seg>
-                            <seg ana="#to">to</seg>
-                            <seg ana="#geder">geder</seg>
+                            <seg ana="#to-geder">to<seg type="shadowHyphen">-</seg>geder</seg>
                             <seg ana="#gan">gan</seg>
                             <seg ana="#gone">gone</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
                             <seg ana="#to">to</seg>
-                            <seg ana="#getne">getne</seg>
+                            <seg ana="#getne">geten</seg>
                             <seg ana="#hem">hem</seg>
                             <seg ana="#an">an</seg>
                             <seg ana="#other">other</seg>
@@ -15238,8 +15187,7 @@
                             <seg type="punct">
                                 <hi rend="rb">¶</hi>
                             </seg>
-                            <seg ana="#a">A</seg>
-                            <seg ana="#myddes">myddes</seg>
+                            <seg ana="#a">A-myddes<seg type="shadowHyphen">-</seg>myddes</seg>
                             <seg ana="#the">the</seg>
                             <seg ana="#market">market</seg>
                             <seg ana="#of">of</seg>
@@ -15249,8 +15197,7 @@
                         <seg type="bverse">
                             <seg ana="#thei">thei</seg>
                             <seg ana="#metten">metten</seg>
-                            <seg ana="#to">to</seg>
-                            <seg ana="#gedir">gedir</seg>
+                            <seg ana="#to-gedir">to<seg type="shadowHyphen">-</seg>gedir</seg>
                         </seg>
                     </l>
 
@@ -15307,7 +15254,7 @@
 
                     <l xml:id="U.0882" n="HL.0933">
                         <seg type="averse">
-                            <seg ana="#when">When</seg>
+                            <seg ana="#when">when</seg>
                             <seg ana="#that">that</seg>
                             <seg ana="#gabba">Gabba</seg>
                             <seg ana="#was">was</seg>
@@ -15367,8 +15314,7 @@
                         <seg type="punct">/</seg>
                         <seg type="bverse">
                             <seg ana="#and">and</seg>
-                            <seg ana="#him">him</seg>
-                            <seg ana="#self">self</seg>
+                            <seg ana="#him-self">him<seg type="shadowHyphen">-</seg>self</seg>
                             <seg ana="#quelled">quelled</seg>
                         </seg>
                     </l>
@@ -15405,7 +15351,7 @@
                         <seg type="bverse">
                             <seg ana="#and">and</seg>
                             <seg ana="#the">the</seg>
-                            <seg ana="#qewne">qewne</seg>
+                            <seg ana="#crowne">crowne</seg>
                             <seg ana="#raught">raught</seg>
                         </seg>
                     </l>
@@ -15573,8 +15519,6 @@
                         <seg type="bverse">
                             <seg ana="#and">and</seg>
                             <seg ana="#casten">casten</seg>
-                            <seg ana="#in">in</seg>
-                            <seg ana="#to">to</seg>
                             <seg ana="#tyber">tyber</seg>
                         </seg>
                     </l>
@@ -15627,8 +15571,7 @@
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
-                            <seg ana="#to">to</seg>
-                            <seg ana="#gedir">gedir</seg>
+                            <seg ana="#to-gedir">to<seg type="shadowHyphen">-</seg>gedir</seg>
                             <seg ana="#gun">gun</seg>
                             <seg ana="#gone">gone</seg>
                         </seg>
@@ -15679,7 +15622,7 @@
                             <seg ana="#the">the</seg>
                             <seg ana="#sege">sege</seg>
                             <seg ana="#in">in</seg>
-                            <seg ana="#surre">surr<expan>e</expan></seg>
+                            <seg ana="#surre">Surr<expan>e</expan></seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -15754,7 +15697,7 @@
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
-                            <seg ana="#with">with</seg>
+                            <seg ana="#witħ">witħ</seg>
                             <seg ana="#renkes">renkes</seg>
                             <seg ana="#was">was</seg>
                             <seg ana="#sette">sette</seg>
@@ -15777,8 +15720,8 @@
 
                     <l xml:id="U.0909" n="HL.0959">
                         <seg type="averse">
-                            <seg ana="#with">With</seg>
-                            <seg ana="#brunies">brunies</seg>
+                            <seg ana="#with">with</seg>
+                            <seg ana="#brinies">brinies</seg>
                             <seg ana="#and">and</seg>
                             <seg ana="#brightwede">brightwede</seg>
                         </seg>
@@ -15792,7 +15735,7 @@
 
                     <l xml:id="U.0910" n="HL.0960">
                         <seg type="averse">
-                            <seg ana="#louten">louten</seg>
+                            <seg ana="#louten">Louten</seg>
                             <seg ana="#alle">alle</seg>
                             <seg ana="#to">to</seg>
                             <seg ana="#the">the</seg>
@@ -15827,7 +15770,7 @@
 
                     <l xml:id="U.0912" n="HL.0962">
                         <seg type="averse">
-                            <seg ana="#with">With</seg>
+                            <seg ana="#witħ">witħ</seg>
                             <seg ana="#the">the</seg>
                             <seg ana="#senatours">senatours</seg>
                             <seg ana="#assent">assent</seg>
@@ -15945,7 +15888,7 @@
                     <milestone n="201v" unit="fol." entity="U201v"/>
                     <l xml:id="U.0919" n="HL.0969">
                         <seg type="averse">
-                            <seg ana="#þe">þe</seg>
+                            <seg ana="#ye">Ye</seg>
                             <seg ana="#bene">bene</seg>
                             <seg ana="#beerns">beerns</seg>
                             <seg ana="#of">of</seg>
@@ -15969,8 +15912,7 @@
                             <seg ana="#is">is</seg>
                             <seg ana="#next">next</seg>
                             <seg ana="#to">to</seg>
-                            <seg ana="#my">my</seg>
-                            <seg ana="#self">self</seg>
+                            <seg ana="#my-self">my<seg type="shadowHyphen">-</seg>self</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -15984,9 +15926,9 @@
                     <l xml:id="U.0921" n="HL.0971">
                         <seg type="averse">
                             <seg ana="#sire">Sire</seg>
-                            <seg ana="#sabyn">sabyn</seg>
+                            <seg ana="#sabyn">Sabyn</seg>
                             <seg ana="#of">of</seg>
-                            <seg ana="#surre">surr<expan>e</expan></seg>
+                            <seg ana="#surre">Surr<expan>e</expan></seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -16026,7 +15968,7 @@
                             <seg ana="#me">me</seg>
                             <seg ana="#bodeword">bodeword</seg>
                             <seg ana="#of">of</seg>
-                            <seg ana="#blisee">blisee</seg>
+                            <seg ana="#blisse">blisse</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -16077,8 +16019,7 @@
                             <seg ana="#myght">myght</seg>
                             <seg ana="#i">I</seg>
                             <seg ana="#sauen">sauen</seg>
-                            <seg ana="#my">my</seg>
-                            <seg ana="#self">self</seg>
+                            <seg ana="#my">my-self<seg type="shadowHyphen">-</seg>self</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -16101,8 +16042,7 @@
                         <seg type="punct">/</seg>
                         <seg type="bverse">
                             <seg ana="#here">here</seg>
-                            <seg ana="#for">for</seg>
-                            <seg ana="#to">to</seg>
+                            <seg ana="#for-to">for<seg type="shadowHyphen">-</seg>to</seg>
                             <seg ana="#lenge">lenge</seg>
                         </seg>
                     </l>
@@ -16237,7 +16177,7 @@
                     <l xml:id="U.0935" n="HL.984.1">
                         <seg type="averse">
                             <seg ana="#the">The</seg>
-                            <seg ana="#knyght">knyght</seg>
+                            <seg ana="#knygħt">knygħt</seg>
                             <seg ana="#kneled">kneled</seg>
                             <seg ana="#onone">onone</seg>
                         </seg>
@@ -16253,7 +16193,7 @@
 
                     <l xml:id="U.0936" n="HL.0986">
                         <seg type="averse">
-                            <seg ana="#we">We</seg>
+                            <seg ana="#we">we</seg>
                             <seg ana="#ben">ben</seg>
                             <seg ana="#wyes">wyes</seg>
                             <seg ana="#the">the</seg>
@@ -16261,7 +16201,7 @@
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
-                            <seg ana="#this">this</seg>
+                            <seg ana="#thi">thi</seg>
                             <seg ana="#worship">worship</seg>
                             <seg ana="#to">to</seg>
                             <seg ana="#folwen">folwen</seg>
@@ -16273,8 +16213,7 @@
                             <seg ana="#of">Of</seg>
                             <seg ana="#longe">longe</seg>
                             <seg ana="#tyme">tyme</seg>
-                            <seg ana="#be">be</seg>
-                            <seg ana="#laste">laste</seg>
+                            <seg ana="#be-lafte">be<seg type="shadowHyphen">-</seg>lafte</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -16317,12 +16256,10 @@
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
-                            <seg ana="#who">who</seg>
-                            <seg ana="#so">so</seg>
+                            <seg ana="#who-so">who<seg type="shadowHyphen">-</seg>so</seg>
                             <seg ana="#dotħ">dotħ</seg>
                             <seg ana="#by">by</seg>
-                            <seg ana="#a">a</seg>
-                            <seg ana="#nother">nother</seg>
+                            <seg ana="#a-nother">a<seg type="shadowHyphen">-</seg>nother</seg>
                         </seg>
                     </l>
 
@@ -16331,8 +16268,7 @@
                             <seg ana="#shal">Shal</seg>
                             <seg ana="#be">be</seg>
                             <seg ana="#souereyn">sou<expan>er</expan>eyn</seg>
-                            <seg ana="#him">him</seg>
-                            <seg ana="#self">self</seg>
+                            <seg ana="#him-self">him<seg type="shadowHyphen">-</seg>self</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -16390,8 +16326,7 @@
                         <seg type="bverse">
                             <seg ana="#witħ">witħ</seg>
                             <seg ana="#hem">hem</seg>
-                            <seg ana="#for">for</seg>
-                            <seg ana="#to">to</seg>
+                            <seg ana="#for-to">for<seg type="shadowHyphen">-</seg>to</seg>
                             <seg ana="#lenge">lenge</seg>
                         </seg>
                     </l>
@@ -16476,8 +16411,7 @@
 
                     <l xml:id="U.0948" n="HL.1000">
                         <seg type="averse">
-                            <seg ana="#thi">Thi</seg>
-                            <seg ana="#self">self</seg>
+                            <seg ana="#thi-self">Thi<seg type="shadowHyphen">-</seg>self</seg>
                             <seg ana="#dos">dos</seg>
                             <seg ana="#that">that</seg>
                             <seg ana="#thine">thine</seg>
@@ -16515,7 +16449,7 @@
                             <seg ana="#to">To</seg>
                             <seg ana="#titus">Titus</seg>
                             <seg ana="#onone">onone</seg>
-                            <seg ana="#tournes">t<expan>our</expan>nes</seg>
+                            <seg ana="#turnes">t<expan>ur</expan>nes</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -16547,7 +16481,7 @@
 
                     <l xml:id="U.0952" n="HL.1004">
                         <seg type="averse">
-                            <seg ana="#with">with</seg>
+                            <seg ana="#witħ">witħ</seg>
                             <seg ana="#his">his</seg>
                             <seg ana="#brother">brother</seg>
                             <seg ana="#and">and</seg>
@@ -16557,7 +16491,7 @@
                         <seg type="bverse">
                             <seg ana="#that">that</seg>
                             <seg ana="#him">him</seg>
-                            <seg ana="#blisee">blisee</seg>
+                            <seg ana="#blisse">blisse</seg>
                             <seg ana="#wolden">wolden</seg>
                         </seg>
                     </l>
@@ -16834,8 +16768,7 @@
                     <l xml:id="U.0968" n="HL.1020">
                         <seg type="averse">
                             <seg ana="#but">But</seg>
-                            <seg ana="#ouer">ouer</seg>
-                            <seg ana="#tourned">t<expan>our</expan>ned</seg>
+                            <seg ana="#ouer-turned">ouer<seg type="shadowHyphen">-</seg>t<expan>ur</expan>ned</seg>
                             <seg ana="#and">and</seg>
                             <seg ana="#tilt">tilt</seg>
                         </seg>
@@ -16893,8 +16826,7 @@
                         <seg type="bverse">
                             <seg ana="#hem">hem</seg>
                             <seg ana="#grace">grace</seg>
-                            <seg ana="#for">for</seg>
-                            <seg ana="#to">to</seg>
+                            <seg ana="#for-to">for<seg type="shadowHyphen">-</seg>to</seg>
                             <seg ana="#sende">sende</seg>
                         </seg>
                     </l>
@@ -16940,8 +16872,7 @@
                         <seg type="averse">
                             <seg ana="#euen">Euen</seg>
                             <seg ana="#enterd">enterd</seg>
-                            <seg ana="#in">in</seg>
-                            <seg ana="#to">to</seg>
+                            <seg ana="#in-to">in<seg type="shadowHyphen">-</seg>to</seg>
                             <seg ana="#rome">Rome</seg>
                         </seg>
                         <seg type="punct">/</seg>
@@ -17087,6 +17018,7 @@
                             <seg ana="#a">a</seg>
                             <seg ana="#segge">segge</seg>
                             <seg ana="#wept">wept</seg>
+                            <seg type="punct">/</seg>
                         </seg>
                     </l>
                     <milestone n="202v" unit="fol." entity="U202v"/>
@@ -17126,7 +17058,7 @@
 
                     <l xml:id="U.0985" n="HL.1037">
                         <seg type="averse">
-                            <seg ana="#when">When</seg>
+                            <seg ana="#when">when</seg>
                             <seg ana="#thei">thei</seg>
                             <seg ana="#the">the</seg>
                             <seg ana="#cite">cite</seg>
@@ -17163,14 +17095,13 @@
                     <l xml:id="U.0987" n="HL.1039">
                         <seg type="averse">
                             <seg ana="#saue">Saue</seg>
-                            <seg ana="#him">him</seg>
-                            <seg ana="#self">self</seg>
+                            <seg ana="#him-self">him<seg type="shadowHyphen">-</seg>self</seg>
                             <seg ana="#iosephus">Iosephus</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
                             <seg ana="#that">that</seg>
-                            <seg ana="#surgen">surgen</seg>
+                            <seg ana="#surgien">surgien</seg>
                             <seg ana="#is">is</seg>
                             <seg ana="#noble">noble</seg>
                         </seg>
@@ -17188,8 +17119,7 @@
                         <seg type="bverse">
                             <seg ana="#the">the</seg>
                             <seg ana="#gome">gome</seg>
-                            <seg ana="#for">for</seg>
-                            <seg ana="#to">to</seg>
+                            <seg ana="#for-to">for<seg type="shadowHyphen">-</seg>to</seg>
                             <seg ana="#hele">hele</seg>
                         </seg>
                     </l>
@@ -17257,7 +17187,9 @@
                             <seg ana="#of">of</seg>
                             <seg ana="#the">the</seg>
                             <seg ana="#burgħ">burgħ</seg>
-                        </seg> ; <seg type="bverse">
+                        </seg> 
+                        <seg type="punct">/</seg>
+                        <seg type="bverse">
                             <seg ana="#that">that</seg>
                             <seg ana="#he">he</seg>
                             <seg ana="#bringe">bringe</seg>
@@ -17270,8 +17202,7 @@
                             <seg ana="#kyng">kyng</seg>
                             <seg ana="#is">is</seg>
                             <seg ana="#glad">glad</seg>
-                            <seg ana="#for">for</seg>
-                            <seg ana="#to">to</seg>
+                            <seg ana="#for-to">for<seg type="shadowHyphen">-</seg>to</seg>
                             <seg ana="#graunt">graunt</seg>
                         </seg>
                         <seg type="punct">/</seg>
@@ -17601,7 +17532,7 @@
                     <l xml:id="U.1012" n="HL.1064">
                         <seg type="averse">
                             <seg ana="#besantes">Besantes</seg>
-                            <seg ana="#hyes">hyes</seg>
+                            <seg ana="#byes">byes</seg>
                             <seg ana="#of">of</seg>
                             <seg ana="#gold">gold</seg>
                         </seg>
@@ -17701,8 +17632,7 @@
                         <seg type="bverse">
                             <seg ana="#is">is</seg>
                             <seg ana="#tyme">tyme</seg>
-                            <seg ana="#for">for</seg>
-                            <seg ana="#to">to</seg>
+                            <seg ana="#for-to">for<seg type="shadowHyphen">-</seg>to</seg>
                             <seg ana="#telle">telle</seg>
                         </seg>
                     </l>
@@ -17772,16 +17702,14 @@
                             <seg ana="#but">but</seg>
                             <seg ana="#wepyng">wepyng</seg>
                             <seg ana="#of">of</seg>
-                            <seg ana="#hem">hem</seg>
-                            <seg ana="#self">self</seg>
+                            <seg ana="#hem-self">hem<seg type="shadowHyphen">-</seg>self</seg>
                         </seg>
                     </l>
 
                     <l xml:id="U.1022" n="HL.1075">
                         <seg type="averse">
                             <seg ana="#olde">Olde</seg>
-                            <seg ana="#shepe">shepe</seg>
-                            <seg ana="#fete">fete</seg>
+                            <seg ana="#shepefete">shepefete</seg>
                             <seg ana="#hornes">hornes</seg>
                             <seg ana="#and">and</seg>
                             <seg ana="#shone">shone</seg>
@@ -17867,7 +17795,7 @@
                                 <hi rend="rb">¶</hi>
                             </seg>
                             <seg ana="#one">One</seg>
-                            <seg ana="#marion">marion</seg>
+                            <seg ana="#marion">Marion</seg>
                             <seg ana="#a">a</seg>
                             <seg ana="#mylde">mylde</seg>
                             <seg ana="#wyf">wyf</seg>
@@ -17949,8 +17877,7 @@
 
                     <l xml:id="U.1032" n="HL.1086">
                         <seg type="averse">
-                            <seg ana="#with">with</seg>
-                            <seg ana="#inne">inne</seg>
+                            <seg ana="#with-inne">with<seg type="shadowHyphen">-</seg>inne</seg>
                             <seg ana="#hunger">hunger</seg>
                             <seg ana="#so">so</seg>
                             <seg ana="#hote">hote</seg>
@@ -18029,6 +17956,7 @@
                             <seg ana="#fastyng">fastyng</seg>
                             <seg ana="#folk">folk</seg>
                         </seg>
+                        <seg type="punct">/</seg>
                         <seg type="bverse">
                             <seg ana="#feled">feled</seg>
                             <seg ana="#it">it</seg>
@@ -18106,7 +18034,7 @@
 
                     <l xml:id="U.1041" n="HL.1095">
                         <seg type="averse">
-                            <seg ana="#yit">Yit</seg>
+                            <seg ana="#yit">yit</seg>
                             <seg ana="#haue">haue</seg>
                             <seg ana="#i">I</seg>
                             <seg ana="#saued">saued</seg>
@@ -18250,7 +18178,7 @@
 
                     <l xml:id="U.1049" n="HL.1103">
                         <seg type="averse">
-                            <seg ana="#women">women</seg>
+                            <seg ana="#wommen">wo<expan>m</expan>men</seg>
                             <seg ana="#and">and</seg>
                             <seg ana="#wayker">wayker</seg>
                             <seg ana="#folke">folke</seg>
@@ -18546,14 +18474,13 @@
                         <seg type="averse">
                             <seg ana="#and">And</seg>
                             <seg ana="#titus">Titus</seg>
-                            <seg ana="#tournes">t<expan>our</expan>nes</seg>
+                            <seg ana="#turnes">t<expan>ur</expan>nes</seg>
                             <seg ana="#him">him</seg>
                             <seg ana="#to">to</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
-                            <seg ana="#with">with</seg>
-                            <seg ana="#oute">oute</seg>
+                            <seg ana="#with-oute">with<seg type="shadowHyphen">-</seg>oute</seg>
                             <seg ana="#tale">tale</seg>
                             <seg ana="#more">more</seg>
                         </seg>
@@ -18627,8 +18554,7 @@
                     <l xml:id="U.1071" n="HL.1125">
                         <seg type="averse">
                             <seg ana="#hewen">hewen</seg>
-                            <seg ana="#vp">vp</seg>
-                            <seg ana="#on">on</seg>
+                            <seg ana="#vp-on">vp<seg type="shadowHyphen">-</seg>on</seg>
                             <seg ana="#hard">hard</seg>
                             <seg ana="#stele">stele</seg>
                         </seg>
@@ -18827,14 +18753,13 @@
                         <seg type="bverse">
                             <seg ana="#that">that</seg>
                             <seg ana="#weren">weren</seg>
-                            <seg ana="#with">with</seg>
-                            <seg ana="#inne">inne</seg>
+                            <seg ana="#with">with<seg type="shadowHyphen">-</seg>inne</seg>
                         </seg>
                     </l>
 
                     <l xml:id="U.1083" n="HL.1137">
                         <seg type="averse">
-                            <seg type="punct">¶</seg>
+                            <seg type="punct">¶<note>From here to the end of the manuscript, two slashes in the margin indicate that there is to be a paraph, but they have not been realized; these have been transcribed with the ¶ symbol, but they remain uncolored in the display. On these same folios (i.e., 204r and following), each initial has been touched in white or yellow, now barely visible to the naked eye, but clear under ultraviolet light</note></seg>
                             <seg ana="#but">But</seg>
                             <seg ana="#iosephus">Iosephus</seg>
                             <seg ana="#the">the</seg>
@@ -18953,7 +18878,7 @@
                     <l xml:id="U.1090" n="HL.1144">
                         <seg type="averse">
                             <seg ana="#princes">Princes</seg>
-                            <seg ana="#profred">p<expan>ro</expan>fred</seg>
+                            <seg ana="#proferd">p<expan>ro</expan>ferd</seg>
                             <seg ana="#in">in</seg>
                             <seg ana="#the">the</seg>
                             <seg ana="#toun">toun</seg>
@@ -19029,10 +18954,10 @@
                             <seg ana="#and">and</seg>
                             <seg ana="#feyned">feyned</seg>
                             <seg ana="#doun">doun</seg>
-                            <seg ana="#alle">alle</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
+                            <seg ana="#alle">alle</seg>
                             <seg ana="#that">that</seg>
                             <seg ana="#so">so</seg>
                             <seg ana="#faire">faire</seg>
@@ -19052,7 +18977,7 @@
                             <seg ana="#and">and</seg>
                             <seg ana="#summe">su<expan>m</expan>me</seg>
                             <seg ana="#waxen">waxen</seg>
-                            <seg ana="#worhte">worhte</seg>
+                            <seg ana="#worthe">worthe</seg>
                         </seg>
                     </l>
 
@@ -19187,8 +19112,7 @@
                             <seg ana="#in">In</seg>
                             <seg ana="#sauyng">sauyng</seg>
                             <seg ana="#of">of</seg>
-                            <seg ana="#him">him</seg>
-                            <seg ana="#self">self</seg>
+                            <seg ana="#him">him-self<seg type="shadowHyphen">-</seg>self</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -19202,10 +19126,12 @@
                     <l xml:id="U.1104" n="HL.1159"><seg type="averse">
                             <seg type="punct">¶</seg>
                             <seg ana="#but">But</seg>
-                            <seg ana="#iospehus">Iospehus</seg>
+                            <seg ana="#iosephus">Iosephus</seg>
                             <seg ana="#forsoke">forsoke</seg>
                             <seg ana="#tho">tho</seg>
-                        </seg> ; <seg type="bverse">
+                        </seg> 
+                        <seg type="punct">/</seg>
+                        <seg type="bverse">
                             <seg ana="#so">so</seg>
                             <seg ana="#forto">forto</seg>
                             <seg ana="#worche">worche</seg>
@@ -19386,8 +19312,7 @@
 
                     <l xml:id="U.1115" n="HL.1170">
                         <seg type="averse">
-                            <seg ana="#witħ">witħ</seg>
-                            <seg ana="#outen">outen</seg>
+                            <seg ana="#witħ-outen">witħ<seg type="shadowHyphen">-</seg>outen</seg>
                             <seg ana="#leue">leue</seg>
                             <seg ana="#of">of</seg>
                             <seg ana="#the">the</seg>
@@ -19596,7 +19521,7 @@
                         <seg type="averse">
                             <seg ana="#and">And</seg>
                             <seg ana="#euen">euen</seg>
-                            <seg ana="#tourned">t<expan>our</expan>ned</seg>
+                            <seg ana="#turned">t<expan>ur</expan>ned</seg>
                             <seg ana="#to">to</seg>
                             <seg ana="#the">the</seg>
                             <seg ana="#toun">toun</seg>
@@ -19656,8 +19581,7 @@
                         <seg type="bverse">
                             <seg ana="#drewe">drewe</seg>
                             <seg ana="#to">to</seg>
-                            <seg ana="#an">an</seg>
-                            <seg ana="#other">other</seg>
+                            <seg ana="#an-other">an<seg type="shadowHyphen">-</seg>other</seg>
                         </seg>
                     </l>
 
@@ -19753,7 +19677,6 @@
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
-                            <seg type="punct">/</seg>
                             <seg ana="#and">and</seg>
                             <seg ana="#catching">catching</seg>
                             <seg ana="#of">of</seg>
@@ -19782,7 +19705,7 @@
                     <l xml:id="U.1138" n="HL.1197">
                         <seg type="averse">
                             <seg ana="#sire">Sire</seg>
-                            <seg ana="#sabyn">sabyn</seg>
+                            <seg ana="#sabyn">Sabyn</seg>
                             <seg ana="#of">of</seg>
                             <seg ana="#surre">Surr<expan>e</expan></seg>
                         </seg>
@@ -19797,7 +19720,7 @@
 
                     <l xml:id="U.1139" n="HL.1198">
                         <seg type="averse">
-                            <seg ana="#laid">laid</seg>
+                            <seg ana="#laid">Laid</seg>
                             <seg ana="#a">a</seg>
                             <seg ana="#ledder">ledder</seg>
                             <seg ana="#to">to</seg>
@@ -19813,14 +19736,14 @@
                         </seg>
                     </l>
                     <milestone n="205r" unit="fol." entity="U205r"/>
+                    
                     <l xml:id="U.1140" n="HL.1199">
                         <seg type="averse">
                             <seg type="punct">¶</seg>
-                            <seg ana="#he">he</seg>
+                            <seg ana="#he">He</seg>
                             <seg ana="#wynnes">wynnes</seg>
                             <seg ana="#wightly">wightly</seg>
-                            <seg ana="#there">there</seg>
-                            <seg ana="#on">on</seg>
+                            <seg ana="#there-on">there<seg type="shadowHyphen">-</seg>on</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -19860,8 +19783,7 @@
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
-                            <seg ana="#him">him</seg>
-                            <seg ana="#seluen">seluen</seg>
+                            <seg ana="#him">him<seg type="shadowHyphen">-</seg>seluen</seg>
                             <seg ana="#allone">allone</seg>
                         </seg>
                     </l>
@@ -19902,7 +19824,7 @@
                     <l xml:id="U.1145" n="HL.1204">
                         <seg type="averse">
                             <seg ana="#and">And</seg>
-                            <seg ana="#sabyn">sabyn</seg>
+                            <seg ana="#sabyn">Sabyn</seg>
                             <seg ana="#ded">ded</seg>
                             <seg ana="#of">of</seg>
                             <seg ana="#that">that</seg>
@@ -19910,8 +19832,7 @@
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
-                            <seg ana="#in">in</seg>
-                            <seg ana="#to">to</seg>
+                            <seg ana="#in-to">in<seg type="shadowHyphen">-</seg>to</seg>
                             <seg ana="#the">the</seg>
                             <seg ana="#dyche">dyche</seg>
                             <seg ana="#falles">falles</seg>
@@ -20006,7 +19927,7 @@
 
                     <l xml:id="U.1151" n="HL.1210">
                         <seg type="averse">
-                            <seg ana="#wele">Wele</seg>
+                            <seg ana="#wele">wele</seg>
                             <seg ana="#ywrought">ywrought</seg>
                             <seg ana="#for">for</seg>
                             <seg ana="#the">the</seg>
@@ -20017,7 +19938,7 @@
                             <seg ana="#and">and</seg>
                             <seg ana="#to">to</seg>
                             <seg ana="#the">the</seg>
-                            <seg ana="#wals">wals</seg>
+                            <seg ana="#wal">wal</seg>
                             <seg ana="#dryues">dryues</seg>
                         </seg>
                     </l>
@@ -20069,7 +19990,7 @@
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
-                            <seg ana="#nad">nad</seg>
+                            <seg ana="#and">and</seg>
                             <seg ana="#heuen">heuen</seg>
                             <seg ana="#kyng">kyng</seg>
                             <seg ana="#thankes">thankes</seg>
@@ -20080,7 +20001,7 @@
                         <seg type="averse">
                             <seg ana="#that">That</seg>
                             <seg ana="#sire">sire</seg>
-                            <seg ana="#sabyns">sabyns</seg>
+                            <seg ana="#sabyns">Sabyns</seg>
                             <seg ana="#detħ">detħ</seg>
                         </seg>
                         <seg type="punct">/</seg>
@@ -20139,8 +20060,7 @@
                         <seg type="bverse">
                             <seg ana="#take">take</seg>
                             <seg ana="#hem">hem</seg>
-                            <seg ana="#youre">youre</seg>
-                            <seg ana="#self">self</seg>
+                            <seg ana="#youre-self">youre<seg type="shadowHyphen">-</seg>self</seg>
                         </seg>
                     </l>
 
@@ -20165,7 +20085,7 @@
 
                     <l xml:id="U.1160" n="HL.1219">
                         <seg type="averse">
-                            <seg ana="#we">We</seg>
+                            <seg ana="#we">we</seg>
                             <seg ana="#haue">haue</seg>
                             <seg ana="#geten">geten</seg>
                             <seg ana="#vs">vs</seg>
@@ -20236,7 +20156,7 @@
                         <seg type="averse">
                             <seg ana="#a">A</seg>
                             <seg ana="#bright">bright</seg>
-                            <seg ana="#brynyng">brynyng</seg>
+                            <seg ana="#birnyng">birnyng</seg>
                             <seg ana="#swerd">swerd</seg>
                         </seg>
                         <seg type="punct">/</seg>
@@ -20250,8 +20170,7 @@
 
                     <l xml:id="U.1165" n="HL.1224">
                         <seg type="averse">
-                            <seg ana="#witħ">witħ</seg>
-                            <seg ana="#outen">outen</seg>
+                            <seg ana="#witħ-outen">witħ<seg type="shadowHyphen">-</seg>outen</seg>
                             <seg ana="#holde">holde</seg>
                             <seg ana="#or">or</seg>
                             <seg ana="#helpe">helpe</seg>
@@ -20308,7 +20227,7 @@
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
-                            <seg ana="#clued">clued</seg>
+                            <seg ana="#calued">calued</seg>
                             <seg ana="#in">in</seg>
                             <seg ana="#the">the</seg>
                             <seg ana="#temple">temple</seg>
@@ -20355,7 +20274,9 @@
                             <seg ana="#and">And</seg>
                             <seg ana="#said">said</seg>
                             <seg ana="#wo">wo</seg>
+                            <seg type="punct">.</seg>
                             <seg ana="#wo">wo</seg>
+                            <seg type="punct">.</seg>
                             <seg ana="#wo">wo</seg>
                         </seg>
                         <seg type="punct">/</seg>
@@ -20384,7 +20305,7 @@
 
                     <l xml:id="U.1173" n="HL.1234">
                         <seg type="averse">
-                            <seg ana="#þe">þ<supplied>e</supplied></seg>
+                            <seg ana="#yit">Yit</seg>
                             <seg ana="#sayd">sayd</seg>
                             <seg ana="#the">the</seg>
                             <seg ana="#wye">wye</seg>
@@ -20413,8 +20334,7 @@
                             <seg ana="#and">and</seg>
                             <seg ana="#wo">wo</seg>
                             <seg ana="#to">to</seg>
-                            <seg ana="#my">my</seg>
-                            <seg ana="#self">self</seg>
+                            <seg ana="#my-self">my<seg type="shadowHyphen">-</seg>self</seg>
                         </seg>
                     </l>
 
@@ -20659,7 +20579,7 @@
                         <seg type="punct">/</seg>
                         <seg type="bverse">
                             <seg ana="#as">as</seg>
-                            <seg ana="#aforne">aforne</seg>
+                            <seg ana="#a-forne">a<seg type="shadowHyphen">-</seg>forne</seg>
                             <seg ana="#that">that</seg>
                         </seg>
                     </l>
@@ -20726,7 +20646,6 @@
                         <seg type="punct">/</seg>
                         <seg type="bverse">
                             <seg ana="#al">al</seg>
-                            <seg ana="#in">in</seg>
                             <seg ana="#the">the</seg>
                             <seg ana="#place">place</seg>
                             <seg ana="#ypight">ypight</seg>
@@ -20843,7 +20762,7 @@
                         <seg type="punct">/</seg>
                         <seg type="bverse">
                             <seg ana="#shuld">shuld</seg>
-                            <seg ana="#perissh">perissh</seg>
+                            <seg ana="#perissħ">perissħ</seg>
                             <seg ana="#for">for</seg>
                             <seg ana="#synne">synne</seg>
                         </seg>
@@ -20867,7 +20786,7 @@
 
                     <l xml:id="U.1201" n="HL.1264">
                         <seg type="averse">
-                            <seg ana="#adoun">Adoun</seg>
+                            <seg ana="#a-doun">A<seg type="shadowHyphen">-</seg>doun</seg>
                             <seg ana="#beten">beten</seg>
                             <seg ana="#the">the</seg>
                             <seg ana="#bolde">bolde</seg>
@@ -20904,8 +20823,7 @@
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
-                            <seg ana="#who">who</seg>
-                            <seg ana="#so">so</seg>
+                            <seg ana="#who">who<seg type="shadowHyphen">-</seg>so</seg>
                             <seg ana="#grype">grype</seg>
                             <seg ana="#mygħt">mygħt</seg>
                         </seg>
@@ -20974,7 +20892,7 @@
 
                     <l xml:id="U.1208" n="HL.1271">
                         <seg type="averse">
-                            <seg ana="#peynted">Peynted</seg>
+                            <seg ana="#peyntid">Peyntid</seg>
                             <seg ana="#with">with</seg>
                             <seg ana="#perry">perry</seg>
                         </seg>
@@ -21006,7 +20924,7 @@
 
                     <l xml:id="U.1210" n="HL.1273">
                         <seg type="averse">
-                            <seg ana="#when">When</seg>
+                            <seg ana="#when">when</seg>
                             <seg ana="#thei">thei</seg>
                             <seg ana="#the">the</seg>
                             <seg ana="#cite">cite</seg>
@@ -21035,7 +20953,7 @@
                             <seg ana="#tresour">tresour</seg>
                             <seg ana="#that">that</seg>
                             <seg ana="#thei">thei</seg>
-                            <seg ana="#sonde">sonde</seg>
+                            <seg ana="#fonde">fonde</seg>
                         </seg>
                     </l>
 
@@ -21129,7 +21047,7 @@
                             <seg ana="#but">but</seg>
                             <seg ana="#welde">welde</seg>
                             <seg ana="#what">what</seg>
-                            <seg ana="#hym">hym</seg>
+                            <seg ana="#him">him</seg>
                             <seg ana="#liketħ">liketħ</seg>
                         </seg>
                     </l>
@@ -21211,7 +21129,7 @@
                         <seg type="bverse">
                             <seg ana="#al">al</seg>
                             <seg ana="#the">the</seg>
-                            <seg ana="#wolnk">wolnk</seg>
+                            <seg ana="#wlonk">wlonk</seg>
                             <seg ana="#tyme">tyme</seg>
                         </seg>
                     </l>
@@ -21271,7 +21189,7 @@
 
                     <l xml:id="U.1226" n="HL.1289">
                         <seg type="averse">
-                            <seg ana="#was">Was</seg>
+                            <seg ana="#was">was</seg>
                             <seg ana="#no">no</seg>
                             <seg ana="#stone">stone</seg>
                             <seg ana="#in">in</seg>
@@ -21321,7 +21239,7 @@
                     <l xml:id="U.1229" n="HL.1293">
                         <seg type="averse">
                             <seg type="punct">¶</seg>
-                            <seg ana="#when">When</seg>
+                            <seg ana="#when">when</seg>
                             <seg ana="#the">the</seg>
                             <seg ana="#temple">temple</seg>
                             <seg ana="#is">is</seg>
@@ -21390,8 +21308,7 @@
                             <seg ana="#then">Then</seg>
                             <seg ana="#titus">Titus</seg>
                             <seg ana="#set">set</seg>
-                            <seg ana="#him">him</seg>
-                            <seg ana="#self">self</seg>
+                            <seg ana="#him">him<seg type="shadowHyphen">-</seg>self</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -21414,8 +21331,7 @@
                         <seg type="punct">/</seg>
                         <seg type="bverse">
                             <seg ana="#iustice">Iustice</seg>
-                            <seg ana="#him">him</seg>
-                            <seg ana="#seluen">seluen</seg>
+                            <seg ana="#him">him<seg type="shadowHyphen">-</seg>seluen</seg>
                         </seg>
                     </l>
 
@@ -21424,7 +21340,7 @@
                             <seg ana="#criours">Criours</seg>
                             <seg ana="#cald">cald</seg>
                             <seg ana="#hem">hem</seg>
-                            <seg ana="#forth">forth</seg>
+                            <seg ana="#fortħ">fortħ</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
@@ -21447,7 +21363,7 @@
                             <seg ana="#that">that</seg>
                             <seg ana="#was">was</seg>
                             <seg ana="#prouost">p<expan>ro</expan>uost</seg>
-                            <seg ana="#therine">therine</seg>
+                            <seg ana="#thenne">thenne</seg>
                         </seg>
                     </l>
 
@@ -21558,7 +21474,12 @@
                     <l xml:id="U.1243" n="HL.1307">
                         <seg type="averse">
                             <seg ana="#for">For</seg>
-                            <seg ana="#xxx">xxx</seg>
+                            <choice>
+                                <orig>. xxx .</orig>
+                                <reg>
+                                    <seg ana="#thriti">thriti</seg>
+                                </reg>
+                            </choice>
                             <seg ana="#pens">pens</seg>
                             <seg ana="#in">in</seg>
                             <seg ana="#a">a</seg>
@@ -21608,7 +21529,7 @@
                             <seg ana="#that">that</seg>
                             <seg ana="#that">that</seg>
                             <seg ana="#akate">akate</seg>
-                            <seg ana="#wrouht">wrouht</seg>
+                            <seg ana="#wrought">wrought</seg>
                         </seg>
                     </l>
 
@@ -21654,6 +21575,7 @@
                             <seg ana="#i">I</seg>
                             <seg ana="#make">make</seg>
                         </seg>
+                        <seg type="punct">/</seg>
                         <seg type="bverse">
                             <seg ana="#in">in</seg>
                             <seg ana="#mynde">mynde</seg>
@@ -21745,8 +21667,7 @@
                         <seg type="punct">/</seg>
                         <seg type="bverse">
                             <seg ana="#chaffer">chaffer</seg>
-                            <seg ana="#who">who</seg>
-                            <seg ana="#so">so</seg>
+                            <seg ana="#who">who<seg type="shadowHyphen">-</seg>so</seg>
                             <seg ana="#wolde">wolde</seg>
                         </seg>
                     </l>
@@ -21754,15 +21675,15 @@
                     <l xml:id="U.1254" n="HL.1320">
                         <seg type="averse">
                             <seg ana="#xxx">xxx</seg>
+                            <seg type="punct">.</seg>
                             <seg ana="#iewes">iewes</seg>
                             <seg ana="#on">on</seg>
                             <seg ana="#a">a</seg>
-                            <seg ana="#thrume">thrume</seg>
+                            <seg ana="#thrumme">thru<expan>m</expan>me</seg>
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
-                            <seg ana="#y">y</seg>
-                            <seg ana="#thrungen">thrungen</seg>
+                            <seg ana="#y-thrungen">y<seg type="shadowHyphen">-</seg>thrungen</seg>
                             <seg ana="#in">in</seg>
                             <seg ana="#ropes">Ropes</seg>
                         </seg>
@@ -21810,7 +21731,7 @@
                     <l xml:id="U.1257" n="HL.1324">
                         <seg type="averse">
                             <seg ana="#that">That</seg>
-                            <seg ana="#tourmented">t<expan>our</expan>mented</seg>
+                            <seg ana="#turmented">t<expan>ur</expan>mented</seg>
                             <seg ana="#trewe">trewe</seg>
                             <seg ana="#god">god</seg>
                         </seg>
@@ -21848,6 +21769,7 @@
                             <seg ana="#and">and</seg>
                             <seg ana="#mo">mo</seg>
                         </seg>
+                        <seg type="punct">/</seg>
                         <seg type="bverse">
                             <seg ana="#he">he</seg>
                             <seg ana="#made">made</seg>
@@ -21928,7 +21850,7 @@
 
                     <l xml:id="U.1264" n="HL.1339">
                         <seg type="averse">
-                            <seg ana="#went">Went</seg>
+                            <seg ana="#went">went</seg>
                             <seg ana="#syngand">syngand</seg>
                             <seg ana="#awey">awey</seg>
                         </seg>
@@ -21956,6 +21878,7 @@
                             <seg ana="#vs">vs</seg>
                             <seg ana="#oure">oure</seg>
                             <seg ana="#lorde">lorde</seg>
+                            <seg type="punct">.</seg>
                         </seg>
                     </l>
                 </div2>
@@ -21971,7 +21894,9 @@
                     <trailer place="bottomCenter">
                         <hi rend="BinR">And to wele hem wysse / that reden this geste</hi>
                         <lb/>
-                        <hi rend="ul">amen</hi>
+                    </trailer>
+                <trailer place="bottomCenter">
+                        <hi rend="ul">amen<note>The "amen" is in a different ink that is lighter than that used by the main hand, and was apparently added later.</note></hi>
                         <lb/>
                         <lb/>
                     </trailer>

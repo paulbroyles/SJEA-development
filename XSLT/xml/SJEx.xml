@@ -213,7 +213,15 @@
 
                     <l xml:id="Ex.0058" n="HL.1129">. . . dyn herd</l>
 
-                    <l xml:id="Ex.0059" n="HL.1130">. . . viij<hi rend="supralinear">C</hi> sperys</l>
+                    <l xml:id="Ex.0059" n="HL.1130">. . . 
+                         <choice>
+                         <orig>viij<hi rend="sup">C</hi></orig> 
+                         <reg>
+                              <seg ana="#eighte">eighte</seg>
+                              <seg ana="#hundred">hundred</seg>
+                         </reg>
+                         </choice>
+                         sperys</l>
 
                     <l xml:id="Ex.0060" n="HL.1131">. . .ldes them sone</l>
 
