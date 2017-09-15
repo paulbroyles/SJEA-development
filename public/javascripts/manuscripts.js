@@ -138,6 +138,39 @@ $(document).ready(function() {
     }
 });
 
+function moveScroller() {
+    var move = function() {
+        var st = $(window).scrollTop();
+        var ot = $("#transcription-name").offset().top;
+        var s = $("#content-controls");
+        var d = $("#content-display");
+        if(st > ot) {
+            s.css({
+                position: "fixed",
+                width: "600px",
+                top: "0px",
+                margin: "0px 23px 0px 25px"
+                
+            });
+            
+            d.css ({ top: "45px"})
+        } else {
+            if(st <= ot) {
+                s.css({
+                    position: "relative",
+                    width: "",
+                    top: "",
+                    margin: "15px 23px 0px 25px"
+                });
+                
+                d.css ({ top: ""})
+            }
+        }
+    };
+    $(window).scroll(move);
+    move();
+}
+
 function showManuscript( name, view, scrollto_id ) {
 
     // set the manuscript name; we may need this later when setting a new view
