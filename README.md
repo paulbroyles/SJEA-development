@@ -12,3 +12,10 @@
         * **NOTE:** To update the page interface (tabs, footer, etc.), it appears to be necessary to modify all four of these files. Please note that I'm a Rails newbie, and it's possible that they're generated from a template so that the basic site framing, headers, etc. can be updated separately and the changes reflected in each of these files. However, my early searches suggest that content in `/public/` is static, and I haven't found facilities for generating pages apart from the search results. In any case, updating these files will work, and it's the way recent changes have been made.
     * Content for subpages under Home: `about.html`, `partners.html`, `terms.html`, `thepoem.html`, `use.html`
         * These aren't full HTML files, but fragments that will be slotted into the framework provided by `index.html` when requested.
+* Images: `/public/images/`
+    * Flat structure containing site UI, partner logos, detail images referenced in intros, and thumbnails and full-sized images for each MS page.
+    * DOES NOT contain Zoomify assets, which are stored outside the repo.
+    * When adding new images, make note of existing naming conventions.
+        * All lowercase except for MS sigils.
+        * MS images in the form `M0001r.jpg` and `M001r-thumbnail.jpg`.
+        * Partner logos are prefaced by `partnerlogo_[top/btm]_`. The meaning of top/btm is a bit opaque; it seems most likely to refer to which row the logo should be on, but in current site configuration, division into rows is based on screen size.
