@@ -19,3 +19,6 @@
         * All lowercase except for MS sigils.
         * MS images in the form `M0001r.jpg` and `M001r-thumbnail.jpg`.
         * Partner logos are prefaced by `partnerlogo_[top/btm]_`. The meaning of top/btm is a bit opaque; it seems most likely to refer to which row the logo should be on, but in current site configuration, division into rows is based on screen size.
+* CSS Stylesheets:
+    * Manuscripts stylesheet (`manuscript.css`): `/XSLT/stylesheets/manuscript.css`
+        * On regeneration of content with `rake`, this CSS file is copied to `/public/stylesheets/`, where it is served. Changes should be made in the XSLT directory and then propagated to the live site with `rake sjea:regencontent`.
