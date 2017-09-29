@@ -56,7 +56,12 @@
     -.5px -.5px 0 red,
     .5px -.5px 0 red,
     -.5px .5px 0 red,
-    .5px .5px 0 red;   }
+    .5px .5px 0 red;  }
+
+    @supports (text-stroke: thin red) or (-webkit-text-stroke: thin red) {
+      .tr { text-shadow: unset;
+        -webkit-text-stroke: thin red;
+        text-stroke: thin red; } }
 
 .rb, .shadowhyphen { color:red }
 
