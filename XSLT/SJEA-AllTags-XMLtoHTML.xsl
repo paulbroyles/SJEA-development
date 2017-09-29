@@ -1025,6 +1025,48 @@
         </xsl:for-each>
     
     </xsl:template>
+    
+    <!--*************************-->
+    <!--pab: gap templates -->
+    <!--     ========      -->
+    <!--pab: replace gap with appropriate chars   -->
+    <!--     based on listed length, or ellipsis  -->
+    <!--     is gap takes up entire line.         -->
+    <!--*************************-->
+    <xsl:template match="tei:gap[@unit='chars']">
+        <xsl:variable name="length" as="xs:integer">
+            <xsl:choose>
+                <xsl:when test="@quantity">
+                    <xsl:value-of select="@quantity"/>
+                </xsl:when>
+                <xsl:when test="@atLeast and @atMost">
+                    <xsl:value-of select="round(sum(@atLeast,@atMost) div 2)"/>
+                </xsl:when>
+                <xsl:when test="@atLeast">
+                    <xsl:value-of select="@atLeast"/>
+                </xsl:when>
+                <xsl:when test="@atMost">
+                    <xsl:value-of select="@atMost"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="1"/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
+        <span class="gap">
+            <xsl:for-each select="1 to $length">
+                <xsl:text>?</xsl:text>
+            </xsl:for-each>
+        </span>
+    </xsl:template>
+    <xsl:template match="tei:gap">
+        <xsl:choose>
+            <xsl:when test="@extent='rest of line'">
+                <span class="gap">...</span>
+            </xsl:when>
+        </xsl:choose>
+    </xsl:template>
+
 
     <xsl:template match="text()">
         <xsl:value-of select="normalize-space()" />
