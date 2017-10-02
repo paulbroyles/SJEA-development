@@ -148,7 +148,7 @@ module TaskUtilities
           if segchild.attributes["ana"] != nil
              segchild.each_child() do |anachild|
                 if ( anachild.kind_of? REXML::Text ) == true
-                   content << " " << anachild.value( )
+                   content << anachild.value( )
                 else
                    content << processParentNode( anachild, hl )
                 end
@@ -194,7 +194,7 @@ module TaskUtilities
 
          # a text node... add its content
          if ( child.kind_of? REXML::Text ) == true
-            content << " " << child.value( )
+            content << child.value( )
          else
 
             case child.name
@@ -204,7 +204,7 @@ module TaskUtilities
                      child.each_child() do |grandchild|
                         # a text node... add its content
                         if ( grandchild.kind_of? REXML::Text ) == true
-                           content << " " << grandchild.value( )
+                           content << grandchild.value( )
                         else
                            case grandchild.name
                            when "note"
