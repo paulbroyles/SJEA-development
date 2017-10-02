@@ -174,7 +174,7 @@ module TaskUtilities
                    content << processParentNode( segchild, hl )
 
                 else
-                   puts "UNPROCESSED seg child #{segchild.name} #{segchild.attributes} #{hl}"
+                   puts "UNPROCESSED #{seg.name} child #{segchild.name} #{segchild.attributes} #{hl}"
                 end
              end
           end
@@ -217,7 +217,9 @@ module TaskUtilities
 
               when "damage", "expan", "hi"
                   # take the text from these...
-                  content << child.text( ) unless child.has_text?( ) == false
+									# pab: Because these can be multiple layers deep, we need to
+									#      process them reciprocally, just like seg tags.
+                  content << processParentNode( child, hl )
 
               when "g"
                 # ignore these...
