@@ -18,6 +18,7 @@
     * When adding new images, make note of existing naming conventions.
         * All lowercase except for MS sigils.
         * MS images in the form `M0001r.jpg` and `M001r-thumbnail.jpg`.
+            * Upload the large image only; generate thumbnails by running `rake sjea:regenthumbs`.
         * Partner logos are prefaced by `partnerlogo_[top/btm]_`. The meaning of top/btm is a bit opaque; it seems most likely to refer to which row the logo should be on, but in current site configuration, division into rows is based on screen size.
 * CSS Stylesheets:
     * Manuscripts stylesheet (`manuscript.css`): `/XSLT/stylesheets/manuscript.css`
