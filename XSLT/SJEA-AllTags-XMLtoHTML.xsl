@@ -984,17 +984,24 @@
     <!--mjc: supplied template-->
     <!--     ========         -->
     <!--mjc: format <supplied>: put text in [],   -->
-    <!--     except for Diplomatic view.          -->
+    <!--     except for Diplomatic view.          -->         
+    <!--pab added logic to output question marks  -->
+    <!--     in Diplomatic view. Also eliminated  -->
+    <!--     extra whitespace around brackets.    -->
     <!--*************************-->
     <xsl:template match="tei:supplied">
         <xsl:param name="view" tunnel="yes"/>
         
         <xsl:choose>
-            <xsl:when test="$view = 'diplomatic'"/>
+            <xsl:when test="$view = 'diplomatic'">
+                <span class="supplied">
+                    <xsl:for-each select="1 to string-length(.)">
+                        <xsl:text>?</xsl:text>
+                    </xsl:for-each>
+                </span>
+            </xsl:when>
             
-            <xsl:otherwise>
-                [<span class="supplied"><xsl:apply-templates/></span>]
-            </xsl:otherwise>
+            <xsl:otherwise>[<span class="supplied"><xsl:apply-templates/></span>]</xsl:otherwise>
         </xsl:choose>
     </xsl:template>
     
