@@ -109,7 +109,8 @@
 
 .o12 { font-size:19.2em ; text-transform:uppercase ; float:left ; position:relative ; line-height: 0.7em ; margin: 0em ; padding: 0em }
 
-@-moz-document url-prefix() {
+/* Unnecessary?
+ * @-moz-document url-prefix() {
     .o2 { font-size:3.2em ; text-transform:uppercase ; float:left ; position:relative ; line-height: 0.7em ; margin: 0em ; padding: 0em ; left:150px }
     .o3 { font-size:4.8em ; text-transform:uppercase ; float:left ; position:relative ; line-height: 0.7em ; margin: 0em ; padding: 0em ; left:150px }
     .o4 { font-size:6.4em ; text-transform:uppercase ; float:left ; position:relative ; line-height: 0.7em ; margin: 0em ; padding: 0em ; left:150px }
@@ -121,7 +122,7 @@
     .o10 { font-size:16em ; text-transform:uppercase ; float:left ; position:relative ; line-height: 0.7em ; margin: 0em ; padding: 0em ; left:150px }
     .o11 { font-size:17.6em ; text-transform:uppercase ; float:left ; position:relative ; line-height: 0.7em ; margin: 0em ; padding: 0em ; left:150px }
     .o12 { font-size:19.2em ; text-transform:uppercase ; float:left ; position:relative ; line-height: 0.7em ; margin: 0em ; padding: 0em ; left:150px }
-}
+}*/
 
 .lc,.highlightlc { font-size:1.4em ; line-height:.75em ; text-transform:uppercase ; line-height: 0.7em ; margin: 0em ; padding: 0em }
 
@@ -165,7 +166,7 @@
 
 .lineMarker { position:absolute ; left: 35px; font-size:9pt ; font-family:Times New Roman ; line-height:1.8em }
 
-.line { position:relative ; left:150px }
+.line { position:relative ; left:150px ; max-width:calc(97% - 150px) }
 
 .contentArea { cursor:default ; height:100% ; width:700px ; padding:30px ; font-family:Junicode; background-color:#FDEAAA ; position: absolute }
 
@@ -184,9 +185,9 @@
 .margin-bottomLeft { position: relative; left: 95px; }
 
 .marginRight { position: absolute; right: -150px; }
-.margin-marginRight { position: relative; right: -150px; }
+.margin-marginRight { position: relative; right: -150px; display:inline-block; }
 
-.topCenter, .center, .bottomCenter { position: absolute; left: 250px;}
+.topCenter, .center, .bottomCenter { position: relative; left: 250px;}
 
 .marginLeft { position: absolute ; left: -60px }
 
