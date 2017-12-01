@@ -172,7 +172,7 @@
 
 .image { width: 140px; height: 165px; }
 
-.imageDiv { float: right; clear: right; padding-right: 150px; }
+.imageDiv { float: right; clear: right; padding-right: 150px; position: relative; z-index: 10 }
 
 .add-supralinear, .margin-supralinear, .add-topCenter, .add-bottomCenter, .add-bottomLeft, .add-marginLeft, .add-marginRight { color: gray}
 
