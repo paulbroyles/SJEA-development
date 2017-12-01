@@ -1007,7 +1007,7 @@
         <xsl:choose>
             <xsl:when test="$view = 'diplomatic'">
                 <span class="supplied">
-                    <xsl:for-each select="1 to string-length(.)">
+                    <xsl:for-each select="1 to string-length(string-join(descendant::text()[not(ancestor::tei:note)],''))">
                         <xsl:text>?</xsl:text>
                     </xsl:for-each>
                 </span>
