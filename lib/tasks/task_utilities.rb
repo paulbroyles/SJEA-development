@@ -221,6 +221,31 @@ module TaskUtilities
 									#      process them reciprocally, just like seg tags.
                   content << processParentNode( child, hl )
 
+							when "gap"
+						 	 # Show blanks with empty characters. See the XSLT
+						 	 # for how this works. PAB.
+						 	 if child.attributes["unit"] == "chars"
+						 		 # if the gap length is specified in characters
+						 		 times = 1 # Initialize the variable for the length of the gap
+						 							 # at 1, then overwrite as appropriate
+						 		 if child.attributes["quantity"] != nil
+						 			 times = child.attributes["quantity"]
+						 		 elsif child.attributes["atLeast"] != nil && child.attributes["atMost"] != nil
+						 			 times = ((child.attributes["atLeast"].to_f + child.attributes["atMost"].to_f) / 2).round
+						 		 elsif child.attributes["atLeast"]
+						 			 times = child.attributes["atLeast"]
+						 		 elsif child.attributes["atMost"]
+						 			 times = child.attributes["atMost"]
+						 		 end
+
+						 		 content << "?" * times
+
+						 	 elsif child.attributes["extent"] == "rest of line"
+						 		 # if the rest of the line is omitted, insert an ellipsis
+						 		 content << "..."
+						 	 end
+
+
               when "g"
                 # ignore these...
 
