@@ -244,9 +244,9 @@
     <xsl:template name="processBody">
         <!-- main text -->
         <xsl:for-each select="//tei:text/tei:body/tei:div1">
-            <span id="div1">
+            <div id="div1">
                 <xsl:apply-templates/>
-            </span>
+            </div>
         </xsl:for-each>
     </xsl:template>
     
