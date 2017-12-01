@@ -464,7 +464,7 @@
                 
                 <xsl:choose>
                     <xsl:when test="$pos='top' or $pos='bot'">
-                        <div class="line">
+                        <div class="line" id="{@xml:id}">
                             <xsl:apply-templates/>
                         </div>
                         <!--mjc: tell parser not to turn <br/> into <br></br>-->
@@ -476,7 +476,7 @@
                     </xsl:when>
                     
                     <xsl:otherwise>
-                        <div class="line">
+                        <div class="line" id="{@xml:id}">
                             <xsl:apply-templates/>
                             <xsl:call-template name="generateMarginalia">
                                 <xsl:with-param name="margin" select="./following-sibling::tei:*[1][name(.) = ('marginalia', 'fw')]"/>
@@ -488,7 +488,7 @@
             </xsl:when>
             
             <xsl:otherwise>
-                <div class="line">
+                <div class="line" id="{@xml:id}">
                     <xsl:apply-templates/>
                 </div>
             </xsl:otherwise>

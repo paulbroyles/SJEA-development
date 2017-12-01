@@ -25,7 +25,17 @@ $(document).ready(function() {
 
         // get the current view
         var view = getManuscriptViewState( );
-        redirectToManuscript( $("#transcription-name").attr("href"), view );
+
+        // get the highest element in the viewport
+        var top_line_id;
+        $('#div1 .line').each(function() {
+           if (this.getBoundingClientRect().top >= 0) {
+               top_line_id = this.id;
+               return false;
+           }
+        });
+
+        redirectToManuscript( $("#transcription-name").attr("href"), view, top_line_id );
     });
 
     //
@@ -150,9 +160,9 @@ function moveScroller() {
                 width: "600px",
                 top: "0px",
                 margin: "0px 23px 0px 25px"
-                
+
             });
-            
+
             d.css ({ top: "45px"})
         } else {
             if(st <= ot) {
@@ -162,7 +172,7 @@ function moveScroller() {
                     top: "",
                     margin: "15px 23px 0px 25px"
                 });
-                
+
                 d.css ({ top: ""})
             }
         }
@@ -200,9 +210,13 @@ function showDescription( name ) {
     loadRemoteResource( resource, "#content-display", makeDocReadyCallback( true, null ) );
 }
 
-function redirectToManuscript( name, view ) {
+// scroll_to_id is optional
+function redirectToManuscript( name, view, scroll_to_id ) {
 
     var newURL = "manuscript.html?manuscript=" + name + "&view=" + view;
+    if (typeof scroll_to_id !== 'undefined') {
+        newURL += "#" + scroll_to_id;
+    }
     document.location.href = newURL;
 }
 
