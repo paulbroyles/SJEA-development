@@ -744,7 +744,7 @@
                         <span><xsl:apply-templates select="./descendant::tei:reg"/></span>
                     </xsl:when>
                     <xsl:when test="./descendant::tei:sic">
-                        <span><xsl:value-of select="./descendant::tei:corr"/></span>
+                        <span><xsl:apply-templates select="./descendant::tei:corr"/></span>
                     </xsl:when>
                     <xsl:when test="./descendant::tei:expan">
                         <span name="{./tei:abbr/text()}"><xsl:apply-templates select="./tei:expan"/></span>
