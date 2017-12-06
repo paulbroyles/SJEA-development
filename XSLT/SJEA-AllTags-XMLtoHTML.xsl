@@ -758,7 +758,7 @@
                         <span class="orig"><xsl:apply-templates select="./descendant::tei:orig"/><xsl:text xml:space="preserve"> </xsl:text></span> 
                     </xsl:when>
                     <xsl:when test="./descendant::tei:sic">
-                        <span class="sic"><xsl:value-of select="./descendant::tei:sic"/></span>
+                        <span class="sic"><xsl:apply-templates select="./descendant::tei:sic"/></span>
                     </xsl:when>
                     <xsl:when test="./descendant::tei:expan">
                         <span class="expan" name="{./tei:abbr/text()}"><i><xsl:apply-templates select="./tei:expan"/></i></span>
@@ -772,7 +772,7 @@
                         <span><xsl:apply-templates select="./descendant::tei:orig"/><xsl:text xml:space="preserve"> </xsl:text></span>
                     </xsl:when>
                     <xsl:when test="./descendant::tei:sic">
-                        <span><xsl:value-of select="./descendant::tei:sic"/></span>
+                        <span><xsl:apply-templates select="./descendant::tei:sic"/></span>
                     </xsl:when>
                     <xsl:when test="./descendant::tei:expan">
                         <span class="expan" name="{./tei:abbr/text()}"><i><xsl:apply-templates select="./tei:expan"/></i></span>
@@ -783,10 +783,10 @@
             <xsl:when test="$view = 'alltags'">
                 <xsl:choose>
                     <xsl:when test="./descendant::tei:orig">
-                        <span class="orig"><xsl:value-of select="./descendant::tei:orig"/> / </span><span class="reg"><xsl:apply-templates select="./descendant::tei:reg"/></span>
+                        <span class="orig"><xsl:apply-templates select="./descendant::tei:orig"/> / </span><span class="reg"><xsl:apply-templates select="./descendant::tei:reg"/></span>
                     </xsl:when>
                     <xsl:when test="./descendant::tei:sic">
-                        <span class="sic"><xsl:value-of select="./descendant::tei:sic"/> / </span><span class="corr"><xsl:value-of select="./descendant::tei:corr"/></span>
+                        <span class="sic"><xsl:apply-templates select="./descendant::tei:sic"/> / </span><span class="corr"><xsl:apply-templates select="./descendant::tei:corr"/></span>
                     </xsl:when>
                     <xsl:when test="./descendant::tei:expan">
                         <span class="expan" name="{./tei:abbr/text()}"><i><xsl:apply-templates select="./tei:expan"/></i></span>
