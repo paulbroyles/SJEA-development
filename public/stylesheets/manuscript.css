@@ -178,20 +178,19 @@
 
 .sup, .supralinear { vertical-align:super ; font-size:.7em }
 
-.margin-topCenter { position: relative ; left: 250px;  }
-.margin-bottomCenter { position: relative ; left: 250px; }
+.margin-topCenter, .margin-bottomCenter { position: relative; left: 250px; max-width: calc(97% - 250px) }
 
 .margin-marginLeft { position: absolute; left: -75px; }
-.margin-bottomLeft { position: relative; left: 95px; }
+.margin-bottomLeft { position: relative; left: 95px; max-width: calc(97% - 95px); }
 
 .marginRight { position: absolute; right: -150px; }
 .margin-marginRight { position: relative; right: -150px; display:inline-block; }
 
-.topCenter, .center, .bottomCenter { position: relative; left: 250px;}
+.topCenter, .center, .bottomCenter { position: relative; left: 250px; max-width: calc(97% - 250px) }
 
 .marginLeft { position: absolute ; left: -60px }
 
-.topLeft, .bottomLeft { position: relative ; left: 70px }
+.topLeft, .bottomLeft { position: relative ; left: 70px; max-width: calc(97% - 70px) }
 
 .topRight, .bottomRight { position: absolute ; right: 100px }
 
