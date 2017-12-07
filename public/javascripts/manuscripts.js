@@ -38,7 +38,7 @@ $(document).ready(function() {
           });
         }
 
-        redirectToManuscript( $("#transcription-name").attr("href"), view, top_line_id );
+        showManuscript( $("#transcription-name").attr("href"), view, top_line_id );
     });
 
     //
