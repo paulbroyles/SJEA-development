@@ -25,15 +25,18 @@ $(document).ready(function() {
 
         // get the current view
         var view = getManuscriptViewState( );
-
-        // get the highest element in the viewport
-        var top_line_id;
-        $('#div1 .line').each(function() {
-           if (this.getBoundingClientRect().top >= 0) {
-               top_line_id = this.id;
-               return false;
-           }
-        });
+        /* don't do this at the top of the page, because it's weird to jump
+         * down to the first line when the user hasn't scrolled at all */
+        if (window.pageYOffset > 0){
+          // get the highest element in the viewport
+          var top_line_id;
+          $('#div1 .line').each(function() {
+             if (this.getBoundingClientRect().top >= 0) {
+                 top_line_id = this.id;
+                 return false;
+             }
+          });
+        }
 
         redirectToManuscript( $("#transcription-name").attr("href"), view, top_line_id );
     });
