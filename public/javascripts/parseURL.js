@@ -4,7 +4,8 @@ function parseURL( ) {
     var params = {};
 
     // split the URL by the ? character
-    var pstring = document.URL.split( "?" );
+    var prefrag = document.URL.split( "#" )[0];
+    var pstring = prefrag.split( "?" );
     if( pstring.length == 2 ) {
         // do we have multiple paramaters?
         if( pstring[ 1 ].indexOf( "&" ) != -1 ) {
