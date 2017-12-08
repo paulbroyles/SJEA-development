@@ -313,7 +313,7 @@ function setManuscriptViewState( name ) {
     $("#view-control" ).val( name );
 }
 
-/* accept a URL as a string; return the same URL with the query string at a
+/* accept a location object; return the same URL with the query string at a
  * given key altered to a specified value. If the key provided is not found
  * in the query string, append it to the query string. */
 function changeUrlQueryString( loc, key, value ){
