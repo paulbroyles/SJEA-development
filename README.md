@@ -8,7 +8,7 @@
         * `index.html`: Content for site homepage; also provides layout and wrappers for all home pages (The Poem, About, How to Use, Partners and Acknowledgments, Terms and Conditions).
         * `manuscript.html`: Landing page for manuscripts view; also provides layout for manuscript transcription/description pages.
         * `search.html`: Search page. It doesn't appear likely that this file provides the layout for search results, but I can't currently confirm one way or the other.
-        * `comparison.html`: Provides layout and wrappers for comparison content. No default content since selecting the tab defaults to the first lien.
+        * `comparison.html`: Provides layout and wrappers for comparison content. No default content since selecting the tab defaults to the first line.
         * **NOTE:** To update the page interface (tabs, footer, etc.), it appears to be necessary to modify all four of these files. Please note that I'm a Rails newbie, and it's possible that they're generated from a template so that the basic site framing, headers, etc. can be updated separately and the changes reflected in each of these files. However, my early searches suggest that content in `/public/` is static, and I haven't found facilities for generating pages apart from the search results. In any case, updating these files will work, and it's the way recent changes have been made.
     * Content for subpages under Home: `about.html`, `partners.html`, `terms.html`, `thepoem.html`, `use.html`
         * These aren't full HTML files, but fragments that will be slotted into the framework provided by `index.html` when requested.
@@ -23,3 +23,5 @@
 * CSS Stylesheets:
     * Manuscripts stylesheet (`manuscript.css`): `/XSLT/stylesheets/manuscript.css`
         * On regeneration of content with `rake`, this CSS file is copied to `/public/stylesheets/`, where it is served. Changes should be made in the XSLT directory and then propagated to the live site with `rake sjea:regencontent`.
+* Javascript: `/public/javascripts/`
+    * Contains both libraries and custom JS
