@@ -27,6 +27,8 @@ $(document).ready(function() {
         var view = getManuscriptViewState( );
         /* use showManuscript rather than redirectToManuscript, preserving
          * the position */
+        var newURL = changeUrlQueryString(window.location, 'view', view);
+        history.replaceState(null, null, newURL);
         showManuscript( $("#transcription-name").attr("href"), view );
     });
 
@@ -309,6 +311,28 @@ function getManuscriptViewState( ) {
 // set the state of the view drop-down to reflect what we are currently showing
 function setManuscriptViewState( name ) {
     $("#view-control" ).val( name );
+}
+
+/* accept a URL as a string; return the same URL with the query string at a
+ * given key altered to a specified value. If the key provided is not found
+ * in the query string, append it to the query string. */
+function changeUrlQueryString( loc, key, value ){
+  var build_url = loc.origin + loc.pathname;
+
+  var queries = parseParamString(window.location.search.slice(1));
+  queries[key] = value;
+  var first_it = true;
+  for (q in queries) {
+    if (first_it) {
+      build_url += '?';
+      first_it = false;
+    } else {
+      build_url += '&';
+    }
+    build_url += q + '=' + queries[q];
+  }
+  build_url += window.location.hash;
+  return build_url;
 }
 
 function makeDocReadyCallback( enable_popup, scrollto_id ) {
