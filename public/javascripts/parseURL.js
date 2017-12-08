@@ -1,6 +1,9 @@
 /* Take a query strong (without leading ?) and return keys and parameters
  * as key-value pairs */
 function parseParamString( pstring ){
+  // trim leading question mark
+  pstring = pstring.slice(1);
+
   // resulting key/value containing any/each of the URL parameters
   var params = {};
 
@@ -27,5 +30,5 @@ function parseParamString( pstring ){
 
 // Return key-value pairs for parameters for the current URL
 function parseURL( ) {
-  return parseParamString(window.location.search.slice(1))
+  return parseParamString(window.location.search)
 }
