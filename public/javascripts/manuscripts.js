@@ -319,7 +319,7 @@ function setManuscriptViewState( name ) {
 function changeUrlQueryString( loc, key, value ){
   var build_url = loc.origin + loc.pathname;
 
-  var queries = parseParamString(window.location.search.slice(1));
+  var queries = parseParamString(loc.search.slice(1));
   queries[key] = value;
   var first_it = true;
   for (q in queries) {
@@ -331,7 +331,7 @@ function changeUrlQueryString( loc, key, value ){
     }
     build_url += q + '=' + queries[q];
   }
-  build_url += window.location.hash;
+  build_url += loc.hash;
   return build_url;
 }
 
