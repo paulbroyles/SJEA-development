@@ -157,7 +157,7 @@ module TaskUtilities
           else
              case segchild.name
              # these nodes can have children...
-             when "hi", "expan", "add", "choice", "reg", "supplied", "corr"
+					 	 when "hi", "expan", "add", "choice", "reg", "supplied", "corr", "damage"
                    content << processParentNode( segchild, hl )
 
              when "note", "del", "orig", "abbr", "sic"
@@ -215,7 +215,7 @@ module TaskUtilities
                         end
                      end
 
-              when "damage", "expan", "hi"
+              when "damage", "expan", "hi", "add"
                   # take the text from these...
 									# pab: Because these can be multiple layers deep, we need to
 									#      process them reciprocally, just like seg tags.
