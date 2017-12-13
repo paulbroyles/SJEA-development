@@ -30,7 +30,7 @@
                 <msDesc>
                    
                     <msIdentifier>
-                        <country>United States</country>
+                        <country>United States</country>841
                         <settlement>San Marino</settlement>
                         <repository>The Huntington Library</repository>
                         <idno>Hm 128</idno>
@@ -1233,7 +1233,7 @@
                             <seg type="averse">
                                 <seg ana="#the">the</seg>
                                 <seg ana="#schip">schip</seg>
-                                <addSpan hand="hand2" spanTo="#addend01" />
+                                <addSpan hand="hand1" place="inline" spanTo="#addend01" />
                                 <seg ana="#turned">turned</seg>
                                 <seg ana="#aȝenward">aȝenward</seg>
                             </seg>
@@ -1981,8 +1981,15 @@
                         </l>
 
                         <l xml:id="E.0101" n="HL.0110">
-                            <seg type="averse">
-                                <seg ana="#the">the</seg>
+                            <seg type="averse"> 
+                                <choice>
+                                    <sic>
+                                        <seg ana="#the">the</seg>
+                                    </sic>
+                                    <corr>
+                                        <seg ana="#thre">thre</seg>
+                                    </corr>
+                                </choice>
                                 <seg ana="#persones">p<expan>er</expan>sones</seg>
                                 <seg ana="#in">in</seg>
                                 <seg ana="#o">o</seg>
@@ -2811,9 +2818,9 @@
                                 <seg ana="#his">his</seg>
                                 <seg ana="#body">body</seg>
                                 <seg ana="#on">on</seg>
-                               <space dim="horizontal" extent="8"/>
+                               <space dim="horizontal" quantity="8" unit="chars"/>
                             </seg>
-                            <add place="inline" hand="hand2"><seg type="bverse">
+                            <add place="inline" hand="hand1"><seg type="bverse">
                                 <seg ana="#brast">brast</seg>
                                 <seg ana="#in">in</seg>
                                 <seg ana="#þe">þe</seg>
@@ -3107,12 +3114,12 @@
                                 <seg ana="#þat">þat</seg>
                                 <seg ana="#he">he</seg>
                                 <del rend="erasure">...?...</del>
-                                <add place="inline" hand="handx"><seg ana="#be">be</seg>
+                                <add place="inline" hand="hand1"><seg ana="#be">be</seg>
                                 <seg ana="#fulliche">fulliche</seg>
                                 <seg ana="#hool">hool</seg></add>
                             </seg>
                             <seg type="punct">.</seg>
-                            <addSpan hand="hand2" spanTo="#addend02" />
+                            <addSpan hand="hand1" place="inline" spanTo="#addend02" />
                             <seg type="bverse">
                                 <seg ana="#in">in</seg>
                                 <seg ana="#an">an</seg>
@@ -3433,11 +3440,14 @@
                             <seg type="averse">
                                 <seg ana="#now"><hi rend="o4"><hi rend="rb">N</hi></hi>ow</seg>
                                 <seg ana="#telle">telle</seg>
+                                <del rend="erasure">...?...</del>
+                                <addSpan hand="handx" place="inline" spanTo="#addend03" />
                                 <seg ana="#me">me</seg>
                                 <seg ana="#quod">q<expan>uod</expan></seg>
                                 <seg ana="#tytus">tytus</seg>
                             </seg>
                             <seg type="punct">.</seg>
+                            <anchor xml:id="addend03" />
                             <seg type="bverse">
                                 <seg ana="#what">what</seg>
                                 <seg ana="#tokene">tokene</seg>
@@ -3484,7 +3494,7 @@
                             <seg type="averse">
                                 <seg ana="#and">&amp;</seg>
                                 <seg ana="#þerwitħ">þ<expan>er</expan>witħ</seg>
-                                <seg ana="#baptiȝed">baptiȝed</seg>
+                                <seg ana="#baptized">baptized</seg>
                                 <seg ana="#be">be</seg>
                             </seg>
                             <seg type="punct">.</seg>
@@ -3671,7 +3681,7 @@
                         <l xml:id="E.0193" n="HL.0202">
                             <seg type="averse">
                                 <seg ana="#as">as</seg>
-                                <seg ana="#þow">þow</seg>
+                                <del rend="erasure">...</del><add place="inline" hand="hand1"><seg ana="#þow">þow</seg></add>
                                 <seg ana="#in">in</seg>
                                 <seg ana="#bedleem">bedleem</seg>
                                 <seg ana="#was">was</seg>
@@ -4158,7 +4168,7 @@
                     <lg type="strophe" org="uniform" sample="complete">
                         <l xml:id="E.0220" n="HL.0229">
                             <seg type="averse">
-                                <seg type="punct"><hi rend="rb">¶</hi></seg>
+                                <seg type="punct"><hi rend="rb">¶</hi><note place="unspecified">There are no underlying text ink marks instructing the rubricator to add this paraph, and there are also remnants of red ink that are not part of the present paraph. It seems, then, that a previous paraph was added, erased, and them restored, but it is unclear why this occurred. The first letters of this and surrounding lines also seem slightly rubbed away (e.g., the tail of the top stroke of the initial <hi rend="it">T</hi> in this line).</note></seg>
                                 <seg ana="#the">The</seg>
                                 <seg ana="#clooth">clooth</seg>
                                 <seg ana="#fro">fro</seg>
@@ -4480,7 +4490,7 @@
                                 <seg ana="#for">for</seg>
                                 <seg ana="#lyȝt">lyȝt</seg>
                                 <seg ana="#þat">þat</seg>
-                                <seg ana="#it">it</seg>
+                                <del rend="erasure">ha</del><add place="inline" hand="hand1"><seg ana="#it">it</seg></add>
                                 <seg ana="#hadde">hadde</seg>
                             </seg>
                         </l>
@@ -4651,8 +4661,7 @@
                                 <seg ana="#that">that</seg>
                                 <seg ana="#arst">arst</seg>
                                 <seg ana="#was">was</seg>
-                                <seg ana="#laȝar">laȝar</seg>
-                                <seg ana="#lich">lich</seg>
+                                <seg ana="#lazar-lich">lazar<seg type="shadowHyphen">-</seg>lich</seg>
                             </seg>
                             <seg type="punct">.</seg>
                             <seg type="bverse">
@@ -4896,7 +4905,14 @@
                             <seg type="averse">
                                 <seg type="punct"><hi rend="rb">¶</hi></seg>
                                 <seg ana="#he">he</seg>
-                                <seg ana="#callyl">callyl</seg>
+                                <choice>
+                                    <sic>
+                                        <seg ana="#callyl">callyl</seg>
+                                    </sic>
+                                    <corr>
+                                        <seg ana="#callyd">callyd</seg>
+                                    </corr>
+                                </choice>
                                 <seg ana="#also">also</seg>
                                 <seg ana="#þe">þe</seg>
                                 <seg ana="#senatours">senato<expan>ur</expan>s</seg>
@@ -5992,7 +6008,7 @@
                             <seg type="bverse">
                                 <seg ana="#was">was</seg>
                                 <seg ana="#peynted">peynted</seg>
-                                <seg ana="#a-bowte">a<seg type="shadowHyphen">-</seg>bowte</seg>
+                                <seg ana="#abowte">abowte</seg>
                             </seg>
                         </l>
 
@@ -6069,7 +6085,7 @@
                             <seg type="averse">
                                 <seg ana="#and">&amp;</seg>
                                 <seg ana="#y-britaged">y<seg type="shadowHyphen">-</seg>britaged</seg>
-                                <seg ana="#a-bowte">a<seg type="shadowHyphen">-</seg>bowte</seg>
+                                <seg ana="#abowte">abowte</seg>
                             </seg>
                             <seg type="punct">.</seg>
                             <seg type="bverse">
@@ -7470,13 +7486,21 @@
                                 <seg ana="#was">was</seg>
                                 <seg ana="#wacche">wacche</seg>
                                 <seg ana="#abowte">abowte</seg>
-                                <seg ana="#þe">þe</seg>
+                                <del rend="erasure">..</del>
+                                <add place="inline" hand="hand1"><seg ana="#þe">þe</seg></add>
                                 <seg ana="#walles">walles</seg>
                             </seg>
                             <seg type="punct">.</seg>
                             <seg type="bverse">
-                                <seg ana="#of">of</seg>
-                                <seg ana="#stong">stong</seg>
+                                <seg ana="#of">of</seg>  
+                                <choice>
+                                    <sic>
+                                        <seg ana="#stong">stong</seg>
+                                    </sic>
+                                    <corr>
+                                        <seg ana="#strong">strong</seg>
+                                    </corr>
+                                </choice>
                                 <seg ana="#ordynaunce">ordynaunce</seg>
                             </seg>
                         </l>
@@ -7485,7 +7509,7 @@
                             <seg type="averse">
                                 <seg ana="#þat">þat</seg>
                                 <seg ana="#no">no</seg>
-                                <seg ana="#wyȝth">wyȝth</seg>
+                                <seg ana="#wyȝth"><del rend="overwritten">m</del><add place="inline" hand="hand1">w</add>yȝth</seg>
                                 <seg ana="#myȝth">myȝth</seg>
                                 <seg ana="#awey">awey</seg>
                             </seg>
@@ -7584,7 +7608,7 @@
                             <seg type="bverse">
                                 <seg ana="#and">&amp;</seg>
                                 <seg ana="#hys">hys</seg>
-                                <seg ana="#knythes">knythes</seg>
+                                <seg ana="#knythes"><del rend="erasure">...</del><add place="inline" hand="hand1">kny</add>thes</seg>
                                 <seg ana="#keene">keene</seg>
                             </seg>
                         </l>
@@ -8085,8 +8109,13 @@
                             </seg>
                             <seg type="punct">.</seg>
                             <seg type="bverse">
-                                <seg ana="#a">a</seg>
-                                <seg ana="#wounderful">wounderful</seg>
+                                <choice>
+                                    <orig>awounderful</orig>
+                                    <reg>
+                                        <seg ana="#a">a</seg>
+                                        <seg ana="#wounderful">wounderful</seg>
+                                    </reg>
+                                </choice>
                                 <seg ana="#nounbre">nounbre</seg>
                             </seg>
                         </l>
@@ -8186,7 +8215,7 @@
                                 <seg ana="#þat">þat</seg>
                                 <seg ana="#were">were</seg>
                                 <seg ana="#adrad">adrad</seg>
-                                <seg ana="#neuere">neuere</seg>
+                                <seg ana="#neuere">ne<del rend="erasure">...</del><add place="inline" hand="hand1">uer</add>e</seg>
                             </seg>
                         </l>
 
@@ -8358,7 +8387,8 @@
                             <seg type="bverse">
                                 <seg ana="#were">were</seg>
                                 <seg ana="#charbuncles">charbuncles</seg>
-                                <seg ana="#stonys">stonys</seg>
+                                <del rend="erasure">...?...</del>
+                                <add place="inline" hand="hand1"><seg ana="#stonys">stonys</seg></add>
                             </seg>
                         </l>
 
@@ -9012,7 +9042,8 @@
                             </seg>
                             <seg type="punct">.</seg>
                             <seg type="bverse">
-                                <seg ana="#crist">crist</seg>
+                                <del rend="erasure">.....</del>
+                                <add place="inline" hand="hand1"><seg ana="#crist">crist</seg></add>
                                 <seg ana="#for-to">for<seg type="shadowHyphen">-</seg>to</seg>
                                 <seg ana="#serue">serue</seg>
                             </seg>
@@ -9122,7 +9153,7 @@
                             <seg type="averse">
                                 <seg ana="#knyȝtes">knyȝtes</seg>
                                 <seg ana="#crossyd">crossyd</seg>
-                                <seg ana="#hem-self">hem<seg type="shadowHyphen">-</seg>self</seg>
+                                <seg ana="#hem-self">hem<seg type="shadowHyphen">-</seg><del rend="ersaue">....</del><add place="inline" hand="hand1">self</add></seg>
                             </seg>
                             <seg type="punct">.</seg>
                             <seg type="bverse">
@@ -9275,6 +9306,8 @@
                             <seg type="averse">
                                 <seg type="punct"><hi rend="rb">¶</hi></seg>
                                 <seg ana="#the">The</seg>
+                                <del rend="erasure">...?...?...</del>
+                                <addSpan hand="hand1" place="inline" spanTo="#addend04" />
                                 <seg ana="#bare">bare</seg>
                                 <seg ana="#barnes">barnes</seg>
                                 <seg ana="#thorw-owt">thorw<seg type="shadowHyphen">-</seg>owt</seg>
@@ -9282,7 +9315,7 @@
                             <seg type="punct">.</seg>
                             <seg type="bverse">
                                 <seg ana="#and">&amp;</seg>
-                                <seg ana="#burstyn">burstyn</seg>
+                                <seg ana="#burstyn">burs<anchor xml:id="addend04" />tyn</seg>
                                 <seg ana="#her">her</seg>
                                 <seg ana="#sperys">sperys</seg>
                             </seg>
@@ -9292,7 +9325,7 @@
                             <seg type="averse">
                                 <seg ana="#knyȝtes">knyȝtes</seg>
                                 <seg ana="#knelyd">knelyd</seg>
-                                <seg ana="#a-doun">a<seg type="shadowHyphen">-</seg>doun</seg>
+                                <seg ana="#adoun">adoun</seg>
                             </seg>
                             <seg type="bverse">
                                 <seg ana="#to">to</seg>
@@ -9484,6 +9517,7 @@
                                 <seg ana="#hente">hente</seg>
                                 <seg ana="#who-so">who<seg type="shadowHyphen">-</seg>so</seg>
                                 <seg ana="#woolde">woolde</seg>
+                                <seg type="punct">.</seg>
                             </seg>
                         </l>
 
@@ -9493,7 +9527,7 @@
                             <seg type="averse">
                                 <seg type="punct"><hi rend="rb">¶</hi></seg>
                                 <seg ana="#al">Al</seg>
-                                <seg ana="#gliteryd">gliteryd</seg>
+                                <seg ana="#glisteryd">glisteryd</seg>
                                 <seg ana="#his">his</seg>
                                 <seg ana="#gere">gere</seg>
                             </seg>
@@ -9509,7 +9543,7 @@
                         <l xml:id="E.0518" n="HL.0550">
                             <seg type="averse">
                                 <seg ana="#of">of</seg>
-                                <seg ana="#þe">þe</seg>
+                                <seg ana="#þe">þe<note place="unspecified">The <hi rend="it">e</hi> in <hi rend="it">þe</hi> is malformed. It is possible that the reading is <hi rend="it">þo</hi>, but the light ink line above the letter form and sense suggest that the reading is in fact <hi rend="it">þe</hi>.</note></seg>
                                 <seg ana="#prys">prys</seg>
                                 <seg ana="#perre">perre</seg>
                             </seg>
@@ -9660,13 +9694,14 @@
 
                         <l xml:id="E.0527" n="HL.0559">
                             <seg type="averse">
-                                <seg ana="#schottyn">schottyn</seg>
+                                <seg ana="#schottyn">scho<del rend="erasure">...?...</del><addSpan hand="hand1" place="inline" spanTo="#addend05" />ttyn</seg>
                                 <seg ana="#owt">owt</seg>
                                 <seg ana="#arwes">arwes</seg>
                             </seg>
                             <seg type="punct">.</seg>
                             <seg type="bverse">
                                 <seg ana="#þat">þat</seg>
+                                <anchor xml:id="addend05" />
                                 <seg ana="#scharp">scharp</seg>
                                 <seg ana="#were">were</seg>
                                 <seg ana="#y-grounde">y<seg type="shadowHyphen">-</seg>grounde</seg>
@@ -9704,7 +9739,7 @@
                             <seg type="punct">.</seg>
                             <seg type="bverse">
                                 <seg ana="#and">&amp;</seg>
-                                <seg ana="#hurtlyd">hurtlyd</seg>
+                                <seg ana="#hurtlyd">hurtly<del rend="overwritten">n</del><add place="inline" hand="hand1">d</add></seg>
                                 <seg ana="#to-gydre">to<seg type="shadowHyphen">-</seg>gydre</seg>
                             </seg>
                         </l>
@@ -9832,7 +9867,7 @@
                                 <seg ana="#owt">owt</seg>
                                 <seg ana="#fro">fro</seg>
                                 <seg ana="#towne">towne</seg>
-                                <seg ana="#beryn">beryn</seg>
+                                <del rend="erasure">..... h.</del><add place="inline" hand="hand1"><seg ana="#beryn">beryn</seg></add>
                             </seg>
                         </l>
 
@@ -10299,7 +10334,7 @@
                             <seg type="averse">
                                 <seg ana="#þe">þe</seg>
                                 <seg ana="#rolle">rolle</seg>
-                                <seg ana="#þat">þat</seg>
+                                <seg ana="#þat">þ<del rend="overwritten">e</del><add place="inline" hand="hand1">a</add>t</seg>
                                 <seg ana="#he">he</seg>
                                 <seg ana="#radde">radde</seg>
                                 <seg ana="#on">on</seg>
@@ -10338,7 +10373,12 @@
                                 <seg type="punct"><hi rend="rb">¶</hi></seg>
                                 <seg ana="#anon">Anon</seg>
                                 <seg ana="#þe">þe</seg>
-                                <seg ana="#feythles">feythles</seg>
+                                <choice>
+                                    <orig>feyth les</orig>
+                                    <reg>
+                                        <seg ana="#feythles">feythles</seg>   
+                                    </reg>
+                                </choice>
                                 <seg ana="#folk">folk</seg>
                             </seg>
                             <seg type="punct">.</seg>
@@ -10493,9 +10533,10 @@
 
                         <l xml:id="E.0574" n="HL.0606">
                             <seg type="averse">
-                                <seg ana="#oþer">oþ<expan>er</expan></seg>
+                                <del rend="erasure">...?...</del>
+                                <addSpan hand="hand1" place="inline" spanTo="#addend06" /><seg ana="#oþer">oþ<expan>er</expan></seg>
                                 <seg ana="#on">on</seg>
-                                <seg ana="#beestes">beestes</seg>
+                                <seg ana="#beestes">bees<anchor xml:id="addend06" />tes</seg>
                                 <seg type="punct">.</seg>
                                 <seg ana="#or">or</seg>
                                 <seg ana="#on">on</seg>
@@ -10796,8 +10837,8 @@
                         <l xml:id="E.0591" n="HL.0623">
                             <seg type="averse">
                                 <seg ana="#tookyn">tookyn</seg>
-                                <seg ana="#in-to">in<seg type="shadowHyphen">-</seg>to</seg>
-                                <seg ana="#toures">toures</seg>
+                                <seg ana="#in-to">in<del rend="erasure">...?...</del><addSpan hand="hand1" place="inline" spanTo="#addend07" /><seg type="shadowHyphen">-</seg>to</seg>
+                                <seg ana="#toures">toures</seg><anchor xml:id="addend07" />
                             </seg>
                             <seg type="punct">.</seg>
                             <seg type="bverse">
@@ -10958,8 +10999,13 @@
                                 <seg ana="#lakkyd">lakkyd</seg>
                                 <seg ana="#hym">hym</seg>
                                 <seg ana="#neuer">neuer</seg>
-                                <seg ana="#a">a</seg>
-                                <seg ana="#man">man</seg>
+                                <choice>
+                                    <orig>aman</orig>
+                                    <reg>
+                                        <seg ana="#a">a</seg>
+                                        <seg ana="#man">man</seg>
+                                    </reg>
+                                </choice>     
                             </seg>
                             <seg type="punct">.</seg>
                             <seg type="bverse">
@@ -11025,10 +11071,11 @@
 
                         <l xml:id="E.0604" n="HL.0636">
                             <seg type="averse">
-                                <seg ana="#thei">thei</seg>
+                                <del rend="erasure">...?...</del>
+                                <add place="inline" hand="hand1"><seg ana="#thei">thei</seg>
                                 <seg ana="#wulde">wulde</seg>
                                 <seg ana="#nat">nat</seg>
-                                <seg ana="#þe">þe</seg>
+                                <seg ana="#þe">þe</seg></add>
                                 <seg ana="#false">false</seg>
                             </seg>
                             <seg type="punct">.</seg>
@@ -11084,8 +11131,13 @@
                                 <seg ana="#kyng">kyng</seg>
                                 <seg ana="#anoon">anoon</seg>
                                 <seg ana="#made">made</seg>
-                                <seg ana="#a">a</seg>
-                                <seg ana="#cry">cry</seg>
+                                <choice>
+                                    <orig>acry</orig>
+                                    <reg>
+                                        <seg ana="#a">a</seg>
+                                        <seg ana="#cry">cry</seg>
+                                    </reg>
+                                </choice>     
                             </seg>
                             <seg type="punct">.</seg>
                             <seg type="bverse">
@@ -11318,7 +11370,7 @@
                             <seg type="bverse">
                                 <seg ana="#on">on</seg>
                                 <seg ana="#twelue">twelue</seg>
-                                <seg ana="#stronge">stronge</seg>
+                                <seg ana="#stronge">st<del rend="overwritten">o</del><add place="inline" hand="hand1">r</add>onge</seg>
                                 <seg ana="#postes">postes</seg>
                                 <seg type="punct">.</seg>
                             </seg>
@@ -11346,9 +11398,10 @@
                             <seg type="averse">
                                 <seg ana="#fyue">fyue</seg>
                                 <seg ana="#vndred">vndred</seg>
-                                <seg ana="#on">on</seg>
+                                <del rend="erasure">...?...</del>
+                                <addSpan hand="hand1" place="inline" spanTo="#addend08" /><seg ana="#on">on</seg>
                                 <seg ana="#a">a</seg>
-                                <seg ana="#frount">frount</seg>
+                                <seg ana="#frount">fr<anchor xml:id="addend08" />ount</seg>
                             </seg>
                             <seg type="punct">.</seg>
                             <seg type="bverse">
@@ -11649,13 +11702,12 @@
                             <seg type="bverse">
                                 <seg ana="#with-owte">with<seg type="shadowHyphen">-</seg>owte</seg>
                                 <seg ana="#fressh">fressh</seg>
-                                <seg ana="#harmes">harmes</seg>
+                                <seg ana="#harmes"><add place="inline" hand="hand1">h</add>armes</seg>
                             </seg>
                         </l>
 
                         <l xml:id="E.0640" n="HL.0684">
                             <seg type="averse">
-                                <seg type="punct">.</seg>
                                 <seg ana="#thorw">thorw</seg>
                                 <seg ana="#þe">þe</seg>
                                 <seg ana="#seege">seege</seg>
@@ -11719,7 +11771,7 @@
                             </seg>
                             <seg type="punct">.</seg>
                             <seg type="bverse">
-                                <seg ana="#myȝt">myȝt</seg>
+                                <seg ana="#myȝt">myȝt<note place="unspecified">There is a single stroke, apparently otiose, over the <hi rend="it">m</hi> in <hi rend="it">myȝt</hi>.</note></seg>
                                 <seg ana="#strike">strike</seg>
                                 <seg ana="#ouer">ou<expan>er</expan></seg>
                                 <seg ana="#þe">þe</seg>
@@ -12014,8 +12066,9 @@
 
                         <l xml:id="E.0660" n="HL.0704">
                             <seg type="averse">
-                                <seg ana="#to">to</seg>
-                                <seg ana="#be">be</seg>
+                                <del rend="erasure">...</del>
+                                <add place="inline" hand="hand1"><seg ana="#to">to</seg>
+                                <seg ana="#be">be</seg></add>
                                 <seg ana="#bounde">bounde</seg>
                                 <seg ana="#and">&amp;</seg>
                                 <seg ana="#y-knyt">y<seg type="shadowHyphen">-</seg>knyt</seg>
@@ -12051,7 +12104,7 @@
                         <l xml:id="E.0662" n="HL.0706">
                             <seg type="averse">
                                 <seg ana="#to">to</seg>
-                                <seg ana="#rendyn">rendyn</seg>
+                                <seg ana="#rendyn">rendy<add place="inline" hand="hand1">n</add></seg>
                                 <seg ana="#his">his</seg>
                                 <seg ana="#raw">raw</seg>
                                 <seg ana="#flessh">flessh</seg>
@@ -12124,7 +12177,8 @@
                             <seg type="punct">.</seg>
                             <seg type="bverse">
                                 <seg ana="#topseyl">topseyl</seg>
-                                <seg ana="#y-wene">y<seg type="shadowHyphen">-</seg>wene</seg>
+                                <seg ana="#y">y</seg>
+                                <seg ana="wene">wene</seg>
                             </seg>
                         </l>
 
@@ -12240,7 +12294,8 @@
                             <seg type="averse">
                                 <seg type="punct"><hi rend="rb">¶</hi></seg>
                                 <seg ana="#the">The</seg>
-                                <seg ana="#kyng">kyng</seg>
+                                <del rend="erasure">...?...?...</del>
+                                <addSpan hand="hand1" place="inline" spanTo="#addend09" /><seg ana="#kyng">kyng</seg>
                                 <seg ana="#bad">bad</seg>
                                 <seg ana="#hem">hem</seg>
                                 <seg ana="#hem">hem</seg>
@@ -12253,6 +12308,7 @@
                                 <seg ana="#whan">whan</seg>
                                 <seg ana="#þey">þey</seg>
                                 <seg ana="#deed">deed</seg>
+                                <anchor xml:id="addend09" />
                                 <seg ana="#were">were</seg>
                             </seg>
                         </l>
@@ -12275,7 +12331,7 @@
                                 <seg ana="#faste">faste</seg>
                                 <seg ana="#be">be</seg>
                                 <seg ana="#þe">þe</seg>
-                                <seg ana="#galwys">galwys</seg>
+                                <seg ana="#galwys">ga<del rend="erasure">...</del><add place="inline" hand="hand1">lwy</add>s</seg>
                             </seg>
                         </l>
 
@@ -12375,7 +12431,7 @@
                                 <seg ana="#and">&amp;</seg>
                                 <seg ana="#bad">bad</seg>
                                 <seg ana="#hem">hem</seg>
-                                <seg ana="#drynk">drynk</seg>
+                                <seg ana="#drynke">drynke</seg>
                                 <seg ana="#alle">alle</seg>
                                 <seg ana="#abowte">abowte</seg>
                             </seg>
@@ -12522,7 +12578,8 @@
                             </seg>
                             <seg type="punct">.</seg>
                             <seg type="bverse">
-                                <seg ana="#as">as</seg>
+                                <del rend="erasure">..</del>
+                                <add place="inline" hand="hand1"><seg ana="#as">as</seg></add>
                                 <seg ana="#reysoun">reysoun</seg>
                                 <seg ana="#wulde">wulde</seg>
                                 <seg type="punct">.</seg>
@@ -12552,7 +12609,15 @@
                                 <seg ana="#but">but</seg>
                                 <seg ana="#walwyth">walwyth</seg>
                                 <seg ana="#and">&amp;</seg>
-                                <seg ana="#walkeph">walkeph</seg>
+                                <choice>
+                                    <sic>
+                                        <seg ana="#walkeþh">walkeþh</seg>
+                                    </sic>
+                                    <corr>
+                                        <seg ana="#walketh">walketh</seg>
+                                    </corr>
+                                </choice>
+                                <note place="unspecified">It is possible that the reading here is <hi rend="it">walkeph</hi>, the form that Hanna-Lawton record, as the scribe's <hi rend="it">p</hi> and <hi rend="it">þ</hi> are indistinguishable. Perhaps more likely is that the scribe's exemplar contained a thorn and the scribe failed to convert that form fully to his usual <hi rend="it">-th</hi>. The only example of a third person present verb ending in <hi rend="it">-eþ</hi> is <hi rend="it">prikeþ</hi> at line 717.</note>
                             </seg>
                             <seg type="punct">.</seg>
                             <seg type="bverse">
@@ -12661,10 +12726,12 @@
                                 <seg type="punct">.</seg>
                             </seg>
                         </l>
-
+                    </lg>
                         <milestone n="211v" unit="fol." entity="E211v"/>
+                        <lg type="strophe" org="uniform" sample="complete">
                         <l xml:id="E.0697" n="HL.0745">
                             <seg type="averse">
+                                <seg type="punct"><hi rend="rb">¶</hi></seg>
                                 <seg ana="#waspasian">waspasian</seg>
                                 <seg ana="#busked">busked</seg>
                                 <seg ana="#hym">hym</seg>
@@ -12724,6 +12791,7 @@
                                 <seg ana="#gray">gray</seg>
                                 <seg ana="#steel">steel</seg>
                             </seg>
+                            <seg type="punct">.</seg>
                             <seg type="bverse">
                                 <seg ana="#y-grounde">y<seg type="shadowHyphen">-</seg>grounde</seg>
                                 <seg ana="#wol">wol</seg>
@@ -12935,8 +13003,10 @@
                             <seg type="bverse">
                                 <seg ana="#auysed">auysed</seg>
                                 <seg ana="#for">for</seg>
+                                <del rend="erasure">...?...</del>
+                                <addSpan hand="hand1" place="inline" spanTo="#addend10" />
                                 <seg ana="#þe">þe</seg>
-                                <seg ana="#nones">nones</seg>
+                                <seg ana="#nones">none<anchor xml:id="addend10" />s</seg>
                                 <seg type="punct">.</seg>
                             </seg>
                         </l>
@@ -13005,7 +13075,7 @@
                             </seg>
                             <seg type="punct">.</seg>
                             <seg type="bverse">
-                                <seg ana="#þe">þe</seg>
+                                <del rend="erasure">..</del><add place="inline" hand="hand1"><seg ana="#þe">þe</seg></add>
                                 <seg ana="#syde">syde</seg>
                                 <seg ana="#al">al</seg>
                                 <seg ana="#abowte">abowte</seg>
@@ -13036,8 +13106,9 @@
                             <seg type="averse">
                                 <seg ana="#as">as</seg>
                                 <seg ana="#lyȝtly">lyȝtly</seg>
-                                <seg ana="#as">as</seg>
-                                <seg ana="#a">a</seg>
+                                <del rend="erasure">...</del>
+                                <add place="inline" hand="hand1"><seg ana="#as">as</seg>
+                                <seg ana="#a">a</seg></add>
                                 <seg ana="#lyon">lyon</seg>
                             </seg>
                             <seg type="punct">.</seg>
@@ -13219,7 +13290,8 @@
                             <seg type="averse">
                                 <seg ana="#for">for</seg>
                                 <seg ana="#y">y</seg>
-                                <seg ana="#haue">haue</seg>
+                                <del rend="erasure">....</del>
+                                <add place="inline" hand="hand1"><seg ana="#haue">haue</seg></add>
                                 <seg ana="#stroyed">stroyed</seg>
                                 <seg ana="#alle">alle</seg>
                                 <seg ana="#þe">þe</seg>
@@ -13399,7 +13471,7 @@
                             <seg type="averse">
                                 <seg ana="#ȝif">ȝif</seg>
                                 <seg ana="#ȝe">ȝe</seg>
-                                <seg ana="#as">as</seg>
+                                <seg ana="#as">as<note place="unspecified">There is an extraneous mark at the top of the <hi rend="it">a</hi> in <hi rend="it">as</hi>, but no evidence of correction or alteration to the text.</note></seg>
                                 <seg ana="#dogges">dogges</seg>
                                 <seg ana="#wel">wel</seg>
                                 <seg ana="#deye">deye</seg>
@@ -13427,8 +13499,15 @@
                             <seg type="punct">.</seg>
                             <seg type="bverse">
                                 <seg ana="#fayn">fayn</seg>
-                                <seg ana="#schal">schal</seg>
-                                <seg ana="#schal">schal</seg>
+                                <choice>
+                                    <sic>
+                                        <seg ana="#schal">schal</seg>
+                                        <seg ana="#schal">schal</seg>
+                                    </sic>
+                                    <corr>
+                                        <seg ana="#schal">schal</seg>
+                                    </corr>
+                                </choice>
                                 <seg ana="#y">y</seg>
                                 <seg ana="#ȝow">ȝow</seg>
                                 <seg ana="#make">make</seg>
@@ -13500,10 +13579,11 @@
                             <seg type="punct">.</seg>
                             <seg type="bverse">
                                 <seg ana="#in">in</seg>
-                                <seg ana="#þe">þe</seg>
+                                <del rend="erasure">...?...</del>
+                                <add place="inline" hand="hand1"><seg ana="#þe">þe</seg>
                                 <seg ana="#reyn">reyn</seg>
                                 <seg ana="#leet">leet</seg>
-                                <seg ana="#legge">legge</seg>
+                                <seg ana="#legge">legge</seg></add>
                                 <seg ana="#hem">hem</seg>
                             </seg>
                         </l>
@@ -13801,7 +13881,7 @@
                                 <seg ana="#strenghe">strenghe</seg>
                                 <seg ana="#of">of</seg>
                                 <seg ana="#þe">þe</seg>
-                                <seg ana="#strok">strok</seg>
+                                <seg ana="#strok">st<del rend="erasure">..</del><add place="inline" hand="hand1">ro</add>k</seg>
                             </seg>
                             <seg type="punct">.</seg>
                             <seg type="bverse">
@@ -13816,7 +13896,7 @@
                         <l xml:id="E.0760" n="HL.0808">
                             <seg type="averse">
                                 <seg ana="#þat">þat</seg>
-                                <seg ana="#all">all</seg>
+                                <seg ana="#al">al</seg>
                                 <seg ana="#dered">dered</seg>
                                 <seg ana="#nat">nat</seg>
                                 <seg ana="#a">a</seg>
@@ -13934,9 +14014,10 @@
                             <seg type="bverse">
                                 <seg ana="#on">on</seg>
                                 <seg ana="#hem">hem</seg>
-                                <seg ana="#he">he</seg>
+                                <del rend="erasure">...?...</del>
+                                <addSpan hand="hand1" place="inline" spanTo="#addend11" /><seg ana="#he">he</seg>
                                 <seg ana="#leet">leet</seg>
-                                <seg ana="#caste">caste</seg>
+                                <seg ana="#caste">c<anchor xml:id="addend11" />aste</seg>
                             </seg>
                         </l>
 
@@ -14415,8 +14496,8 @@
                             <seg type="averse">
                                 <seg type="punct"><hi rend="rb">¶</hi></seg>
                                 <seg ana="#waspasyan">waspasyan</seg>
-                                <seg ana="#stynted">stynted</seg>
-                                <seg ana="#þanne">þanne</seg>
+                                <seg ana="#stynted">stynte<del rend="erasure">...</del><addSpan hand="hand1" place="inline" spanTo="#addend12" />d</seg>
+                                <seg ana="#þanne">þ<anchor xml:id="addend12" />anne</seg>
                             </seg>
                             <seg type="punct">.</seg>
                             <seg type="bverse">
@@ -14489,7 +14570,7 @@
                             </seg>
                             <seg type="punct">.</seg>
                             <seg type="bverse">
-                                <seg ana="#þay">þay</seg>
+                                <seg ana="#þey">þey</seg>
                                 <seg ana="#dodyn">dodyn</seg>
                                 <seg ana="#of">of</seg>
                                 <seg ana="#sone">sone</seg>
@@ -14624,8 +14705,15 @@
                                 <seg ana="#preyde">preyde</seg>
                             </seg>
                             <seg type="bverse">
-                                <seg ana="#his">his</seg>
-                                <seg ana="#his">his</seg>
+                                <choice>
+                                    <sic>
+                                        <seg ana="#his">his</seg>
+                                        <seg ana="#his">his</seg>
+                                    </sic>
+                                    <corr>
+                                        <seg ana="#his">his</seg>
+                                    </corr>
+                                </choice>
                                 <seg ana="#lordes">lordes</seg>
                                 <seg ana="#al">al</seg>
                                 <seg ana="#abowte">abowte</seg>
@@ -14737,8 +14825,13 @@
                             <seg type="punct">.</seg>
                             <seg type="bverse">
                                 <seg ana="#wyslyche">wyslyche</seg>
-                                <seg ana="#y">y</seg>
-                                <seg ana="#weene">weene</seg>
+                                <choice>
+                                    <orig>yweene</orig>
+                                    <reg>
+                                        <seg ana="#y">y</seg>
+                                        <seg ana="#weene">weene</seg>
+                                    </reg>
+                                </choice>
                             </seg>
                         </l>
 
@@ -15135,8 +15228,13 @@
                             <seg type="averse">
                                 <seg type="punct"><hi rend="rb">¶</hi></seg>
                                 <seg ana="#eche">Eche</seg>
-                                <seg ana="#a">a</seg>
-                                <seg ana="#frek">frek</seg>
+                                <choice>
+                                    <orig>afrek</orig>
+                                    <reg>
+                                        <seg ana="#a">a</seg>
+                                        <seg ana="#frek">frek</seg>
+                                    </reg>
+                                </choice>
                                 <seg ana="#be">be</seg>
                                 <seg ana="#hym-seelf">hym<seg type="shadowHyphen">-</seg>seelf</seg>
                             </seg>
@@ -15269,10 +15367,13 @@
                                 <seg ana="#peyred">peyred</seg>
                             </seg>
                         </l>
-
+                    </lg>
+                    
+                    <lg type="strophe">
                         <l xml:id="E.0841" n="HL.0901">
                             <seg type="averse">
-                                <seg ana="#his">his</seg>
+                                <seg type="punct">¶<note place="unspecified">There is a mark in text ink for a paraph here, but there is no place for the rubricator to render it because the area is covered by the tail of the large initial <hi rend="it">I</hi> from line 837.</note></seg>
+                                <seg ana="#his">his<note place="unspecified">There appears to be an unfinished letter form above the initial <hi rend="it">h</hi> with a flourish that extends into the left margin, but it is unclear either what the form was or what the scribe intended.</note></seg>
                                 <seg ana="#moder">moder</seg>
                                 <seg ana="#and">&amp;</seg>
                                 <seg ana="#his">his</seg>
@@ -15493,7 +15594,7 @@
                             <seg type="punct">.</seg>
                             <seg type="bverse">
                                 <seg ana="#he">he</seg>
-                                <seg ana="#gnawyd">gnawyd</seg>
+                                <seg ana="#gnawyd"><del rend="overwritten">b</del><add palce="inline" hand="hand1">g</add>nawyd</seg>
                                 <seg ana="#and">&amp;</seg>
                                 <seg ana="#bytyd">bytyd</seg>
                             </seg>
@@ -15750,7 +15851,7 @@
                             <seg type="averse">
                                 <seg ana="#and">&amp;</seg>
                                 <seg ana="#atte">atte</seg>
-                                <seg ana="#þe">þe</seg>
+                                <seg ana="#þe"><del rend="overwritten">l</del><add place="inline" hand="hand1">þ</add>e</seg>
                                 <seg ana="#last">last</seg>
                                 <seg ana="#þis">þis</seg>
                                 <seg ana="#lord">lord</seg>
@@ -15787,7 +15888,7 @@
                         <l xml:id="E.0870" n="HL.0930">
                             <seg type="averse">
                                 <seg ana="#ther">ther</seg>
-                                <seg ana="#otus">otus</seg>
+                                <seg ana="#othus">othus</seg>
                                 <seg ana="#felde">felde</seg>
                                 <seg ana="#hym">hym</seg>
                                 <seg ana="#in">in</seg>
@@ -16093,6 +16194,7 @@
                                 <seg ana="#he">he</seg>
                                 <seg ana="#ȝede">ȝede</seg>
                             </seg>
+                            <seg type="punct">.</seg>
                             <seg type="bverse">
                                 <seg ana="#and">&amp;</seg>
                                 <seg ana="#ȝalde">ȝalde</seg>
@@ -16132,7 +16234,7 @@
                                 <seg ana="#vitayl">vitayl</seg>
                             </seg>
                             <seg type="bverse">
-                                <seg ana="#þe">þe</seg>
+                                <del rend="erasure">..</del><add place="inline" hand="hand1"><seg ana="#þe">þe</seg></add>
                                 <seg ana="#sceptre">sceptre</seg>
                                 <seg ana="#hadde">hadde</seg>
                                 <seg ana="#in">in</seg>
@@ -16180,6 +16282,7 @@
                                 <seg ana="#to">to</seg>
                                 <seg ana="#haue">haue</seg>
                             </seg>
+                            <seg type="punct">.</seg>
                             <seg type="bverse">
                                 <seg ana="#whan">whan</seg>
                                 <seg ana="#þey">þey</seg>
@@ -16487,7 +16590,7 @@
                         <l xml:id="E.0909" n="HL.0969">
                             <seg type="averse">
                                 <seg type="punct"><hi rend="rb">¶</hi></seg>
-                                <seg ana="#ȝe">ȝe</seg>
+                                <seg ana="#ȝe">Ȝe</seg>
                                 <seg ana="#been">been</seg>
                                 <seg ana="#barnes">barnes</seg>
                                 <seg ana="#of">of</seg>
@@ -16509,7 +16612,7 @@
                                 <seg ana="#sone">sone</seg>
                                 <seg ana="#syb">syb</seg>
                                 <seg ana="#to">to</seg>
-                                <seg ana="#my-seelf">my<seg type="shadowHyphen">-</seg>seelf</seg>
+                                <seg ana="#my-seelf">my<seg type="shadowHyphen">-</seg>seelf<note place="unspecified">An otiose mark on the <hi rend="it">s</hi> in <hi rend="it">seelf</hi> makes the letter appear very similar to an <hi rend="it">f</hi>.</note></seg>
                             </seg>
                             <seg type="punct">.</seg>
                             <seg type="bverse">
@@ -16587,7 +16690,7 @@
                             <seg type="averse">
                                 <seg ana="#þat">þat</seg>
                                 <seg ana="#y">y</seg>
-                                <seg ana="#schal">schal</seg>
+                                <seg ana="#schal">s<add place="inline" hand="hand1">c</add>hal</seg>
                                 <seg ana="#be">be</seg>
                                 <seg ana="#lord">lord</seg>
                                 <seg ana="#of">of</seg>
@@ -16646,7 +16749,7 @@
                                 <seg ana="#for">For</seg>
                                 <seg ana="#y">y</seg>
                                 <seg ana="#haue">haue</seg>
-                                <seg ana="#hyȝly">hyȝly</seg>
+                                <seg ana="#hyȝly">h<del rend="erasure">..</del><add place="inline" hand="hand1">yȝ</add>ly</seg>
                                 <seg ana="#behyȝt">behyȝt</seg>
                             </seg>
                             <seg type="punct">.</seg>
@@ -16776,6 +16879,7 @@
                                 <seg ana="#thi">thi</seg>
                                 <seg ana="#wille">wille</seg>
                             </seg>
+                            <seg type="punct">.</seg>
                             <seg type="bverse">
                                 <seg ana="#ȝif">ȝif</seg>
                                 <seg ana="#wurschip">wurschip</seg>
@@ -16795,6 +16899,7 @@
                                 <seg ana="#knelyd">knelyd</seg>
                                 <seg ana="#a-down">a<seg type="shadowHyphen">-</seg>down</seg>
                             </seg>
+                            <seg type="punct">.</seg>
                             <seg type="bverse">
                                 <seg ana="#and">&amp;</seg>
                                 <seg ana="#to">to</seg>
@@ -17032,7 +17137,8 @@
                         <l xml:id="E.0938" n="HL.999.1">
                             <seg type="averse">
                                 <seg ana="#and">&amp;</seg>
-                                <seg ana="#beholde">beholde</seg>
+                                <seg ana="#be">be</seg>
+                                <seg ana="#holde">holde</seg>
                                 <seg ana="#a">a</seg>
                                 <seg ana="#trewe">trewe</seg>
                                 <seg ana="#kyng">kyng</seg>
@@ -17466,6 +17572,7 @@
                                 <seg ana="#her">her</seg>
                                 <seg ana="#hertys">hertys</seg>
                                 <seg ana="#chaunge">chaunge</seg>
+                                <seg type="punct">.</seg>
                             </seg>
                         </l>
 
@@ -17739,6 +17846,7 @@
                                 <seg ana="#surgyen">surgyen</seg>
                                 <seg ana="#was">was</seg>
                                 <seg ana="#noble">noble</seg>
+                                <seg type="punct">.</seg>
                             </seg>
                         </l>
 
@@ -17784,12 +17892,13 @@
 
                         <l xml:id="E.0979" n="HL.1042">
                             <seg type="averse">
-                                <seg ana="#how">how</seg>
+                                <del rend="erasure">...?...</del>
+                                <addSpan hand="hand1" place="inline" spanTo="#addend13" /><seg ana="#how">how</seg>
                                 <seg ana="#þat">þ<expan>a</expan>t<note place="unspecified">Note that the scribe usually spells out <hi rend="it">þat</hi> rather than using an expansion, but seems to have been compelled by lack of space to use the more compact expanded form here (perhaps because he is writing over an erasure).</note></seg>
                                 <seg ana="#he">he</seg>
                                 <seg ana="#sodenliche">sodenliche</seg>
                             </seg>
-                            <seg type="punct">.</seg>
+                            <seg type="punct">.</seg><anchor xml:id="addend13" />
                             <seg type="bverse">
                                 <seg ana="#in">in</seg>
                                 <seg ana="#siknesse">siknesse</seg>
@@ -17856,7 +17965,7 @@
 
                         <l xml:id="E.0983" n="HL.1046">
                             <seg type="averse">
-                                <seg ana="#and">&amp;</seg>
+                                <seg ana="#and">&amp;<note place="unspecified">To the left of this line there is a horizontal mark that has no clear meaning; it is also unclear whether it was written by the original scribe or by the hand that added the marginal line numbers.</note></seg>
                                 <seg ana="#anon">anon</seg>
                                 <seg ana="#he">he</seg>
                                 <seg ana="#wente">wente</seg>
@@ -17958,6 +18067,7 @@
                                 <seg ana="#al">al</seg>
                                 <seg ana="#began">began</seg>
                             </seg>
+                            <seg type="punct">.</seg>
                             <seg type="bverse">
                                 <seg ana="#to">to</seg>
                                 <seg ana="#wurche">wurche</seg>
@@ -18090,7 +18200,7 @@
                             <seg type="punct">.</seg>
                             <seg type="bverse">
                                 <seg ana="#thougħ">thougħ</seg>
-                                <seg ana="#thow">thow</seg>
+                                <seg ana="#thow"><del rend="erasure">..</del><add place="inline" hand="hand1">th</add>ow</seg>
                                 <seg ana="#hym">hym</seg>
                                 <seg ana="#bale">bale</seg>
                                 <seg ana="#wuldest">wuldest</seg>
@@ -18430,7 +18540,6 @@
                                 <seg ana="#for">for</seg>
                                 <seg ana="#defaute">defaute</seg>
                             </seg>
-                            <seg type="punct">.</seg>
                             <seg type="bverse">
                                 <seg ana="#flat">flat</seg>
                                 <seg ana="#to">to</seg>
@@ -18657,8 +18766,10 @@
                                 <seg ana="#smel">smel</seg>
                                 <seg ana="#roos">roos</seg>
                                 <seg ana="#of">of</seg>
+                                <del rend="erasure">...?...</del>
+                                <addSpan hand="hand1" place="inline" spanTo="#addend14" />
                                 <seg ana="#þat">þat</seg>
-                                <seg ana="#roost">roost</seg>
+                                <seg ana="#roost">roos<anchor xml:id="addend14" />t</seg>
                             </seg>
                             <seg type="punct">.</seg>
                             <seg type="bverse">
@@ -18703,7 +18814,7 @@
 
                         <l xml:id="E.1029" n="HL.1092">
                             <seg type="averse">
-                                <seg ana="#for">for</seg>
+                                <del rend="erasure">...</del><add place="inline" hand="hand1"><seg ana="#for">for</seg></add>
                                 <seg ana="#mete">mete</seg>
                                 <seg ana="#in">in</seg>
                                 <seg ana="#þat">þat</seg>
@@ -18916,7 +19027,7 @@
                                 <seg ana="#wommen">wommen</seg>
                                 <seg ana="#and">&amp;</seg>
                                 <seg ana="#weyk">weyk</seg>
-                                <seg ana="#foolk">foolk</seg>
+                                <seg ana="#foolk">foo<del rend="erasure">..</del><add place="inline" hand="hand1">lk</add></seg>
                             </seg>
                             <seg type="punct">.</seg>
                             <seg type="bverse">
@@ -19011,7 +19122,7 @@
                                 <seg ana="#is">is</seg>
                                 <seg ana="#of">of</seg>
                                 <seg ana="#falshede">falshede</seg>
-                                <seg ana="#a-feerd">a<seg type="shadowHyphen">-</seg>feerd</seg>
+                                <seg ana="#afeerd">afeerd</seg>
                             </seg>
                             <seg type="punct">.</seg>
                             <seg type="bverse">
@@ -19530,7 +19641,7 @@
                             <seg type="bverse">
                                 <seg ana="#þat">þat</seg>
                                 <seg ana="#were">were</seg>
-                                <seg ana="#witħ-ynne">witħ<seg type="shadowHyphen">-</seg>ynne</seg>
+                                <seg ana="#with-ynne">with<seg type="shadowHyphen">-</seg>ynne</seg>
                                 <seg type="punct">.</seg>
                             </seg>
                         </l>
@@ -19893,9 +20004,10 @@
                             </seg>
                             <seg type="punct">.</seg>
                             <seg type="bverse">
-                                <seg ana="#it">it</seg>
+                                <del rend="erasure">...?...</del>
+                                <addSpan hand="hand1" place="inline" spanTo="#addend15" /><seg ana="#it">it</seg>
                                 <seg ana="#greuyd">greuyd</seg>
-                                <seg ana="#hym">hym</seg>
+                                <seg ana="#hym">hym</seg><anchor xml:id="addend15" />
                                 <seg ana="#sore">sore</seg>
                                 <seg type="punct">.</seg>
                             </seg>
@@ -20122,6 +20234,7 @@
                                 <seg ana="#gates">gates</seg>
                                 <seg ana="#vn-gete">vn<seg type="shadowHyphen">-</seg>gete</seg>
                             </seg>
+                            <seg type="punct">.</seg>
                             <seg type="bverse">
                                 <seg ana="#tyl">tyl</seg>
                                 <seg ana="#two">two</seg>
@@ -20430,8 +20543,8 @@
                             <seg type="bverse">
                                 <seg ana="#where">where</seg>
                                 <seg ana="#þey">þey</seg>
-                                <seg ana="#schudle">schudle</seg>
-                                <seg ana="#myne">myne</seg>
+                                <seg ana="#schulde">schulde</seg>
+                                <seg ana="#myne">Myne</seg>
                             </seg>
                         </l>
 
@@ -20847,8 +20960,9 @@
                                 <seg ana="#tytus">tytus</seg>
                                 <seg ana="#lifte">lifte</seg>
                                 <seg ana="#vp">vp</seg>
-                                <seg ana="#his">his</seg>
-                                <seg ana="#hond">hond</seg>
+                                <del rend="erasure">...?...</del>
+                                <addSpan hand="hand1" place="inline" spanTo="#addend16" /><seg ana="#his">his</seg>
+                                <seg ana="#hond">hond</seg><anchor xml:id="addend16" />
                             </seg>
                             <seg type="punct">.</seg>
                             <seg type="bverse">
@@ -21104,7 +21218,7 @@
                             <seg type="punct">.</seg>
                             <seg type="bverse">
                                 <seg ana="#caluyd">caluyd</seg>
-                                <seg ana="#in">in</seg>
+                                <seg ana="#in"><del rend="erasure">..</del><add place="inline" hand="hand1">in</add></seg>
                                 <seg ana="#þe">þe</seg>
                                 <seg ana="#temple">temple</seg>
                             </seg>
@@ -21162,8 +21276,9 @@
                             <seg type="bverse">
                                 <seg ana="#wurgħ">wurgħ</seg>
                                 <seg ana="#to">to</seg>
-                                <seg ana="#ȝow">ȝow</seg>
-                                <seg ana="#bothe">bothe</seg>
+                                <del rend="erasure">...?...</del>
+                                <addSpan hand="hand1" place="inline" spanTo="#addend17" /><seg ana="#ȝow">ȝow</seg>
+                                <seg ana="#bothe">bothe</seg><anchor xml:id="addend17" />
                             </seg>
                         </l>
 
@@ -21456,7 +21571,7 @@
 
                         <l xml:id="E.1180" n="HL.1251">
                             <seg type="averse">
-                                <seg ana="#burgeyses">burgeyses</seg>
+                                <seg ana="#burgeyses">burgeyse<add place="inline" hand="hand1">s</add></seg>
                                 <seg ana="#with">with</seg>
                                 <seg ana="#belyes">belyes</seg>
                             </seg>
@@ -21604,9 +21719,14 @@
                                 <seg ana="#as">as</seg>
                                 <seg ana="#it">it</seg>
                                 <seg ana="#were">were</seg>
-                                <seg ana="#a">a</seg>
-                                <seg ana="#launpe">launpe</seg>
-                            </seg>
+                                <choice>
+                                    <orig>alaunpe</orig>
+                                    <reg>
+                                        <seg ana="#a">a</seg>
+                                        <seg ana="#launpe">launpe</seg>
+                                    </reg>
+                                </choice>
+                              </seg>
                         </l>
 
                         <l xml:id="E.1189" n="HL.1260">
@@ -22563,7 +22683,13 @@
                                 <seg ana="#marchaundyse">marchaundyse</seg>
                                 <seg ana="#now">now</seg>
                                 <seg ana="#weele">weele</seg>
-                                <seg ana="#ymake">ymake</seg>
+                                <choice>
+                                    <orig>ymake</orig>
+                                    <reg>
+                                        <seg ana="#y">y</seg>
+                                        <seg ana="#make">make</seg>
+                                    </reg>
+                                </choice>
                             </seg>
                             <seg type="punct">.</seg>
                             <seg type="bverse">
@@ -22927,7 +23053,8 @@
                             </seg>
                             <seg type="punct">.</seg>
                             <seg type="bverse">
-                                <seg ana="#y-blessyd">y<seg type="shadowHyphen">-</seg>blessyd</seg>
+                                <del rend="erasure">...?...</del>
+                                <add place="inline" hand="hand1"><seg ana="#y-blessyd">y<seg type="shadowHyphen">-</seg>blessyd</seg></add>
                                 <seg ana="#be">be</seg>
                                 <seg ana="#god">god</seg>
                                 <seg ana="#almyȝty">almyȝty</seg>

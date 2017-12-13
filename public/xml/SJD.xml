@@ -18,6 +18,7 @@
             </titleStmt>
             <extent>xxx kb</extent>
             <publicationStmt>
+                
                 <publisher/>
                 <pubPlace/>
                 <date/>
@@ -10113,7 +10114,7 @@
 
                     <l xml:id="D.0626" n="HL.0650">
                         <seg type="averse">
-                            <seg ana="#ayen">Ayen</seg>
+                            <seg ana="#ayen">A<seg type="shadowHyphen">-</seg>yen</seg>
                             <seg ana="#euerycħ">eu<expan>er</expan>ycħ</seg>
                             <seg ana="#yate">yate</seg>
                         </seg>
@@ -10200,8 +10201,7 @@
                         <seg type="averse">
                             <seg ana="#hardy">hardy</seg>
                             <seg ana="#men">men</seg>
-                            <seg ana="#vp">vp</seg>
-                            <seg ana="#on">on</seg>
+                            <seg ana="#vpon">vp<seg type="shadowHyphen">-</seg>on</seg>
                             <seg ana="#hye">hye</seg>
                         </seg>
                         <seg type="bverse">

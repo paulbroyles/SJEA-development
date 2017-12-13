@@ -1583,7 +1583,7 @@
                     <l xml:id="A.0096" n="HL.0099">
                         <seg type="averse">
                             <seg ana="#whethir">whethir</seg>
-                            <seg ana="#gommes">gommes<note place="unspecified">The macron above the <hi rend="it">o</hi> in <hi rend="it"></hi>gommes</note> is presumably otiose given that the <hi rend="it">m</hi> is already doubled.</seg>
+                            <seg ana="#gommes">gommes<note place="unspecified">The macron above the <hi rend="it">o</hi> in <hi rend="it">gommes</hi> is presumably otiose given that the <hi rend="it">m</hi> is already doubled.</note></seg>
                             <seg ana="#or">or</seg>
                             <seg ana="#grisses">grisses</seg>
                         </seg>
