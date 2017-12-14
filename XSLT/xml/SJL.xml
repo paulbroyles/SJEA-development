@@ -2631,7 +2631,7 @@
                             <seg ana="#iudas">Iudas</seg>
                             <seg ana="#þat">þ<expan>a</expan>t</seg>
                             <choice>
-                                <abbr>Ihu&#x02DC;</abbr>
+                                <abbr>Iħu</abbr>
                                 <expan>
                                     <seg ana="#iesu">Iesu</seg>
                                 </expan>
@@ -2675,7 +2675,7 @@
                         </seg>
                         <g ref="#puncelev"/>
                         <seg type="bverse">
-                            <seg ana="#to-breste">to-breste</seg>
+                            <seg ana="#to-breste">to<seg type="shadowHyphen">-</seg>breste</seg>
                             <seg ana="#on">on</seg>
                             <seg ana="#þe">þe</seg>
                             <seg ana="#myddel">myddel</seg>
@@ -2717,7 +2717,7 @@
                     <l xml:id="L.0155" n="HL.0159">
                         <seg type="averse">
                             <seg ana="#ȝit">Ȝit</seg>
-                            <seg ana="#vnbaptiȝed">vnbaptiȝed</seg>
+                            <seg ana="#vnbaptized">vnbaptized</seg>
                             <seg ana="#were">wer<expan>e</expan></seg>
                             <seg ana="#boþe">boþe</seg>
                         </seg>
@@ -5951,7 +5951,7 @@
                             <seg ana="#iewyse">Iewyse</seg>
                             <seg ana="#for">for</seg>
                             <choice>
-                                <abbr>Ihu&#x02DC;</abbr>
+                                <abbr>Iħu</abbr>
                                 <expan>
                                     <seg ana="#iesu">Iesu</seg>
                                 </expan>
@@ -5977,7 +5977,7 @@
                             <seg ana="#come">come</seg>
                             <seg ana="#þat">þ<expan>a</expan>t</seg>
                             <choice>
-                                <abbr>Ihu&#x02DC;</abbr>
+                                <abbr>Iħu</abbr>
                                 <expan>
                                     <seg ana="#iesu">Iesu</seg>
                                 </expan>
@@ -7303,7 +7303,7 @@
                             <seg ana="#iosophat">Iosophat</seg>
                             <seg ana="#þer">þ<expan>er</expan></seg>
                             <choice>
-                                <abbr>Ihu&#x02DC;</abbr>
+                                <abbr>Iħu</abbr>
                                 <expan>
                                     <seg ana="#iesu">Iesu</seg>
                                 </expan>
@@ -8987,7 +8987,7 @@
                         <seg type="averse">
                             <seg ana="#lacchen">lacchen</seg>
                             <seg ana="#launces">launces</seg>
-                            <seg ana="#a-non">a<seg type="shadowHyphen">-</seg>non</seg>
+                            <seg ana="#a-non">a<seg type="shadowHyphen">-</seg>no<expan>n</expan></seg>
                         </seg>
                         <g ref="#puncelev"/>
                         <seg type="bverse">
@@ -16988,8 +16988,7 @@
                         <seg type="averse">
                             <seg ana="#bot">bot</seg>
                             <seg ana="#alle">alle</seg>
-                            <seg ana="#ouer">ou<expan>er</expan></seg>
-                            <seg ana="#tourned">to<expan>ur</expan>ned</seg>
+                            <seg ana="#ouer-tourned">ou<expan>er</expan><seg type="shadowHyphen">-</seg>to<expan>ur</expan>ned</seg>
                         <g ref="#puncelev"/>
                             <seg ana="#and">&amp;</seg>
                             <seg ana="#tilt">tilt</seg>
@@ -18075,7 +18074,7 @@
 
                     <l xml:id="L.1079" n="HL.1084">
                         <seg type="averse">
-                            <seg ana="#sayþ">sayþ</seg>
+                            <seg ana="#sayþ">Sayþ</seg>
                             <seg ana="#sone">sone</seg>
                             <seg ana="#vpon">vpon</seg>
                             <seg ana="#eche">eche</seg>
@@ -18108,9 +18107,15 @@
 
                     <l xml:id="L.1081" n="HL.1086">
                         <seg type="averse">
-                            <seg ana="#with">w<expan>i</expan>t<expan>h</expan></seg>
-                            <seg ana="#yn">yn</seg>
-                            <seg ana="#hunger">hung<expan>er</expan></seg>
+                            <seg ana="#with-yn">w<expan>i</expan>t<expan>h</expan><seg type="shadowHyphen">-</seg>yn</seg>
+                            <choice>
+                                <sic>
+                                    <seg ana="#hinger">hing<expan>er</expan></seg>
+                                </sic>
+                                <corr>
+                                    <seg ana="#hunger">hung<expan>er</expan></seg>
+                                </corr>
+                            </choice>
                             <seg ana="#so">so</seg>
                             <seg ana="#hote">hote</seg>
                         </seg>
@@ -18318,7 +18323,7 @@
                         <seg type="averse">
                             <seg ana="#and">&amp;</seg>
                             <seg ana="#sayn">sayn</seg>
-                            <seg ana="#a-las">a<seg type="shadowHyphen">-</seg>las</seg>
+                            <seg ana="#alas">alas</seg>
                             <seg ana="#in">in</seg>
                             <seg ana="#þis">þ<expan>i</expan>s</seg>
                             <seg ana="#lif">lif</seg>
