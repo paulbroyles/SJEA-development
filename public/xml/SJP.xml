@@ -30,6 +30,7 @@
                 <msDesc>
                     
                     <msIdentifier>
+                        
                         <country>United States</country>
                         <settlement>Princeton</settlement>
                         <repository>Princeton University Library</repository>
@@ -3774,8 +3775,7 @@
                             <seg ana="#ane"><hi rend="tr">A</hi>ne</seg>
                             <seg ana="#ayre">ayre</seg>
                             <seg ana="#flaghe">flaghe</seg>
-                            <seg ana="#þar">þar</seg>
-                            <seg ana="#fra">fra</seg>
+                            <seg ana="#þar-fra">þar<seg type="shadowHyphen">-</seg>fra</seg>
                         </seg>
                         <seg type="bverse">
                             <seg ana="#þai">þai</seg>
@@ -13873,7 +13873,7 @@
                         <seg ana="#next">next</seg> 
                         <seg ana="#to">to</seg> 
                         <seg ana="#my">my</seg> 
-                        <gap atLeast="5" atMost="7" unit="chars" />> 
+                        <gap atLeast="5" atMost="7" unit="chars" /> 
                         <seg ana="#other"><supplied>o</supplied>ther</seg> 
                         <seg ana="#syb">syb</seg> 
                         <seg ana="#many">many</seg> 
