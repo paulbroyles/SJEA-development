@@ -129,61 +129,63 @@ module TaskUtilities
     return "java -jar tools/saxonhe-9-3-0-5j/saxon9he.jar -s:#{xmlfile} -xsl:#{xslfile}"
   end
 
-  def processParentNode( seg, hl )
+  # Process any node contained in a line. Written by PAB to replace old logic.
+	# This is recursive, letting us use a single set of rules for how types of
+	# elements shoudl be treated.
+	def processNodeInLine( node, hl )
+		if ( node.kind_of? REXML::Text ) == true
+			return node.value( )
+		else
+			content = ""
 
-   content = ""
+			case node.name
 
-   seg.each_child() do |segchild|
+			when "hi", "expan", "add", "choice", "reg", "corr", "damage", "unclear", "seg"
+				node.each_child( ) do |child|
+					content << processNodeInLine(child, hl)
+				end
 
-       # a text node... add its content
-       if ( segchild.kind_of? REXML::Text ) == true
+			when "supplied"
+				content << "["
+				node.each_child( ) do |child|
+					content << processNodeInLine(child, hl)
+				end
+				content << "]"
 
-          # a kind of hack...
-          #if seg.name != "hi"
-          #   content << " "
-          #end
-          content << segchild.value( )
-       else
+			when "gap"
+			 # Show blanks with empty characters. See the XSLT
+			 # for how this works. PAB.
+			 if node.attributes["unit"] == "chars"
+				 # if the gap length is specified in characters
+				 times = 1 # Initialize the variable for the length of the gap
+									 # at 1, then overwrite as appropriate
+				 if node.attributes["quantity"] != nil
+					 times = node.attributes["quantity"]
+				 elsif node.attributes["atLeast"] != nil && node.attributes["atMost"] != nil
+					 times = ((node.attributes["atLeast"].to_f + node.attributes["atMost"].to_f) / 2).round
+				 elsif node.attributes["atLeast"]
+					 times = node.attributes["atLeast"]
+				 elsif node.attributes["atMost"]
+					 times = node.attributes["atMost"]
+				 end
 
-          if segchild.attributes["ana"] != nil
-             segchild.each_child() do |anachild|
-                if ( anachild.kind_of? REXML::Text ) == true
-                   content << anachild.value( )
-                else
-                   content << processParentNode( anachild, hl )
-                end
+				 content << "?" * times
 
-             end
-          else
-             case segchild.name
-             # these nodes can have children...
-					 	 when "hi", "expan", "add", "choice", "reg", "supplied", "corr", "damage"
-                   content << processParentNode( segchild, hl )
+			 elsif node.attributes["extent"] == "rest of line"
+				 # if the rest of the line is omitted, insert an ellipsis
+				 content << "..."
+			 end
 
-             when "note", "del", "orig", "abbr", "sic"
-                # always ignore these...
+			when "note", "del", "orig", "abbr", "sic", "g"
+				# ignore these
 
-             else
-                # otherwise, we look to see what type of node this is
-                case segchild.attributes["type"]
+			else
+				puts "UNPROCESSED TAG #{node.name} #{hl}"
+			end
 
-                when "shadowHyphen", "punct"
-                   content << segchild.text( ) unless segchild.has_text?( ) == false
-
-                when "averse", "bverse"
-                   content << processParentNode( segchild, hl )
-
-                else
-                   puts "UNPROCESSED #{seg.name} child #{segchild.name} #{segchild.attributes} #{hl}"
-                end
-             end
-          end
-       end
-   end
-
-   return content
-
-  end
+		return content
+	end
+end
 
   def processLineChildren( line )
 
@@ -191,69 +193,7 @@ module TaskUtilities
       hl = line.attributes["n"]
 
       line.each_child() do |child|
-
-         # a text node... add its content
-         if ( child.kind_of? REXML::Text ) == true
-            content << child.value( )
-         else
-
-            case child.name
-
-              when "seg"
-
-                     child.each_child() do |grandchild|
-                        # a text node... add its content
-                        if ( grandchild.kind_of? REXML::Text ) == true
-                           content << grandchild.value( )
-                        else
-                           case grandchild.name
-                           when "note"
-                              # ignore these...
-                           else
-                              content << processParentNode( grandchild, hl )
-                           end
-                        end
-                     end
-
-              when "damage", "expan", "hi", "add"
-                  # take the text from these...
-									# pab: Because these can be multiple layers deep, we need to
-									#      process them reciprocally, just like seg tags.
-                  content << processParentNode( child, hl )
-
-							when "gap"
-						 	 # Show blanks with empty characters. See the XSLT
-						 	 # for how this works. PAB.
-						 	 if child.attributes["unit"] == "chars"
-						 		 # if the gap length is specified in characters
-						 		 times = 1 # Initialize the variable for the length of the gap
-						 							 # at 1, then overwrite as appropriate
-						 		 if child.attributes["quantity"] != nil
-						 			 times = child.attributes["quantity"]
-						 		 elsif child.attributes["atLeast"] != nil && child.attributes["atMost"] != nil
-						 			 times = ((child.attributes["atLeast"].to_f + child.attributes["atMost"].to_f) / 2).round
-						 		 elsif child.attributes["atLeast"]
-						 			 times = child.attributes["atLeast"]
-						 		 elsif child.attributes["atMost"]
-						 			 times = child.attributes["atMost"]
-						 		 end
-
-						 		 content << "?" * times
-
-						 	 elsif child.attributes["extent"] == "rest of line"
-						 		 # if the rest of the line is omitted, insert an ellipsis
-						 		 content << "..."
-						 	 end
-
-
-              when "g"
-                # ignore these...
-
-              else
-                 puts "UNPROCESSED LINE TAG #{child.name} #{hl}"
-
-          end
-         end
+				content << processNodeInLine( child, hl )
       end
 
       return content
