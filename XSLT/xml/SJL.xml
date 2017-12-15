@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="allitSeenet.rnc" type="compact"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="../allitSeenet.rnc" type="compact"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -6483,7 +6484,7 @@
                             <seg ana="#be">be</seg>
                             <seg ana="#satled">satled</seg>
                             <seg ana="#on">on</seg>
-                            <seg ana="#þy">þy-self<seg type="shadowHyphen">-</seg>self</seg>
+                            <seg ana="#þy-self">þy<seg type="shadowHyphen">-</seg>self</seg>
                         </seg>
                         <g ref="#puncelev"/>
                         <seg type="bverse">
@@ -6655,7 +6656,7 @@
                         <g ref="#puncelev"/>
                         <seg type="bverse">
                             <seg ana="#drawyn">drawyn</seg>
-                            <seg ana="#a-lofte">a-lofte</seg>
+                            <seg ana="#a-lofte">a<seg type="shadowHyphen">-</seg>lofte</seg>
                         </seg>
                     </l>
 
@@ -8236,7 +8237,7 @@
                         <seg type="bverse">
                             <seg ana="#and">&amp;</seg>
                             <seg ana="#bestes">bestes</seg>
-                            <seg ana="#y-armed">y-armed</seg>
+                            <seg ana="#y-armed">y<seg type="shadowHyphen">-</seg>armed</seg>
                         </seg>
                     </l>
 
@@ -8839,7 +8840,7 @@
                         <g ref="#puncelev"/>
                         <seg type="bverse">
                             <seg ana="#and">&amp;</seg>
-                            <seg ana="#a-loude">a-loude</seg>
+                            <seg ana="#a-loude">a<seg type="shadowHyphen">-</seg>loude</seg>
                             <seg ana="#sayde">sayde</seg>
                         </seg>
                     </l>
@@ -9408,7 +9409,7 @@
                             <seg ana="#þat">þ<expan>a</expan>t</seg>
                             <seg ana="#scharpe">scharpe</seg>
                             <seg ana="#was">was</seg>
-                            <seg ana="#y-grounde">y-grou<expan>n</expan>de</seg>
+                            <seg ana="#y-grounde">y<seg type="shadowHyphen">-</seg>grou<expan>n</expan>de</seg>
                         </seg>
                     </l>
 
