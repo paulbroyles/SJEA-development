@@ -21,8 +21,24 @@
             * Upload the large image only; generate thumbnails by running `rake sjea:regenthumbs`.
         * Partner logos are prefaced by `partnerlogo_[top/btm]_`. The meaning of top/btm is a bit opaque; it seems most likely to refer to which row the logo should be on, but in current site configuration, division into rows is based on screen size.
     * There are images in `/XSLT/images/`, but they do not appear to be processed by `sjea:regenthumbs`, and I am not currently aware of any specific purpose they serve.
+    * **To add images to introductions:**
+        * Images that are to be featured in popups, particularly detail images from introductions, should be placed in `/public/images/` like other images, but an additional step is required to make them appear.
+        * Once the image is placed in the proper directory, update `/public/stylesheets/sjea-manuscripts.css`, adding the image as a background image. At the time of writing, the images are all specified at the end of the file, organized in alphabetical order.
+        * The image entries are constructed as follows:
+
+            ```
+            #[image filename without extension] {
+              background-image: url(/images/[image filename].jpg);
+              width: [width in pixels]px;
+              height: [height in pixels]px;
+            }
+            ```
+            
 * CSS Stylesheets:
     * Manuscripts stylesheet (`manuscript.css`): `/XSLT/stylesheets/manuscript.css`
         * On regeneration of content with `rake`, this CSS file is copied to `/public/stylesheets/`, where it is served. Changes should be made in the XSLT directory and then propagated to the live site with `rake sjea:regencontent`.
+    * Site chrome: `/public/stylesheets/`
+        * **Do not** edit the version of `manuscript.css` found in this directory; that should be edited in the `/XSLT/stylesheets/` directory as above.
+        * `sjea-manuscripts.css` contains entities for the popup images appearing in introductions, as described above in *Images*.
 * Javascript: `/public/javascripts/`
     * Contains both libraries and custom JS
