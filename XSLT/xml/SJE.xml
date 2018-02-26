@@ -844,7 +844,7 @@
                                 <seg ana="#thowȝ">thowȝ</seg>
                                 <seg ana="#he">he</seg>
                                 <seg ana="#care">care</seg>
-                                <seg ana="#hadde">hadde</seg>
+                                <seg ana="#hadde">hadde <note place="unspecified">This strophe contains only three lines, whereas the scribe usually marks four-line units. Note also that this line splics HL lines 39a and 40b, and thus this seems to be a clear case of eyeskip.</note></seg>
                             </seg>
                         </l>
 
@@ -950,7 +950,7 @@
                                 <seg ana="#in">in</seg>
                                 <seg ana="#message">message</seg>
                                 <seg ana="#of">of</seg>
-                                <seg ana="#iewys">iewys</seg>
+                                <seg ana="#iewys">iewys <note place="unspecified">HL line 50, which we would expect to follow this line, is missing. Note also that this strophe contains only three lines, whereas the scribe normally marks four-line units.</note></seg>
                             </seg>
                         </l>
 
@@ -1422,7 +1422,7 @@
                                 <seg ana="#wunder">wunder</seg>
                                 <seg ana="#they">they</seg>
                                 <seg ana="#hadde">hadde</seg>
-                                <seg type="punct">·</seg>
+                                <seg type="punct">·<note place="unspecified">This is the first line of a five-line strophe, whereas the scribe normally marks four-line units.</note></seg>
                             </seg>
                         </l>
 
@@ -4992,7 +4992,7 @@
                                 <seg ana="#þat">þat</seg>
                                 <seg ana="#wykkyd">wykkyd</seg>
                                 <seg ana="#dede">dede</seg>
-                                <seg type="punct">.</seg>
+                                <seg type="punct">.<note place="unspecified">This is a scribal line, attested only in MS E. Note also that it occurs at the end of a five-line strophe, whereas the scribe usually marks four-line units.</note></seg>
                             </seg>
                         </l>
 
@@ -7505,7 +7505,7 @@
                             </seg>
                         </l>
 
-                        <l xml:id="E.0404" n="HL.0424">
+                        <l xml:id="E.0404" n="HL.0423.1">
                             <seg type="averse">
                                 <seg ana="#þat">þat</seg>
                                 <seg ana="#no">no</seg>
@@ -7732,7 +7732,7 @@
 
                     </lg>
                     <lg type="strophe" org="uniform" sample="complete">
-                        <l xml:id="E.0417" n="HL.0437">
+                        <l xml:id="E.0417" n="HL.0436.1">
                             <seg type="averse">
                                 <seg type="punct"><hi rend="rb">¶</hi></seg>
                                 <seg ana="#and">And</seg>
@@ -17356,7 +17356,7 @@
                                 <seg ana="#þat">þat</seg>
                                 <seg ana="#hem">hem</seg>
                                 <seg ana="#lede">lede</seg>
-                                <seg ana="#schulde">schulde<note place="unspecified">This is the first line of a five-line division, a deviation from the normal scribal practice of marking quatrains.  It is unclear whether this is motivated by something in the text or simply an error, although the latter seems more likely given that the scribe seems to mark four-line groupings mechanically rather than using them to organize textually coherent quatrains.</note></seg>
+                                <seg ana="#schulde">schulde<note place="unspecified">This is the first line of a five-line strophe, whereas the scribe normally marks four-line units.</note></seg>
                             </seg>
                         </l>
 
@@ -22670,7 +22670,7 @@
                                 <seg ana="#penyes">penyes</seg>
                                 <seg ana="#so">so</seg>
                                 <seg ana="#fewe">fewe</seg>
-                                <seg type="punct">.</seg>
+                                <seg type="punct">.<note place="unspecified">HL line 1312, which we would expect to follow this line, is missing. Note also that this strophe contains only three lines, whereas the scribe normally marks four-line units.</note></seg>
                             </seg>
                         </l>
 
@@ -23061,9 +23061,10 @@
                                 <seg type="punct">.</seg>
                             </seg>
                         </l>
+                    </lg>
                         <trailer place="marginRight"><hi rend="tr">A</hi>me<hi rend="tr">N</hi><hi rend="tr">.</hi></trailer>
 
-                    </lg>
+                    
                 </div2>
             </div1>
         </body>

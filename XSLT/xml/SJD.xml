@@ -98,6 +98,7 @@
                 <div2 type="passus" n="1">
                     <head place="topLeft"><hi rend="rb">here bygynnitħ þe sege of Ier<expan>usa</expan>l<expan>e</expan>m .</hi></head>
                     <milestone n="206r" unit="fol." entity="D206r"/>
+                    <lg type="strophe">
                     <l xml:id="D.0001" n="HL.0001">
                         <seg type="averse">
                             <seg ana="#in"><hi rend="o2"><hi rend="bl">I</hi></hi>N</seg>
@@ -499,7 +500,8 @@
                             <seg ana="#wrogħt">wrogħt</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="D.0025" n="HL.0025">
                         <seg type="averse">
                             <seg type="punct"><hi rend="rb">¶</hi></seg>
@@ -886,7 +888,8 @@
                             <seg ana="#nolde">nolde</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="D.0049" n="HL.0053">
                         <seg type="averse">
                             <seg type="punct"><hi rend="bl">¶</hi></seg>
@@ -1257,7 +1260,8 @@
                             <seg ana="#havyn">havyn</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="D.0072" n="HL.0077">
                         <seg type="averse">
                             <seg type="punct"><hi rend="bl">¶</hi></seg>
@@ -1402,7 +1406,8 @@
                             <seg ana="#lettres">lettres</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="D.0081" n="HL.0089">
                         <seg type="averse">
                             <seg type="punct"><hi rend="bl">¶</hi></seg>
@@ -1557,7 +1562,8 @@
                             <seg ana="#cheke">cheke</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="D.0090" n="HL.0097">
                         <seg type="averse">
                             <seg type="punct"><hi rend="rb">¶</hi></seg>
@@ -1621,7 +1627,8 @@
                             <seg ana="#sayne">sayne</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="D.0094" n="HL.0101">
                         <seg type="averse">
                             <seg type="punct"><hi rend="rb">¶</hi></seg>
@@ -2169,7 +2176,10 @@
                         </seg>
                         <seg type="bverse">
                             <seg ana="#and">&amp;</seg>
-                            <seg ana="#v">v.</seg>
+                            <choice>
+                                <orig>v.</orig>
+                                <reg><seg ana="#fyve">fyve</seg></reg>
+                            </choice>
                             <seg ana="#barly">barly</seg>
                             <seg ana="#loves">loves</seg>
                         </seg>
@@ -2919,7 +2929,8 @@
                             <seg ana="#hurte">hurte</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="D.0174" n="HL.0181">
                         <seg type="averse">
                             <seg type="punct"><hi rend="bl">¶</hi></seg>
@@ -3052,8 +3063,10 @@
                             <seg ana="#a-venge">a<seg type="shadowHyphen">-</seg>venge</seg>
                         </seg>
                     </l>
+                    </lg>
                 </div2>
                 <div2 type="passus" n="2">
+                    <lg type="strophe">
                     <l xml:id="D.0182" n="HL.0189">
                         <seg type="averse">
                             <seg type="punct"><hi rend="rb">¶</hi></seg>
@@ -3088,7 +3101,8 @@
                             <seg ana="#levyn">levyn</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="D.0184" n="HL.0191">
                         <seg type="averse">
                             <seg type="punct"><hi rend="bl">¶</hi></seg>
@@ -3118,7 +3132,8 @@
                             <seg ana="#y-blessid">y<seg type="shadowHyphen">-</seg>blessid</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="D.0186" n="HL.0193">
                         <seg type="averse">
                             <seg type="punct"><hi rend="bl">¶</hi></seg>
@@ -3310,7 +3325,8 @@
                             <seg ana="#ȝoldyn">ȝoldyn</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="D.0198" n="HL.0205">
                         <seg type="averse">
                             <seg type="punct"><hi rend="bl">¶</hi></seg>
@@ -3492,7 +3508,8 @@
                             <seg ana="#dayes">dayes</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="D.0209" n="HL.0218">
                         <seg type="averse">
                             <seg type="punct"><hi rend="rb">¶</hi></seg>
@@ -3732,7 +3749,8 @@
                             <seg ana="#mygħt">mygħt</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="D.0224" n="HL.0233">
                         <seg type="averse">
                             <seg type="punct"><hi rend="rb">¶</hi></seg>
@@ -4020,7 +4038,8 @@
                             <seg ana="#woundis">woundis</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="D.0242" n="HL.0251">
                         <seg type="averse">
                             <seg type="punct"><hi rend="rb">¶</hi></seg>
@@ -4247,7 +4266,8 @@
                             <seg ana="#holde">holde</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="D.0256" n="HL.0265">
                         <seg type="averse">
                             <seg type="punct"><hi rend="rb">¶</hi></seg>
@@ -4372,7 +4392,8 @@
                             <seg ana="#slowyn">slowyn</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="D.0264" n="HL.0273">
                         <seg type="averse">
                             <seg type="punct"><hi rend="rb">¶</hi></seg>
@@ -4754,7 +4775,8 @@
                             <seg ana="#londe">londe</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="D.0288" n="HL.0297">
                         <seg type="averse">
                             <seg type="punct">¶</seg>
@@ -5012,7 +5034,8 @@
                             <seg ana="#wold">wold</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="D.0304" n="HL.0313">
                         <seg type="averse">
                             <seg type="punct"><hi rend="bl">¶</hi></seg>
@@ -5152,7 +5175,8 @@
                             <seg ana="#a-bout">a<seg type="shadowHyphen">-</seg>bout</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="D.0313" n="HL.0326">
                         <seg type="averse">
                             <seg type="punct"><hi rend="bl">¶</hi></seg>
@@ -5349,7 +5373,8 @@
                             <seg ana="#byholde">byholde</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="D.0326" n="HL.0339">
                         <seg type="averse">
                             <seg type="punct"><hi rend="rb">¶</hi></seg>
@@ -5654,7 +5679,8 @@
                             <seg ana="#go">go</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="D.0344" n="HL.0357">
                         <seg type="averse">
                             <seg type="punct"><hi rend="rb">¶</hi></seg>
@@ -5722,7 +5748,8 @@
                             <seg ana="#shold">shold</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="D.0348" n="HL.0361">
                         <seg type="averse">
                             <seg type="punct"><hi rend="rb">¶</hi></seg>
@@ -5956,7 +5983,8 @@
                             <seg ana="#iewis">Iewis</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="D.0362" n="HL.0375">
                         <seg type="averse">
                             <seg type="punct"><hi rend="rb">¶</hi></seg>
@@ -5990,7 +6018,8 @@
                             <seg ana="#wyse">wyse</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="D.0364" n="HL.0377">
                         <seg type="averse">
                             <seg type="punct"><hi rend="rb">¶</hi></seg>
@@ -6691,7 +6720,10 @@
                                    <seg ana="#sixty">sixty</seg>
                                </reg>
                            </choice>
-                            <seg ana="#mille">M<expan>i</expan>l<expan>le</expan></seg>
+                            <choice>
+                                <orig>M<expan>i</expan>l<expan>le</expan></orig>
+                                <reg><seg ana="#thowsand">thowsand</seg></reg>
+                            </choice>
                             <seg ana="#by">by</seg>
                             <seg ana="#somme">somme</seg>
                         </seg>
@@ -6850,7 +6882,8 @@
                             <seg ana="#oþir">oþir</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="D.0417" n="HL.0433">
                         <seg type="averse">
                             <seg type="punct"><hi rend="bl">¶</hi></seg>
@@ -6984,7 +7017,10 @@
                                 <orig>. x .</orig>
                                 <reg><seg ana="#ten">ten</seg></reg>
                             </choice>
-                            <seg ana="#mille">M<expan>i</expan>l<expan>le</expan></seg>
+                            <choice>
+                                <orig>M<expan>i</expan>l<expan>le</expan></orig>
+                                <reg><seg ana="#thowsand">thowsand</seg></reg>
+                            </choice>
                             <seg ana="#in">in</seg>
                             <seg ana="#þe">þe</seg>
                             <seg ana="#tayłł">tayłł</seg>
@@ -7043,8 +7079,10 @@
                             <seg ana="#betyde">betyde</seg>
                         </seg>
                     </l>
+                    </lg>
                 </div2>
                 <div2 type="passus" n="3">
+                    <lg type="strophe">
                     <l xml:id="D.0429" n="HL.0445">
                         <seg type="averse">
                             <seg type="punct"><hi rend="bl">¶</hi></seg>
@@ -7118,7 +7156,7 @@
                             <seg ana="#and">And</seg>
                             <choice>
                                 <orig>xlv</orig>
-                                <reg>fourty five</reg>
+                                <reg><seg ana="#fourty-fyve">fourty-fyve</seg></reg>
                             </choice>
                             <seg ana="#olyfauntis">olyfauntis</seg>
                         </seg>
@@ -7241,7 +7279,7 @@
                         <seg type="bverse">
                             <seg ana="#wiþ">wiþ</seg>
                             <choice>
-                               <orig><seg type="punct">.</seg> <seg>x</seg> <seg type="punct">.</seg></orig>
+                               <orig>. x .</orig>
                                 <reg>
                                     <seg ana="#ten">ten</seg>
                                 </reg>
@@ -7694,7 +7732,8 @@
                             <seg ana="#knowe">knowe</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="D.0470" n="HL.0489">
                         <seg type="averse">
                             <seg type="punct"><hi rend="rb">¶</hi></seg>
@@ -8617,7 +8656,8 @@
                             <seg ana="#were">were</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="D.0529" n="HL.0553">
                         <seg type="averse">
                             <seg type="punct"><hi rend="bl">¶</hi></seg>
@@ -8796,7 +8836,8 @@
                             <seg ana="#yedyn">yedyn</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="D.0541" n="HL.0565">
                         <seg type="averse">
                             <seg type="punct"><hi rend="bl">¶</hi></seg>
@@ -9294,7 +9335,8 @@
                             <seg ana="#þogħt">þogħt</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="D.0573" n="HL.0597">
                         <seg type="averse">
                             <seg type="punct"><hi rend="rb">¶</hi></seg>
@@ -9553,7 +9595,10 @@
                         <seg type="averse">
                             <seg ana="#an">An</seg>
                             <seg ana="#hondrid">hondrid</seg>
-                            <seg ana="#mille">M<expan>i</expan>l<expan>le</expan></seg>
+                            <choice>
+                                <orig>M<expan>i</expan>l<expan>le</expan></orig>
+                                <reg><seg ana="#thowsand">thowsand</seg></reg>
+                            </choice>
                             <seg ana="#helmys">helmys</seg>
                         </seg>
                         <seg type="bverse">
@@ -9911,6 +9956,7 @@
                             <seg ana="#passe">passe<note place="unspecified">The large gap at the bottom of this folio corresponds to a textual division in PAUEC, suggesting that the scribe was here responding to such a change in his exemplar.  In addition, as Ralph Hanna notes in "Booklets In Medieval Manuscripts: Further Considerations," <title>Studies in Bibliography</title>  39 (1986), 100-11, this is the juncture of two units that were originally separate, as evidenced by "excessive wear on some leaves of quire 16, some difficulties of textual presentation within the quire, a change in the signing of the manuscript, and a change in materials at the start of [the following] quire" (105).  See the article for further information, as well as the description of MS D and Hanna-Lawton lxxii.</note></seg>
                         </seg>
                     </l>
+                    </lg>
                     <marginalia place="bottomCenter" hand="hand1">As rathe p<expan>ro</expan>x<expan>imo</expan> folio .</marginalia>
                     <fw type="catch" place="bottomRight">As rathe</fw>
                     
@@ -9918,6 +9964,7 @@
                     <fw type="runningHead" place="topCenter"><hi rend="rb">of Ier<expan>usa</expan>l<expan>e</expan>m</hi></fw>
                 </div2>
                 <div2 type="passus" n="4">
+                    <lg type="strophe">
                     <l xml:id="D.0613" n="HL.0637">
                         <seg type="averse">
                             <seg type="punct"><hi rend="bl">¶</hi></seg>
@@ -10157,7 +10204,7 @@
                             <seg ana="#wiþ">wiþ</seg>
                             
                             <choice>
-                                <orig><seg type="punct">.</seg> <seg>xij</seg></orig>
+                                <orig>. xij</orig>
                                 <reg>
                                     <seg ana="#twelue">twelue</seg>
                                 </reg>
@@ -10741,7 +10788,8 @@
                             <seg ana="#y-closid">y<seg type="shadowHyphen">-</seg>closid</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="D.0667" n="HL.0693">
                         <seg type="averse">
                             <seg type="punct"><hi rend="rb">¶</hi></seg>
@@ -11254,7 +11302,8 @@
                             <seg ana="#soul">sou<supplied reason="cropped">l</supplied></seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="D.0699" n="HL.0725">
                         <seg type="averse">
                             <seg type="punct"><hi rend="rb">¶</hi></seg>
@@ -11439,8 +11488,10 @@
                             <seg ana="#rest">rest</seg>
                         </seg>
                     </l>
+                    </lg>
                 </div2>
                 <div2 type="passus" n="5">
+                    <lg type="strophe">
                     <l xml:id="D.0711" n="HL.0738">
                         <seg type="averse">
                             <seg type="punct">
@@ -12146,7 +12197,8 @@
                             <seg ana="#helpitħ">helpitħ</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="D.0755" n="HL.0783">
                         <seg type="averse">
                             <seg type="punct"><hi rend="bl">¶</hi></seg>
@@ -12626,7 +12678,8 @@
                             <seg ana="#fellyn">fellyn</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="D.0785" n="HL.0813">
                         <seg type="averse">
                             <seg type="punct"><supplied><damage type="cropped"><hi rend="rb">¶</hi></damage></supplied><note>The remnant of a rubricated paraph, now mostly lost to cropping, remains visible here. This point in the text also corresponds to paraph signs in MSS E and U.</note></seg>
@@ -13129,7 +13182,8 @@
                             <seg ana="#ellis">ellis</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="D.0817" n="HL.0845">
                         <seg type="averse">
                             <seg type="punct"><hi rend="rb">¶</hi></seg>
@@ -13317,7 +13371,8 @@
                             <seg ana="#tyme">tyme</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="D.0829" n="HL.0863">
                         <seg type="averse">
                             <seg type="punct"><hi rend="rb">¶</hi></seg>
@@ -13665,7 +13720,8 @@
                             <seg ana="#wold">wold</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="D.0850" n="HL.0885">
                         <seg type="averse">
                             <seg type="punct"><hi rend="rb">¶</hi></seg>
@@ -13840,8 +13896,10 @@
                             <seg ana="#ioye">ioye</seg>
                         </seg>
                     </l>
+                    </lg>
                 </div2>
                 <div2 type="passus" n="6">
+                    <lg type="strophe">
                     <l xml:id="D.0861" n="HL.0897">
                         <seg type="averse">
                             <seg type="punct"><hi rend="bl">¶</hi></seg>
@@ -14733,8 +14791,10 @@
                             <seg ana="#turne">turne</seg>
                         </seg>
                     </l>
+                    </lg>
                 </div2>
                 <div2 type="passus" n="7">
+                    <lg type="strophe">
                     <l xml:id="D.0916" n="HL.0953">
                         <seg type="averse">
                             <seg type="punct"><hi rend="bl">¶</hi></seg>
@@ -14927,7 +14987,8 @@
                             <seg ana="#likitħ">likitħ</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="D.0928" n="HL.0965">
                         <seg type="averse">
                             <seg type="punct">¶</seg>
@@ -15745,7 +15806,8 @@
                             <seg ana="#othir">othir</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="D.0978" n="HL.1021">
                         <seg type="averse">
                             <seg type="punct">¶</seg>
@@ -16065,7 +16127,8 @@
                             <seg ana="#hele">hele</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="D.0998" n="HL.1041">
                         <seg type="averse">
                             <seg type="punct">¶</seg>
@@ -16201,7 +16264,8 @@
                             <seg ana="#syde">syde</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="D.1006" n="HL.1049">
                         <seg type="averse">
                             <seg type="punct">¶</seg>
@@ -17119,7 +17183,8 @@
                             <seg ana="#lordis">lordis</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="D.1063" n="HL.1106">
                         <seg type="averse">
                             <seg type="punct">¶</seg>
@@ -17233,8 +17298,10 @@
                             <seg ana="#ioy">ioy</seg>
                         </seg>
                     </l>
+                    </lg>
                 </div2>
                 <div2 type="passus" n="8">
+                    <lg type="strophe">
                     <l xml:id="D.1070" n="HL.1113">
                         <seg type="averse">
                             <seg type="punct">¶</seg>
@@ -17539,7 +17606,8 @@
                             <seg ana="#helpis">helpis</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="D.1089" n="HL.1133">
                         <seg type="averse">
                             <seg type="punct">¶</seg>
@@ -17894,7 +17962,8 @@
                             <seg ana="#falle">falle</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="D.1111" n="HL.1155">
                         <seg type="averse">
                             <seg type="punct">¶</seg>
@@ -18234,7 +18303,10 @@
                                 <orig>xj <hi rend="sup">C</hi></orig>
                                 <reg>elleven hundrid</reg>
                             </choice>
-                            <seg ana="#mille">M<expan>i</expan>l<expan>le</expan></seg>
+                            <choice>
+                                <orig>M<expan>i</expan>l<expan>le</expan></orig>
+                                <reg><seg ana="#thowsand">thowsand</seg></reg>
+                            </choice>
                         </seg>
                         <seg type="bverse">
                             <seg ana="#in">in</seg>
@@ -18260,7 +18332,8 @@
                             <seg ana="#hungir">hungir</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="D.1133" n="HL.1177">
                         <seg type="averse">
                             <seg type="punct">¶</seg>
@@ -18465,7 +18538,10 @@
                                 <orig>. x .</orig>
                                 <reg><seg ana="#ten">ten</seg></reg>
                             </choice>
-                            <seg ana="#mille">M<expan>i</expan>l<expan>le</expan></seg>
+                            <choice>
+                                <orig>M<expan>i</expan>l<expan>le</expan></orig>
+                                <reg><seg ana="#thowsand">thowsand</seg></reg>
+                            </choice>
                             <seg ana="#helmys">helmys</seg>
                         </seg>
                     </l>
@@ -18709,10 +18785,12 @@
                             <seg ana="#fallis">fallis</seg>
                         </seg>
                     </l>
+                    </lg>
                     
                     <milestone n="226r" unit="fol." entity="D226r"/>
                     <fw type="runningHead" place="topCenter"><hi rend="rb">. of Ier<expan>usa</expan>l<expan>e</expan>m</hi> .</fw>
-                    <l xml:id="D.1161" n="HL.1205">
+                    <lg type="strophe">
+                        <l xml:id="D.1161" n="HL.1205">
                         <seg type="averse">
                             <seg type="punct"><hi rend="tr">¶</hi></seg>
                             <seg ana="#than"><hi rend="tr">T</hi>han</seg>
@@ -18841,7 +18919,8 @@
                             <seg ana="#dasshid">dasshid</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="D.1169" n="HL.1213">
                         <seg type="averse">
                             <seg type="punct">¶</seg>
@@ -19208,7 +19287,8 @@
                             <seg ana="#neuerr">neu<expan>er</expan>r</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="D.1192" n="HL.1237">
                         <seg type="averse">
                             <seg type="punct">¶</seg>
@@ -19849,7 +19929,8 @@
                             <seg ana="#likyd">likyd</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="D.1234" n="HL.1281">
                         <seg type="averse">
                             <seg type="punct">¶</seg>
@@ -20089,7 +20170,8 @@
                             <seg ana="#wordis">wordis</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="D.1249" n="HL.1296">
                         <seg type="averse">
                             <seg type="punct">¶</seg>
@@ -20233,7 +20315,8 @@
                             <seg ana="#woundis">woundis</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="D.1258" n="HL.1305">
                         <seg type="averse">
                             <seg type="punct">¶</seg>
@@ -20723,7 +20806,7 @@
                             <seg ana="#wisse">wisse</seg>
                         </seg>
                     </l>
-                    
+                    </lg>
                     
                 </div2>
                 <explicit place="bottomCenter"><hi rend="rb">Explicit þe sege of Ier<expan>usa</expan>l<expan>e</expan>m .</hi></explicit>

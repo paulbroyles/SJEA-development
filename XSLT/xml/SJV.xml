@@ -577,7 +577,7 @@
                             <seg ana="#brothir">brothir'</seg>
                         </seg>
                     </l>
-                    <fw type="qSig" place="bottomRight">x<expan>us</expan><note>It is likely, but not certain, that this is a quire number from an earlier version of this book, some quires of which are now lost. See the "Collation" section in the description of the manuscript for a full discussion.</note></fw>
+                    <fw type="qSig" place="bottomRight">xvi<note>It is likely, but not certain, that this is a quire number from an earlier version of this book, some quires of which are now lost. It is also possible that this should be transcribed <hi rend="it">x<expan>us</expan></hi>. See the "Collation" section in the description of the manuscript for a full discussion.</note></fw>
                     
                     <milestone n="70v" unit="fol." entity="V070v"/>
                     <l xml:id="V.0030" n="HL.0995">

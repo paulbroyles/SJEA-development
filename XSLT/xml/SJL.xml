@@ -3666,7 +3666,10 @@
 
                     <l xml:id="L.0211" n="HL.0215">
                         <seg type="averse">
-                            <seg ana="#xxti">XX<expan>ti</expan></seg>
+                            <choice>
+                                <orig>XX<hi rend="sup">ti</hi></orig>
+                                <reg><seg ana="twenti">twenti</seg></reg>
+                            </choice>
                             <seg ana="#knyȝtes">knyȝtes</seg>
                             <seg ana="#were">wer<expan>e</expan></seg>
                             <seg ana="#cud">cud</seg>
