@@ -243,7 +243,7 @@ end
 					pages += 1
 				end
 
-			when "div", "div1", "div2", "div3", "div4", "div5", "div6", "div7", "lg", "add"
+			when "div", "div1", "div2", "div3", "div4", "div5", "div6", "div7", "lg"
 				pages, lines, folio = processStructure( child, linelist, pages, lines, folio )
 
 			when "l"
@@ -255,7 +255,7 @@ end
 				# search, so ignore them.
 
 			else
-				puts "UNPROCESSED TAG in processStructure #{child.name}"
+				puts "UNPROCESSED TAG in processStructure: #{child.name} in #{el.name}"
 			end
 
 		end
