@@ -176,7 +176,7 @@ module TaskUtilities
 				 content << "..."
 			 end
 
-			when "note", "del", "orig", "abbr", "sic", "g"
+		 when "note", "del", "orig", "abbr", "sic", "g", "addSpan", "anchor", "space"
 				# ignore these
 
 			else
@@ -219,176 +219,50 @@ end
 
   end
 
-  def processLgTagStructure( doc, linelist )
+	# wrapper function to contain all loading behavior for a specific file. Calls
+	# the recursive function that processes structural elements and prints the
+	# report on what was processed.
+	def processDoc( doc, linelist )
+		body = REXML::XPath.first(doc, '//text/body')
+		pages, lines, folio = processStructure( body, linelist, 0, 0, "UNKNOWN" )
+		puts "Processed #{pages} pages, #{lines} lines"
+	end
 
-     folio = "UNKNOWN"
-     pages = 0
-     lines = 0
+	# recursive function that loop through multiple layers of structural elements
+	# until reaching the line elements for processing. Returns counts of the
+	# numbers of pages and lines, which are used to increment the counts at higher
+	# structural levels, and ultimately passed to the calling function.
+	def processStructure ( el, linelist, pages, lines, folio )
+		el.each_element() do | child |
 
-     # process the list of lg tags
-     doc.elements.each('//lg') do | lgtag |
+			case child.name
 
-        childlg = lgtag.elements[ 1 ]
-        while childlg != nil do
-           if ( childlg.kind_of? REXML::Text ) == false
-              case childlg.name
-                 when "l"
-                    processLineNode( childlg, folio, linelist )
-                    lines += 1
+			when "milestone"
+				if child.attributes["unit"] == "fol."
+					folio = child.attributes["entity"]
+					pages += 1
+				end
 
-                 when "milestone"
-                    folio = childlg.attributes["entity"]
-                    pages += 1
+			when "div", "div1", "div2", "div3", "div4", "div5", "div6", "div7", "lg", "add"
+				pages, lines, folio = processStructure( child, linelist, pages, lines, folio )
 
-                  when "trailer"
-                     # ignore these for now...
+			when "l"
+				processLineNode( child, folio, linelist )
+				lines +=1
 
-                 when "lg"
-                    break
-                 else
-                    puts "UNPROCESSED TAG in lg loop #{childlg.name}"
-              end
-           else
-                  # nothing else of interest here so this is not an error
-                  #puts "UNEXPECTED TEXT TAG in processLgTagStructure #{childlg.value}"
-           end
-           childlg = childlg.next_sibling_node()
-        end
-     end
+			when "lb", "cb", "fw", "marginalia", "head", "trailer"
+				# These are expected elements that have no bearing on comparison or
+				# search, so ignore them.
 
-     puts "Processed #{pages} pages, #{lines} lines"
-  end
+			else
+				puts "UNPROCESSED TAG in processStructure #{child.name}"
+			end
 
-  def processDiv2TagStructure( doc, linelist )
+		end
 
-     folio = "UNKNOWN"
-     pages = 0
-     lines = 0
+		return pages, lines, folio
 
-     # process the list of div2's
-     doc.elements.each('//div2') do | div2 |
-
-         # we may hit one in the inner loop so we need a way to drop out
-         newMilestone = false
-
-         nextnode = div2.elements[ 1 ]
-         while nextnode != nil do
-           if ( nextnode.kind_of? REXML::Text ) == false
-              case nextnode.name
-                  when "l"
-                     processLineNode( nextnode, folio, linelist )
-                     lines += 1
-
-                  when "milestone"
-                     folio = nextnode.attributes["entity"]
-                     pages += 1
-
-                  when "marginalia", "head", "trailer", "fw"
-                     # ignore these for now...
-
-                  when "div2"
-                     break
-
-                  else
-                     puts "UNPROCESSED TAG in processDiv2Structure #{nextnode.name}"
-              end
-           else
-              # nothing else of interest here so this is not an error
-              #puts "UNEXPECTED TEXT TAG in processDiv2Structure #{nextnode.value}"
-           end
-           nextnode = nextnode.next_sibling_node()
-        end
-     end
-     puts "Processed #{pages} pages, #{lines} lines"
-  end
-
-  def processSpecialDiv2TagStructure( doc, linelist )
-
-     folio = "UNKNOWN"
-     pages = 0
-     lines = 0
-
-     # cant seem to just get thew first one...
-     doc.root.elements.each( '//milestone' ) do | page |
-        folio = page.attributes["entity"]
-        pages = 1
-        break
-     end
-
-     # process the list of div2's
-     doc.elements.each('//div2') do | div2 |
-
-         # we may hit one in the inner loop so we need a way to drop out
-         newMilestone = false
-
-         nextnode = div2.elements[ 1 ]
-         while nextnode != nil do
-           if ( nextnode.kind_of? REXML::Text ) == false
-              case nextnode.name
-                  when "l"
-                     processLineNode( nextnode, folio, linelist )
-                     lines += 1
-
-                  when "milestone"
-                     folio = nextnode.attributes["entity"]
-                     pages += 1
-
-                  when "head"
-                     # ignore these for now...
-
-                  when "div2"
-                     break
-
-                  else
-                     puts "UNPROCESSED TAG in processSpecialDiv2TagStructure #{nextnode.name}"
-              end
-           else
-              # nothing else of interest here so this is not an error
-              #puts "UNEXPECTED TEXT TAG in processDiv2Structure #{nextnode.value}"
-           end
-           nextnode = nextnode.next_sibling_node()
-        end
-     end
-     puts "Processed #{pages} pages, #{lines} lines"
-
-  end
-
-  # the simple structure consists of a div1 tag followed by peer milestone and line tags
-  def processSimpleStructure( doc, linelist )
-
-     pages = 0
-     lines = 0
-
-     # process the list of pages
-     doc.elements.each('//milestone') do | page |
-
-        #puts page.attributes
-        folio = page.attributes["entity"]
-        pages += 1
-
-        nextnode = page.next_sibling_node( )
-        while nextnode != nil do
-           if ( nextnode.kind_of? REXML::Text ) == false
-              case nextnode.name
-                  when "l"
-                     processLineNode( nextnode, folio, linelist )
-                     lines += 1
-
-                  when "milestone"
-                     break
-
-                  else
-                     puts "UNPROCESSED TAG in processSimpleStructure #{nextnode.name}"
-              end
-           else
-              # nothing else of interest here so this is not an error
-              #puts "UNEXPECTED TEXT TAG in processSimpleStructure #{nextnode.value}"
-           end
-           nextnode = nextnode.next_sibling_node()
-        end
-     end
-     puts "Processed #{pages} pages, #{lines} lines"
-  end
+	end
 
   def load_transcription_from_file( xmlfile )
 
@@ -399,23 +273,7 @@ end
      xml = File.read( xmlfile )
      doc = REXML::Document.new( xml )
 
-     fileprefix = xmlfile.split( "/" )[ 2 ].gsub(/^(.*).xml$/, '\1')
-
-     case fileprefix
-
-     when "SJA", "SJC", "SJD", "SJL", "SJU"
-        processDiv2TagStructure( doc, linelist )
-
-     when "SJE"
-        processLgTagStructure( doc, linelist )
-
-     when "SJEx"
-        processSimpleStructure( doc, linelist )
-
-     when "SJP", "SJV"
-        processSpecialDiv2TagStructure( doc, linelist )
-
-     end
+		 processDoc( doc, linelist )
 
      return linelist
 
