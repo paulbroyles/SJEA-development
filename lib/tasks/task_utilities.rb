@@ -160,13 +160,13 @@ module TaskUtilities
 				 times = 1 # Initialize the variable for the length of the gap
 									 # at 1, then overwrite as appropriate
 				 if node.attributes["quantity"] != nil
-					 times = node.attributes["quantity"]
+					 times = node.attributes["quantity"].to_f
 				 elsif node.attributes["atLeast"] != nil && node.attributes["atMost"] != nil
 					 times = ((node.attributes["atLeast"].to_f + node.attributes["atMost"].to_f) / 2).round
 				 elsif node.attributes["atLeast"]
-					 times = node.attributes["atLeast"]
+					 times = node.attributes["atLeast"].to_f
 				 elsif node.attributes["atMost"]
-					 times = node.attributes["atMost"]
+					 times = node.attributes["atMost"].to_f
 				 end
 
 				 content << "?" * times
