@@ -179,6 +179,7 @@
 .sup, .supralinear { vertical-align:super ; font-size:.7em }
 
 .margin-topCenter, .margin-bottomCenter { position: relative; left: 250px; max-width: calc(97% - 250px) }
+.margin-topRight, .margin-bottomRight { position: relative; left: calc(150px + 23em) }
 
 .margin-marginLeft { position: absolute; left: -75px; }
 .margin-bottomLeft { position: relative; left: 95px; max-width: calc(97% - 95px); }

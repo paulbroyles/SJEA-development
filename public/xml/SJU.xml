@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="../allitSeenet.rnc" type="compact"?>
+<?xml-model href="allitSeenet.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -15,6 +15,7 @@
                     </persName>
                 </editor>
                 <respStmt><resp>Encoding revisions and addition of verse divisions</resp><name><persName xml:id="carlson">John Ivor Carlson</persName></name></respStmt>
+                <respStmt><resp>Proofreading transcriptions, correcting errors, and updating XML encoding.</resp><persName xml:id="broyles" >Paul A. Broyles</persName></respStmt>
             </titleStmt>
             <extent>xxx kb</extent>
             <publicationStmt>
@@ -88,6 +89,7 @@
             <change when="2006" who="#stinson">Created new header and reorganized structure.</change>
             <change when="2008-09-17" who="#carlson">Applied new word-level tagging and other large-scale revisions.</change>
             <change when="2008-10-20" who="#carlson">Added verse divisions using XSL scripts.</change>
+            <change when="2017" who="#stinson #broyles">Proofread, corrected errors, and updated markup.</change>
         </revisionDesc>
     </teiHeader>
     <text ana="#SJ">
@@ -98,7 +100,7 @@
                     <head place="topLeft">
                         <hi rend="bl">I</hi><hi rend="rb">ncipit destruccio de Ier<expan>usa</expan>l<expan>e</expan>m p<expan>er</expan> Titum &amp; Vespasianu<expan>m</expan> .</hi>
                     </head>
-
+                    <lg type="strophe">
                     <l xml:id="U.0001" n="HL.0001">
                         <seg type="averse">
                             <seg ana="#in"><hi rend="o5"><hi rend="bl">I</hi></hi>N</seg>
@@ -223,18 +225,18 @@
                             <seg ana="#rode">rode</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0009" n="HL.0009">
+                      <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#a">A</seg>
                             <seg ana="#piler">piler</seg>
                             <seg ana="#doun">doun</seg>
                             <seg ana="#was">was</seg>
                             <seg ana="#ypigħt">ypigħt</seg>
                         </seg>
+                        
                         <seg type="punct">/</seg>
                         <seg type="bverse">
                             <seg ana="#al">al</seg>
@@ -360,12 +362,11 @@
                             <seg ana="#last">last</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0017" n="HL.0017">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#a">A</seg>
                             <seg ana="#stronge">stronge</seg>
                             <seg ana="#thornen">thornen</seg>
@@ -505,12 +506,11 @@
                             <seg ana="#wrogħt">wrogħt</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0025" n="HL.0025">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#til">Til</seg>
                             <seg ana="#it">it</seg>
                             <seg ana="#tyd">tyd</seg>
@@ -640,12 +640,11 @@
                             <seg ana="#nase">nase</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0033" n="HL.0035">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#hyued">hyued</seg>
                             <seg ana="#vp">vp</seg>
                             <seg ana="#in">in</seg>
@@ -783,12 +782,11 @@
                             <seg ana="#tholed">tholed</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0041" n="HL.0045">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#nowe">Nowe</seg>
                             <seg ana="#was">was</seg>
                             <seg ana="#there">there</seg>
@@ -921,12 +919,11 @@
                             <seg ana="#nolde">nolde</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0049" n="HL.0053">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#this">This</seg>
                             <seg ana="#nathan">Nathan</seg>
                             <seg ana="#to">to</seg>
@@ -1060,12 +1057,11 @@
                             <seg ana="#syde">syde</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0057" n="HL.0061">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#it">It</seg>
                             <seg ana="#blewe">blewe</seg>
                             <seg ana="#that">that</seg>
@@ -1199,12 +1195,11 @@
                             <seg ana="#wawes">wawes</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0065" n="HL.0069">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#ropes">Ropes</seg>
                             <seg ana="#ful">ful</seg>
                             <seg ana="#redely">redely</seg>
@@ -1338,12 +1333,11 @@
                             <seg ana="#thogħt">thogħt</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0073" n="HL.0079">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#that">That</seg>
                             <seg ana="#euer">euer</seg>
                             <seg ana="#barge">barge</seg>
@@ -1481,12 +1475,11 @@
                             <seg ana="#lawe">lawe</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0081" n="HL.0089">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#the">The</seg>
                             <seg ana="#kyng">kyng</seg>
                             <seg ana="#vnto">vnto</seg>
@@ -1625,12 +1618,11 @@
                             <seg ana="#out">out</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0089" n="HL.0097">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#telle">Telle</seg>
                             <seg ana="#me">me</seg>
                             <seg ana="#tite">tite</seg>
@@ -1770,12 +1762,11 @@
                             <seg ana="#shene">shene</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0097" n="HL.0105">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#and">And</seg>
                             <seg ana="#she">she</seg>
                             <seg ana="#vnmarred">vnmarred</seg>
@@ -1911,12 +1902,11 @@
                             <seg type="punct">.</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0105" n="HL.0113">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#the">The</seg>
                             <seg ana="#first">first</seg>
                             <seg ana="#is">is</seg>
@@ -2051,12 +2041,11 @@
                             <seg ana="#euer">euer</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0113" n="HL.0121">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#the">The</seg>
                             <seg ana="#secunde">secunde</seg>
                             <seg ana="#persone">p<expan>er</expan>sone</seg>
@@ -2188,12 +2177,11 @@
                             <seg ana="#raised">raised</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0121" n="HL.0129">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#croked">Croked</seg>
                             <seg ana="#and">and</seg>
                             <seg ana="#cankerd">cankerd</seg>
@@ -2330,12 +2318,11 @@
                             <seg ana="#twelue">twelue</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0129" n="HL.0137">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#there">There</seg>
                             <seg ana="#sued">sued</seg>
                             <seg ana="#him">him</seg>
@@ -2465,12 +2452,11 @@
                             <seg ana="#names">names</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0137" n="HL.0145">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#petre">Petre</seg>
                             <seg ana="#iacob">Iacob</seg>
                             <seg ana="#and">and</seg>
@@ -2596,12 +2582,11 @@
                             <seg ana="#brother">brother</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0145" n="HL.0153">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#the">The</seg>
                             <seg ana="#last">last</seg>
                             <seg ana="#was">was</seg>
@@ -2734,12 +2719,11 @@
                             <seg ana="#after">after</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0153" n="HL.0161">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#the">The</seg>
                             <seg ana="#prince">prince</seg>
                             <seg ana="#and">and</seg>
@@ -2855,16 +2839,15 @@
                             <seg ana="#neuer">neuer</seg>
                             <seg ana="#a">a</seg>
                             <seg ana="#point">point</seg>
-                            <seg ana="#lakketħ">lakketħ</seg>
+                            <seg ana="#lakketħ">lakketħ<note place="unspecified">U lacks HL.168 following this line, and thus this strophe contains seven lines rather than the expected eight.</note></seg>
                         </seg>
                     </l>
-                    
+                    </lg>
                     <milestone n="189v" unit="fol." entity="U189v"/>
+                    <lg type="strophe">
                     <l xml:id="U.0160" n="HL.0169">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#there">There</seg>
                             <seg ana="#nis">nis</seg>
                             <seg ana="#gome">gome</seg>
@@ -2999,12 +2982,11 @@
                             <seg ana="#sloughe">sloughe</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0168" n="HL.0177">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#ere">Ere</seg>
                             <seg ana="#thise">thise</seg>
                             <seg ana="#wordes">wordes</seg>
@@ -3069,12 +3051,11 @@
                             <seg ana="#y-hurt">y<seg type="shadowHyphen">-</seg>hurt</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0172" n="HL.0181">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#a">A</seg>
                             <seg ana="#curteys">curteys</seg>
                             <seg ana="#crist">crist</seg>
@@ -3209,6 +3190,7 @@
                             <seg ana="#venge">venge</seg> 
                         </seg>
                     </l>
+                    </lg>
                 </div2>
                 
                 <div2 n="1" type="passus" org="uniform" sample="complete">
@@ -3216,7 +3198,7 @@
                         <hi rend="rb"><hi rend="BinR">Primus passus</hi></hi>
                         <fw type="guideWords" place="marginLeft" hand="handX">I<expan>us</expan></fw> 
                     </head>
-                    
+                    <lg type="strophe">
                     <l xml:id="U.0180" n="HL.0189">
                         <seg type="averse">
                             <seg ana="#nowe"><hi rend="o2"><hi rend="bl">N</hi></hi>owe</seg>
@@ -3351,12 +3333,11 @@
                             <seg ana="#hast">hast</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0188" n="HL.0197">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#and">And</seg>
                             <seg ana="#sen">sen</seg>
                             <seg ana="#after">after</seg>
@@ -3492,12 +3473,11 @@
                             <seg ana="#yolden">yolden</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0196" n="HL.0205">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#that">That</seg>
                             <seg ana="#tyme">tyme</seg>
                             <seg ana="#petre">petre</seg>
@@ -3548,7 +3528,8 @@
                             <seg ana="#turned">t<expan>ur</expan>ned</seg>
                         </seg>
                     </l>
-
+                        
+                    <marginalia place="marginLeft" hand="handx">b</marginalia>
                     <l xml:id="U.0199" n="HL.0209">
                         <seg type="averse">
                             <seg ana="#there">There</seg>
@@ -3565,7 +3546,7 @@
                             <seg ana="#had">had<note place="unspecified">Line 199 has "b" written in the margin to the left, and "a" is written beside line 201.  This is to correct the line order - they should be in the order 201, 199, 200 the order found in other manuscripts.</note></seg>
                         </seg>
                     </l>
-                    <marginalia place="marginLeft" hand="handx">b</marginalia>
+                    
                     <l xml:id="U.0200" n="HL.0210">
                         <seg type="averse">
                             <seg ana="#sone">Sone</seg>
@@ -3583,6 +3564,7 @@
                         </seg>
                     </l>
 
+                    <marginalia place="marginLeft" hand="handx">a</marginalia>
                     <l xml:id="U.0201" n="HL.0208">
                         <seg type="averse">
                             <seg ana="#and">And</seg>
@@ -3598,7 +3580,7 @@
                             <seg ana="#ynowe">ynowe</seg>
                         </seg>
                     </l>
-                    <marginalia place="marginLeft" hand="handx">a</marginalia>
+                    
                     <l xml:id="U.0202" n="HL.0211">
                         <seg type="averse">
                             <seg ana="#of">Of</seg>
@@ -3633,12 +3615,11 @@
                             <seg ana="#kam">kam</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0204" n="HL.0215">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#twenti">Twenti</seg>
                             <seg ana="#knyghtes">knyghtes</seg>
                             <seg ana="#ere">ere</seg>
@@ -3770,12 +3751,11 @@
                             <seg ana="#grounde">grounde</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0212" n="HL.0223">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#and">And</seg>
                             <seg ana="#fel">fel</seg>
                             <seg ana="#doun">doun</seg>
@@ -3921,7 +3901,7 @@
                             <seg ana="#he">he</seg>
                             <seg ana="#passed">passed</seg>
                             <seg ana="#sone">sone</seg>
-                            <seg ana="#after">after</seg>
+                            <seg ana="#after">after<note place="unspecified">A paraph marking a strophe is expected at this line, but none was indicated by the scribe.</note></seg>
                         </seg>
                     </l>
 
@@ -4038,12 +4018,11 @@
                             <seg ana="#thinges">thinges</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0228" n="HL.0239">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#the">The</seg>
                             <seg ana="#mahoun">Mahoun</seg>
                             <seg ana="#and">and</seg>
@@ -4177,12 +4156,11 @@
                             <seg ana="#yaf">yaf</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0236" n="HL.0247">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#os">Os</seg>
                             <seg ana="#it">it</seg>
                             <seg ana="#aproched">aproched</seg>
@@ -4335,12 +4313,11 @@
                             <seg ana="#neuer">neuer</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0245" n="HL.0257">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#there">There</seg>
                             <seg ana="#was">was</seg>
                             <seg ana="#pipyng">pipyng</seg>
@@ -4476,12 +4453,11 @@
                             <seg ana="#holde">holde</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0253" n="HL.0265">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#this">This</seg>
                             <seg ana="#while">while</seg>
                             <seg ana="#nero">Nero</seg>
@@ -4613,12 +4589,11 @@
                             <seg ana="#sloughe">sloughe</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0261" n="HL.0274">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#that">That</seg>
                             <seg ana="#trauail">trauail</seg>
                             <seg ana="#to">to</seg>
@@ -4628,7 +4603,7 @@
                         <seg type="bverse">
                             <seg ana="#and">and</seg>
                             <seg ana="#titus">Titus</seg>
-                            <seg ana="#an-other">an<seg type="shadowHyphen">-</seg>other</seg>
+                            <seg ana="#an-other">an<seg type="shadowHyphen">-</seg>other<note place="unspecified">This is the first line of a seven-line strophe, whereas the scribe normally marks eight-line units, due to the fact that this strophe should begin with HL.273, which is missing from UDC.</note></seg>
                         </seg>
                     </l>
 
@@ -4734,12 +4709,11 @@
                             <seg ana="#made">made</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0268" n="HL.0281">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#then">Then</seg>
                             <seg ana="#is">is</seg>
                             <seg ana="#rutlyng">rutlyng</seg>
@@ -4871,12 +4845,11 @@
                             <seg ana="#shulde">shulde</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0276" n="HL.0289">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#there">There</seg>
                             <seg ana="#were">were</seg>
                             <seg ana="#floignes">floignes</seg>
@@ -5001,12 +4974,11 @@
                             <seg ana="#lond">lond</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0284" n="HL.0297">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#surre">Surr<expan>e</expan></seg>
                             <seg ana="#cesars">Cesars</seg>
                             <seg ana="#lond">lond</seg>
@@ -5142,6 +5114,7 @@
                             <seg type="punct">.</seg>
                         </seg>
                     </l>
+                    </lg>
                 </div2>
                 
                 <div2 n="2" type="passus" org="uniform" sample="complete">
@@ -5149,7 +5122,7 @@
                         <hi rend="rb"><hi rend="BinR">Passus secundus</hi></hi>
                         <fw type="guideWords" place="marginLeft" hand="handX">ij</fw> 
                     </head>
-                    
+                    <lg type="strophe">
                     <l xml:id="U.0292" n="HL.0305">
                         <seg type="averse">
                             <seg ana="#thei"><hi rend="o2"><hi rend="bl">T</hi></hi>hei</seg>
@@ -5282,12 +5255,11 @@
                             <seg ana="#wolde">wolde</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0300" n="HL.0313">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#the">The</seg>
                             <seg ana="#iewes">iewes</seg>
                             <seg ana="#to">to</seg>
@@ -5297,7 +5269,7 @@
                         <seg type="bverse">
                             <seg ana="#there">there</seg>
                             <seg ana="#iosephus">Iosephus</seg>
-                            <seg ana="#dwelletħ">dwelletħ</seg>
+                            <seg ana="#dwelletħ">dwelletħ<note place="unspecified">This is the first line of a seven-line strophe, whereas the scribe normally marks eight-line units. Note that there are two lacunae from the archetypal text in this seven-line span, which comprises HL lines 314-316, 322-323, and 325.</note></seg>
                         </seg>
                     </l>
 
@@ -5402,12 +5374,11 @@
                             <seg ana="#aboute">aboute</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0307" n="HL.0326">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#thei">Thei</seg>
                             <seg ana="#pigħt">pigħt</seg>
                             <seg ana="#doun">doun</seg>
@@ -5529,12 +5500,11 @@
                             <seg ana="#about">about</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0315" n="HL.0334">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#ful">Ful</seg>
                             <seg ana="#of">of</seg>
                             <seg ana="#stories">stories</seg>
@@ -5646,12 +5616,11 @@
                             <seg ana="#lawe">lawe</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0322" n="HL.0341">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#to">To</seg>
                             <seg ana="#the">the</seg>
                             <seg ana="#chiueteyn">chiueteyn</seg>
@@ -5786,12 +5755,11 @@
                             <seg ana="#avenge">avenge</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0330" n="HL.0349">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#say">Say</seg>
                             <seg ana="#i">I</seg>
                             <seg ana="#bid">bid</seg>
@@ -5941,12 +5909,11 @@
                             <seg ana="#go">go</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0338" n="HL.0357">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#this">This</seg>
                             <seg ana="#soudeours">soudeours</seg>
                             <seg ana="#sent">sent</seg>
@@ -5957,7 +5924,7 @@
                             <seg ana="#to">to</seg>
                             <seg ana="#the">the</seg>
                             <seg ana="#cite">Cite</seg>
-                            <seg ana="#yede">yede</seg>
+                            <seg ana="#yede">yede<note place="unspecified">This is the first line of a fifteen-line strophe, whereas the scribe normally marks eight-line units. The likely cause of this is that there is an initial seven-line group (on account of the missing archetypal line HL.360) followed by an eight-line group for which the paraph was omitted inadvertently.</note></seg>
                         </seg>
                     </l>
 
@@ -6202,12 +6169,11 @@
                             <seg ana="#telletħ">telletħ</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0353" n="HL.0373">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#thise">Thise</seg>
                             <seg ana="#beerns">beerns</seg>
                             <seg ana="#busked">busked</seg>
@@ -6348,12 +6314,11 @@
                             <seg ana="#sothe">sothe</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0361" n="HL.0381">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#and">And</seg>
                             <seg ana="#bounden">bounden</seg>
                             <seg ana="#for">for</seg>
@@ -6489,12 +6454,11 @@
                             <seg ana="#feld">feld</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0369" n="HL.0389">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#he">he</seg>
                             <seg ana="#streit">streit</seg>
                             <seg ana="#vp">vp</seg>
@@ -6624,12 +6588,11 @@
                             <seg ana="#fethers">fethers</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0377" n="HL.0397">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#there">There</seg>
                             <seg ana="#of">of</seg>
                             <seg ana="#the">the</seg>
@@ -6765,12 +6728,11 @@
                             <seg ana="#were">were</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0385" n="HL.0405">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#there-by">There<seg type="shadowHyphen">-</seg>by</seg>
                             <seg ana="#the">the</seg>
                             <seg ana="#cite">cite</seg>
@@ -6850,7 +6812,7 @@
                             <seg ana="#the">the</seg>
                             <seg ana="#berfray">berfray</seg>
                             <seg ana="#is">is</seg>
-                            <seg ana="#then">then</seg>
+                            <seg ana="#then">then<note place="unspecified">UDC omit HL.409 and follow with HL 413-416, 410, and 412.</note></seg>
                         </seg>
                     </l>
 
@@ -6902,12 +6864,11 @@
                             <seg ana="#leest">leest</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0393" n="HL.0410">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#brouden">Brouden</seg>
                             <seg ana="#belles">belles</seg>
                             <seg ana="#about">about</seg>
@@ -6916,7 +6877,7 @@
                         <seg type="bverse">
                             <seg ana="#that">that</seg>
                             <seg ana="#boldely">boldely</seg>
-                            <seg ana="#rungen">rungen</seg>
+                            <seg ana="#rungen">rungen<note place="unspecified">This is the first line of a six-line strophe, whereas the scribe normally marks eight-line units. This is likely related to the missing and reordered lines in the preceding strophe; see the note at U.389. </note></seg>
                         </seg>
                     </l>
 
@@ -7005,12 +6966,11 @@
                             <seg ana="#bemes">bemes</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0399" n="HL.0421">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#a-forn">A<seg type="shadowHyphen">-</seg>forn</seg>
                             <seg ana="#the">the</seg>
                             <seg ana="#foure">foure</seg>
@@ -7143,12 +7103,11 @@
                             <seg ana="#bak">bak</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0407" n="HL.0429">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#vespasian">Vespasian</seg>
                             <seg ana="#in">in</seg>
                             <seg ana="#stele">stele</seg>
@@ -7189,7 +7148,7 @@
                             <seg ana="#iosaphat">Iosaphat</seg>
                             <seg ana="#ther">ther</seg>
                             <choice>
-                                <abbr>Iħc</abbr>
+                                <abbr>iħc</abbr>
                                 <expan>
                                     <seg ana="#iesus">Iesus</seg>
                                 </expan>
@@ -7283,12 +7242,11 @@
                             <seg ana="#dukes">Dukes</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0415" n="HL.436.1">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#and">And</seg>
                             <seg ana="#in">in</seg>
                             <seg ana="#the">the</seg>
@@ -7427,13 +7385,14 @@
                             
                         </seg>
                     </l>
+                    </lg>
                 </div2>
                 <div2 n="3" type="passus" org="uniform" sample="complete">
                     <head rend="align(center)">
                         <hi rend="rb"><hi rend="BinR">Passus tercius</hi></hi>
                         <fw type="guideWords" place="marginLeft" hand="handX">iij</fw>
                     </head>
-                    
+                    <lg type="strophe">
                     <l xml:id="U.0423" n="HL.0445">
                         <seg type="averse">
                             <seg ana="#the"><hi rend="o2"><hi rend="bl">T</hi></hi>he</seg>
@@ -7564,12 +7523,11 @@
                             <seg ana="#witħ-inne">witħ<seg type="shadowHyphen">-</seg>inne</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0431" n="HL.0453">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#there">There</seg>
                             <seg ana="#dromedaries">dromedaries</seg>
                             <seg ana="#drowe">drowe</seg>
@@ -7694,12 +7652,11 @@
                             <seg ana="#armes">armes</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0439" n="HL.0461">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#chares">Chares</seg>
                             <seg ana="#ful">ful</seg>
                             <seg ana="#of">of</seg>
@@ -7829,12 +7786,11 @@
                             <seg ana="#siluer">siluer</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0447" n="HL.0469">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#and">And</seg>
                             <seg ana="#an">an</seg>
                             <seg ana="#arke">arke</seg>
@@ -7963,12 +7919,11 @@
                             <seg ana="#stones">stones</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0455" n="HL.0477">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#lerde">lerde</seg>
                             <seg ana="#men">men</seg>
                             <seg ana="#of">of</seg>
@@ -8103,12 +8058,11 @@
                             <seg ana="#tyme">tyme</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0463" n="HL.0485">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#when">when</seg>
                             <seg ana="#the">the</seg>
                             <seg ana="#faithles">faithles</seg>
@@ -8235,12 +8189,11 @@
                             <seg ana="#speche">speche</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0471" n="HL.0493">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#here">here</seg>
                             <seg ana="#nis">nis</seg>
                             <seg ana="#kyng">kyng</seg>
@@ -8376,12 +8329,11 @@
                             <seg ana="#hert">hert</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0479" n="HL.0501">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#i">I</seg>
                             <seg ana="#quitecleyme">quitecleyme</seg>
                             <seg ana="#the">the</seg>
@@ -8518,12 +8470,11 @@
                             <seg ana="#haue">haue</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0487" n="HL.0509">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#but">But</seg>
                             <seg ana="#murnyng">m<expan>ur</expan>nyng</seg>
                             <seg ana="#in">in</seg>
@@ -8633,15 +8584,14 @@
                         <seg type="bverse">
                             <seg ana="#nor">nor</seg>
                             <seg ana="#pendantes">pendantes</seg>
-                            <seg ana="#endes">endes</seg>
+                            <seg ana="#endes">endes<note place="unspecified">U lacks HL.516 following this line, and thus this strophe contains seven lines rather than the expected eight.</note></seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0494" n="HL.0517">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#for">For</seg>
                             <seg ana="#thei">thei</seg>
                             <seg ana="#ere">ere</seg>
@@ -8654,7 +8604,7 @@
                             <seg ana="#and">and</seg>
                             <seg ana="#fals">fals</seg>
                             <seg ana="#of">of</seg>
-                            <seg ana="#by-leue">by<seg type="shadowHyphen">-</seg>leue</seg>
+                            <seg ana="#by-leue">by<seg type="shadowHyphen">-</seg>leue<note place="unspecified">This is the first line of a seven-line strophe, whereas the scribe normally marks eight-line units. This is due to the fact that archetypal lines HL 520 and 522 are missing and a scribal line has been added following HL.521.</note></seg>
                         </seg>
                     </l>
 
@@ -8761,12 +8711,11 @@
                             <seg ana="#soul">soul</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0501" n="HL.0525">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#bemes">Bemes</seg>
                             <seg ana="#blewen">blewen</seg>
                             <seg ana="#on">on</seg>
@@ -8894,12 +8843,11 @@
                             <seg ana="#neghes">neghes</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0509" n="HL.0533">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#thei">Thei</seg>
                             <seg ana="#laughten">laughten</seg>
                             <seg ana="#launces">launces</seg>
@@ -9006,15 +8954,14 @@
                             <seg ana="#ay">ay</seg>
                             <seg ana="#the">the</seg>
                             <seg ana="#fals">fals</seg>
-                            <seg ana="#vnder">vnder</seg>
+                            <seg ana="#vnder">vnder<note place="unspecified">U (along with CDP) lacks HL.540 following this line, and thus this strophe contains seven lines rather than the expected eight.</note></seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0516" n="HL.0541">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#titus">Titus</seg>
                             <seg ana="#turnes">t<expan>ur</expan>nes</seg>
                             <seg ana="#him">him</seg>
@@ -9029,7 +8976,7 @@
                             <seg ana="#best">best</seg>
                         </seg>
                     </l>
-
+                   
                     <l xml:id="U.0517" n="HL.0542">
                         <seg type="averse">
                             <seg ana="#foriustitħ">Foriustitħ</seg>
@@ -9147,12 +9094,11 @@
                             <seg ana="#wolde">wolde</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0524" n="HL.0549">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#al">Al</seg>
                             <seg ana="#bretned">bretned</seg>
                             <seg ana="#the">the</seg>
@@ -9295,7 +9241,7 @@
                             <seg ana="#on">on</seg>
                             <seg ana="#sprates">sprates</seg>
                             <seg ana="#gun">gun</seg>
-                            <seg ana="#springe">springe</seg>
+                            <seg ana="#springe">springe<note place="unspecified">A paraph marking a strophe is expected at this line, but none was indicated by the scribe.</note></seg>
                         </seg>
                     </l>
 
@@ -9411,12 +9357,11 @@
                             <seg ana="#yede">yede</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0540" n="HL.0565">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#sire">Sire</seg>
                             <seg ana="#sabyn">Sabyn</seg>
                             <seg ana="#settes">settes</seg>
@@ -9547,12 +9492,11 @@
                             <seg ana="#lafte">lafte</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0548" n="HL.0573">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#claterd">Claterd</seg>
                             <seg ana="#castels">castels</seg>
                             <seg ana="#a-doun">a<seg type="shadowHyphen">-</seg>doun</seg>
@@ -9677,12 +9621,11 @@
                             <seg ana="#waxen">waxen</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0556" n="HL.0581">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#an">An</seg>
                             <seg ana="#hundred">hundred</seg>
                             <seg ana="#of">of</seg>
@@ -9810,12 +9753,11 @@
                             <seg ana="#ałł">ałł</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0564" n="HL.0589">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#bounden">Bounden</seg>
                             <seg ana="#the">the</seg>
                             <seg ana="#bisshop">bisshop</seg>
@@ -9946,12 +9888,11 @@
                             <seg ana="#thougħt">thougħt</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0572" n="HL.0597">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#on">On</seg>
                             <seg ana="#one">one</seg>
                             <seg ana="#the">the</seg>
@@ -10081,12 +10022,11 @@
                             <seg ana="#vale">vale</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0580" n="HL.0605">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#ne">Ne</seg>
                             <seg ana="#myght">myght</seg>
                             <seg ana="#stede">stede</seg>
@@ -10222,12 +10162,11 @@
                             <seg ana="#tyme">tyme</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0588" n="HL.612.1">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#for">For</seg>
                             <seg ana="#there">there</seg>
                             <seg ana="#nas">nas</seg>
@@ -10358,12 +10297,11 @@
                             <seg ana="#cheynes">cheynes</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0596" n="HL.0620">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#and">And</seg>
                             <seg ana="#portcolys">portcolys</seg>
                             <seg ana="#witħ">witħ</seg>
@@ -10452,16 +10390,15 @@
                         <seg type="bverse">
                             <seg ana="#the">the</seg>
                             <seg ana="#corners">corners</seg>
-                            <seg ana="#aboute">aboute</seg>
+                            <seg ana="#aboute">aboute<note place="unspecified">U lacks HL.626-628 following this line, which is likely the reason that this strophe contains six lines rather than the expected eight.</note></seg>
                         </seg>
                     </l>
-                    
+                    </lg>
                     <milestone n="196v" unit="fol." entity="U196v"/>
+                    <lg type="strophe">
                     <l xml:id="U.0602" n="HL.0629">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#tho">Tho</seg>
                             <seg ana="#witħ">witħ</seg>
                             <seg ana="#drowe">drowe</seg>
@@ -10598,13 +10535,14 @@
                             <seg ana="#passe">passe</seg>
                         </seg>
                     </l>
+                    </lg>
                 </div2>
                 <div2 n="4" type="passus" org="uniform" sample="complete">
                     <head rend="align(center)">
                         <hi rend="rb"><hi rend="BinR">Quartus passus</hi></hi>
                         <fw type="guideWords" place="marginLeft" hand="handX">iiij</fw>
                     </head>
-                    
+                    <lg type="strophe">
                     <l xml:id="U.0610" n="HL.0637">
                         <seg type="averse">
                             <seg ana="#alsone"><hi rend="o2"><hi rend="bl">A</hi></hi>lsone</seg>
@@ -10733,12 +10671,11 @@
                             <seg ana="#noble">noble</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0618" n="HL.0646">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#made">Made</seg>
                             <seg ana="#wayes">wayes</seg>
                             <seg ana="#ful">ful</seg>
@@ -10750,7 +10687,7 @@
                             <seg ana="#to">to</seg>
                             <seg ana="#the">the</seg>
                             <seg ana="#wal">wal</seg>
-                            <seg ana="#kom">kom</seg>
+                            <seg ana="#kom">kom<note place="unspecified">This is the first line of a seven-line strophe, whereas the scribe normally marks eight-line units, due to the fact that this strophe should begin with the missing line HL.645.</note></seg>
                         </seg>
                     </l>
 
@@ -10848,12 +10785,11 @@
                             <seg ana="#postes">postes</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0625" n="HL.0653">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#it">It</seg>
                             <seg ana="#was">was</seg>
                             <seg ana="#wonderly">wonderly</seg>
@@ -10864,7 +10800,7 @@
                             <seg ana="#and">and</seg>
                             <seg ana="#ywrougħt">ywrougħt</seg>
                             <seg ana="#on">on</seg>
-                            <seg ana="#hye">hye</seg>
+                            <seg ana="#hye">hye<note place="unspecified">This is the first line of a seven-line strophe, whereas the scribe normally marks eight-line units. This is likely related to the absence of HL.657-663.</note></seg>
                         </seg>
                     </l>
 
@@ -10967,12 +10903,11 @@
                             <seg ana="#vnder">vnder</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0632" n="HL.0667">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#ybanked">Ybanked</seg>
                             <seg ana="#abouten">abouten</seg>
                         </seg>
@@ -10981,7 +10916,7 @@
                             <seg ana="#alle">alle</seg>
                             <seg ana="#the">the</seg>
                             <seg ana="#brode">brode</seg>
-                            <seg ana="#walles">walles</seg>
+                            <seg ana="#walles">walles<note place="unspecified">This is the first line of a six-line strophe, whereas the scribe normally marks eight-line units. This is perhaps due to the missing lines HL.657-663 in the previous strophe.</note></seg>
                         </seg>
                     </l>
                     
@@ -11065,12 +11000,11 @@
                             <seg ana="#made">made</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0638" n="HL.0673">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#the">The</seg>
                             <seg ana="#iewes">Iewes</seg>
                             <seg ana="#wered">wered</seg>
@@ -11199,12 +11133,11 @@
                             <seg ana="#grounde">grounde</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0646" n="HL.0681">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#by">By</seg>
                             <seg ana="#that">that</seg>
                             <seg ana="#the">the</seg>
@@ -11338,12 +11271,11 @@
                             <seg ana="#bane">bane</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0654" n="HL.0689">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#the">The</seg>
                             <seg ana="#cours">cours</seg>
                             <seg ana="#of">of</seg>
@@ -11473,12 +11405,11 @@
                             <seg ana="#had">had</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0662" n="HL.0697">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#domes-men">Domes<seg type="shadowHyphen">-</seg>men</seg>
                             <seg ana="#vpon">vpon</seg>
                             <seg ana="#dayes">dayes</seg>
@@ -11591,12 +11522,11 @@
                             <seg ana="#sharp">sharp</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0669" n="HL.0704">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#foure">Foure</seg>
                             <seg ana="#catched">catched</seg>
                             <seg ana="#and">and</seg>
@@ -11726,12 +11656,11 @@
                             <seg ana="#fele">fele</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0677" n="HL.0713">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#the">The</seg>
                             <seg ana="#iewes">Iewes</seg>
                             <seg ana="#walten">walten</seg>
@@ -11836,12 +11765,11 @@
                             <seg ana="#clerkes">clerkes</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0683" n="HL.0719">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#thei">Thei</seg>
                             <seg ana="#casten">casten</seg>
                             <seg ana="#caiphas">Caiphas</seg>
@@ -11979,12 +11907,11 @@
                             <seg ana="#wrougħt">wrougħt</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0691" n="HL.0728">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#when">when</seg>
                             <seg ana="#crist">crist</seg>
                             <seg ana="#at">at</seg>
@@ -12129,13 +12056,15 @@
                             <seg ana="#went">went</seg>
                         </seg>
                     </l>
+                    </lg>
                 </div2>
                 <div2 n="5" type="passus" org="uniform" sample="complete">
                     <head rend="align(center)">
                         <hi rend="rb"><hi rend="BinR">Quintus passus</hi></hi>
                         <fw type="guideWords" place="marginRight" hand="handX">v</fw>
                     </head>
-                    
+  
+                    <lg type="strophe"> 
                     <l xml:id="U.0700" n="HL.0738">
                         <seg type="averse">
                             <seg ana="#vespasian"><hi rend="o2"><hi rend="bl">V</hi></hi>espasian</seg>
@@ -12247,12 +12176,11 @@
                             <seg ana="#wal">wal</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0707" n="HL.0745">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#vespasian">Vespasian</seg>
                             <seg ana="#buskes">buskes</seg>
                             <seg ana="#out">out</seg>
@@ -12265,7 +12193,7 @@
                             <seg ana="#raies">raies</seg>
                             <seg ana="#him">him</seg>
                             <seg ana="#ful">ful</seg>
-                            <seg ana="#faire">faire</seg>
+                            <seg ana="#faire">faire<note place="unspecified">This is the first line of a 27-line passage before the next strophe, a significant departure from the scribe's typical practice of marking eight-line units.</note></seg>
                         </seg>
                     </l>
 
@@ -12329,7 +12257,8 @@
                             <choice>
                                 <orig>acote</orig>
                                 <reg>
-                                    a cote
+                                    <seg ana="a">a</seg> 
+                                    <seg ana="cote">cote</seg>
                                 </reg>
                             </choice>
                         </seg>
@@ -12714,12 +12643,11 @@
                             <seg ana="#more">more</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0734" n="HL.0774">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#ye">Ye</seg>
                             <seg ana="#may">may</seg>
                             <seg ana="#fetche">fetche</seg>
@@ -12732,7 +12660,7 @@
                             <seg ana="#thei">thei</seg>
                             <seg ana="#ye">ye</seg>
                             <seg ana="#fay">fay</seg>
-                            <seg ana="#worthe">worthe</seg>
+                            <seg ana="#worthe">worthe<note place="unspecified">This is the first line of a seven-line strophe, whereas the scribe normally marks eight-line units, due to the fact that this strophe should begin with the missing line HL.773.</note></seg>
                         </seg>
                     </l>
 
@@ -12838,12 +12766,11 @@
                             <seg ana="#turne">t<expan>ur</expan>ne</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0741" n="HL.0781">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#and">And</seg>
                             <seg ana="#more">more</seg>
                             <seg ana="#wirship">wirship</seg>
@@ -12981,12 +12908,11 @@
                             <seg ana="#here">here</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0749" n="HL.0789">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#by">By</seg>
                             <seg ana="#that">that</seg>
                             <seg ana="#iosephus">Iosephus</seg>
@@ -13117,12 +13043,11 @@
                             <seg ana="#failen">failen</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0757" n="HL.0797">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#but">But</seg>
                             <seg ana="#vespasian">Vespasian</seg>
                             <seg ana="#the">the</seg>
@@ -13252,12 +13177,11 @@
                             <seg ana="#tymes">tymes</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0765" n="HL.0805">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#there">There</seg>
                             <seg ana="#of">of</seg>
                             <seg ana="#iosephus">Iosephus</seg>
@@ -13394,12 +13318,11 @@
                             <seg ana="#fallen">fallen</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0773" n="HL.0813">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#but">But</seg>
                             <seg ana="#iosephus">Iosephus</seg>
                             <seg ana="#the">the</seg>
@@ -13474,7 +13397,7 @@
                         <seg type="bverse">
                             <seg ana="#rennyng">rennyng</seg>
                             <seg ana="#bothe">bothe</seg>
-                            <seg ana="#sydes">sydes</seg>
+                            <seg ana="#sydes">sydes<note place="unspecified">The scribe apprently fuses HL.817a with 818b here, which accounts for the seven-line strophe.</note></seg>
                         </seg>
                     </l>
 
@@ -13509,12 +13432,11 @@
                             <seg ana="#abyde">abyde</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0780" n="HL.0821">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#thei">Thei</seg>
                             <seg ana="#braid">braid</seg>
                             <seg ana="#to">to</seg>
@@ -13644,12 +13566,11 @@
                             <seg ana="#more">more</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0788" n="HL.0829">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#a">A</seg>
                             <seg ana="#beern">beern</seg>
                             <seg ana="#bounden">bounden</seg>
@@ -13747,7 +13668,7 @@
                         <seg type="bverse">
                             <seg ana="#vnder">vnder</seg>
                             <seg ana="#the">the</seg>
-                            <seg ana="#stones">stones</seg>
+                            <seg ana="#stones">stones<note place="unspecified">U lacks HL.835 following this line, and thus this strophe contains seven lines rather than the expected eight.</note></seg>
                         </seg>
                     </l>
 
@@ -13767,12 +13688,11 @@
                             <seg ana="#aboute">aboute</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0795" n="HL.0837">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#the">The</seg>
                             <seg ana="#cite">cite</seg>
                             <seg ana="#had">had</seg>
@@ -13904,12 +13824,11 @@
                             <seg ana="#elles">elles</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0803" n="HL.0845">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#vespasian">Vespasian</seg>
                             <seg ana="#stynt">stynt</seg>
                             <seg ana="#of">of</seg>
@@ -14035,12 +13954,11 @@
                             <seg ana="#yede">yede</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0811" n="HL.0854">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#thei">Thei</seg>
                             <seg ana="#the">the</seg>
                             <seg ana="#woundes">woundes</seg>
@@ -14053,7 +13971,7 @@
                             <seg ana="#is">is</seg>
                             <seg ana="#none">none</seg>
                             <seg ana="#wo">wo</seg>
-                            <seg ana="#menetħ">menetħ</seg>
+                            <seg ana="#menetħ">menetħ<note place="unspecified">This is the first line of a seven-line strophe, whereas the scribe normally marks eight-line units. This is likely related to the absence of HL.857-862.</note></seg>
                         </seg>
                     </l>
 
@@ -14157,12 +14075,11 @@
                             <seg ana="#abyde">abyde</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0818" n="HL.0867">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#then">Then</seg>
                             <seg ana="#turned">turned</seg>
                             <seg ana="#he">he</seg>
@@ -14302,12 +14219,11 @@
                             <seg ana="#knygħtes">knygħtes</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0826" n="HL.0875">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#when">when</seg>
                             <seg ana="#we">we</seg>
                             <seg ana="#shal">shal</seg>
@@ -14375,7 +14291,7 @@
                             <seg ana="#thei">thei</seg>
                             <seg ana="#her">her</seg>
                             <seg ana="#vitailes">vitailes</seg>
-                            <seg ana="#spende">spende</seg>
+                            <seg ana="#spende">spende<note place="unspecified">U lacks HL.879 following this line, and thus this strophe contains seven lines rather than the expected eight.</note></seg>
                         </seg>
                     </l>
 
@@ -14431,12 +14347,11 @@
                             <seg ana="#feble">feble</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0833" n="HL.0883">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#alle">Alle</seg>
                             <seg ana="#assent">assent</seg>
                             <seg ana="#to">to</seg>
@@ -14469,7 +14384,7 @@
                             <seg ana="#os">os</seg>
                             <seg ana="#his">his</seg>
                             <seg ana="#puple">puple</seg>
-                            <seg ana="#wolde">wolde</seg>
+                            <seg ana="#wolde">wolde<note place="unspecified">U lacks HL.885 following this line, and thus this strophe contains seven lines rather than the expected eight.</note></seg>
                         </seg>
                     </l>
 
@@ -14555,12 +14470,11 @@
                             <seg ana="#bankes">bankes</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0840" n="HL.0891">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#riden">Riden</seg>
                             <seg ana="#to">to</seg>
                             <seg ana="#the">the</seg>
@@ -14658,12 +14572,13 @@
                             <seg ana="#ioye">ioye</seg>
                         </seg>
                     </l>
+                    </lg>
                 </div2>
                 <div2 n="6" type="passus" org="uniform" sample="complete">
                     <head rend="align(center)">
                         <hi rend="bl">¶</hi><hi rend="BinR"><hi rend="rb">Sextus passus</hi></hi>
                     </head>
-                    
+                    <lg type="strophe">
                     <l xml:id="U.0846" n="HL.0897">
                         <seg type="averse">
                             <seg ana="#in"><hi rend="o6"><hi rend="bl">I</hi></hi>N</seg>
@@ -14794,12 +14709,11 @@
                             <seg ana="#had">had</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0854" n="HL.0905">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#thei">Thei</seg>
                             <seg ana="#presen">p<expan>re</expan>sen</seg>
                             <seg ana="#to">to</seg>
@@ -14936,12 +14850,11 @@
                             <seg ana="#had">had</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0862" n="HL.0913">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#on">On</seg>
                             <seg ana="#this">this</seg>
                             <seg ana="#trunchon">trunchon</seg>
@@ -15074,12 +14987,11 @@
                             <seg ana="#dyed">dyed</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0870" n="HL.0921">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#sex">Sex</seg>
                             <seg ana="#monethes">monethes</seg>
                             <seg ana="#no">no</seg>
@@ -15211,12 +15123,11 @@
                             <seg ana="#brougħt">brougħt</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0878" n="HL.0929">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#a-myddes">A<seg type="shadowHyphen">-</seg>myddes</seg>
                             <seg ana="#the">the</seg>
                             <seg ana="#market">market</seg>
@@ -15348,12 +15259,11 @@
                             <seg ana="#quelled">quelled</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0886" n="HL.0937">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#the">The</seg>
                             <seg ana="#romains">Romains</seg>
                             <seg ana="#raisen">raisen</seg>
@@ -15482,12 +15392,11 @@
                             <seg ana="#drowe">drowe</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0894" n="HL.0945">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#and">And</seg>
                             <seg ana="#sen">sen</seg>
                             <seg ana="#gored">gored</seg>
@@ -15605,7 +15514,7 @@
                         <seg type="bverse">
                             <seg ana="#to-gedir">to<seg type="shadowHyphen">-</seg>gedir</seg>
                             <seg ana="#gun">gun</seg>
-                            <seg ana="#gone">gone</seg>
+                            <seg ana="#gone">gone<note place="unspecified">This is a scribal line, the addition of which creates a nine-line strophe.</note></seg>
                         </seg>
                     </l>
 
@@ -15643,12 +15552,11 @@
                             <seg ana="#turnetħ">t<expan>ur</expan>netħ</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0903" n="HL.0953">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#now">Now</seg>
                             <seg ana="#of">of</seg>
                             <seg ana="#the">the</seg>
@@ -15788,12 +15696,11 @@
                             <seg ana="#brougħt">brougħt</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0911" n="HL.0961">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#seying">Seying</seg>
                             <seg ana="#comely">comely</seg>
                             <seg ana="#kyng">kyng</seg>
@@ -15997,12 +15904,11 @@
                             <seg ana="#owen">owen</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0923" n="HL.0973">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#now">Now</seg>
                             <seg ana="#is">is</seg>
                             <seg ana="#me">me</seg>
@@ -16139,12 +16045,11 @@
                             <seg ana="#kepte">kepte</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0931" n="HL.0981">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#brent">Brent</seg>
                             <seg ana="#and">and</seg>
                             <seg ana="#brusten">brusten</seg>
@@ -16281,12 +16186,11 @@
                             <seg ana="#other">other</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0939" n="HL.0989">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#the">The</seg>
                             <seg ana="#dome">dome</seg>
                             <seg ana="#demed">demed</seg>
@@ -16425,12 +16329,11 @@
                             <seg ana="#shaped">shaped</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0947" n="HL.0999">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#so">So</seg>
                             <seg ana="#may">may</seg>
                             <seg ana="#the">the</seg>
@@ -16603,12 +16506,11 @@
                             <seg ana="#passe">passe</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0957" n="HL.1009">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#a">A</seg>
                             <seg ana="#boke">boke</seg>
                             <seg ana="#and">and</seg>
@@ -16747,12 +16649,11 @@
                             <seg ana="#hanges">hanges</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0965" n="HL.1017">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#i">I</seg>
                             <seg ana="#nold">nold</seg>
                             <seg ana="#but">but</seg>
@@ -16888,12 +16789,11 @@
                             <seg ana="#chaunge">chaunge</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0973" n="HL.1025">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#now">Now</seg>
                             <seg ana="#is">is</seg>
                             <seg ana="#vespasian">Vespasian</seg>
@@ -17040,7 +16940,7 @@
                             <seg ana="#os">os</seg>
                             <seg ana="#a">a</seg>
                             <seg ana="#cripel">cripel</seg>
-                            <seg ana="#waxetħ">waxetħ</seg>
+                            <seg ana="#waxetħ">waxetħ<note place="unspecified">A paraph marking a strophe is expected at this line, but none was indicated by the scribe.</note></seg>
                         </seg>
                     </l>
 
@@ -17164,12 +17064,11 @@
                             <seg ana="#hele">hele</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0989" n="HL.1041">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#when">when</seg>
                             <seg ana="#he">he</seg>
                             <seg ana="#was">was</seg>
@@ -17306,12 +17205,11 @@
                             <seg ana="#syde">syde</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.0997" n="HL.1049">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#when">when</seg>
                             <seg ana="#titus">Titus</seg>
                             <seg ana="#that">that</seg>
@@ -17443,12 +17341,11 @@
                             <seg ana="#brougħt">brougħt</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.1005" n="HL.1057">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#then">Then</seg>
                             <seg ana="#said">said</seg>
                             <seg ana="#him">him</seg>
@@ -17583,12 +17480,11 @@
                             <seg ana="#ringes">ringes</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.1013" n="HL.1065">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#but">But</seg>
                             <seg ana="#ałł">ałł</seg>
                             <seg ana="#forsoke">forsoke</seg>
@@ -17693,12 +17589,11 @@
                             <seg ana="#growetħ">growetħ</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.1019" n="HL.1071">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#foure">Foure</seg>
                             <seg ana="#dayes">dayes</seg>
                             <seg ana="#a-forne">a<seg type="shadowHyphen">-</seg>forne</seg>
@@ -17826,12 +17721,11 @@
                             <seg ana="#filled">filled</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.1027" n="HL.1081">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#one">One</seg>
                             <seg ana="#marion">Marion</seg>
                             <seg ana="#a">a</seg>
@@ -17964,12 +17858,11 @@
                             <seg ana="#shulder">shulder</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.1035" n="HL.1089">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#the">The</seg>
                             <seg ana="#smelle">smelle</seg>
                             <seg ana="#aros">aros</seg>
@@ -18106,12 +17999,11 @@
                             <seg ana="#chaungetħ">chaungetħ</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.1043" n="HL.1097">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#forth">Forth</seg>
                             <seg ana="#thei">thei</seg>
                             <seg ana="#went">went</seg>
@@ -18249,12 +18141,11 @@
                             <seg ana="#spended">spended</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.1051" n="HL.1105">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#and">And</seg>
                             <seg ana="#afterward">afterward</seg>
                             <seg ana="#touche">touche</seg>
@@ -18389,12 +18280,14 @@
                         </seg>
                         <seg type="punct">.</seg>
                     </l>
+                    </lg>
                 </div2>
                 <div2 n="7" type="passus" org="uniform" sample="complete">
                     <head rend="align(center)">
                         <hi rend="rb"><hi rend="BinR">Septimus passus</hi></hi>
                     </head>
-                    
+
+                    <lg type="strophe">
                     <l xml:id="U.1059" n="HL.1113">
                         <seg type="averse">
                             <seg ana="#as"><hi rend="o2"><hi rend="bl">A</hi></hi>s</seg>
@@ -18525,12 +18418,11 @@
                             <seg ana="#more">more</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.1067" n="HL.1121">
+                        <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="rb">¶</hi>
-                            </seg>
                             <seg ana="#shaftes">Shaftes</seg>
                             <seg ana="#shiuerd">shiuerd</seg>
                             <seg ana="#were">were</seg>
@@ -18662,12 +18554,11 @@
                             <seg ana="#leues">leues</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.1075" n="HL.1129">
+                        <seg type="punct"><hi rend="bl">¶</hi></seg>
                         <seg type="averse">
-                            <seg type="punct">
-                                <hi rend="bl">¶</hi>
-                            </seg>
                             <seg ana="#the">The</seg>
                             <seg ana="#yonge">yonge</seg>
                             <seg ana="#duk">Duk</seg>
@@ -18802,15 +18693,17 @@
                             <seg ana="#with">with<seg type="shadowHyphen">-</seg>inne</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.1083" n="HL.1137">
+                      <seg type="punct">¶<note>From here to the end of the manuscript, two slashes in the margin indicate that there is to be a paraph, but they have not been realized; these have been transcribed with the ¶ symbol, but they remain uncolored in the display. On these same folios (i.e., 204r and following), each initial has been touched in white or yellow, now barely visible to the naked eye, but clear under ultraviolet light</note></seg>
                         <seg type="averse">
-                            <seg type="punct">¶<note>From here to the end of the manuscript, two slashes in the margin indicate that there is to be a paraph, but they have not been realized; these have been transcribed with the ¶ symbol, but they remain uncolored in the display. On these same folios (i.e., 204r and following), each initial has been touched in white or yellow, now barely visible to the naked eye, but clear under ultraviolet light</note></seg>
                             <seg ana="#but">But</seg>
                             <seg ana="#iosephus">Iosephus</seg>
                             <seg ana="#the">the</seg>
                             <seg ana="#gynful">gynful</seg>
                         </seg>
+                        
                         <seg type="punct">/</seg>
                         <seg type="bverse">
                             <seg ana="#that">that</seg>
@@ -18938,16 +18831,18 @@
                             <seg ana="#fyst">fyst</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.1091" n="HL.1145">
+                      <seg type="punct">¶</seg>
                         <seg type="averse">
-                            <seg type="punct">¶</seg>
                             <seg ana="#but">But</seg>
                             <seg ana="#al">al</seg>
                             <seg ana="#was">was</seg>
                             <seg ana="#boteles">boteles</seg>
                             <seg ana="#wo">wo</seg>
                         </seg>
+                        
                         <seg type="punct">/</seg>
                         <seg type="bverse">
                             <seg ana="#for">for</seg>
@@ -19042,10 +18937,11 @@
                             <seg ana="#hornes">hornes</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.1097" n="HL.1151">
+                        <seg type="punct">¶</seg>
                         <seg type="averse">
-                            <seg type="punct">¶</seg>
                             <seg ana="#so">So</seg>
                             <seg ana="#muche">muche</seg>
                             <seg ana="#was">was</seg>
@@ -19132,7 +19028,7 @@
                             <seg ana="#trewe">trewe</seg>
                             <seg ana="#god">god</seg>
                             <seg ana="#he">he</seg>
-                            <seg ana="#vowed">vowed</seg>
+                            <seg ana="#vowed">vowed<note place="unspecified">U lacks HL.1156 following this line, and thus this strophe contains seven lines rather than the expected eight.</note></seg>
                         </seg>
                     </l>
 
@@ -19168,9 +19064,11 @@
                             <seg ana="#yelde">yelde</seg>
                         </seg>
                     </l>
-
-                    <l xml:id="U.1104" n="HL.1159"><seg type="averse">
-                            <seg type="punct">¶</seg>
+                    </lg>
+                    <lg type="strophe">
+                    <l xml:id="U.1104" n="HL.1159">
+                      <seg type="punct">¶</seg>
+                        <seg type="averse">
                             <seg ana="#but">But</seg>
                             <seg ana="#iosephus">Iosephus</seg>
                             <seg ana="#forsoke">forsoke</seg>
@@ -19268,10 +19166,11 @@
                             <seg ana="#bytautħ">bytautħ</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.1110" n="HL.1165">
+                        <seg type="punct">¶</seg>
                         <seg type="averse">
-                            <seg type="punct">¶</seg>
                             <seg ana="#but">But</seg>
                             <seg ana="#when">when</seg>
                             <seg ana="#thei">thei</seg>
@@ -19406,10 +19305,11 @@
                             <seg ana="#alle">alle</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.1118" n="HL.1173">
+                        <seg type="punct">¶</seg>
                         <seg type="averse">
-                            <seg type="punct">¶</seg>
                             <seg ana="#ay">Ay</seg>
                             <seg ana="#were">were</seg>
                             <seg ana="#the">the</seg>
@@ -19545,10 +19445,11 @@
                             <seg ana="#wynnetħ">wynnetħ</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.1126" n="HL.1181">
+                        <seg type="punct">¶</seg>
                         <seg type="averse">
-                            <seg type="punct">¶</seg>
                             <seg ana="#thei">Thei</seg>
                             <seg ana="#armed">armed</seg>
                             <seg ana="#hem">hem</seg>
@@ -19613,7 +19514,7 @@
                         <seg type="bverse">
                             <seg ana="#stondes">stondes</seg>
                             <seg ana="#on">on</seg>
-                            <seg ana="#lofte">lofte</seg>
+                            <seg ana="#lofte">lofte<note place="unspecified">U lacks HL.1185 following this line, and thus this strophe contains seven lines rather than the expected eight.</note></seg>
                         </seg>
                     </l>
 
@@ -19662,10 +19563,11 @@
                             <seg ana="#ynowe">ynowe</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.1133" n="HL.1189">
+                        <seg type="punct">¶</seg>
                         <seg type="averse">
-                            <seg type="punct">¶</seg>
                             <seg ana="#titus">Titus</seg>
                             <seg ana="#atte">atte</seg>
                             <seg ana="#towne">towne</seg>
@@ -19676,7 +19578,7 @@
                             <seg ana="#witħ">witħ</seg>
                             <seg ana="#ten">ten</seg>
                             <seg ana="#thousand">thousand</seg>
-                            <seg ana="#helmes">helmes</seg>
+                            <seg ana="#helmes">helmes<note place="unspecified">This is the first line of a seven-line strophe, whereas the scribe normally marks eight-line units. This is likely related to the absence of HL.1191-1193.</note></seg>
                         </seg>
                     </l>
 
@@ -19784,10 +19686,11 @@
                     </l>
                     
                     <milestone n="205r" unit="fol." entity="U205r"/>
-                    
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.1140" n="HL.1199">
+                        <seg type="punct">¶</seg>
                         <seg type="averse">
-                            <seg type="punct">¶</seg>
                             <seg ana="#he">He</seg>
                             <seg ana="#wynnes">wynnes</seg>
                             <seg ana="#wightly">wightly</seg>
@@ -19886,10 +19789,11 @@
                             <seg ana="#falles">falles</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.1146" n="HL.1205">
+                        <seg type="punct">¶</seg>
                         <seg type="averse">
-                            <seg type="punct">¶</seg>
                             <seg ana="#then">Then</seg>
                             <seg ana="#titus">Titus</seg>
                             <seg ana="#wepes">wepes</seg>
@@ -20025,10 +19929,11 @@
                             <seg ana="#dasshen">dasshen</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.1154" n="HL.1213">
+                        <seg type="punct">¶</seg>
                         <seg type="averse">
-                            <seg type="punct">¶</seg>
                             <seg ana="#then">Then</seg>
                             <seg ana="#titus">Titus</seg>
                             <seg ana="#heues">heues</seg>
@@ -20165,10 +20070,11 @@
                             <seg ana="#kynde">kynde</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.1162" n="HL.1221">
+                        <seg type="punct">¶</seg>
                         <seg type="averse">
-                            <seg type="punct">¶</seg>
                             <seg ana="#and">And</seg>
                             <seg ana="#ere">ere</seg>
                             <seg ana="#the">the</seg>
@@ -20264,10 +20170,11 @@
                             <seg ana="#tyme">tyme</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.1168" n="HL.1227">
+                        <seg type="punct">¶</seg>
                         <seg type="averse">
-                            <seg type="punct">¶</seg>
                             <seg ana="#a">A</seg>
                             <seg ana="#calf">calf</seg>
                             <seg ana="#ayeins">ayeins</seg>
@@ -20278,7 +20185,7 @@
                             <seg ana="#calued">calued</seg>
                             <seg ana="#in">in</seg>
                             <seg ana="#the">the</seg>
-                            <seg ana="#temple">temple</seg>
+                            <seg ana="#temple">temple<note place="unspecified">This is the first line of a nine-line strophe, whereas the scribe normally marks eight-line units. This is due to the fact that archetypal lines HL 1230 and 1233 are missing and a scribal line has been added following HL.1236.</note></seg>
                         </seg>
                     </l>
 
@@ -20423,10 +20330,11 @@
                             <seg ana="#wyst">wyst</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.1177" n="HL.1237">
+                        <seg type="punct">¶</seg>
                         <seg type="averse">
-                            <seg type="punct">¶</seg>
                             <seg ana="#then">Then</seg>
                             <seg ana="#thei">thei</seg>
                             <seg ana="#auised">auised</seg>
@@ -20438,7 +20346,7 @@
                             <seg ana="#and">and</seg>
                             <seg ana="#vengeance">vengeance</seg>
                             <seg ana="#it">it</seg>
-                            <seg ana="#helde">helde</seg>
+                            <seg ana="#helde">helde<note place="unspecified">This is the first line of a seven-line strophe, whereas the scribe normally marks eight-line units. This is likely related to the absence of HL.1238-1240.</note></seg>
                         </seg>
                     </l>
 
@@ -20543,10 +20451,11 @@
                             <seg ana="#corces">corces</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.1184" n="HL.1247">
+                        <seg type="punct">¶</seg>
                         <seg type="averse">
-                            <seg type="punct">¶</seg>
                             <seg ana="#the">The</seg>
                             <seg ana="#puple">puple</seg>
                             <seg ana="#on">on</seg>
@@ -20646,10 +20555,11 @@
                             <seg ana="#myddes">myddes</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.1190" n="HL.1253">
+                        <seg type="punct">¶</seg>
                         <seg type="averse">
-                            <seg type="punct">¶</seg>
                             <seg ana="#then">Then</seg>
                             <seg ana="#titus">Titus</seg>
                             <seg ana="#tarid">tarid</seg>
@@ -20776,10 +20686,11 @@
                             <seg ana="#ryse">ryse</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.1198" n="HL.1261">
+                        <seg type="punct">¶</seg>
                         <seg type="averse">
-                            <seg type="punct">¶</seg>
                             <seg ana="#the">The</seg>
                             <seg ana="#romains">Romains</seg>
                             <seg ana="#wayten">wayten</seg>
@@ -20904,10 +20815,11 @@
                             <seg ana="#gere">gere</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.1206" n="HL.1269">
+                        <seg type="punct">¶</seg>
                         <seg type="averse">
-                            <seg type="punct">¶</seg>
                             <seg ana="#pilers">Pilers</seg>
                             <seg ana="#massely">massely</seg>
                             <seg ana="#made">made</seg>
@@ -21034,10 +20946,11 @@
                             <seg ana="#wanted">wanted</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.1214" n="HL.1277">
+                        <seg type="punct">¶</seg>
                         <seg type="averse">
-                            <seg type="punct">¶</seg>
                             <seg ana="#ne">Ne</seg>
                             <seg ana="#pelure">pelure</seg>
                             <seg ana="#ne">ne</seg>
@@ -21161,10 +21074,11 @@
                             <seg ana="#poudre">poudre</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.1222" n="HL.1285">
+                        <seg type="punct">¶</seg>
                         <seg type="averse">
-                            <seg type="punct">¶</seg>
                             <seg ana="#so">So</seg>
                             <seg ana="#thei">thei</seg>
                             <seg ana="#wroughten">wroughten</seg>
@@ -21246,7 +21160,7 @@
                         <seg type="bverse">
                             <seg ana="#standyng">standyng</seg>
                             <seg ana="#on">on</seg>
-                            <seg ana="#lofte">lofte</seg>
+                            <seg ana="#lofte">lofte<note place="unspecified">U lacks HL.1290 following this line, and thus this strophe contains seven lines rather than the expected eight.</note></seg>
                         </seg>
                     </l>
 
@@ -21281,10 +21195,11 @@
                             <seg ana="#erthe">erthe</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.1229" n="HL.1293">
+                        <seg type="punct">¶</seg>
                         <seg type="averse">
-                            <seg type="punct">¶</seg>
                             <seg ana="#when">when</seg>
                             <seg ana="#the">the</seg>
                             <seg ana="#temple">temple</seg>
@@ -21413,10 +21328,11 @@
                             <seg ana="#thenne">thenne</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.1237" n="HL.1301">
+                        <seg type="punct">¶</seg>
                         <seg type="averse">
-                            <seg type="punct">¶</seg>
                             <seg ana="#pilat">Pilat</seg>
                             <seg ana="#profres">p<expan>ro</expan>fres</seg>
                             <seg ana="#him">him</seg>
@@ -21559,10 +21475,11 @@
                             <seg ana="#quelled">quelled</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.1245" n="HL.1309">
+                        <seg type="punct">¶</seg>
                         <seg type="averse">
-                            <seg type="punct">¶</seg>
                             <seg ana="#a-cursed">A<seg type="shadowHyphen">-</seg>cursed</seg>
                             <seg ana="#be">be</seg>
                             <seg ana="#he">he</seg>
@@ -21681,13 +21598,14 @@
                             <seg ana="#thei">thei</seg>
                             <seg ana="#oure">oure</seg>
                             <seg ana="#prince">prince</seg>
-                            <seg ana="#solde">solde</seg>
+                            <seg ana="#solde">solde<note place="unspecified">U lacks HL.1317 following this line, and thus this strophe contains seven lines rather than the expected eight.</note></seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.1252" n="HL.1318">
+                        <seg type="punct">¶</seg>
                         <seg type="averse">
-                            <seg type="punct">¶</seg>
                             <seg ana="#ałł">Ałł</seg>
                             <seg ana="#that">that</seg>
                             <seg ana="#chafer">chafer</seg>
@@ -21792,10 +21710,11 @@
                             <seg ana="#comandetħ">comandetħ</seg>
                         </seg>
                     </l>
-
+                    </lg>
+                    <lg type="strophe">
                     <l xml:id="U.1258" n="HL.1325">
+                        <seg type="punct">¶</seg>
                         <seg type="averse">
-                            <seg type="punct">¶</seg>
                             <seg ana="#iosephus">Iosephus</seg>
                             <seg ana="#the">the</seg>
                             <seg ana="#gentil">gentil</seg>
@@ -21931,6 +21850,7 @@
                         </seg>
                         <seg type="punct">.</seg>
                     </l>
+                    </lg>
                 </div2>
                     
                     <trailer place="bottomCenter">

@@ -15,6 +15,7 @@
                     </persName>
                 </editor>
                 <respStmt><resp>Encoding revisions and addition of verse divisions</resp><name><persName xml:id="carlson">John Ivor Carlson</persName></name></respStmt>
+                <respStmt><resp>Proofreading transcriptions, correcting errors, and updating XML encoding.</resp><persName xml:id="broyles" >Paul A. Broyles</persName></respStmt>
             </titleStmt>
             <extent>xxx kb</extent>
             <publicationStmt>
@@ -89,6 +90,7 @@
             <change when="2006" who="#stinson">Created new header and reorganized structure.</change>
             <change when="2008-09-17" who="#carlson">Applied new word-level tagging and other large-scale revisions.</change>
             <change when="2008-10-20" who="#carlson">Added verse divisions using XSL scripts.</change>
+            <change when="2017" who="#stinson #broyles">Proofread, corrected errors, and updated markup.</change>
         </revisionDesc>
     </teiHeader>
     <text ana="#SJ">
@@ -4732,13 +4734,7 @@
                 </div2>
                 <div2 type="passus" n="2">
                     <head place="marginRight">
-                        <hi rend="rb">
-                           <choice>
-                               <orig>ij<expan>us</expan></orig>
-                               <reg>Secundus</reg>.
-                           </choice> 
-                            P<expan>assus</expan>.
-                        </hi>
+                        <hi rend="rb">ij<expan>us</expan>. P<expan>assus</expan>.</hi>
                     </head>
                     <l xml:id="P.0293" n="HL.0305">
                         <seg type="averse">
@@ -6615,13 +6611,7 @@
                 </div2>
                 <div2 type="passus" n="3">
                     <head place="marginLeft">
-                        <hi rend="rb">
-                            <choice>
-                                <orig>iij<expan>us</expan></orig>
-                                <reg>Tertius</reg>.
-                            </choice>
-                            P<expan>assus</expan>.
-                        </hi>
+                        <hi rend="rb">iij<expan>us</expan>. P<expan>assus</expan>.</hi>
                     </head>
                     <l xml:id="P.0410" n="HL.0445">
                         <seg type="averse">
@@ -9221,13 +9211,7 @@
                 </div2>
                 <div2 type="passus" n="4">
                     <head place="marginLeft">
-                        <hi rend="rb">
-                            <choice>
-                                <orig>iiij<expan>us</expan></orig>
-                                <reg>Quartus</reg>.
-                            </choice>
-                            P<expan>assus</expan>.
-                        </hi>
+                        <hi rend="rb">iiij<expan>us</expan>. P<expan>assus</expan>.</hi>
                     </head>
                     <l xml:id="P.0574" n="HL.0637">
                         <seg type="averse">
@@ -12712,11 +12696,7 @@
                 </div2>
                 <div2 type="passus" n="5">
                     <head place="marginLeft">
-                        <hi rend="rb">. <choice>
-                           <orig>vt<expan>us</expan></orig>
-                            <reg>Quintus</reg>
-                        </choice> 
-                        Pas<expan>sus</expan> .</hi>
+                        <hi rend="rb">. vt<expan>us</expan> Pas<expan>sus</expan> .</hi>
                     </head>
                     <l xml:id="P.0810" n="HL.0897">
                         <seg type="averse">
@@ -15471,13 +15451,7 @@
                 </div2>
                 <div2 type="passus" n="6">
                     <head place="marginRight">
-                        <hi rend="rb">
-                            <choice>
-                                <orig>vj<expan>us</expan></orig> 
-                                <reg>Sextus</reg>
-                            </choice>
-                            P<expan>assus</expan>
-                        </hi>
+                        <hi rend="rb">vj<expan>us</expan> P<expan>assus</expan></hi>
                     </head>
                     <l xml:id="P.1022" n="HL.1113">
                         <hi rend="o2"><hi rend="bl">N</hi></hi>

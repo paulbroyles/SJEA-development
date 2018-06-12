@@ -15,6 +15,7 @@
                     </persName>
                 </editor>
                 <respStmt><resp>Encoding revisions and addition of verse divisions</resp><name><persName xml:id="carlson">John Ivor Carlson</persName></name></respStmt>
+                <respStmt><resp>Proofreading transcriptions, correcting errors, and updating XML encoding.</resp><persName xml:id="broyles" >Paul A. Broyles</persName></respStmt>
             </titleStmt>
             <extent>xxx kb</extent>
             <publicationStmt>
@@ -88,6 +89,7 @@
             <change when="2006" who="#stinson">Created new header and reorganized structure.</change>
             <change when="2008-09-17" who="#carlson">Applied new word-level tagging and other large-scale revisions.</change>
             <change when="2008-10-20" who="#carlson">Added verse divisions using XSL scripts.</change>
+            <change when="2017" who="#stinson #broyles">Proofread, corrected errors, and updated markup.</change>
         </revisionDesc>
     </teiHeader>
     <text ana="#SJ">
@@ -130,7 +132,7 @@
                     <l xml:id="V.0003" n="HL.0968">
                         <seg type="averse">
                             <seg ana="#calles">Calles</seg>
-                            <seg ana="#counceiłł">counceiłł</seg>
+                            <seg ana="#counceille">counceill<expan></expan>e</seg>
                             <seg ana="#anone">anone</seg>
                         </seg>
                         <seg type="punct">.</seg>
@@ -381,7 +383,7 @@
                         <seg type="averse">
                             <seg ana="#kythe">kythe</seg>
                             <seg ana="#þi">þi</seg>
-                            <seg ana="#counseiłł">counseiłł</seg>
+                            <seg ana="#counseille">counseill<expan></expan>e</seg>
                             <seg ana="#sir">s<expan>ir</expan></seg>
                             <seg ana="#knygħt">knygħt</seg>
                         </seg>
@@ -399,7 +401,7 @@
                         <seg type="averse">
                             <seg ana="#for">For</seg>
                             <seg ana="#i">I</seg>
-                            <seg ana="#wiłł">will<expan>e</expan></seg>
+                            <seg ana="#wille">will<expan>e</expan></seg>
                             <seg ana="#wirche">wirche</seg>
                             <seg ana="#by">by</seg>
                             <seg ana="#þi">þi</seg>
@@ -577,7 +579,7 @@
                             <seg ana="#brothir">brothir'</seg>
                         </seg>
                     </l>
-                    <fw type="qSig" place="bottomRight">x<expan>us</expan><note>It is likely, but not certain, that this is a quire number from an earlier version of this book, some quires of which are now lost. See the "Collation" section in the description of the manuscript for a full discussion.</note></fw>
+                    <fw type="qSig" place="bottomRight">xvj<note>It is likely, but not certain, that this is a quire number from an earlier version of this book, some quires of which are now lost. It is also possible that this should be transcribed <hi rend="it">x<expan>us</expan></hi>. See the "Collation" section in the description of the manuscript for a full discussion.</note></fw>
                     
                     <milestone n="70v" unit="fol." entity="V070v"/>
                     <l xml:id="V.0030" n="HL.0995">
@@ -1108,6 +1110,8 @@
                     </l>
                     
                     <milestone n="71r" unit="fol." entity="V071r"/>
+                    <fw type="guideLetter" palce="inline">n</fw>
+                    
                     <l xml:id="V.0060" n="HL.1025">
                         <seg type="averse">
                             <seg ana="#nowe"><hi rend="o4"><hi rend="bl">N</hi></hi>owe</seg>
@@ -2064,6 +2068,7 @@
                         </seg>
                     </l>
 
+                    <marginalia place="marginLeft" hand="hand1">no<expan>ta</expan></marginalia>
                     <l xml:id="V.0116" n="HL.1081">
                         <seg type="averse">
                             <seg ana="#and">And</seg>
@@ -2081,7 +2086,7 @@
                             <seg ana="#foode">foode</seg>
                         </seg>
                     </l>
-                    <marginalia place="marginLeft" hand="hand1">no<expan>ta</expan></marginalia>
+                    
 
                     <l xml:id="V.0117" n="HL.1082">
                         <seg type="averse">
@@ -2627,6 +2632,8 @@
                 <div2 type="passus" n="2">
                     <head place="marginRight">Septim<expan>us</expan> passus</head>
                     
+                    <fw type="guideLetter" palce="inline">a</fw>
+                    
                     <l xml:id="V.0148" n="HL.1113">
                         <seg type="averse">
                             <seg ana="#as"><hi rend="o3"><hi rend="bl">A</hi></hi>s</seg>
@@ -2644,7 +2651,7 @@
                             <seg ana="#rides">rides</seg>
                         </seg>
                     </l>
-                    <fw type="guideLetter" palce="inline">a</fw>
+                    
 
                     <l xml:id="V.0149" n="HL.1114">
                         <seg type="averse">
@@ -5381,7 +5388,7 @@
                         <seg type="punct">.</seg>
                         <seg type="bverse">
                             <seg ana="#gemmes">gemmes</seg>
-                            <seg ana="#fułł">full<expan></expan>e</seg>
+                            <seg ana="#fulle">full<expan></expan>e</seg>
                             <seg ana="#riche">riche</seg>
                         </seg>
                     </l>

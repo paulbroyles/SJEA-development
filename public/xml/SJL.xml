@@ -15,6 +15,7 @@
                     </persName>
                 </editor>
                 <respStmt><resp>Encoding revisions and addition of verse divisions</resp><name><persName xml:id="carlson">John Ivor Carlson</persName></name></respStmt>
+                <respStmt><resp>Proofreading transcriptions, correcting errors, and updating XML encoding.</resp><persName xml:id="broyles" >Paul A. Broyles</persName></respStmt>
             </titleStmt>
             <extent>xxx kb</extent>
             <publicationStmt>
@@ -89,6 +90,7 @@
             <change when="2008-09-17" who="#carlson">Applied new word-level tagging and other large-scale revisions.</change>
             <change when="2008-10-20" who="#carlson">Added verse divisions using XSL scripts.</change>
             <change when="2010" who="#stinson">Proofread and made corrections to transcription.</change>
+            <change when="2017" who="#stinson #broyles">Proofread, corrected errors, and updated markup.</change>
         </revisionDesc>
     </teiHeader>
     <text ana="#SJ">
@@ -3666,7 +3668,10 @@
 
                     <l xml:id="L.0211" n="HL.0215">
                         <seg type="averse">
-                            <seg ana="#xxti">XX<expan>ti</expan></seg>
+                            <choice>
+                                <orig>XX<hi rend="sup">ti</hi></orig>
+                                <reg><seg ana="twenti">twenti</seg></reg>
+                            </choice>
                             <seg ana="#knyȝtes">knyȝtes</seg>
                             <seg ana="#were">wer<expan>e</expan></seg>
                             <seg ana="#cud">cud</seg>
@@ -5146,7 +5151,7 @@
                             <seg ana="#iewe">Iewe</seg>
                             <seg ana="#for">for</seg>
                             <choice>
-                                <abbr>Ihc&#x02DC;</abbr>
+                                <abbr>Iħc</abbr>
                                 <expan>
                                     <seg ana="#iesus">Iesus</seg>
                                 </expan>
@@ -5952,7 +5957,7 @@
                             <seg ana="#iewyse">Iewyse</seg>
                             <seg ana="#for">for</seg>
                             <choice>
-                                <abbr>Iħu</abbr>
+                                <abbr>iħu</abbr>
                                 <expan>
                                     <seg ana="#iesu">Iesu</seg>
                                 </expan>
@@ -5978,7 +5983,7 @@
                             <seg ana="#come">come</seg>
                             <seg ana="#þat">þ<expan>a</expan>t</seg>
                             <choice>
-                                <abbr>Iħu</abbr>
+                                <abbr>iħu</abbr>
                                 <expan>
                                     <seg ana="#iesu">Iesu</seg>
                                 </expan>
@@ -7538,6 +7543,9 @@
 
                 </div2>
                 <div2 type="passus" n="2">
+                    
+                    <fw type="guideLetters" place="marginLeft">Þ</fw>
+                    
                     <l xml:id="L.0442" n="HL.0445">
                         <seg type="averse">
                             <seg ana="#þe"><hi rend="o4"><hi rend="rb">Þ</hi></hi>E</seg>
@@ -9003,8 +9011,7 @@
                             <seg ana="#fure">fur<expan>e</expan></seg>
                             <seg ana="#out">o<expan>u</expan>t</seg>
                             <seg ana="#of">of</seg>
-                            <seg ana="#flynt">flynt</seg>
-                            <seg ana="#ston">ston</seg>
+                            <seg ana="#flynt-ston">flynt<seg type="shadowHyphen">-</seg>ston</seg>
                         </seg>
                         <g ref="#puncelev"/>
                         <seg type="bverse">
@@ -9730,7 +9737,7 @@
                     <l xml:id="L.0577" n="HL.0579">
                         <seg type="averse">
                             <seg ana="#whan">whan</seg>
-                            <seg ana="#hurdiȝs">hurdiȝs</seg>
+                            <seg ana="#hurdizs">hurdizs</seg>
                             <seg ana="#and">&amp;</seg>
                             <seg ana="#hard">hard</seg>
                             <seg ana="#erþe">erþe</seg>
@@ -13437,7 +13444,7 @@
                             <seg ana="#dered">dered</seg>
                             <seg ana="#noȝt">noȝt</seg>
                             <seg ana="#a">a</seg>
-                            <seg ana="#dyȝs">dyȝs</seg>
+                            <seg ana="#dyzs">dyzs</seg>
                         </seg>
                         <g ref="#puncelev"/>
                         <seg type="bverse">
@@ -14894,6 +14901,9 @@
 
                 </div2>
                 <div2 type="passus" n="3">
+                    
+                    <fw type="guideLetters" place="marginLeft">I</fw>
+                    
                     <l xml:id="L.0892" n="HL.0897">
                         <seg type="averse">
                             <seg ana="#in"><hi rend="o5"><hi rend="rb">I</hi></hi>n</seg>
@@ -18583,6 +18593,9 @@
 
                 </div2>
                 <div2 type="passus" n="4">
+                    
+                    <fw type="guideLetters" place="marginLeft">A</fw>
+                    
                     <l xml:id="L.1108" n="HL.1113">
                         <seg type="averse">
                             <seg ana="#as"><hi rend="o3"><hi rend="rb">A</hi></hi>s</seg>
@@ -20325,7 +20338,7 @@
                             <seg ana="#now">now</seg>
                             <seg ana="#take">take</seg>
                             <seg ana="#hem">he<expan>m</expan></seg>
-                            <seg ana="#ȝour-selfen">ȝo<expan>ur<seg type="shadowHyphen">-</seg>selfen</expan></seg>
+                            <seg ana="#ȝour-selfen">ȝo<expan>ur</expan><seg type="shadowHyphen">-</seg>selfen</seg>
                         </seg>
                     </l>
 
