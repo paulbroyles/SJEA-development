@@ -16,6 +16,7 @@
                     
                 </editor>
                 <respStmt><resp>Encoding revisions and addition of verse divisions</resp><name><persName xml:id="carlson">John Ivor Carlson</persName></name></respStmt>
+                <respStmt><resp>Proofreading transcriptions, correcting errors, and updating XML encoding.</resp><persName xml:id="broyles" >Paul A. Broyles</persName></respStmt>
             </titleStmt>
             <extent>xxx kb</extent>
             <publicationStmt>
@@ -89,6 +90,7 @@
             <change when="2008-09-17" who="#carlson">Applied new word-level tagging and other large-scale revisions.</change>
             <change when="2008-10-20" who="#carlson">Added verse divisions using XSL scripts.</change>
             <change when="2011" who="#stinson">Proofread and made corrections to transcription.</change>
+            <change when="2017" who="#stinson #broyles">Proofread, corrected errors, and updated markup.</change>
         </revisionDesc>
     </teiHeader>
     <text ana="#SJ">
@@ -2673,6 +2675,7 @@
                         </seg>
                     </l>
 
+                    <marginalia place="marginRight" hand="handx">Virronyke</marginalia>
                     <l xml:id="A.0163" n="HL.0166">
                         <seg type="averse">
                             <seg ana="#hase">hase</seg>
@@ -2690,7 +2693,6 @@
                         </seg>
                     </l>
                     
-                    <marginalia place="marginRight" hand="handx">Virronyke</marginalia>
 
                     <l xml:id="A.0164" n="HL.0167">
                         <seg type="averse">
@@ -20018,7 +20020,8 @@
                             <seg ana="#forthirde">forthirde</seg>
                         </seg>
                     </l>
-
+                    
+                    <marginalia place="marginRight"> amen amen amen</marginalia>
                     <l xml:id="A.1297" n="HL.1340"><seg type="averse">
                             <seg ana="#and">and</seg>
                             <seg ana="#rydis">rydis</seg>
@@ -20033,11 +20036,11 @@
                             <seg ana="#lorde">lorde</seg>
                         </seg> 
                     </l>
-                    <marginalia place="marginRight"> amen amen amen</marginalia>
+                    
                     
                 </div2>
                 
-                <explicit place="bottomCenter">Explicit la sege de Ierusalem</explicit>
+                <trailer place="bottomCenter">Explicit la sege de Ierusalem</trailer>
                 <trailer place="bottomCenter">R. Thornton dictus q<expan>u</expan>i scripsit sit be<expan/>n<expan>e</expan>dictus amen<note>A later hand has written a capital <hi rend="it">F</hi> above the <hi rend="it">-or-</hi> in <hi rend="it">Thornton</hi> and a lowercase <hi rend="it">f</hi> on top of the second <hi rend="it">-t-</hi>.</note></trailer>
                 
             </div1>
