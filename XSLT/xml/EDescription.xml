@@ -36,12 +36,12 @@
                     <msContents>
                             
                         <msItem>
-                            <p>1. <locus from="1r" to="94r">Fols. 1r-94r</locus> <title>Prick of Conscience</title> (Southern recension) <ref target="http://www.dimev.net/record.php?recID=5399">IMEV 3429 (DIMEV 5399)</ref>. Bound out of order; quires should be <locus from="1r" to="16v">1r-16v</locus>, <locus from="25r" to="32v">25r-32v</locus>, <locus from="17r" to="24v">17r-24v</locus>. <locus from="94v" to="94v">Fol. 94v</locus> is blank.</p>
+                            <p>1. <locus from="1r" to="94r">Fols. 1r-94r</locus> <title>Prick of Conscience</title> (Southern recension) <ref target="http://www.cddc.vt.edu/host/imev/record.php?recID=3429">IMEV 3429</ref>. Bound out of order; quires should be <locus from="1r" to="16v">1r-16v</locus>, <locus from="25r" to="32v">25r-32v</locus>, <locus from="17r" to="24v">17r-24v</locus>. <locus from="94v" to="94v">Fol. 94v</locus> is blank.</p>
                         </msItem>
                                  
                      
                         <msItem>
-                            <p>2. <locus from="95r" to="96v">Fols. 95r-96v</locus> Fragment of <title>Piers Plowman</title> (Hm<hi rend="supralinear">2</hi> in Kane-Donaldson) <ref target="http://www.dimev.net/record.php?recID=2459">IMEV 1459 (DIMEV 2459)</ref>. Order of leaves reversed. <locus from="95v" to="95v">Fol. 95v</locus> is blank.</p>
+                            <p>2. <locus from="95r" to="96v">Fols. 95r-96v</locus> Fragment of <title>Piers Plowman</title> (Hm<hi rend="supralinear">2</hi> in Kane-Donaldson) <ref target="http://www.cddc.vt.edu/host/imev/record.php?recID=1459">IMEV 1459</ref>. Order of leaves reversed. <locus from="95v" to="95v">Fol. 95v</locus> is blank.</p>
                         </msItem>
 
                         <msItem>
@@ -49,15 +49,15 @@
                         </msItem>
                         
                         <msItem>
-                            <p>4. <locus from="113r" to="205r">Fols. 113r-205r</locus> <title>Piers Plowman</title> <ref target="http://www.dimev.net/record.php?recID=2459">IMEV 1459 (DIMEV 2459)</ref></p>
+                            <p>4. <locus from="113r" to="205r">Fols. 113r-205r</locus> <title>Piers Plowman</title> <ref target="http://www.cddc.vt.edu/host/imev/record.php?recID=1459">IMEV 1459</ref></p>
                         </msItem>
                         
                         <msItem>
-                            <p>5. <locus from="205r" to="216r">Fols. 205r-216r</locus> <title>The Siege of Jerusalem</title> <ref target="http://www.dimev.net/record.php?recID=2651">IMEV 1583 (DIMEV 2651)</ref></p>
+                            <p>5. <locus from="205r" to="216r">Fols. 205r-216r</locus> <title>The Siege of Jerusalem</title> <ref target="http://www.cddc.vt.edu/host/imev/record.php?recID=1583">IMEV 1583</ref></p>
                         </msItem>
                         
                         <msItem>
-                            <p>6. <locus from="216v" to="219r">Fols. 216v-219r</locus> <title>How the Good Wife Taught her Daughter</title> <ref target="http://www.dimev.net/record.php?recID=2805">IMEV 1673 (DIMEV 2805)</ref>. <locus from="219v" to="219v">Fol. 219v</locus> is blank.</p>
+                            <p>6. <locus from="216v" to="219r">Fols. 216v-219r</locus> <title>How the Good Wife Taught her Daughter</title> <ref target="http://www.cddc.vt.edu/host/imev/record.php?recID=1673">IMEV 1673</ref>. <locus from="219v" to="219v">Fol. 219v</locus> is blank.</p>
                         </msItem>
        
 
@@ -146,7 +146,7 @@
 
                         <handDesc>
                             <handNote>
-                                <p>One scribe, using an anglicana script and brown ink, is responsible for the entire text of <title>The Siege of Jerusalem</title>. The script begins small and gets even more compressed as the text continues. As many as six scribes worked on the manuscript, however, and their division of work has been the subject of considerable scholarly attention. This is discussed fully in <title>The Piers Plowman Electronic Archive 6</title>, from which I quote at length here:</p> 
+                                <p>One scribe, using an anglicana script and brown ink, is responsible for almost all of the text of <title>The Siege of Jerusalem</title>. The script begins small and gets even more compressed as the text continues. As many as six scribes worked on the manuscript, however, and their division of work has been the subject of considerable scholarly attention. This is discussed fully in <title>The Piers Plowman Electronic Archive 6</title>, from which I quote at length here:</p> 
                                 <p>“The most probable sequence of composition is that Hand A began his work with <title>Piers Plowman</title>, copying the first quire (<locus from="113r" to="120r">ff. 113-20</locus>) and making a start on the second (<locus from="96r" to="96r">fol. 96r</locus>), before abruptly handing over to Hand B (<locus from="96r" to="95r">ff. 96r-v, 95r</locus>) while he himself copied <title>The Prick of Conscience</title> (<locus from="1r" to="94r">ff. 1r-94r</locus>). But Hand B soon abandoned his work on <title>Piers Plowman</title>, and the blank leaves were incorporated into the final quire of <title>The Prick of Conscience</title> (as <locus from="89r" to="90r">ff. 89r-90r</locus>) in such a way that the <title>Piers Plowman</title> fragment Hm<hi rend="supralinear">2</hi> became the wrapper of that section of the manuscript. The bottom right edge of folio <locus from="96v" to="96v">96v</locus> has lost text (affecting the last 12 lines of Hm<hi rend="supralinear">2</hi>, corresponding to Hm.3.38-49) either through erasure (as though someone had started to clean the page for new text) or more probably through rubbing. While Hand A copied <title>The Prick of Conscience</title>, Hand D completed <title>Piers Plowman</title> (<locus from="121r" to="205r">ff.121r-205r</locus>). Hand A rubricated <title>The Prick of Conscience</title> himself, but rubrication of <title>Piers Plowman</title> is in another hand. Some years after <title>Piers Plowman</title> was completed, Hand E began the <title>Siege of Jerusalem</title> on the lower half of the same leaf (<locus from="205r" to="216r">ff. 205r-216r</locus>), and when the <title>Siege of Jerusalem</title> was finished, hand F began <title>The Good Wife</title> on the verso (<locus from="216v" to="219r">ff. 216v-219r</locus>). The third text in the volume <title>Expositio sequentiarum</title> has no necessary connection with the rest of the volume in origin, since it is two independent quires (<locus from="97r" to="112v">ff. 97r-112v</locus>) copied by a scribe C whose work appears nowhere else in the manuscript.”</p>
                                 
                                 <p>Punctuation within <title>Siege of Jerusaelm</title> is sparse. Lines generally begin with capital letter forms; initial letters that do not have a distinct lower case are likely intended as capitals, but have been transcribed as they appear. The caesura is usually, but not always, marked by a simple punctus. Some lines have no medial punctuation, but there is no discernible reason for this occasional omission.</p>
@@ -168,7 +168,7 @@
                             <decoNote>
                                 <p><title>Siege of Jerusalem</title> features a rubricated incipit and a rubricated opening initial 4 lines in with flourishing in scribal brown ink. Rubricated paraphs, usually every four lines.  Textual divisions signaled with red capitals 3 to 8 lines in height.</p>
                                 
-                                <p><title>The Prick of Conscience</title> features rubricated section headings and an opening 8-line initial in red and blue with red and blue infill, which forms a vine; a red and blue cascade runs along the left of the text block to the lower margin. 4-line initials of the same design (e.g. <locus from="4v" to="4v">4v</locus>).  Numerous 2-line initials in blue with red flourishing. Paraphs in red and blue both within the text and accompanying running heads. Latin quotations set off with red line above and below. </p>
+                                <p><title>The Prick of Conscience</title> features rubricated section headings and an opening 8-line initial in red and blue with red and blue infill, which forms a vine; a red and blue cascade runs along the left of the text block to the lower margin. 4-line initials of the same design (e.g., <locus from="4v" to="4v">4v</locus>).  Numerous 2-line initials in blue with red flourishing. Paraphs in red and blue both within the text and accompanying running heads. Latin quotations set off with red line above and below. </p>
                                 
                                 <p><title>Expositio sequentiarum</title> features rubricated 3- and 4-line initials, paraphs, headings.</p>
                                 

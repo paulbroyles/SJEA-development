@@ -31,7 +31,7 @@
                 <msDesc>
                    
                     <msIdentifier>
-                        <country>United States</country>841
+                        <country>United States</country>
                         <settlement>San Marino</settlement>
                         <repository>The Huntington Library</repository>
                         <idno>Hm 128</idno>
@@ -3126,8 +3126,7 @@
                             <seg type="bverse">
                                 <seg ana="#in">in</seg>
                                 <seg ana="#an">an</seg>
-                                <seg ana="#hand">hand</seg>
-                                <seg ana="#while">while</seg>
+                                <seg ana="#hand-while">hand<seg type="shadowHyphen">-</seg>while</seg>
                                 <seg type="punct">.</seg>
                             </seg>
                         </l>
@@ -4258,7 +4257,7 @@
                             </seg>
                         </l>
 
-                        <l xml:id="E.0225" n="HL.0234">
+                        <l xml:id="E.0225" n="HL.0233.1">
                             <seg type="averse">
                                 <seg ana="#to">to</seg>
                                 <seg ana="#fecche">fecche</seg>
@@ -5378,7 +5377,7 @@
                             </seg>
                         </l>
 
-                        <l xml:id="E.0286" n="HL.0294">
+                        <l xml:id="E.0286" n="HL.0294.1">
                             <seg type="averse">
                                 <seg ana="#and">&amp;</seg>
                                 <seg ana="#drowyn">drowyn</seg>
@@ -9683,8 +9682,7 @@
                             <seg type="averse">
                                 <seg ana="#scheldys">scheldys</seg>
                                 <seg ana="#as">as</seg>
-                                <seg ana="#schyd">schyd</seg>
-                                <seg ana="#woode">woode</seg>
+                                <seg ana="#schyd-woode">schyd<seg type="shadowHyphen">-</seg>woode</seg>
                             </seg>
                             <seg type="punct">.</seg>
                             <seg type="bverse">
@@ -9747,7 +9745,7 @@
                             </seg>
                         </l>
 
-                        <l xml:id="E.0530" n="HL.0562">
+                        <l xml:id="E.0530" n="HL.0562.1">
                             <seg type="averse">
                                 <seg ana="#hors">hors</seg>
                                 <seg ana="#wox">wox</seg>
@@ -9780,7 +9778,7 @@
                             </seg>
                         </l>
 
-                        <l xml:id="E.0532" n="HL.0564">
+                        <l xml:id="E.0532" n="HL.0564.1">
                             <seg type="averse">
                                 <seg ana="#for">for</seg>
                                 <seg ana="#there">there</seg>
@@ -9909,7 +9907,7 @@
                             </seg>
                         </l>
 
-                        <l xml:id="E.0539" n="HL.0571">
+                        <l xml:id="E.0539" n="HL.0571.1">
                             <seg type="averse">
                                 <seg ana="#and">&amp;</seg>
                                 <seg ana="#ropes">ropes</seg>
@@ -9931,7 +9929,7 @@
                             </seg>
                         </l>
 
-                        <l xml:id="E.0540" n="HL.0572">
+                        <l xml:id="E.0540" n="HL.0572.1">
                             <seg type="averse">
                                 <seg ana="#þer">þer</seg>
                                 <seg ana="#myȝt">myȝt</seg>
@@ -10409,7 +10407,7 @@
                             </seg>
                         </l>
 
-                        <l xml:id="E.0567" n="HL.0599">
+                        <l xml:id="E.0567" n="HL.0599.1">
                             <seg type="averse">
                                 <seg ana="#and">&amp;</seg>
                                 <seg ana="#chasyd">chasyd</seg>
@@ -10426,7 +10424,7 @@
                             </seg>
                         </l>
 
-                        <l xml:id="E.0568" n="HL.599.1">
+                        <l xml:id="E.0568" n="HL.0600.1">
                             <seg type="averse">
                                 <seg ana="#and">&amp;</seg>
                                 <seg ana="#felde">felde</seg>
@@ -23074,7 +23072,7 @@
             </div1>
         </body>
         <back>
-<!--            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../../2008_DAV/DAV(2009).xml" xpointer="DAV-data"/>-->
+
         </back>
     </text>
 </TEI>

@@ -474,7 +474,10 @@
 
                     <l xml:id="L.0023" n="HL.0023">
                         <seg type="averse">
-                            <seg ana="#xl">Xl</seg>
+                            <choice>
+                                <orig>Xl</orig>
+                                <reg><seg ana="#fourty">Fourty</seg></reg>
+                            </choice>
                             <seg ana="#wynter">wynt<expan>er</expan></seg>
                             <seg ana="#was">was</seg>
                             <seg ana="#as">as</seg>
@@ -3286,8 +3289,7 @@
                     <l xml:id="L.0188" n="HL.0192">
                         <seg type="averse">
                             <seg ana="#and">&amp;</seg>
-                            <seg ana="#þer">þ<expan>er</expan></seg>
-                            <seg ana="#myd">myd</seg>
+                            <seg ana="#þer-myd">þ<expan>er</expan><seg type="shadowHyphen">-</seg>myd</seg>
                             <seg ana="#baptemed">baptemed</seg>
                             <seg ana="#be">be</seg>
                         </seg>
@@ -3975,7 +3977,10 @@
                     <l xml:id="L.0229" n="HL.0233">
                         <seg type="averse">
                             <seg ana="#þan">þan</seg>
-                            <seg ana="#xij">xij</seg>
+                            <choice>
+                                <orig>xij</orig>
+                                <reg><seg ana="#twelf">twelf</seg></reg>
+                            </choice>
                             <seg ana="#barouns">barou<expan>n</expan>s</seg>
                             <seg ana="#bolde">bolde</seg>
                         </seg>
@@ -6122,7 +6127,10 @@
                             <seg ana="#iewes">Iewes</seg>
                             <seg ana="#token">token</seg>
                             <seg ana="#alle">alle</seg>
-                            <seg ana="#xij">xij</seg>
+                            <choice>
+                                <orig>xij</orig>
+                                <reg><seg ana="#twelf">twelf</seg></reg>
+                            </choice>
                         </seg>
                         <g ref="#puncelev"/>
                         <seg type="bverse">
@@ -6466,7 +6474,7 @@
 
                     <l xml:id="L.0378" n="HL.0382">
                         <seg type="averse">
-                            <seg ana="#to-morowe">To<seg type="shadowHyphen">-</seg>selfmorowe</seg>
+                            <seg ana="#to-morowe">To<seg type="shadowHyphen">-</seg>morowe</seg>
                             <seg ana="#prime">p<expan>ri</expan>me</seg>
                             <seg ana="#or">or</seg>
                             <seg ana="#hit">h<expan>i</expan>t</seg>
@@ -7582,8 +7590,7 @@
 
                     <l xml:id="L.0444" n="HL.0447">
                         <seg type="averse">
-                            <seg ana="#with">w<expan>i</expan>t<expan>h</expan></seg>
-                            <seg ana="#out">out</seg>
+                            <seg ana="#with-out">w<expan>i</expan>t<expan>h</expan><seg type="shadowHyphen">-</seg>out</seg>
                             <seg ana="#folke">folke</seg>
                             <seg ana="#vpon">vpon</seg>
                             <seg ana="#fot">fot</seg>
@@ -8289,8 +8296,7 @@
                             <seg ana="#was">was</seg>
                             <seg ana="#with">w<expan>i</expan>t<expan>h</expan></seg>
                             <seg ana="#baneres">baneres</seg>
-                            <seg ana="#ouer">ou<expan>er</expan></seg>
-                            <seg ana="#sprad">sprad</seg>
+                            <seg ana="#ouer-sprad">ou<expan>er</expan><seg type="shadowHyphen">-</seg>sprad</seg>
                         </seg>
                         <g ref="#puncelev"/>
                         <seg type="bverse">

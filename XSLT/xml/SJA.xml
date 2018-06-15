@@ -160,15 +160,33 @@
                             <damage type="tear">.. ......</damage> landes <note place="unspecified">The bottom edge of fol. 50 has been torn away, resulting in the loss of portions of lines 4-9 on the recto and lines 45-48 on the verso. The leaf has been repaired, with new paper covering the missing area.</note> 
                     </l>
 
-                    <l xml:id="A.0005" n="HL.0005"> and herode vndi<supplied reason="torn">r</supplied> <damage type="tear">... ....... .. ........ ..</damage></l>
-
-                    <l xml:id="A.0006" n="HL.0006"> kynge of galele calde w<damage type="tear">.. .... ..... .....</damage>
+                    <l xml:id="A.0005" n="HL.0005"> 
+                        <seg ana="#and">and</seg> 
+                        <seg ana="#herode">herode</seg> 
+                        <seg ana="#vndir">vndi<damage agent="torn"><supplied>r</supplied></damage></seg> 
+                        <damage type="tear">... ....... .. ........ ..</damage>
                     </l>
 
-                    <l xml:id="A.0007" n="HL.0007"> thoghe Cesare sakles <damage type="tear">.... ... ... ..... ......</damage>
+                    <l xml:id="A.0006" n="HL.0006"> 
+                        <seg ana="#kynge">kynge</seg> 
+                        <seg ana="#of">of</seg> 
+                        <seg ana="#galele">galele</seg> 
+                        <seg ana="#calde">calde</seg> 
+                        <seg>w??</seg>
+                        <damage type="tear">.... ..... .....</damage>
                     </l>
 
-                    <l xml:id="A.0008" n="HL.0008"> ȝitt thurgħe pilat<supplied reason="torn">e</supplied> <damage type="tear">..... .. ... ... ... .. .. ....</damage>
+                    <l xml:id="A.0007" n="HL.0007"> 
+                        <seg ana="#thoghe">thoghe</seg> 
+                        <seg ana="#Cesare">Cesare</seg> 
+                        <seg ana="#sakles">sakles</seg> 
+                        <damage type="tear">.... ... ... ..... ......</damage>
+                    </l>
+
+                    <l xml:id="A.0008" n="HL.0008"> 
+                        <seg ana="#ȝitt">ȝitt</seg> 
+                        <seg ana="#thurgħe">thurgħe</seg> 
+                        <seg ana="#pilate">pilat<damage agent="torn"><supplied >e</supplied></damage></seg> <damage type="tear">..... .. ... ... ... .. .. ....</damage>
                     </l>
 
                     <milestone n="50v" unit="fol." entity="A050v"/>
@@ -787,25 +805,42 @@
 
                     <l xml:id="A.0045" n="HL.0049"> 
                         <seg>
-                        <seg ana="systenis">Systenis</seg> 
+                        <seg ana="#systenis">Systenis</seg> 
                         <del rend="subpunction linedThrough">of</del> 
-                        <seg ana="owt">owt</seg> 
-                        <seg ana="of">of</seg> 
+                        <seg ana="#owt">owt</seg> 
+                        <seg ana="#of">of</seg> 
                         </seg>
                         <damage type="tear">..... ....</damage> 
                         <seg>
-                        <seg ana="hym">hym</seg> 
-                        <seg ana="to">to</seg> 
-                        <seg ana="rome">Rome</seg> 
+                        <seg ana="#hym">hym</seg> 
+                        <seg ana="#to">to</seg> 
+                        <seg ana="#rome">Rome</seg> 
                         </seg>
                     </l>
 
-                    <l xml:id="A.0046" n="HL.0050"> vn<seg type="shadowHyphen">-</seg>to the ha<damage type="tear">.... ......... .. .....</damage>de fro þ<expan>e</expan> Iewes </l>
+                    <l xml:id="A.0046" n="HL.0050"> 
+                        <seg ana="#vn-to">vn<seg type="shadowHyphen">-</seg>to</seg> 
+                        <seg ana="#the">the</seg> 
+                        <seg>ha????</seg>
+                        <damage type="tear">......... .. </damage>
+                        <seg>?????de</seg> 
+                        <seg ana="#fro">fro</seg> 
+                        <seg ana="#þe">þ<expan>e</expan></seg> 
+                        <seg ana="#Iewes">Iewes</seg> </l>
 
-                    <l xml:id="A.0047" n="HL.0051"> that w<damage type="tear">.. ..... .... .. .... ... ...</damage> noye wroghte </l>
+                    <l xml:id="A.0047" n="HL.0051"> 
+                        <seg ana="#that">that</seg> 
+                        <seg>w??</seg>
+                        <damage type="tear">..... .... .. .... ... ...</damage> 
+                        <seg ana="#noye">noye</seg> 
+                        <seg ana="#wroghte">wroghte</seg> 
+                    </l>
 
                     <l xml:id="A.0048" n="HL.0052">
-                        <damage type="tear">.. ... ....... .. ..... .... .... .....</damage>ake wolde </l>
+                        <damage type="tear">.. ... ....... .. ..... .... ....</damage>
+                        <seg>?????ake</seg> 
+                        <seg ana="#wolde">wolde</seg> 
+                    </l>
 
                     <milestone n="51r" unit="fol." entity="A051r"/>
                     
@@ -3122,8 +3157,7 @@
                     <l xml:id="A.0189" n="HL.0192">
                         <seg type="averse">
                             <seg ana="#and">and</seg>
-                            <seg ana="#thare">thare</seg>
-                            <seg ana="#witħ">witħ</seg>
+                            <seg ana="#thare-witħ">thare<seg type="shadowHyphen">-</seg>witħ</seg>
                             <seg ana="#ałłe">ałłe</seg>
                             <seg ana="#be">be</seg>
                             <seg ana="#baptizede">baptizede</seg>
@@ -4336,7 +4370,7 @@
                     
                     <fw type="guideLetters" place="marginLeft">N</fw>
 
-                    <l xml:id="A.0263" n="HL.268.1">
+                    <l xml:id="A.0263" n="HL.268">
                         <seg type="averse">
                             <seg ana="#now"><hi rend="o4"><hi rend="rb">N</hi></hi>ow</seg>
                             <seg ana="#than">than</seg>
@@ -7478,7 +7512,7 @@
                         </seg>
                     </l>
 
-                    <l xml:id="A.0529" n="HL.0549">
+                    <l xml:id="A.0529" n="HL.0550">
                         <seg type="averse">
                             <seg ana="#for">For</seg>
                             <seg ana="#the">the</seg>
@@ -7493,7 +7527,7 @@
                         </seg>
                     </l>
 
-                    <l xml:id="A.0530" n="HL.0550">
+                    <l xml:id="A.0530" n="HL.0549">
                         <seg type="averse">
                             <seg ana="#ałłe">ałłe</seg>
                             <seg ana="#bryghtened">bryghtened</seg>
@@ -20021,7 +20055,7 @@
                         </seg>
                     </l>
                     
-                    <marginalia place="marginRight"> amen amen amen</marginalia>
+                    
                     <l xml:id="A.1297" n="HL.1340"><seg type="averse">
                             <seg ana="#and">and</seg>
                             <seg ana="#rydis">rydis</seg>
@@ -20039,7 +20073,7 @@
                     
                     
                 </div2>
-                
+                <trailer place="marginRight"> amen amen amen</trailer>
                 <trailer place="bottomCenter">Explicit la sege de Ierusalem</trailer>
                 <trailer place="bottomCenter">R. Thornton dictus q<expan>u</expan>i scripsit sit be<expan/>n<expan>e</expan>dictus amen<note>A later hand has written a capital <hi rend="it">F</hi> above the <hi rend="it">-or-</hi> in <hi rend="it">Thornton</hi> and a lowercase <hi rend="it">f</hi> on top of the second <hi rend="it">-t-</hi>.</note></trailer>
                 

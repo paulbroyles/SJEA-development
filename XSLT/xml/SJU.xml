@@ -2393,8 +2393,7 @@
                             <seg ana="#him">him</seg>
                             <seg ana="#sued">sued</seg>
                             <seg ana="#of">of</seg>
-                            <seg ana="#an">an</seg>
-                            <seg ana="#other">other</seg>
+                            <seg ana="#an-other">an<seg type="shadowHyphen">-</seg>other</seg>
                             <seg ana="#sute">sute</seg>
                         </seg>
                         <seg type="punct">/</seg>
@@ -6858,8 +6857,7 @@
                         </seg>
                         <seg type="punct">/</seg>
                         <seg type="bverse">
-                            <seg ana="#for">for</seg>
-                            <seg ana="#sothe">sothe</seg>
+                            <seg ana="#for-sothe">for<seg type="shadowHyphen">-</seg>sothe</seg>
                             <seg ana="#atte">atte</seg>
                             <seg ana="#leest">leest</seg>
                         </seg>
@@ -7244,7 +7242,7 @@
                     </l>
                     </lg>
                     <lg type="strophe">
-                    <l xml:id="U.0415" n="HL.436.1">
+                    <l xml:id="U.0415" n="HL.0436.1">
                         <seg type="punct"><hi rend="rb">¶</hi></seg>
                         <seg type="averse">
                             <seg ana="#and">And</seg>

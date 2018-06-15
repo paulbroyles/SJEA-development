@@ -4968,7 +4968,7 @@
                         <seg type="bverse">
                             <seg ana="#al">al</seg>
                             <seg ana="#þe">þe</seg>
-                            <seg ana="#loude">loude</seg>
+                            <seg ana="#londe">londe</seg>
                             <seg ana="#about">about</seg>
                             <seg ana="#ovir">ovir</seg>
                         </seg>
@@ -6945,7 +6945,7 @@
                         </seg>
                     </l>
 
-                    <l xml:id="D.0421" n="HL.436.1">
+                    <l xml:id="D.0421" n="HL.0436.1">
                         <seg type="averse">
                             <seg ana="#and">And</seg>
                             <seg ana="#in">in</seg>
@@ -13252,8 +13252,8 @@
                     </l>
                     
                     <milestone n="220v" unit="fol." entity="D220v"/>
-                    <fw type="runningHead" place="topCenter"><hi rend="rb">þe Sege</hi></fw>
-                    <marginalia place="topRight" hand="handx">Of Ier</marginalia>
+                        <fw type="runningHead" place="topCenter"><hi rend="rb">þe Sege</hi> <add place="inline" hand="handx">Of Ier</add></fw>
+
                     <l xml:id="D.0821" n="HL.0849">
                         <seg type="averse">
                             <seg ana="#helmys">helmys</seg>

@@ -6023,7 +6023,7 @@
                     </l>
                     </lg>
                     <lg type="strophe">
-                    <l xml:id="C.0421" n="HL.436.1">
+                    <l xml:id="C.0421" n="HL.0436.1">
                         <seg type="punct">¶</seg>
                         <seg type="averse">
                             <seg ana="#and">And</seg>
@@ -8118,8 +8118,7 @@
                         <seg type="averse">
                             <seg ana="#shyldes">Shyldes</seg>
                             <seg ana="#as">as</seg>
-                            <seg ana="#schyde">schyde</seg>
-                            <seg ana="#woode">woode</seg>
+                            <seg ana="#schyde-woode">schyde<seg type="shadowHyphen">-</seg>woode</seg>
                         </seg>
                         <seg type="punct">.</seg>
                         <seg type="bverse">
@@ -8181,7 +8180,7 @@
                         </seg>
                     </l>
 
-                    <l xml:id="C.0544" n="HL.561.1">
+                    <l xml:id="C.0544" n="HL.562.1">
                         <seg type="averse">
                             <seg ana="#they">They</seg>
                             <seg ana="#hewen">hewen</seg>
