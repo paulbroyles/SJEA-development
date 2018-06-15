@@ -15,3 +15,20 @@
 /tmp
 
 /.DS_Store
+
+# Ignore private configuration
+/config/site.yml
+
+# Ignore the contents of /public that are generated through rake commands
+/public/Assets
+/public/comparisons/**
+/public/xml/**
+/public/images/*-thumbnail.jpg
+/public/MS*-alltags.html
+/public/MS*-critical.html
+/public/MS*-diplomatic.html
+/public/MS*-scribal.html
+/public/SJ*-description.html
+/public/*-fs.html
+/public/*-lb.html
+/public/stylesheets/manuscript.css
