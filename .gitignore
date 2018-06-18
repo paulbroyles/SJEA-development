@@ -10,9 +10,9 @@
 # Ignore the default SQLite database.
 /db/*.sqlite3
 
-# Ignore all logfiles and tempfiles.
+# Ignore all logfiles and tempfiles. (/tmp/ must exist for rake commands, so we suppress only its contents
 /log/*.log
-/tmp
+/tmp/**
 
 /.DS_Store
 
