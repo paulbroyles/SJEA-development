@@ -41,4 +41,4 @@
         * **Do not** edit the version of `manuscript.css` found in this directory; that should be edited in the `/XSLT/stylesheets/` directory as above.
         * `sjea-manuscripts.css` contains entities for the popup images appearing in introductions, as described above in *Images*.
 * Javascript: `/public/javascripts/`
-    * Contains both libraries and custom JS
+    * Contains both libraries and custom JS.
