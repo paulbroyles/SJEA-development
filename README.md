@@ -18,7 +18,7 @@
     * When adding new images, make note of existing naming conventions.
         * All lowercase except for MS sigils.
         * MS images in the form `M0001r.jpg` and `M001r-thumbnail.jpg`.
-            * Upload the large image only; generate thumbnails by running `rake sjea:regenthumbs`. This *cannot* be done on the server, as it requires the sips command, which ships with MacOS. Regenerate the thumbnails working locally on a Mac, and make sure the contents of /public/images are committed to GitHub.
+            * Upload the large image only; generate thumbnails by running `rake sjea:regenthumbs`. This *cannot* be done on the server, as it requires the sips command, which ships with MacOS. Regenerate the thumbnails working locally on a Mac, and make sure the contents of `/public/images` are committed to GitHub.
         * Partner logos are prefaced by `partnerlogo_[top/btm]_`. The meaning of top/btm is a bit opaque; it seems most likely to refer to which row the logo should be on, but in current site configuration, division into rows is based on screen size.
     * There are images in `/XSLT/images/`, but they do not appear to be processed by `sjea:regenthumbs`, and I am not currently aware of any specific purpose they serve.
     * **To add images to introductions:**
