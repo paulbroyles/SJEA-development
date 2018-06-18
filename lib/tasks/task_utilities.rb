@@ -50,11 +50,20 @@ module TaskUtilities
     end
   end
 
-  def make_dir(dname)
-    begin
-      Dir.mkdir(dname)
-    rescue
-    end
+  # def make_dir(dname)
+  #   begin
+  #     Dir.mkdir(dname)
+  #   rescue
+  #   end
+  # end
+
+	# Make directories recursively. Borrowed from https://stackoverflow.com/a/35113281/9872667
+	def make_dir(dname)
+		recursive = dname.split('/')
+	  directory = ''
+	  recursive.each do |sub_directory|
+	    directory += sub_directory + '/'
+	    Dir.mkdir(directory) unless (File.directory? directory)
   end
 
   def append_to_file(fname, line)
