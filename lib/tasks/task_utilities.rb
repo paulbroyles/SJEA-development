@@ -64,7 +64,8 @@ module TaskUtilities
 	  recursive.each do |sub_directory|
 	    directory += sub_directory + '/'
 	    Dir.mkdir(directory) unless (File.directory? directory)
-  end
+  	end
+	end
 
   def append_to_file(fname, line)
     begin
