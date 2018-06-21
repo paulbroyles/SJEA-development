@@ -2026,7 +2026,7 @@
                             <seg ana="#many">many</seg>
                             <choice>
                             <orig><seg ana="#c">C</seg></orig>
-                                <reg><seg ana="hundred">hundred</seg></reg>
+                                <reg><seg ana="#hundred">hundred</seg></reg>
                             </choice>
                             <seg type="punct">.</seg>
                         </seg>
@@ -2056,7 +2056,7 @@
                             
                             <choice>
                                 <orig><seg ana="#viij">viij</seg></orig>
-                                <reg><seg ana="eighte">eighte</seg></reg>
+                                <reg><seg ana="#eighte">eighte</seg></reg>
                             </choice>
                             <seg ana="#daies">daies</seg>
                         </seg>
@@ -2658,7 +2658,7 @@
                             <seg ana="#with">with</seg>
                             <choice>
                                 <orig>lx</orig>
-                                <reg><seg ana="sixti">sixti</seg></reg>
+                                <reg><seg ana="#sixti">sixti</seg></reg>
                             </choice>
                             <seg ana="#speres">speres</seg>
                             <seg ana="#of">of</seg>
@@ -2712,8 +2712,8 @@
                             <choice>
                                 <orig>v<hi rend="sup">C</hi></orig>
                                 <reg>
-                                    <seg ana="five">five</seg> 
-                                    <seg ana="hundred">hundred</seg>
+                                    <seg ana="#five">five</seg> 
+                                    <seg ana="#hundred">hundred</seg>
                                 </reg>
                             </choice>
                             <seg ana="#fightande">fightande</seg>
@@ -2938,8 +2938,8 @@
                             <choice>
                             <orig><seg ana="#c">C</seg></orig>
                             <reg>
-                               <seg ana="one">one</seg>
-                                <seg ana="hundred">hundred</seg>
+                               <seg ana="#one">one</seg>
+                                <seg ana="#hundred">hundred</seg>
                             </reg>
                             </choice>
                             <seg ana="#speres">speres</seg>
@@ -3166,8 +3166,8 @@
                             <choice>
                                 <orig>C</orig>
                                 <reg>
-                                    <seg ana="one">one</seg>
-                                    <seg ana="hundred">hundred</seg>
+                                    <seg ana="#one">one</seg>
+                                    <seg ana="#hundred">hundred</seg>
                                 </reg>
                             </choice>
                         </seg>
@@ -3703,8 +3703,8 @@
                             <choice>
                             <orig>xj<hi rend="sup">C</hi></orig>
                                 <reg>
-                                    <seg ana="elleven">elleven</seg>
-                                    <seg ana="hundred">hundred</seg>
+                                    <seg ana="#elleven">elleven</seg>
+                                    <seg ana="#hundred">hundred</seg>
                                 </reg>
                             </choice>
                             <seg ana="#thousande">thousande</seg>
@@ -3913,11 +3913,11 @@
                         <seg type="averse">
                             <choice>
                                 <orig>v.</orig>
-                                <reg><seg ana="five">five</seg></reg>
+                                <reg><seg ana="#five">five</seg></reg>
                             </choice>
                             <choice>
                                 <orig>M<expan>i</expan>l<expan>le</expan>.</orig>
-                                <reg><seg ana="thousande">thousande</seg></reg>
+                                <reg><seg ana="#thousande">thousande</seg></reg>
                             </choice>
                             <seg ana="#of">of</seg>
                             <seg ana="#fyghtande">fyghtande</seg>
@@ -3960,11 +3960,11 @@
                             <seg ana="#with">w<expan>i</expan>t<expan>h</expan></seg>
                             <choice>
                                 <orig>x</orig>
-                                <reg><seg ana="ten">ten</seg></reg>
+                                <reg><seg ana="#ten">ten</seg></reg>
                             </choice>
                             <choice>
                                 <orig>M<expan>i</expan>l<expan>le</expan></orig>
-                                <reg><seg ana="thousande">thousande</seg></reg>
+                                <reg><seg ana="#thousande">thousande</seg></reg>
                             </choice>
                             <seg ana="#helmes">helmes</seg>
                         </seg>
@@ -4184,7 +4184,7 @@
                             <seg ana="#þe">þe</seg>
                             <choice>
                                 <orig>vij<hi rend="sup">e</hi></orig>
-                                <reg><seg ana="seventh">seventhe</seg></reg>
+                                <reg><seg ana="#seventh">seventhe</seg></reg>
                             </choice>
                             <seg ana="#hit">hit</seg>
                             <seg ana="#apon">apon</seg>
@@ -4356,8 +4356,8 @@
                             <choice>
                                 <orig>.C</orig>
                                 <reg>
-                                    <seg ana="one">one</seg> 
-                                    <seg ana="hundred">hundred</seg>
+                                    <seg ana="#one">one</seg> 
+                                    <seg ana="#hundred">hundred</seg>
                                 </reg>
                             </choice>
                         </seg>
@@ -5909,7 +5909,7 @@
                             <seg ana="#for">For</seg>
                             <choice>
                                 <orig>xxx<hi rend="sup">ti</hi></orig>
-                                <reg><seg ana="thirti">thirti</seg></reg>
+                                <reg><seg ana="#thirti">thirti</seg></reg>
                             </choice>
                             <seg ana="#pens">pens</seg>
                             <seg ana="#in">in</seg>
@@ -6012,7 +6012,7 @@
                             <seg ana="#a">a</seg>
                             <choice>
                                 <orig>M<expan>i</expan>l<expan>le</expan></orig>
-                                <reg><seg ana="thousande">thousande</seg></reg>
+                                <reg><seg ana="#thousande">thousande</seg></reg>
                             </choice>
                         </seg>
                     </l>
@@ -6145,7 +6145,7 @@
                         <seg type="averse">
                             <choice>
                                 <orig>xxx<hi rend="sup">ti</hi></orig>
-                                <reg><seg ana="thirti">thirti</seg></reg>
+                                <reg><seg ana="#thirti">thirti</seg></reg>
                             </choice>
                             <seg ana="#iewes">Iewes</seg>
                             <seg ana="#in">in</seg>

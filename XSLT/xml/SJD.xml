@@ -3864,7 +3864,7 @@
                             <seg ana="#and">And</seg>
                             <seg ana="#al">al</seg>
                             <seg ana="#to-clatrid">to<seg type="shadowHyphen">-</seg>clatrid</seg>
-                            <seg ana="as">as</seg>
+                            <seg ana="#as">as</seg>
                             <seg ana="#þe">þe</seg>
                             <seg ana="#clothe">clothe</seg>
                         </seg>
@@ -18305,8 +18305,8 @@
                             <choice>
                                 <orig>xj <hi rend="sup">C</hi></orig>
                                 <reg>
-                                    <seg ana="elleven">elleven</seg> 
-                                    <seg ana="hundrid">hundrid</seg>
+                                    <seg ana="#elleven">elleven</seg> 
+                                    <seg ana="#hundrid">hundrid</seg>
                                 </reg>
                             </choice>
                             <choice>

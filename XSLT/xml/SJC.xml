@@ -18167,7 +18167,7 @@
                             <seg ana="#with">w<expan>i</expan>t<expan>h</expan></seg>
                             <choice>
                                 <orig>.viij.</orig>
-                                <reg><seg ana="eight">eight</seg></reg>
+                                <reg><seg ana="#eight">eight</seg></reg>
                             </choice>
                             <seg ana="#hondred">hondred</seg>
                             <seg ana="#speres">speres</seg>

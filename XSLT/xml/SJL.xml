@@ -3672,7 +3672,7 @@
                         <seg type="averse">
                             <choice>
                                 <orig>XX<hi rend="sup">ti</hi></orig>
-                                <reg><seg ana="twenti">twenti</seg></reg>
+                                <reg><seg ana="#twenti">twenti</seg></reg>
                             </choice>
                             <seg ana="#knyȝtes">knyȝtes</seg>
                             <seg ana="#were">wer<expan>e</expan></seg>
@@ -7781,9 +7781,9 @@
                     
                     <l xml:id="L.0456" n="HL.0459">
                         <seg type="averse">
-                           <seg ana="busked">busked</seg>
-                           <seg ana="to">to</seg>
-                           <seg ana="batail">batail</seg>
+                           <seg ana="#busked">busked</seg>
+                           <seg ana="#to">to</seg>
+                           <seg ana="#batail">batail</seg>
                         </seg>
                         <g ref="#puncelev"/>
                         <seg type="bverse">
@@ -12522,7 +12522,7 @@
 
                     <l xml:id="L.0749" n="HL.0753">
                         <seg type="averse">
-                            <seg ana="a">a</seg>
+                            <seg ana="#a">a</seg>
                             <seg ana="#bryȝt">bryȝt</seg>
                             <seg ana="#burnesched">burnesched</seg>
                             <seg ana="#swerd">swerd</seg>
@@ -18254,7 +18254,7 @@
                             <seg ana="#saiþ">saiþ</seg>
                             <seg ana="#þat">þ<expan>a</expan>t</seg>
                             <seg ana="#worþi">worþi</seg>
-                            <seg ana="wif">wif</seg>
+                            <seg ana="#wif">wif</seg>
                         </seg>
                         <g ref="#puncelev"/>
                         <seg type="bverse">
@@ -19615,8 +19615,8 @@
                             <seg ana="#þey">þey</seg>
                             <seg ana="#þouȝt">þouȝt</seg>
                             <seg ana="#hit">h<expan>i</expan>t</seg>
-                            <seg ana="by">by</seg>
-                            <seg ana="sege">sege</seg>
+                            <seg ana="#by">by</seg>
+                            <seg ana="#sege">sege</seg>
                         </seg>
                         <g ref="#puncelev"/>
                         <seg type="bverse">
@@ -22246,7 +22246,7 @@
                             <seg ana="#feffyt">feffyt</seg>
                             <seg ana="#hym">hy<expan>m</expan></seg>
                             <seg ana="#with">w<expan>i</expan>t<expan>h</expan></seg>
-                            <seg ana="a">a</seg>
+                            <seg ana="#a">a</seg>
                             <seg ana="#pere">per<expan>e</expan></seg>
                         </seg>
                     </l>
