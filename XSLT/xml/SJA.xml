@@ -2710,7 +2710,7 @@
                         </seg>
                     </l>
 
-                    <marginalia place="marginRight" hand="handx">Virronyke</marginalia>
+                    <marginalia place="marginRight" hand="handx" target="#A.0163">Virronyke</marginalia>
                     <l xml:id="A.0163" n="HL.0166">
                         <seg type="averse">
                             <seg ana="#hase">hase</seg>
@@ -13449,7 +13449,7 @@
                         </seg>
                     </l>
                     
-                    <marginalia place="marginLeft" hand="handx">n<expan>ota</expan></marginalia>
+                    <marginalia place="marginLeft" hand="handx" target="#A.0897">n<expan>ota</expan></marginalia>
                     <l xml:id="A.0897" n="HL.0926">
                         <seg type="averse">
                             <seg ana="#one">One</seg>
@@ -13564,7 +13564,7 @@
                         </seg>
                     </l>
 
-                    <marginalia place="marginLeft" hand="handx">n<expan>ota</expan></marginalia>
+                    <marginalia place="marginLeft" hand="handx" target="#A.0904">n<expan>ota</expan></marginalia>
                     <l xml:id="A.0904" n="HL.0933">
                         <seg type="averse">
                             <seg ana="#than">than</seg>

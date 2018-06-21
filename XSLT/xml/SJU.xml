@@ -3528,7 +3528,7 @@
                         </seg>
                     </l>
                         
-                    <marginalia place="marginLeft" hand="handx">b</marginalia>
+                    <marginalia place="marginLeft" hand="handx" target="#U.0199">b</marginalia>
                     <l xml:id="U.0199" n="HL.0209">
                         <seg type="averse">
                             <seg ana="#there">There</seg>
@@ -3563,7 +3563,7 @@
                         </seg>
                     </l>
 
-                    <marginalia place="marginLeft" hand="handx">a</marginalia>
+                    <marginalia place="marginLeft" hand="handx" target="#U.0201">a</marginalia>
                     <l xml:id="U.0201" n="HL.0208">
                         <seg type="averse">
                             <seg ana="#and">And</seg>

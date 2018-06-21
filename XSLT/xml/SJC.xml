@@ -14040,7 +14040,7 @@
                     
                     
                     <lg type="strophe">
-                        <marginalia place="marginLeft" hand="hand1">no<expan>ta</expan></marginalia>
+                        <marginalia place="marginLeft" hand="hand1" target="#C.0876">no<expan>ta</expan></marginalia>
                     <l xml:id="C.0876" n="HL.0897">
                         <seg type="punct">¶</seg>
                         <seg type="averse">
@@ -14528,8 +14528,8 @@
                         </seg>
                     </l>
                         
-                    <marginalia place="marginLeft" hand="hand1">no<expan>ta</expan></marginalia>
-                    <marginalia place="marginRight" hand="hand1">† GABAA †</marginalia>
+                    <marginalia place="marginLeft" hand="hand1" target="#C.0903">no<expan>ta</expan></marginalia>
+                    <marginalia place="marginRight" hand="hand1" target="#C.0903">† GABAA †</marginalia>
                     <l xml:id="C.0903" n="HL.0926">
                         <seg type="averse">
                             <seg ana="#oon">Oon</seg>
@@ -14673,7 +14673,7 @@
                         </seg>
                     </l>
                     
-                    <marginalia place="marginRight" hand="hand1">† Otus †</marginalia>
+                    <marginalia place="marginRight" hand="hand1" target="#C.0911">† Otus †</marginalia>
                     <l xml:id="C.0911" n="HL.0934">
                         <seg type="averse">
                             <seg ana="#otus">Otus</seg>
@@ -14742,7 +14742,7 @@
                         </seg>
                     </l>
                         
-                    <marginalia place="marginRight" hand="hand1">† Vitale †</marginalia>   
+                    <marginalia place="marginRight" hand="hand1" target="#C.0915">† Vitale †</marginalia>   
                     <l xml:id="C.0915" n="HL.0938">
                         <seg type="averse">
                             <seg ana="#a">A</seg>
@@ -18280,7 +18280,7 @@
                     </lg>
                     <lg type="strophe">
                         
-                    <marginalia place="marginRight" hand="hand1">† IONA †</marginalia>
+                    <marginalia place="marginRight" hand="hand1" target="#C.1111">† IONA †</marginalia>
                     <l xml:id="C.1111" n="HL.1137">
                         <seg type="punct">¶</seg>
                         <seg type="averse">
@@ -18946,7 +18946,7 @@
                         </seg>
                     </l>
                         
-                    <marginalia place="marginLeft" hand="hand1">no<expan>ta</expan></marginalia>
+                    <marginalia place="marginLeft" hand="hand1" target="#C.1148">no<expan>ta</expan></marginalia>
                     <l xml:id="C.1148" n="HL.1175">
                         <seg type="averse">
                             <seg ana="#ellevenn">Elleve<expan>n</expan>n</seg>

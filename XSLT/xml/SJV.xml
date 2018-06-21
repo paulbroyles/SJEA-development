@@ -2068,7 +2068,7 @@
                         </seg>
                     </l>
 
-                    <marginalia place="marginLeft" hand="hand1">no<expan>ta</expan></marginalia>
+                    <marginalia place="marginLeft" hand="hand1" target="#V.0116">no<expan>ta</expan></marginalia>
                     <l xml:id="V.0116" n="HL.1081">
                         <seg type="averse">
                             <seg ana="#and">And</seg>
