@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="../allitSeenet.rnc" type="compact"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="../allitSeenet.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -15,7 +13,7 @@
                     </persName>
                 </editor>
                 <respStmt><resp>Encoding revisions and addition of verse divisions</resp><name><persName xml:id="carlson">John Ivor Carlson</persName></name></respStmt>
-                <respStmt><resp>Proofreading transcriptions, correcting errors, and updating XML encoding.</resp><persName xml:id="broyles" >Paul A. Broyles</persName></respStmt>
+                <respStmt><resp>Proofreading transcriptions, correcting errors, and updating XML encoding.</resp><persName xml:id="broyles">Paul A. Broyles</persName></respStmt>
             </titleStmt>
             <extent>xxx kb</extent>
             <publicationStmt>
@@ -4439,7 +4437,7 @@
                             <seg ana="#of">of</seg>
                             <seg ana="#his">his</seg>
                             <seg ana="#blood">blood</seg>
-                            <seg ana="#comXX">com<gap quantity="2" unit="chars" reason="blot" /><note>The likely reading here is <hi rend="it">comyn</hi>.</note></seg>
+                            <seg ana="#comXX">com<gap quantity="2" unit="chars" reason="blot"/><note>The likely reading here is <hi rend="it">comyn</hi>.</note></seg>
                         </seg>
                     </l>
 
@@ -8361,7 +8359,7 @@
                             <seg ana="#whan">wha<expan>n</expan></seg>
                             <seg ana="#watre">watre</seg>
                             <seg ana="#he">he</seg>
-                            <seg ana="#neiXXXX">nei<gap quantity="4" unit="chars" reason="overbound" /></seg>
+                            <seg ana="#neiXXXX">nei<gap quantity="4" unit="chars" reason="overbound"/></seg>
                         </seg>
                     </l>
 
@@ -10419,7 +10417,7 @@
                             <seg ana="#but">but</seg>
                             <seg ana="#if">if</seg>
                             <seg ana="#wylis">wylis</seg>
-                            <seg ana="#helpXX">help<gap quantity="2" unit="chars" reason="cropped" /></seg>
+                            <seg ana="#helpXX">help<gap quantity="2" unit="chars" reason="cropped"/></seg>
                         </seg>
                     </l>
 
@@ -10977,7 +10975,7 @@
                             <seg ana="#and">And</seg>
                             <choice>
                                 <orig>. xx .</orig>
-                                <reg><seg ana="#twenty"></seg>twenty</reg>
+                                <reg><seg ana="#twenty"/>twenty</reg>
                             </choice>
                             <seg ana="#apys">apys</seg>
                             <seg ana="#also">also</seg>
@@ -12267,7 +12265,7 @@
                             <seg ana="#devil">devil</seg>
                             <seg ana="#have">have</seg>
                             <seg ana="#þat">þ<expan>a</expan>t</seg>
-                            <seg ana="#reXXX">re<gap quantity="3" unit="chars" reason="cropped" /></seg>
+                            <seg ana="#reXXX">re<gap quantity="3" unit="chars" reason="cropped"/></seg>
                         </seg>
                     </l>
 
@@ -17330,7 +17328,7 @@
                             <choice>
                                 <orig>lx.</orig>
                                 <reg>
-                                    <seg ana="#sixty"></seg>
+                                    <seg ana="#sixty"/>
                                 </reg>
                             </choice>
                             <seg ana="#of">of</seg>

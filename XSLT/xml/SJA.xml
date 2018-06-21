@@ -1,6 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="../allitSeenet.rnc" type="compact"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="../allitSeenet.rnc" type="compact"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -16,7 +14,7 @@
                     
                 </editor>
                 <respStmt><resp>Encoding revisions and addition of verse divisions</resp><name><persName xml:id="carlson">John Ivor Carlson</persName></name></respStmt>
-                <respStmt><resp>Proofreading transcriptions, correcting errors, and updating XML encoding.</resp><persName xml:id="broyles" >Paul A. Broyles</persName></respStmt>
+                <respStmt><resp>Proofreading transcriptions, correcting errors, and updating XML encoding.</resp><persName xml:id="broyles">Paul A. Broyles</persName></respStmt>
             </titleStmt>
             <extent>xxx kb</extent>
             <publicationStmt>
@@ -157,14 +155,14 @@
                             <seg ana="#also">also</seg>
                         <seg ana="#Iustece">Iustece</seg>
                             <seg ana="#of">of</seg>
-                            <damage type="tear">.. ......</damage> landes <note place="unspecified">The bottom edge of fol. 50 has been torn away, resulting in the loss of portions of lines 4-9 on the recto and lines 45-48 on the verso. The leaf has been repaired, with new paper covering the missing area.</note> 
+                            <damage type="tear"><gap quantity="9" unit="chars"/></damage> landes <note place="unspecified">The bottom edge of fol. 50 has been torn away, resulting in the loss of portions of lines 4-9 on the recto and lines 45-48 on the verso. The leaf has been repaired, with new paper covering the missing area.</note> 
                     </l>
 
                     <l xml:id="A.0005" n="HL.0005"> 
                         <seg ana="#and">and</seg> 
                         <seg ana="#herode">herode</seg> 
                         <seg ana="#vndir">vndi<damage agent="torn"><supplied>r</supplied></damage></seg> 
-                        <damage type="tear">... ....... .. ........ ..</damage>
+                        <damage type="tear"><gap extent="rest of line"/></damage>
                     </l>
 
                     <l xml:id="A.0006" n="HL.0006"> 
@@ -172,21 +170,21 @@
                         <seg ana="#of">of</seg> 
                         <seg ana="#galele">galele</seg> 
                         <seg ana="#calde">calde</seg> 
-                        <seg>w??</seg>
-                        <damage type="tear">.... ..... .....</damage>
+                        <seg>w<gap quantity="2" unit="chars"/></seg>
+                        <damage type="tear"><gap extent="rest of line"/></damage>
                     </l>
 
                     <l xml:id="A.0007" n="HL.0007"> 
                         <seg ana="#thoghe">thoghe</seg> 
                         <seg ana="#Cesare">Cesare</seg> 
                         <seg ana="#sakles">sakles</seg> 
-                        <damage type="tear">.... ... ... ..... ......</damage>
+                        <damage type="tear"><gap extent="rest of line"/></damage>
                     </l>
 
                     <l xml:id="A.0008" n="HL.0008"> 
                         <seg ana="#ȝitt">ȝitt</seg> 
                         <seg ana="#thurgħe">thurgħe</seg> 
-                        <seg ana="#pilate">pilat<damage agent="torn"><supplied >e</supplied></damage></seg> <damage type="tear">..... .. ... ... ... .. .. ....</damage>
+                        <seg ana="#pilate">pilat<damage agent="torn"><supplied>e</supplied></damage></seg> <damage type="tear"><gap extent="rest of line"/></damage>
                     </l>
 
                     <milestone n="50v" unit="fol." entity="A050v"/>
@@ -810,7 +808,7 @@
                         <seg ana="#owt">owt</seg> 
                         <seg ana="#of">of</seg> 
                         </seg>
-                        <damage type="tear">..... ....</damage> 
+                        <damage type="tear"><gap quantity="10" unit="chars"/></damage> 
                         <seg>
                         <seg ana="#hym">hym</seg> 
                         <seg ana="#to">to</seg> 
@@ -821,24 +819,24 @@
                     <l xml:id="A.0046" n="HL.0050"> 
                         <seg ana="#vn-to">vn<seg type="shadowHyphen">-</seg>to</seg> 
                         <seg ana="#the">the</seg> 
-                        <seg>ha????</seg>
-                        <damage type="tear">......... .. </damage>
-                        <seg>?????de</seg> 
+                        <seg>ha<gap quantity="4" unit="chars"/></seg>
+                        <damage type="tear"><gap quantity="13" unit="chars"/></damage>
+                        <seg><gap quantity="5" unit="chars"/>de</seg> 
                         <seg ana="#fro">fro</seg> 
                         <seg ana="#þe">þ<expan>e</expan></seg> 
                         <seg ana="#Iewes">Iewes</seg> </l>
 
                     <l xml:id="A.0047" n="HL.0051"> 
                         <seg ana="#that">that</seg> 
-                        <seg>w??</seg>
-                        <damage type="tear">..... .... .. .... ... ...</damage> 
+                        <seg>w<gap quantity="2" unit="chars"/></seg>
+                        <damage type="tear"><gap quantity="26" unit="chars"/></damage> 
                         <seg ana="#noye">noye</seg> 
                         <seg ana="#wroghte">wroghte</seg> 
                     </l>
 
                     <l xml:id="A.0048" n="HL.0052">
-                        <damage type="tear">.. ... ....... .. ..... .... ....</damage>
-                        <seg>?????ake</seg> 
+                        <damage type="tear"><gap extent="rest of line"/></damage>
+                        <seg><gap quantity="5" unit="chars"/>ake</seg> 
                         <seg ana="#wolde">wolde</seg> 
                     </l>
 
@@ -6688,7 +6686,7 @@
                     <l xml:id="A.0478" n="HL.0498">
                         <seg type="averse">
                             <seg ana="#the">the</seg>
-                            <del rend="linedThrough subpunction">.</del>
+                            <del rend="linedThrough subpunction"><gap quantity="1" unit="chars"/></del>
                             <seg ana="#buffettynge">buffettynge</seg>
                             <seg ana="#the">the</seg>
                             <seg ana="#betynge">betynge</seg>
@@ -8798,7 +8796,7 @@
                     <l xml:id="A.0610" n="HL.0631">
                         <seg type="averse">
                             <seg ana="#thay">thay</seg>
-                            <seg ana="#cone">con<del rend="overwritten">?</del><add place="inline" hand="hand1">e</add></seg>
+                            <seg ana="#cone">con<del rend="overwritten"><gap quantity="1" unit="chars"/></del><add place="inline" hand="hand1">e</add></seg>
                             <seg ana="#forthe">forthe</seg>
                             <seg ana="#with">w<expan>i</expan>t<expan>h</expan></seg>
                             <seg ana="#the">the</seg>
