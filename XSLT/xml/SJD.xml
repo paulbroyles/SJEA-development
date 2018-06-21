@@ -17328,7 +17328,7 @@
                             <choice>
                                 <orig>lx.</orig>
                                 <reg>
-                                    <seg ana="#sixty"/>
+                                    <seg ana="#sixty">sixty</seg>
                                 </reg>
                             </choice>
                             <seg ana="#of">of</seg>

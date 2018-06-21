@@ -4330,7 +4330,7 @@
                         </seg>
                         <seg type="bverse">
                             <seg ana="#þair">þair</seg>
-                            <seg ana="#hetes">hetes<note>While the reading <hi rend="it">hetes</hi> provides an interesting variant, it is likely that the scribe simply forgot the first <hi rend="it"/>s in <hi rend="it">hestes</hi>, which would put the reading in agreement with the majority of other mss.</note></seg>
+                            <seg ana="#hetes">hetes<note>While the reading <hi rend="it">hetes</hi> provides an interesting variant, it is likely that the scribe simply forgot the first <hi rend="it">s</hi> in <hi rend="it">hestes</hi>, which would put the reading in agreement with the majority of other mss.</note></seg>
                             <seg ana="#to">to</seg>
                             <seg ana="#kepyn">kepyn</seg>
                         </seg>
