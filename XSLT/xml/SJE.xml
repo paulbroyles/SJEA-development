@@ -29,7 +29,7 @@
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
-                   
+
                     <msIdentifier>
                         <country>United States</country>
                         <settlement>San Marino</settlement>
@@ -175,7 +175,7 @@
                                 <seg ana="#that">that</seg>
                                 <seg ana="#empyre">empyre</seg>
                             </seg>
-                            
+
                             <seg type="punct">.</seg>
                             <seg type="bverse">
                                 <seg ana="#as">as</seg>
@@ -1521,7 +1521,7 @@
                                 <seg ana="#yseyled">yseyled</seg>
                                 <seg ana="#haue">haue</seg>
                                 <choice>
-                                   <orig>yswithe</orig> 
+                                   <orig>yswithe</orig>
                                      <reg>
                                         <seg ana="#y">y</seg>
                                         <seg ana="#swithe">swithe</seg>
@@ -1984,7 +1984,7 @@
                         </l>
 
                         <l xml:id="E.0101" n="HL.0110">
-                            <seg type="averse"> 
+                            <seg type="averse">
                                 <choice>
                                     <sic>
                                         <seg ana="#the">the</seg>
@@ -3209,7 +3209,7 @@
 
                     </lg>
                     <anchor xml:id="addend02"/>
-                    
+
                     <lg type="strophe">
                         <l xml:id="E.0168" n="HL.0177">
                             <seg type="punct"><hi rend="rb">¶</hi></seg>
@@ -4177,7 +4177,7 @@
                                 <seg ana="#þe">þe</seg>
                                 <seg ana="#womman">womman</seg>
                             </seg>
-                            
+
                             <seg type="punct">.</seg>
                             <seg type="bverse">
                                 <seg ana="#thanne">thanne</seg>
@@ -6339,7 +6339,7 @@
                                 <choice>
                                     <orig>abody</orig>
                                     <reg>
-                                        <seg ana="#a">a</seg>  
+                                        <seg ana="#a">a</seg>
                                         <seg ana="#body">body</seg>
                                     </reg>
                                 </choice>
@@ -6617,7 +6617,7 @@
                                     <orig>acorde</orig>
                                     <reg>
                                         <seg ana="#a">a</seg>
-                                        <seg ana="#corde">corde</seg> 
+                                        <seg ana="#corde">corde</seg>
                                     </reg>
                                 </choice>
                             </seg>
@@ -7495,7 +7495,7 @@
                             </seg>
                             <seg type="punct">.</seg>
                             <seg type="bverse">
-                                <seg ana="#of">of</seg>  
+                                <seg ana="#of">of</seg>
                                 <choice>
                                     <sic>
                                         <seg ana="#stong">stong</seg>
@@ -8539,7 +8539,7 @@
                                         <seg ana="#a">a</seg>
                                         <seg ana="#rolle">rolle</seg>
                                     </reg>
-                                </choice>        
+                                </choice>
                             </seg>
                         </l>
 
@@ -10377,7 +10377,7 @@
                                 <choice>
                                     <orig>feyth les</orig>
                                     <reg>
-                                        <seg ana="#feythles">feythles</seg>   
+                                        <seg ana="#feythles">feythles</seg>
                                     </reg>
                                 </choice>
                                 <seg ana="#folk">folk</seg>
@@ -11006,7 +11006,7 @@
                                         <seg ana="#a">a</seg>
                                         <seg ana="#man">man</seg>
                                     </reg>
-                                </choice>     
+                                </choice>
                             </seg>
                             <seg type="punct">.</seg>
                             <seg type="bverse">
@@ -11138,7 +11138,7 @@
                                         <seg ana="#a">a</seg>
                                         <seg ana="#cry">cry</seg>
                                     </reg>
-                                </choice>     
+                                </choice>
                             </seg>
                             <seg type="punct">.</seg>
                             <seg type="bverse">
@@ -13810,7 +13810,7 @@
                                     <orig>aplace</orig>
                                     <reg>
                                         <seg ana="#a">a</seg>
-                                        <seg ana="#place">place</seg> 
+                                        <seg ana="#place">place</seg>
                                     </reg>
                                 </choice>
                             </seg>
@@ -14226,7 +14226,7 @@
                                     <orig>aston</orig>
                                     <reg>
                                         <seg ana="#a">a</seg>
-                                        <seg ana="#ston">ston</seg> 
+                                        <seg ana="#ston">ston</seg>
                                     </reg>
                                 </choice>
                                 <seg ana="#in">in</seg>
@@ -15369,7 +15369,7 @@
                             </seg>
                         </l>
                     </lg>
-                    
+
                     <lg type="strophe">
                         <l xml:id="E.0841" n="HL.0901">
                           <seg type="punct">¶<note place="unspecified">There is a mark in text ink for a paraph here, but there is no place for the rubricator to render it because the area is covered by the tail of the large initial <hi rend="it">I</hi> from line 837.</note></seg>
@@ -15380,7 +15380,7 @@
                                 <seg ana="#his">his</seg>
                                 <seg ana="#mydwyf">mydwyf</seg>
                             </seg>
-                            
+
                             <seg type="punct">.</seg>
                             <seg type="bverse">
                                 <seg ana="#motheryd">motheryd</seg>
@@ -19536,9 +19536,9 @@
                                 <seg ana="#eyȝt">eyȝt</seg>
                                 <seg ana="#hundred">hundred</seg>
                                 <seg ana="#speres">speres</seg>
-                            </seg>                                  
+                            </seg>
                         </l>
-                        
+
                         <l xml:id="E.1068" n="HL.1131">
                             <seg type="averse">
                                 <seg ana="#and">&amp;</seg>
@@ -23067,7 +23067,7 @@
                     </lg>
                         <trailer place="marginRight"><hi rend="tr">A</hi>me<hi rend="tr">N</hi><hi rend="tr">.</hi></trailer>
 
-                    
+
                 </div2>
             </div1>
         </body>
