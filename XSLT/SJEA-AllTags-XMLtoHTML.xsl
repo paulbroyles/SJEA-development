@@ -336,7 +336,7 @@
                     <h2>
                         <div class="passus-{substring-after(substring-before(@rend, ')'), '(')}">
                             <xsl:call-template name="generateMarginalia">
-                                <xsl:with-param name="marginals" select="key('marginal',.)"/>
+                                <xsl:with-param name="marginals" select="key('marginal',generate-id())"/>
                             </xsl:call-template>
                             <xsl:apply-templates/>
                         </div>
@@ -347,7 +347,7 @@
                     <h2>
                         <div class="passus-{@place}">
                             <xsl:call-template name="generateMarginalia">
-                                <xsl:with-param name="marginals" select="key('marginal',.)"/>
+                                <xsl:with-param name="marginals" select="key('marginal',generate-id())"/>
                             </xsl:call-template>
                             <xsl:apply-templates/>
                         </div>
@@ -496,7 +496,7 @@
         <div class="line" id="{@xml:id}">
             <xsl:apply-templates/>
             <xsl:call-template name="generateMarginalia">
-                <xsl:with-param name="marginals" select="key('marginal',.)"/>
+                <xsl:with-param name="marginals" select="key('marginal',generate-id())"/>
             </xsl:call-template>
         </div>
         
@@ -913,7 +913,7 @@
                 <xsl:otherwise>
                     <i>
                         <xsl:call-template name="generateMarginalia">
-                            <xsl:with-param name="marginals" select="key('marginal',.)"/>
+                            <xsl:with-param name="marginals" select="key('marginal',generate-id())"/>
                         </xsl:call-template>
                         <xsl:apply-templates/>
                     </i>
@@ -945,8 +945,8 @@
     <!--     use @place to populate @class field.   -->
     <!--*************************-->
     
-    <xsl:key name="marginal" match="tei:marginalia[starts-with(@place, 'margin')] | tei:fw[starts-with(@place, 'margin')]"
-        use="generate-id(following-sibling::*[name() eq 'tei:l' or name() eq 'tei:head' or name() eq 'tei:trailer'][1])"/>
+    <xsl:key name="marginal" match="//tei:marginalia[starts-with(@place, 'margin')] | //tei:fw[starts-with(@place, 'margin')]"
+        use="generate-id(following-sibling::*[name() = 'l' or name() = 'head' or name() = 'trailer'][1])"/>
     
     <!--<xsl:template name="generateMarginalia">
         <xsl:param name="view" tunnel="yes"/>
