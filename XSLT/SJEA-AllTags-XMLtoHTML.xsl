@@ -360,15 +360,15 @@
     </xsl:template>
     
     
-    <!--*************************-->
-    <!--mjc: fw template-->
-    <!--     ==         -->
-    <!--mjc: for now let's ignore running headers.      -->
-    <!--     This may change as the layout is completed.-->
-    <!--*************************-->
+<!--    <!-\-*************************-\->
+    <!-\-mjc: fw template-\->
+    <!-\-     ==         -\->
+    <!-\-mjc: for now let's ignore running headers.      -\->
+    <!-\-     This may change as the layout is completed.-\->
+    <!-\-*************************-\->
     <xsl:template match="tei:fw">
         <xsl:if test="@type='tunningHead'"/>
-    </xsl:template>
+    </xsl:template>-->
     
     
     <!--*************************-->
