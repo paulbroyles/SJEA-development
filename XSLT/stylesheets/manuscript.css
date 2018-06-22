@@ -195,6 +195,10 @@
 
 .topRight, .bottomRight { position: absolute ; right: 100px }
 
+.bottomLeft, .bottomCenter, .bottomRight {display: inline-block; padding-bottom: 1em;}
+
+.topLeft, .topCenter, .topRight {display: inline-block; padding-bottom: 1em;}
+
 .deldescription, .placedescription { display:none }
 
 .head1 { font-size:1.6em ; text-align:center }
