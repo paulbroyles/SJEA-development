@@ -334,26 +334,24 @@
             <xsl:choose>
                 <xsl:when test="@rend">
                     <h2>
-                        <xsl:choose>
-                            <xsl:when test="tei:marginalia">
-                                <xsl:call-template name="generateMarginalia">
-                                    <xsl:with-param name="margin" select="tei:marginalia"/>
-                                </xsl:call-template>
-                            </xsl:when>
-                        </xsl:choose>
-                        <div class="passus-{substring-after(substring-before(@rend, ')'), '(')}"><xsl:apply-templates/></div></h2>
+                        <div class="passus-{substring-after(substring-before(@rend, ')'), '(')}">
+                            <xsl:call-template name="generateMarginalia">
+                                <xsl:with-param name="marginals" select="key('marginal',.)"/>
+                            </xsl:call-template>
+                            <xsl:apply-templates/>
+                        </div>
+                    </h2>
                 </xsl:when>
                 
                 <xsl:when test="@place">
                     <h2>
-                        <xsl:choose>
-                            <xsl:when test="tei:marginalia">
-                                <xsl:call-template name="generateMarginalia">
-                                    <xsl:with-param name="margin" select="tei:marginalia"/>
-                                </xsl:call-template>
-                            </xsl:when>
-                        </xsl:choose>
-                        <div class="passus-{@place}"><xsl:apply-templates/></div></h2>
+                        <div class="passus-{@place}">
+                            <xsl:call-template name="generateMarginalia">
+                                <xsl:with-param name="marginals" select="key('marginal',.)"/>
+                            </xsl:call-template>
+                            <xsl:apply-templates/>
+                        </div>
+                    </h2>
                 </xsl:when>
             </xsl:choose>
         </xsl:if>
@@ -390,17 +388,17 @@
         
         <!--mjc: if the <milestone> is immediately followed by a <marginalia>   -->
         <!--      with @place='top...' then put a <span> here for the text      -->
-        <xsl:if test="name(./following-sibling::*[1])='marginalia'">
+        <!--<xsl:if test="name(./following-sibling::*[1])='marginalia'">
             <xsl:variable name="pos" select="substring(./following-sibling::*[1]/@place, 1, 3)"/>
             
             <xsl:if test="$pos='top'">
                 <xsl:call-template name="generateMarginalia">
                     <xsl:with-param name="margin" select="./following-sibling::tei:marginalia[1]"/>
                 </xsl:call-template>
-<!--                <!-\-mjc: tell parser not to turn <br/> into <br></br>-\->
-                <xsl:value-of disable-output-escaping="yes">&lt;br /&gt;</xsl:value-of>-->
+<!-\-                <!-\\-mjc: tell parser not to turn <br/> into <br></br>-\\->
+                <xsl:value-of disable-output-escaping="yes">&lt;br /&gt;</xsl:value-of>-\->
             </xsl:if>
-        </xsl:if>
+        </xsl:if>-->
         
         <!--dg: create <img> tags instead of <a> tags for the images. This shows the manuscript page -->
         <!--    as a thumbnail and matches the wireframes we have provided Tim for review.           -->
@@ -458,7 +456,8 @@
         <!--     then display it with this line.                                            -->
         <!--     if @place is bottom then display it on another line                        -->
         <!--pab: updated to handle <fw> on the same principles as <marginalia>.             -->
-        <xsl:choose>
+        <!--<xsl:choose>
+            
             <xsl:when test="name(./following-sibling::*[1])=('marginalia', 'fw')">
                 <xsl:variable name="pos" select="substring(./following-sibling::*[1]/attribute::place, 1, 3)"/>
                 
@@ -467,8 +466,8 @@
                         <div class="line" id="{@xml:id}">
                             <xsl:apply-templates/>
                         </div>
-                        <!--mjc: tell parser not to turn <br/> into <br></br>-->
-                        <!--<xsl:value-of disable-output-escaping="yes">&lt;br /&gt;</xsl:value-of>-->
+                        <!-\-mjc: tell parser not to turn <br/> into <br></br>-\->
+                        <!-\-<xsl:value-of disable-output-escaping="yes">&lt;br /&gt;</xsl:value-of>-\->
                         
                         <xsl:call-template name="generateMarginalia">
                             <xsl:with-param name="margin" select="./following-sibling::tei:*[1][name(.) = ('marginalia', 'fw')]"/>
@@ -492,7 +491,14 @@
                     <xsl:apply-templates/>
                 </div>
             </xsl:otherwise>
-        </xsl:choose>
+        </xsl:choose>-->
+        
+        <div class="line" id="{@xml:id}">
+            <xsl:apply-templates/>
+            <xsl:call-template name="generateMarginalia">
+                <xsl:with-param name="marginals" select="key('marginal',.)"/>
+            </xsl:call-template>
+        </div>
         
         <!--mjc: tell parser not to turn <br/> into <br></br>-->
         <!--<xsl:value-of disable-output-escaping="yes">&lt;br /&gt;</xsl:value-of>-->
@@ -890,13 +896,13 @@
     
     
     <!--*************************-->
-    <!--mjc: trailer | explicit templates-->
+    <!--mjc: trailer template-->
     <!--     =======   ========         -->
-    <!--mjc: format text in the <trailer> and <explicit> tags   -->
+    <!--mjc: format text in the <trailer> tags   -->
     <!--     display in italics (except Crit) and use @place to -->
     <!--     populate @class field.                             -->
     <!--*************************-->
-    <xsl:template match="tei:trailer | tei:explicit">
+    <xsl:template match="tei:trailer">
         <xsl:param name="view" tunnel="yes"/>
         
         <div class="{@place}">
@@ -905,7 +911,12 @@
                     <xsl:apply-templates/>
                 </xsl:when>
                 <xsl:otherwise>
-                    <i><xsl:apply-templates/></i>
+                    <i>
+                        <xsl:call-template name="generateMarginalia">
+                            <xsl:with-param name="marginals" select="key('marginal',.)"/>
+                        </xsl:call-template>
+                        <xsl:apply-templates/>
+                    </i>
                 </xsl:otherwise>
             </xsl:choose>
         </div>
@@ -933,7 +944,11 @@
     <!--     except for Critical view.              -->
     <!--     use @place to populate @class field.   -->
     <!--*************************-->
-    <xsl:template name="generateMarginalia">
+    
+    <xsl:key name="marginal" match="tei:marginalia[starts-with(@place, 'margin')] | tei:fw[starts-with(@place, 'margin')]"
+        use="generate-id(following-sibling::*[name() eq 'tei:l' or name() eq 'tei:head' or name() eq 'tei:trailer'][1])"/>
+    
+    <!--<xsl:template name="generateMarginalia">
         <xsl:param name="view" tunnel="yes"/>
         <xsl:param name="margin"/>
         
@@ -945,14 +960,14 @@
                     <div class="margin-{@place}"><a id="margin-{@place}" class="standard-tooltip" title="{concat('Place: ', @place, ', Hand: ', @hand)}"><xsl:apply-templates/></a></div>
                 </xsl:for-each>
                 
-                <!--mjc: in some cases there can be multiple <marginalia> tags in a row  -->
-                <!--     handle that special condition here                              -->
+                <!-\-mjc: in some cases there can be multiple <marginalia> tags in a row  -\->
+                <!-\-     handle that special condition here                              -\->
                 <xsl:if test="name($margin/following-sibling::*[1])='marginalia'">
                     <xsl:variable name="pos" select="substring($margin/following-sibling::*[1]/attribute::place, 1, 3)"/>
                     
-                    <!--if the @place value of the next <marginalia> is top or bottom, then insert a <br/>--> 
+                    <!-\-if the @place value of the next <marginalia> is top or bottom, then insert a <br/>-\-> 
                     <xsl:if test="$pos='top' or $pos='bot'">
-                        <!--mjc: tell parser not to turn  into <br></br>-->
+                        <!-\-mjc: tell parser not to turn  into <br></br>-\->
                         <xsl:value-of disable-output-escaping="yes">&lt;br /&gt;</xsl:value-of>
                     </xsl:if>
                     
@@ -960,6 +975,21 @@
                         <xsl:with-param name="margin" select="$margin/following-sibling::tei:marginalia[1]"/>
                     </xsl:call-template>
                 </xsl:if>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>-->
+    
+    <xsl:template name="generateMarginalia">
+        <xsl:param name="view" tunnel="yes"/>
+        <xsl:param name="marginals"/>
+        
+        <xsl:choose>
+            <xsl:when test="$view = 'critical'"/>
+            
+            <xsl:otherwise>
+                <xsl:for-each select="$marginals">
+                    <div class="margin-{@place}"><a id="margin-{@place}" class="standard-tooltip" title="{concat('Place: ', @place, ', Hand: ', @hand)}"><xsl:apply-templates/></a></div>
+                </xsl:for-each>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
