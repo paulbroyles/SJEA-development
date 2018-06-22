@@ -1137,6 +1137,49 @@
             </xsl:choose>
         </span>
     </xsl:template>
+    
+    
+    <!--*************************-->
+    <!--pab: addSpan template and key-->
+    <!--     ========      -->
+    <!--pab: treat addSpanned nodes inside l,     -->
+    <!--     head, trailer, marginalia, fw as     -->
+    <!--     though they are in <add> elements.   -->
+    <!--     Adapted from a technique I created   -->
+    <!--     for the PPEA.                        -->
+    <!--*************************-->
+    <xsl:key name="addSpannedNodeIds" match="tei:addSpan">
+        <xsl:variable name="n" select="."/>
+        <xsl:variable name="target" select="id(substring-after(@spanTo,'#'))"/>
+        <xsl:variable name="all_between"
+            select="$n/following::node() intersect $target/preceding::node()"/>
+        <!-- The sequence contains all top-level children of the virtual element created by the span. $all_between contains
+            every node between the opening and closing of the span. However, when identifying the contents of the span to
+            wrap them, we want to identify only the top-level elements; a node whose parent has been identified as belonging
+            to the span should not itself also be identified as belonging to the span, for locating the parent in the span
+            covers it. The sequence selector returns every node in the $all_between nodeset except those nodes whose parent
+            element is found in the $all_between nodeset. Or, to be more precise, it returns IDs for all nodes meeting
+            those conditions. -->
+        <xsl:sequence
+            select="
+            (for $o in $all_between[not(descendant-or-self::tei:l or descendant-or-self::tei:head or descendant-or-self::tei:trailer or descendant-or-self::tei:marginalia or descendant-or-self::tei:fw or self::tei:milestone or self::tei:pb or self::tei:cb)]
+            return
+            $o[not($all_between[. is $o/parent::*])])/generate-id()"/>
+    </xsl:key>
+    
+    <xsl:template match="node()[key('addSpannedNodeIds', generate-id())]" priority="2000">
+        <xsl:param name="view" tunnel="yes"/>
+        <xsl:variable name="addSpan" select="key('addSpannedNodeIds', generate-id())"/>
+        
+        <!-- Create a version of the node that's wrapped in an <add> element, allowing us to process it like any other <add>. -->
+        <xsl:variable name="node_in_add">
+            <tei:add place="{$addSpan/@place}" hand="{$addSpan/@hand}">
+                <xsl:copy-of select="."/>
+            </tei:add>
+        </xsl:variable>
+        
+        <xsl:apply-templates select="$node_in_add"/>
+    </xsl:template>
 
 
     <xsl:template match="text()">
