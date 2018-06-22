@@ -184,8 +184,8 @@
 .margin-marginLeft { position: absolute; left: -75px; }
 .margin-bottomLeft { position: relative; left: 95px; max-width: calc(97% - 95px); }
 
-.marginRight { position: absolute; right: -150px; }
-.margin-marginRight { position: relative; right: -150px; display:inline-block; }
+.marginRight { position: absolute; right: 480px; }
+.margin-marginRight { position: absolute; left: 480px; }
 
 .topCenter, .center, .bottomCenter { position: relative; left: 250px; max-width: calc(97% - 250px) }
 
