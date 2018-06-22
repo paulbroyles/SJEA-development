@@ -494,10 +494,10 @@
         </xsl:choose>-->
         
         <div class="line" id="{@xml:id}">
-            <xsl:apply-templates/>
             <xsl:call-template name="generateMarginalia">
                 <xsl:with-param name="marginals" select="key('marginal',generate-id())"/>
             </xsl:call-template>
+            <xsl:apply-templates/>
         </div>
         
         <!--mjc: tell parser not to turn <br/> into <br></br>-->
@@ -982,20 +982,27 @@
     <xsl:template name="generateMarginalia">
         <xsl:param name="view" tunnel="yes"/>
         <xsl:param name="marginals"/>
+        <xsl:param name="in_margin" select="true()"/>
         
         <xsl:choose>
             <xsl:when test="$view = 'critical'"/>
             
             <xsl:otherwise>
                 <xsl:for-each select="$marginals">
-                    <div class="margin-{@place}"><a id="margin-{@place}" class="standard-tooltip" title="{concat('Place: ', @place, ', Hand: ', @hand)}"><xsl:apply-templates/></a></div>
+                    <div class="{if ($in_margin) then 'margin-' else ''}{@place}"><a class="standard-tooltip" title="{concat('Place: ', @place, ', Hand: ', @hand)}"><xsl:apply-templates/></a></div>
                 </xsl:for-each>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
     
     <!--mjc: Otherwise we don't want to process <marginalia> normally-->
-    <xsl:template match="tei:marginalia"/>
+    <xsl:template match="tei:marginalia[starts-with(@place,'margin')] | tei:fw[starts-with(@place,'margin')]"/>
+    <xsl:template match="tei:marginalia | tei:fw">
+        <xsl:call-template name="generateMarginalia">
+            <xsl:with-param name="marginals" select="."/>
+            <xsl:with-param name="in_margin" select="false()"/>
+        </xsl:call-template>
+    </xsl:template>
     
     
     <!--*************************-->
