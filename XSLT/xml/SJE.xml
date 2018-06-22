@@ -1,10 +1,4 @@
-<<<<<<< Updated upstream
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="allitSeenet.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-=======
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="allitSeenet.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
->>>>>>> Stashed changes
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../allitSeenet.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -19,11 +13,7 @@
                     </persName>
                 </editor>
                 <respStmt><resp>Encoding revisions and addition of verse divisions</resp><name><persName xml:id="carlson">John Ivor Carlson</persName></name></respStmt>
-<<<<<<< Updated upstream
-                <respStmt><resp>Proofreading transcriptions, correcting errors, and updating XML encoding.</resp><persName xml:id="broyles" >Paul A. Broyles</persName></respStmt>
-=======
                 <respStmt><resp>Proofreading transcriptions, correcting errors, and updating XML encoding.</resp><persName xml:id="broyles">Paul A. Broyles</persName></respStmt>
->>>>>>> Stashed changes
             </titleStmt>
             <extent>xxx kb</extent>
             <publicationStmt>
@@ -37,11 +27,7 @@
             </publicationStmt>
             <sourceDesc>
                 <msDesc>
-<<<<<<< Updated upstream
 
-=======
-                   
->>>>>>> Stashed changes
                     <msIdentifier>
                         <country>United States</country>
                         <settlement>San Marino</settlement>
@@ -187,11 +173,7 @@
                                 <seg ana="#that">that</seg>
                                 <seg ana="#empyre">empyre</seg>
                             </seg>
-<<<<<<< Updated upstream
 
-=======
-                            
->>>>>>> Stashed changes
                             <seg type="punct">.</seg>
                             <seg type="bverse">
                                 <seg ana="#as">as</seg>
@@ -1252,11 +1234,7 @@
                             <seg type="averse">
                                 <seg ana="#the">the</seg>
                                 <seg ana="#schip">schip</seg>
-<<<<<<< Updated upstream
-                                <addSpan hand="hand1" place="inline" spanTo="#addend01" />
-=======
                                 <addSpan hand="hand1" place="inline" spanTo="#addend01"/>
->>>>>>> Stashed changes
                                 <seg ana="#turned">turned</seg>
                                 <seg ana="#aȝenward">aȝenward</seg>
                             </seg>
@@ -1541,11 +1519,7 @@
                                 <seg ana="#yseyled">yseyled</seg>
                                 <seg ana="#haue">haue</seg>
                                 <choice>
-<<<<<<< Updated upstream
                                    <orig>yswithe</orig>
-=======
-                                   <orig>yswithe</orig> 
->>>>>>> Stashed changes
                                      <reg>
                                         <seg ana="#y">y</seg>
                                         <seg ana="#swithe">swithe</seg>
@@ -2008,11 +1982,7 @@
                         </l>
 
                         <l xml:id="E.0101" n="HL.0110">
-<<<<<<< Updated upstream
                             <seg type="averse">
-=======
-                            <seg type="averse"> 
->>>>>>> Stashed changes
                                 <choice>
                                     <sic>
                                         <seg ana="#the">the</seg>
@@ -2979,11 +2949,7 @@
                             <seg type="bverse">
                                 <seg ana="#whan">whan</seg>
                                 <seg ana="#thei">thei</seg>
-<<<<<<< Updated upstream
-                                <del rend="erasure">...?...</del>
-=======
                                 <del rend="erasure"><gap atLeast="6" atMost="12" unit="chars"/></del>
->>>>>>> Stashed changes
                                 <add place="inline" hand="hand1"><seg ana="#his">his</seg>
                                 <seg ana="#deth">deth</seg>
                                 <seg ana="#caste">caste</seg></add>
@@ -3129,11 +3095,7 @@
                             <seg type="averse">
                                 <seg ana="#þat">þat</seg>
                                 <seg ana="#knelyth">knelyth</seg>
-<<<<<<< Updated upstream
-                                <seg ana="#doun"><del rend="erasure">.</del>doun<note place="unspecified">There is an odd deletion just before <hi rend="it">doun</hi>; one character, perhaps an <hi rend="it">a</hi>, has been erased. It seems too low to have originally been part of this line yet too high to have been part of the erasure in the line below.</note></seg>
-=======
                                 <seg ana="#doun"><del rend="erasure"><gap quantity="1" unit="chars"/></del>doun<note place="unspecified">There is an odd deletion just before <hi rend="it">doun</hi>; one character, perhaps an <hi rend="it">a</hi>, has been erased. It seems too low to have originally been part of this line yet too high to have been part of the erasure in the line below.</note></seg>
->>>>>>> Stashed changes
                                 <seg ana="#to">to</seg>
                                 <seg ana="#þat">þat</seg>
                                 <seg ana="#clotħ">clotħ</seg>
@@ -3152,21 +3114,13 @@
                                 <seg ana="#but">but</seg>
                                 <seg ana="#þat">þat</seg>
                                 <seg ana="#he">he</seg>
-<<<<<<< Updated upstream
-                                <del rend="erasure">...?...</del>
-=======
                                 <del rend="erasure"><gap atLeast="6" atMost="12" unit="chars"/></del>
->>>>>>> Stashed changes
                                 <add place="inline" hand="hand1"><seg ana="#be">be</seg>
                                 <seg ana="#fulliche">fulliche</seg>
                                 <seg ana="#hool">hool</seg></add>
                             </seg>
                             <seg type="punct">.</seg>
-<<<<<<< Updated upstream
-                            <addSpan hand="hand1" place="inline" spanTo="#addend02" />
-=======
                             <addSpan hand="hand1" place="inline" spanTo="#addend02"/>
->>>>>>> Stashed changes
                             <seg type="bverse">
                                 <seg ana="#in">in</seg>
                                 <seg ana="#an">an</seg>
@@ -3253,11 +3207,7 @@
 
                     </lg>
                     <anchor xml:id="addend02"/>
-<<<<<<< Updated upstream
 
-=======
-                    
->>>>>>> Stashed changes
                     <lg type="strophe">
                         <l xml:id="E.0168" n="HL.0177">
                             <seg type="punct"><hi rend="rb">¶</hi></seg>
@@ -3282,11 +3232,7 @@
                                 <seg ana="#the">the</seg>
                                 <seg ana="#cankre">cankre</seg>
                                 <seg ana="#þat">þat</seg>
-<<<<<<< Updated upstream
-                                <del rend="erasure">...?...</del>
-=======
                                 <del rend="erasure"><gap atLeast="6" atMost="12" unit="chars"/></del>
->>>>>>> Stashed changes
                                 <add place="inline" hand="hand1"><seg ana="#tytus">tytus</seg></add>
                                 <seg ana="#hadde">hadde</seg>
                             </seg>
@@ -3494,23 +3440,14 @@
                             <seg type="averse">
                                 <seg ana="#now"><hi rend="o4"><hi rend="rb">N</hi></hi>ow</seg>
                                 <seg ana="#telle">telle</seg>
-<<<<<<< Updated upstream
-                                <del rend="erasure">...?...</del>
-                                <addSpan hand="handx" place="inline" spanTo="#addend03" />
-=======
                                 <del rend="erasure"><gap atLeast="6" atMost="12" unit="chars"/></del>
                                 <addSpan hand="handx" place="inline" spanTo="#addend03"/>
->>>>>>> Stashed changes
                                 <seg ana="#me">me</seg>
                                 <seg ana="#quod">q<expan>uod</expan></seg>
                                 <seg ana="#tytus">tytus</seg>
                             </seg>
                             <seg type="punct">.</seg>
-<<<<<<< Updated upstream
-                            <anchor xml:id="addend03" />
-=======
                             <anchor xml:id="addend03"/>
->>>>>>> Stashed changes
                             <seg type="bverse">
                                 <seg ana="#what">what</seg>
                                 <seg ana="#tokene">tokene</seg>
@@ -3744,11 +3681,7 @@
                         <l xml:id="E.0193" n="HL.0202">
                             <seg type="averse">
                                 <seg ana="#as">as</seg>
-<<<<<<< Updated upstream
-                                <del rend="erasure">...</del><add place="inline" hand="hand1"><seg ana="#þow">þow</seg></add>
-=======
                                 <del rend="erasure"><gap quantity="3" unit="chars"/></del><add place="inline" hand="hand1"><seg ana="#þow">þow</seg></add>
->>>>>>> Stashed changes
                                 <seg ana="#in">in</seg>
                                 <seg ana="#bedleem">bedleem</seg>
                                 <seg ana="#was">was</seg>
@@ -4242,11 +4175,7 @@
                                 <seg ana="#þe">þe</seg>
                                 <seg ana="#womman">womman</seg>
                             </seg>
-<<<<<<< Updated upstream
 
-=======
-                            
->>>>>>> Stashed changes
                             <seg type="punct">.</seg>
                             <seg type="bverse">
                                 <seg ana="#thanne">thanne</seg>
@@ -6408,11 +6337,7 @@
                                 <choice>
                                     <orig>abody</orig>
                                     <reg>
-<<<<<<< Updated upstream
                                         <seg ana="#a">a</seg>
-=======
-                                        <seg ana="#a">a</seg>  
->>>>>>> Stashed changes
                                         <seg ana="#body">body</seg>
                                     </reg>
                                 </choice>
@@ -6690,11 +6615,7 @@
                                     <orig>acorde</orig>
                                     <reg>
                                         <seg ana="#a">a</seg>
-<<<<<<< Updated upstream
                                         <seg ana="#corde">corde</seg>
-=======
-                                        <seg ana="#corde">corde</seg> 
->>>>>>> Stashed changes
                                     </reg>
                                 </choice>
                             </seg>
@@ -7566,21 +7487,13 @@
                                 <seg ana="#was">was</seg>
                                 <seg ana="#wacche">wacche</seg>
                                 <seg ana="#abowte">abowte</seg>
-<<<<<<< Updated upstream
-                                <del rend="erasure">..</del>
-=======
                                 <del rend="erasure"><gap quantity="2" unit="chars"/></del>
->>>>>>> Stashed changes
                                 <add place="inline" hand="hand1"><seg ana="#þe">þe</seg></add>
                                 <seg ana="#walles">walles</seg>
                             </seg>
                             <seg type="punct">.</seg>
                             <seg type="bverse">
-<<<<<<< Updated upstream
                                 <seg ana="#of">of</seg>
-=======
-                                <seg ana="#of">of</seg>  
->>>>>>> Stashed changes
                                 <choice>
                                     <sic>
                                         <seg ana="#stong">stong</seg>
@@ -7696,11 +7609,7 @@
                             <seg type="bverse">
                                 <seg ana="#and">&amp;</seg>
                                 <seg ana="#hys">hys</seg>
-<<<<<<< Updated upstream
-                                <seg ana="#knythes"><del rend="erasure">...</del><add place="inline" hand="hand1">kny</add>thes</seg>
-=======
                                 <seg ana="#knythes"><del rend="erasure"><gap quantity="3" unit="chars"/></del><add place="inline" hand="hand1">kny</add>thes</seg>
->>>>>>> Stashed changes
                                 <seg ana="#keene">keene</seg>
                             </seg>
                         </l>
@@ -8307,11 +8216,7 @@
                                 <seg ana="#þat">þat</seg>
                                 <seg ana="#were">were</seg>
                                 <seg ana="#adrad">adrad</seg>
-<<<<<<< Updated upstream
-                                <seg ana="#neuere">ne<del rend="erasure">...</del><add place="inline" hand="hand1">uer</add>e</seg>
-=======
                                 <seg ana="#neuere">ne<del rend="erasure"><gap quantity="3" unit="chars"/></del><add place="inline" hand="hand1">uer</add>e</seg>
->>>>>>> Stashed changes
                             </seg>
                         </l>
 
@@ -8483,11 +8388,7 @@
                             <seg type="bverse">
                                 <seg ana="#were">were</seg>
                                 <seg ana="#charbuncles">charbuncles</seg>
-<<<<<<< Updated upstream
-                                <del rend="erasure">...?...</del>
-=======
                                 <del rend="erasure"><gap atLeast="6" atMost="12" unit="chars"/></del>
->>>>>>> Stashed changes
                                 <add place="inline" hand="hand1"><seg ana="#stonys">stonys</seg></add>
                             </seg>
                         </l>
@@ -8636,11 +8537,7 @@
                                         <seg ana="#a">a</seg>
                                         <seg ana="#rolle">rolle</seg>
                                     </reg>
-<<<<<<< Updated upstream
                                 </choice>
-=======
-                                </choice>        
->>>>>>> Stashed changes
                             </seg>
                         </l>
 
@@ -9146,11 +9043,7 @@
                             </seg>
                             <seg type="punct">.</seg>
                             <seg type="bverse">
-<<<<<<< Updated upstream
-                                <del rend="erasure">.....</del>
-=======
                                 <del rend="erasure"><gap quantity="5" unit="chars"/></del>
->>>>>>> Stashed changes
                                 <add place="inline" hand="hand1"><seg ana="#crist">crist</seg></add>
                                 <seg ana="#for-to">for<seg type="shadowHyphen">-</seg>to</seg>
                                 <seg ana="#serue">serue</seg>
@@ -9261,11 +9154,7 @@
                             <seg type="averse">
                                 <seg ana="#knyȝtes">knyȝtes</seg>
                                 <seg ana="#crossyd">crossyd</seg>
-<<<<<<< Updated upstream
-                                <seg ana="#hem-self">hem<seg type="shadowHyphen">-</seg><del rend="ersaue">....</del><add place="inline" hand="hand1">self</add></seg>
-=======
                                 <seg ana="#hem-self">hem<seg type="shadowHyphen">-</seg><del rend="ersaue"><gap quantity="4" unit="chars"/></del><add place="inline" hand="hand1">self</add></seg>
->>>>>>> Stashed changes
                             </seg>
                             <seg type="punct">.</seg>
                             <seg type="bverse">
@@ -9417,13 +9306,8 @@
                             <seg type="punct"><hi rend="rb">¶</hi></seg>
                             <seg type="averse">
                                 <seg ana="#the">The</seg>
-<<<<<<< Updated upstream
-                                <del rend="erasure">...?...?...</del>
-                                <addSpan hand="hand1" place="inline" spanTo="#addend04" />
-=======
                                 <del rend="erasure"><gap atLeast="0.5" atMost="1" unit="lines"/></del>
                                 <addSpan hand="hand1" place="inline" spanTo="#addend04"/>
->>>>>>> Stashed changes
                                 <seg ana="#bare">bare</seg>
                                 <seg ana="#barnes">barnes</seg>
                                 <seg ana="#thorw-owt">thorw<seg type="shadowHyphen">-</seg>owt</seg>
@@ -9431,11 +9315,7 @@
                             <seg type="punct">.</seg>
                             <seg type="bverse">
                                 <seg ana="#and">&amp;</seg>
-<<<<<<< Updated upstream
-                                <seg ana="#burstyn">burs<anchor xml:id="addend04" />tyn</seg>
-=======
                                 <seg ana="#burstyn">burs<anchor xml:id="addend04"/>tyn</seg>
->>>>>>> Stashed changes
                                 <seg ana="#her">her</seg>
                                 <seg ana="#sperys">sperys</seg>
                             </seg>
@@ -9813,22 +9693,14 @@
 
                         <l xml:id="E.0527" n="HL.0559">
                             <seg type="averse">
-<<<<<<< Updated upstream
-                                <seg ana="#schottyn">scho<del rend="erasure">...?...</del><addSpan hand="hand1" place="inline" spanTo="#addend05" />ttyn</seg>
-=======
                                 <seg ana="#schottyn">scho<del rend="erasure"><gap atLeast="6" atMost="12" unit="chars"/></del><addSpan hand="hand1" place="inline" spanTo="#addend05"/>ttyn</seg>
->>>>>>> Stashed changes
                                 <seg ana="#owt">owt</seg>
                                 <seg ana="#arwes">arwes</seg>
                             </seg>
                             <seg type="punct">.</seg>
                             <seg type="bverse">
                                 <seg ana="#þat">þat</seg>
-<<<<<<< Updated upstream
-                                <anchor xml:id="addend05" />
-=======
                                 <anchor xml:id="addend05"/>
->>>>>>> Stashed changes
                                 <seg ana="#scharp">scharp</seg>
                                 <seg ana="#were">were</seg>
                                 <seg ana="#y-grounde">y<seg type="shadowHyphen">-</seg>grounde</seg>
@@ -9994,11 +9866,7 @@
                                 <seg ana="#owt">owt</seg>
                                 <seg ana="#fro">fro</seg>
                                 <seg ana="#towne">towne</seg>
-<<<<<<< Updated upstream
-                                <del rend="erasure">..... h.</del><add place="inline" hand="hand1"><seg ana="#beryn">beryn</seg></add>
-=======
                                 <del rend="erasure"><gap quantity="5" unit="chars"/> h<gap quantity="1" unit="chars"/></del><add place="inline" hand="hand1"><seg ana="#beryn">beryn</seg></add>
->>>>>>> Stashed changes
                             </seg>
                         </l>
 
@@ -10507,11 +10375,7 @@
                                 <choice>
                                     <orig>feyth les</orig>
                                     <reg>
-<<<<<<< Updated upstream
                                         <seg ana="#feythles">feythles</seg>
-=======
-                                        <seg ana="#feythles">feythles</seg>   
->>>>>>> Stashed changes
                                     </reg>
                                 </choice>
                                 <seg ana="#folk">folk</seg>
@@ -10668,17 +10532,10 @@
 
                         <l xml:id="E.0574" n="HL.0606">
                             <seg type="averse">
-<<<<<<< Updated upstream
-                                <del rend="erasure">...?...</del>
-                                <addSpan hand="hand1" place="inline" spanTo="#addend06" /><seg ana="#oþer">oþ<expan>er</expan></seg>
-                                <seg ana="#on">on</seg>
-                                <seg ana="#beestes">bees<anchor xml:id="addend06" />tes</seg>
-=======
                                 <del rend="erasure"><gap atLeast="6" atMost="12" unit="chars"/></del>
                                 <addSpan hand="hand1" place="inline" spanTo="#addend06"/><seg ana="#oþer">oþ<expan>er</expan></seg>
                                 <seg ana="#on">on</seg>
                                 <seg ana="#beestes">bees<anchor xml:id="addend06"/>tes</seg>
->>>>>>> Stashed changes
                                 <seg type="punct">.</seg>
                                 <seg ana="#or">or</seg>
                                 <seg ana="#on">on</seg>
@@ -10979,13 +10836,8 @@
                         <l xml:id="E.0591" n="HL.0623">
                             <seg type="averse">
                                 <seg ana="#tookyn">tookyn</seg>
-<<<<<<< Updated upstream
-                                <seg ana="#in-to">in<del rend="erasure">...?...</del><addSpan hand="hand1" place="inline" spanTo="#addend07" /><seg type="shadowHyphen">-</seg>to</seg>
-                                <seg ana="#toures">toures</seg><anchor xml:id="addend07" />
-=======
                                 <seg ana="#in-to">in<del rend="erasure"><gap atLeast="6" atMost="12" unit="chars"/></del><addSpan hand="hand1" place="inline" spanTo="#addend07"/><seg type="shadowHyphen">-</seg>to</seg>
                                 <seg ana="#toures">toures</seg><anchor xml:id="addend07"/>
->>>>>>> Stashed changes
                             </seg>
                             <seg type="punct">.</seg>
                             <seg type="bverse">
@@ -11152,11 +11004,7 @@
                                         <seg ana="#a">a</seg>
                                         <seg ana="#man">man</seg>
                                     </reg>
-<<<<<<< Updated upstream
                                 </choice>
-=======
-                                </choice>     
->>>>>>> Stashed changes
                             </seg>
                             <seg type="punct">.</seg>
                             <seg type="bverse">
@@ -11222,11 +11070,7 @@
 
                         <l xml:id="E.0604" n="HL.0636">
                             <seg type="averse">
-<<<<<<< Updated upstream
-                                <del rend="erasure">...?...</del>
-=======
                                 <del rend="erasure"><gap atLeast="6" atMost="12" unit="chars"/></del>
->>>>>>> Stashed changes
                                 <add place="inline" hand="hand1"><seg ana="#thei">thei</seg>
                                 <seg ana="#wulde">wulde</seg>
                                 <seg ana="#nat">nat</seg>
@@ -11292,11 +11136,7 @@
                                         <seg ana="#a">a</seg>
                                         <seg ana="#cry">cry</seg>
                                     </reg>
-<<<<<<< Updated upstream
                                 </choice>
-=======
-                                </choice>     
->>>>>>> Stashed changes
                             </seg>
                             <seg type="punct">.</seg>
                             <seg type="bverse">
@@ -11557,17 +11397,10 @@
                             <seg type="averse">
                                 <seg ana="#fyue">fyue</seg>
                                 <seg ana="#vndred">vndred</seg>
-<<<<<<< Updated upstream
-                                <del rend="erasure">...?...</del>
-                                <addSpan hand="hand1" place="inline" spanTo="#addend08" /><seg ana="#on">on</seg>
-                                <seg ana="#a">a</seg>
-                                <seg ana="#frount">fr<anchor xml:id="addend08" />ount</seg>
-=======
                                 <del rend="erasure"><gap atLeast="6" atMost="12" unit="chars"/></del>
                                 <addSpan hand="hand1" place="inline" spanTo="#addend08"/><seg ana="#on">on</seg>
                                 <seg ana="#a">a</seg>
                                 <seg ana="#frount">fr<anchor xml:id="addend08"/>ount</seg>
->>>>>>> Stashed changes
                             </seg>
                             <seg type="punct">.</seg>
                             <seg type="bverse">
@@ -12232,11 +12065,7 @@
 
                         <l xml:id="E.0660" n="HL.0704">
                             <seg type="averse">
-<<<<<<< Updated upstream
-                                <del rend="erasure">...</del>
-=======
                                 <del rend="erasure"><gap quantity="3" unit="chars"/></del>
->>>>>>> Stashed changes
                                 <add place="inline" hand="hand1"><seg ana="#to">to</seg>
                                 <seg ana="#be">be</seg></add>
                                 <seg ana="#bounde">bounde</seg>
@@ -12464,13 +12293,8 @@
                             <seg type="punct"><hi rend="rb">¶</hi></seg>
                             <seg type="averse">
                                 <seg ana="#the">The</seg>
-<<<<<<< Updated upstream
-                                <del rend="erasure">...?...?...</del>
-                                <addSpan hand="hand1" place="inline" spanTo="#addend09" /><seg ana="#kyng">kyng</seg>
-=======
                                 <del rend="erasure"><gap atLeast="0.5" atMost="1" unit="lines"/></del>
                                 <addSpan hand="hand1" place="inline" spanTo="#addend09"/><seg ana="#kyng">kyng</seg>
->>>>>>> Stashed changes
                                 <seg ana="#bad">bad</seg>
                                 <seg ana="#hem">hem</seg>
                                 <seg ana="#hem">hem</seg>
@@ -12483,11 +12307,7 @@
                                 <seg ana="#whan">whan</seg>
                                 <seg ana="#þey">þey</seg>
                                 <seg ana="#deed">deed</seg>
-<<<<<<< Updated upstream
-                                <anchor xml:id="addend09" />
-=======
                                 <anchor xml:id="addend09"/>
->>>>>>> Stashed changes
                                 <seg ana="#were">were</seg>
                             </seg>
                         </l>
@@ -12510,11 +12330,7 @@
                                 <seg ana="#faste">faste</seg>
                                 <seg ana="#be">be</seg>
                                 <seg ana="#þe">þe</seg>
-<<<<<<< Updated upstream
-                                <seg ana="#galwys">ga<del rend="erasure">...</del><add place="inline" hand="hand1">lwy</add>s</seg>
-=======
                                 <seg ana="#galwys">ga<del rend="erasure"><gap quantity="3" unit="chars"/></del><add place="inline" hand="hand1">lwy</add>s</seg>
->>>>>>> Stashed changes
                             </seg>
                         </l>
 
@@ -12761,11 +12577,7 @@
                             </seg>
                             <seg type="punct">.</seg>
                             <seg type="bverse">
-<<<<<<< Updated upstream
-                                <del rend="erasure">..</del>
-=======
                                 <del rend="erasure"><gap quantity="2" unit="chars"/></del>
->>>>>>> Stashed changes
                                 <add place="inline" hand="hand1"><seg ana="#as">as</seg></add>
                                 <seg ana="#reysoun">reysoun</seg>
                                 <seg ana="#wulde">wulde</seg>
@@ -13190,17 +13002,10 @@
                             <seg type="bverse">
                                 <seg ana="#auysed">auysed</seg>
                                 <seg ana="#for">for</seg>
-<<<<<<< Updated upstream
-                                <del rend="erasure">...?...</del>
-                                <addSpan hand="hand1" place="inline" spanTo="#addend10" />
-                                <seg ana="#þe">þe</seg>
-                                <seg ana="#nones">none<anchor xml:id="addend10" />s</seg>
-=======
                                 <del rend="erasure"><gap atLeast="6" atMost="12" unit="chars"/></del>
                                 <addSpan hand="hand1" place="inline" spanTo="#addend10"/>
                                 <seg ana="#þe">þe</seg>
                                 <seg ana="#nones">none<anchor xml:id="addend10"/>s</seg>
->>>>>>> Stashed changes
                                 <seg type="punct">.</seg>
                             </seg>
                         </l>
@@ -13269,11 +13074,7 @@
                             </seg>
                             <seg type="punct">.</seg>
                             <seg type="bverse">
-<<<<<<< Updated upstream
-                                <del rend="erasure">..</del><add place="inline" hand="hand1"><seg ana="#þe">þe</seg></add>
-=======
                                 <del rend="erasure"><gap quantity="2" unit="chars"/></del><add place="inline" hand="hand1"><seg ana="#þe">þe</seg></add>
->>>>>>> Stashed changes
                                 <seg ana="#syde">syde</seg>
                                 <seg ana="#al">al</seg>
                                 <seg ana="#abowte">abowte</seg>
@@ -13304,11 +13105,7 @@
                             <seg type="averse">
                                 <seg ana="#as">as</seg>
                                 <seg ana="#lyȝtly">lyȝtly</seg>
-<<<<<<< Updated upstream
-                                <del rend="erasure">...</del>
-=======
                                 <del rend="erasure"><gap quantity="3" unit="chars"/></del>
->>>>>>> Stashed changes
                                 <add place="inline" hand="hand1"><seg ana="#as">as</seg>
                                 <seg ana="#a">a</seg></add>
                                 <seg ana="#lyon">lyon</seg>
@@ -13492,11 +13289,7 @@
                             <seg type="averse">
                                 <seg ana="#for">for</seg>
                                 <seg ana="#y">y</seg>
-<<<<<<< Updated upstream
-                                <del rend="erasure">....</del>
-=======
                                 <del rend="erasure"><gap quantity="4" unit="chars"/></del>
->>>>>>> Stashed changes
                                 <add place="inline" hand="hand1"><seg ana="#haue">haue</seg></add>
                                 <seg ana="#stroyed">stroyed</seg>
                                 <seg ana="#alle">alle</seg>
@@ -13785,11 +13578,7 @@
                             <seg type="punct">.</seg>
                             <seg type="bverse">
                                 <seg ana="#in">in</seg>
-<<<<<<< Updated upstream
-                                <del rend="erasure">...?...</del>
-=======
                                 <del rend="erasure"><gap atLeast="6" atMost="12" unit="chars"/></del>
->>>>>>> Stashed changes
                                 <add place="inline" hand="hand1"><seg ana="#þe">þe</seg>
                                 <seg ana="#reyn">reyn</seg>
                                 <seg ana="#leet">leet</seg>
@@ -14019,11 +13808,7 @@
                                     <orig>aplace</orig>
                                     <reg>
                                         <seg ana="#a">a</seg>
-<<<<<<< Updated upstream
                                         <seg ana="#place">place</seg>
-=======
-                                        <seg ana="#place">place</seg> 
->>>>>>> Stashed changes
                                     </reg>
                                 </choice>
                             </seg>
@@ -14095,11 +13880,7 @@
                                 <seg ana="#strenghe">strenghe</seg>
                                 <seg ana="#of">of</seg>
                                 <seg ana="#þe">þe</seg>
-<<<<<<< Updated upstream
-                                <seg ana="#strok">st<del rend="erasure">..</del><add place="inline" hand="hand1">ro</add>k</seg>
-=======
                                 <seg ana="#strok">st<del rend="erasure"><gap quantity="2" unit="chars"/></del><add place="inline" hand="hand1">ro</add>k</seg>
->>>>>>> Stashed changes
                             </seg>
                             <seg type="punct">.</seg>
                             <seg type="bverse">
@@ -14232,17 +14013,10 @@
                             <seg type="bverse">
                                 <seg ana="#on">on</seg>
                                 <seg ana="#hem">hem</seg>
-<<<<<<< Updated upstream
-                                <del rend="erasure">...?...</del>
-                                <addSpan hand="hand1" place="inline" spanTo="#addend11" /><seg ana="#he">he</seg>
-                                <seg ana="#leet">leet</seg>
-                                <seg ana="#caste">c<anchor xml:id="addend11" />aste</seg>
-=======
                                 <del rend="erasure"><gap atLeast="6" atMost="12" unit="chars"/></del>
                                 <addSpan hand="hand1" place="inline" spanTo="#addend11"/><seg ana="#he">he</seg>
                                 <seg ana="#leet">leet</seg>
                                 <seg ana="#caste">c<anchor xml:id="addend11"/>aste</seg>
->>>>>>> Stashed changes
                             </seg>
                         </l>
 
@@ -14450,11 +14224,7 @@
                                     <orig>aston</orig>
                                     <reg>
                                         <seg ana="#a">a</seg>
-<<<<<<< Updated upstream
                                         <seg ana="#ston">ston</seg>
-=======
-                                        <seg ana="#ston">ston</seg> 
->>>>>>> Stashed changes
                                     </reg>
                                 </choice>
                                 <seg ana="#in">in</seg>
@@ -14725,13 +14495,8 @@
                             <seg type="punct"><hi rend="rb">¶</hi></seg>
                             <seg type="averse">
                                 <seg ana="#waspasyan">waspasyan</seg>
-<<<<<<< Updated upstream
-                                <seg ana="#stynted">stynte<del rend="erasure">...</del><addSpan hand="hand1" place="inline" spanTo="#addend12" />d</seg>
-                                <seg ana="#þanne">þ<anchor xml:id="addend12" />anne</seg>
-=======
                                 <seg ana="#stynted">stynte<del rend="erasure"><gap quantity="3" unit="chars"/></del><addSpan hand="hand1" place="inline" spanTo="#addend12"/>d</seg>
                                 <seg ana="#þanne">þ<anchor xml:id="addend12"/>anne</seg>
->>>>>>> Stashed changes
                             </seg>
                             <seg type="punct">.</seg>
                             <seg type="bverse">
@@ -15602,11 +15367,7 @@
                             </seg>
                         </l>
                     </lg>
-<<<<<<< Updated upstream
 
-=======
-                    
->>>>>>> Stashed changes
                     <lg type="strophe">
                         <l xml:id="E.0841" n="HL.0901">
                           <seg type="punct">¶<note place="unspecified">There is a mark in text ink for a paraph here, but there is no place for the rubricator to render it because the area is covered by the tail of the large initial <hi rend="it">I</hi> from line 837.</note></seg>
@@ -15617,11 +15378,7 @@
                                 <seg ana="#his">his</seg>
                                 <seg ana="#mydwyf">mydwyf</seg>
                             </seg>
-<<<<<<< Updated upstream
 
-=======
-                            
->>>>>>> Stashed changes
                             <seg type="punct">.</seg>
                             <seg type="bverse">
                                 <seg ana="#motheryd">motheryd</seg>
@@ -16477,11 +16234,7 @@
                                 <seg ana="#vitayl">vitayl</seg>
                             </seg>
                             <seg type="bverse">
-<<<<<<< Updated upstream
-                                <del rend="erasure">..</del><add place="inline" hand="hand1"><seg ana="#þe">þe</seg></add>
-=======
                                 <del rend="erasure"><gap quantity="2" unit="chars"/></del><add place="inline" hand="hand1"><seg ana="#þe">þe</seg></add>
->>>>>>> Stashed changes
                                 <seg ana="#sceptre">sceptre</seg>
                                 <seg ana="#hadde">hadde</seg>
                                 <seg ana="#in">in</seg>
@@ -16996,11 +16749,7 @@
                                 <seg ana="#for">For</seg>
                                 <seg ana="#y">y</seg>
                                 <seg ana="#haue">haue</seg>
-<<<<<<< Updated upstream
-                                <seg ana="#hyȝly">h<del rend="erasure">..</del><add place="inline" hand="hand1">yȝ</add>ly</seg>
-=======
                                 <seg ana="#hyȝly">h<del rend="erasure"><gap quantity="2" unit="chars"/></del><add place="inline" hand="hand1">yȝ</add>ly</seg>
->>>>>>> Stashed changes
                                 <seg ana="#behyȝt">behyȝt</seg>
                             </seg>
                             <seg type="punct">.</seg>
@@ -18144,22 +17893,13 @@
 
                         <l xml:id="E.0979" n="HL.1042">
                             <seg type="averse">
-<<<<<<< Updated upstream
-                                <del rend="erasure">...?...</del>
-                                <addSpan hand="hand1" place="inline" spanTo="#addend13" /><seg ana="#how">how</seg>
-=======
                                 <del rend="erasure"><gap atLeast="6" atMost="12" unit="chars"/></del>
                                 <addSpan hand="hand1" place="inline" spanTo="#addend13"/><seg ana="#how">how</seg>
->>>>>>> Stashed changes
                                 <seg ana="#þat">þ<expan>a</expan>t<note place="unspecified">Note that the scribe usually spells out <hi rend="it">þat</hi> rather than using an expansion, but seems to have been compelled by lack of space to use the more compact expanded form here (perhaps because he is writing over an erasure).</note></seg>
                                 <seg ana="#he">he</seg>
                                 <seg ana="#sodenliche">sodenliche</seg>
                             </seg>
-<<<<<<< Updated upstream
-                            <seg type="punct">.</seg><anchor xml:id="addend13" />
-=======
                             <seg type="punct">.</seg><anchor xml:id="addend13"/>
->>>>>>> Stashed changes
                             <seg type="bverse">
                                 <seg ana="#in">in</seg>
                                 <seg ana="#siknesse">siknesse</seg>
@@ -18461,11 +18201,7 @@
                             <seg type="punct">.</seg>
                             <seg type="bverse">
                                 <seg ana="#thougħ">thougħ</seg>
-<<<<<<< Updated upstream
-                                <seg ana="#thow"><del rend="erasure">..</del><add place="inline" hand="hand1">th</add>ow</seg>
-=======
                                 <seg ana="#thow"><del rend="erasure"><gap quantity="2" unit="chars"/></del><add place="inline" hand="hand1">th</add>ow</seg>
->>>>>>> Stashed changes
                                 <seg ana="#hym">hym</seg>
                                 <seg ana="#bale">bale</seg>
                                 <seg ana="#wuldest">wuldest</seg>
@@ -19031,17 +18767,10 @@
                                 <seg ana="#smel">smel</seg>
                                 <seg ana="#roos">roos</seg>
                                 <seg ana="#of">of</seg>
-<<<<<<< Updated upstream
-                                <del rend="erasure">...?...</del>
-                                <addSpan hand="hand1" place="inline" spanTo="#addend14" />
-                                <seg ana="#þat">þat</seg>
-                                <seg ana="#roost">roos<anchor xml:id="addend14" />t</seg>
-=======
                                 <del rend="erasure"><gap atLeast="6" atMost="12" unit="chars"/></del>
                                 <addSpan hand="hand1" place="inline" spanTo="#addend14"/>
                                 <seg ana="#þat">þat</seg>
                                 <seg ana="#roost">roos<anchor xml:id="addend14"/>t</seg>
->>>>>>> Stashed changes
                             </seg>
                             <seg type="punct">.</seg>
                             <seg type="bverse">
@@ -19086,11 +18815,7 @@
 
                         <l xml:id="E.1029" n="HL.1092">
                             <seg type="averse">
-<<<<<<< Updated upstream
-                                <del rend="erasure">...</del><add place="inline" hand="hand1"><seg ana="#for">for</seg></add>
-=======
                                 <del rend="erasure"><gap quantity="3" unit="chars"/></del><add place="inline" hand="hand1"><seg ana="#for">for</seg></add>
->>>>>>> Stashed changes
                                 <seg ana="#mete">mete</seg>
                                 <seg ana="#in">in</seg>
                                 <seg ana="#þat">þat</seg>
@@ -19303,11 +19028,7 @@
                                 <seg ana="#wommen">wommen</seg>
                                 <seg ana="#and">&amp;</seg>
                                 <seg ana="#weyk">weyk</seg>
-<<<<<<< Updated upstream
-                                <seg ana="#foolk">foo<del rend="erasure">..</del><add place="inline" hand="hand1">lk</add></seg>
-=======
                                 <seg ana="#foolk">foo<del rend="erasure"><gap quantity="2" unit="chars"/></del><add place="inline" hand="hand1">lk</add></seg>
->>>>>>> Stashed changes
                             </seg>
                             <seg type="punct">.</seg>
                             <seg type="bverse">
@@ -19813,15 +19534,9 @@
                                 <seg ana="#eyȝt">eyȝt</seg>
                                 <seg ana="#hundred">hundred</seg>
                                 <seg ana="#speres">speres</seg>
-<<<<<<< Updated upstream
                             </seg>
                         </l>
 
-=======
-                            </seg>                                  
-                        </l>
-                        
->>>>>>> Stashed changes
                         <l xml:id="E.1068" n="HL.1131">
                             <seg type="averse">
                                 <seg ana="#and">&amp;</seg>
@@ -20290,17 +20005,10 @@
                             </seg>
                             <seg type="punct">.</seg>
                             <seg type="bverse">
-<<<<<<< Updated upstream
-                                <del rend="erasure">...?...</del>
-                                <addSpan hand="hand1" place="inline" spanTo="#addend15" /><seg ana="#it">it</seg>
-                                <seg ana="#greuyd">greuyd</seg>
-                                <seg ana="#hym">hym</seg><anchor xml:id="addend15" />
-=======
                                 <del rend="erasure"><gap atLeast="6" atMost="12" unit="chars"/></del>
                                 <addSpan hand="hand1" place="inline" spanTo="#addend15"/><seg ana="#it">it</seg>
                                 <seg ana="#greuyd">greuyd</seg>
                                 <seg ana="#hym">hym</seg><anchor xml:id="addend15"/>
->>>>>>> Stashed changes
                                 <seg ana="#sore">sore</seg>
                                 <seg type="punct">.</seg>
                             </seg>
@@ -21253,15 +20961,9 @@
                                 <seg ana="#tytus">tytus</seg>
                                 <seg ana="#lifte">lifte</seg>
                                 <seg ana="#vp">vp</seg>
-<<<<<<< Updated upstream
-                                <del rend="erasure">...?...</del>
-                                <addSpan hand="hand1" place="inline" spanTo="#addend16" /><seg ana="#his">his</seg>
-                                <seg ana="#hond">hond</seg><anchor xml:id="addend16" />
-=======
                                 <del rend="erasure"><gap atLeast="6" atMost="12" unit="chars"/></del>
                                 <addSpan hand="hand1" place="inline" spanTo="#addend16"/><seg ana="#his">his</seg>
                                 <seg ana="#hond">hond</seg><anchor xml:id="addend16"/>
->>>>>>> Stashed changes
                             </seg>
                             <seg type="punct">.</seg>
                             <seg type="bverse">
@@ -21517,11 +21219,7 @@
                             <seg type="punct">.</seg>
                             <seg type="bverse">
                                 <seg ana="#caluyd">caluyd</seg>
-<<<<<<< Updated upstream
-                                <seg ana="#in"><del rend="erasure">..</del><add place="inline" hand="hand1">in</add></seg>
-=======
                                 <seg ana="#in"><del rend="erasure"><gap quantity="2" unit="chars"/></del><add place="inline" hand="hand1">in</add></seg>
->>>>>>> Stashed changes
                                 <seg ana="#þe">þe</seg>
                                 <seg ana="#temple">temple</seg>
                             </seg>
@@ -21579,15 +21277,9 @@
                             <seg type="bverse">
                                 <seg ana="#wurgħ">wurgħ</seg>
                                 <seg ana="#to">to</seg>
-<<<<<<< Updated upstream
-                                <del rend="erasure">...?...</del>
-                                <addSpan hand="hand1" place="inline" spanTo="#addend17" /><seg ana="#ȝow">ȝow</seg>
-                                <seg ana="#bothe">bothe</seg><anchor xml:id="addend17" />
-=======
                                 <del rend="erasure"><gap atLeast="6" atMost="12" unit="chars"/></del>
                                 <addSpan hand="hand1" place="inline" spanTo="#addend17"/><seg ana="#ȝow">ȝow</seg>
                                 <seg ana="#bothe">bothe</seg><anchor xml:id="addend17"/>
->>>>>>> Stashed changes
                             </seg>
                         </l>
 
@@ -23362,11 +23054,7 @@
                             </seg>
                             <seg type="punct">.</seg>
                             <seg type="bverse">
-<<<<<<< Updated upstream
-                                <del rend="erasure">...?...</del>
-=======
                                 <del rend="erasure"><gap atLeast="6" atMost="12" unit="chars"/></del>
->>>>>>> Stashed changes
                                 <add place="inline" hand="hand1"><seg ana="#y-blessyd">y<seg type="shadowHyphen">-</seg>blessyd</seg></add>
                                 <seg ana="#be">be</seg>
                                 <seg ana="#god">god</seg>
@@ -23377,11 +23065,7 @@
                     </lg>
                         <trailer place="marginRight"><hi rend="tr">A</hi>me<hi rend="tr">N</hi><hi rend="tr">.</hi></trailer>
 
-<<<<<<< Updated upstream
 
-=======
-                    
->>>>>>> Stashed changes
                 </div2>
             </div1>
         </body>
@@ -23389,8 +23073,4 @@
 
         </back>
     </text>
-<<<<<<< Updated upstream
 </TEI>
-=======
-</TEI>
->>>>>>> Stashed changes
