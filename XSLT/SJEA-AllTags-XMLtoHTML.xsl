@@ -1085,13 +1085,13 @@
     </xsl:template>
     
     <!--*************************-->
-    <!--pab: gap templates -->
+    <!--pab: gap template -->
     <!--     ========      -->
     <!--pab: replace gap with appropriate chars   -->
     <!--     based on listed length, or ellipsis  -->
     <!--     is gap takes up entire line.         -->
     <!--*************************-->
-    <xsl:template match="tei:gap[@unit='chars']">
+    <xsl:template match="tei:gap">
         <xsl:variable name="length" as="xs:integer">
             <xsl:choose>
                 <xsl:when test="@quantity">
@@ -1111,18 +1111,31 @@
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
+        <xsl:variable name="range">
+            <xsl:choose>
+                <xsl:when test="@unit='chars' and @atLeast='6' and @atMost='12'">lessThanHalf</xsl:when>
+                <xsl:when test="@unit='lines' and @atLeast='0.5' and @atMost='1'">moreThanHalf</xsl:when>
+            </xsl:choose>
+        </xsl:variable>
         <span class="gap">
-            <xsl:for-each select="1 to $length">
-                <xsl:text>?</xsl:text>
-            </xsl:for-each>
+            <xsl:choose>
+                <xsl:when test="string-length($range) > 0"><xsl:text>…</xsl:text></xsl:when>
+                <xsl:when test="@extent = 'rest of line'"><xsl:text>…</xsl:text></xsl:when>
+                <xsl:when test="@unit='lines'">
+                    <xsl:text>[</xsl:text>
+                    <xsl:if test="@quantity > 1"><xsl:value-of select="@quantity"/><xsl:text> </xsl:text></xsl:if>
+                    <xsl:text>line</xsl:text>
+                    <xsl:if test="@quantity > 1"><xsl:text>s</xsl:text></xsl:if>
+                    <xsl:text> illegible]</xsl:text>
+                </xsl:when>
+                <xsl:when test="@unit='chars'">
+                    <xsl:for-each select="1 to $length">
+                        <xsl:text>?</xsl:text>
+                    </xsl:for-each>
+                </xsl:when>
+                <xsl:otherwise><xsl:text>…</xsl:text></xsl:otherwise>
+            </xsl:choose>
         </span>
-    </xsl:template>
-    <xsl:template match="tei:gap">
-        <xsl:choose>
-            <xsl:when test="@extent='rest of line'">
-                <span class="gap">...</span>
-            </xsl:when>
-        </xsl:choose>
     </xsl:template>
 
 
