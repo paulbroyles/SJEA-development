@@ -997,8 +997,9 @@
         </xsl:choose>
     </xsl:template>
     
-    <!--mjc: Otherwise we don't want to process <marginalia> normally-->
+    <!--pab: exclude marginalia that's already covered or that we don't otherwise want to display; process the rest-->
     <xsl:template match="tei:marginalia[starts-with(@place,'margin')] | tei:fw[starts-with(@place,'margin')]"/>
+    <xsl:template match="tei:fw[@type='runningHead']"/>
     <xsl:template match="tei:marginalia | tei:fw">
         <xsl:call-template name="generateMarginalia">
             <xsl:with-param name="marginals" select="."/>
