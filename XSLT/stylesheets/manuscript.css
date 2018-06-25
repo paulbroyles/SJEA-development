@@ -199,6 +199,10 @@
 
 .topLeft, .topCenter, .topRight {display: inline-block; padding-bottom: 1em;}
 
+.topLeft ~ .topLeft, .topCenter ~ .topCenter, .topRight ~ .topRight {display: block; margin-top: -1em;}
+
+.bottomLeft ~ .bottomLeft, .bottomCenter ~ .bottomCenter, .bottomRight ~ .bottomRight {display: block; margin-top: -1em;}
+
 .deldescription, .placedescription { display:none }
 
 .head1 { font-size:1.6em ; text-align:center }
