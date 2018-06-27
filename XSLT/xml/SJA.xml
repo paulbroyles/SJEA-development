@@ -97,10 +97,10 @@
                 <div2 type="passus" n="1">
                     
                     <head place="topLeft">
-                        <l>Hic InCepit Distruccio Ierarusalem Quom<expan>odo</expan> Titus &amp; Vaspasian<expan>us</expan></l>
-                        <l>Obsederu<expan>n</expan>t &amp; distruxeru<expan>n</expan>t Ierusalem et vidicaru<expan>n</expan>t morte<expan>m</expan> d<expan>o</expan>m<expan>ini</expan> <choice><abbr>Iħu</abbr><expan><seg ana="#iesu">Iesu</seg></expan></choice> <choice><abbr>Xpi</abbr><expan>Christi</expan></choice></l>
-                        <l>The Segge of Ierusalem</l>
-                        <l>Off Tytus and Vaspasyane</l>
+                        Hic InCepit Distruccio Ierarusalem Quom<expan>odo</expan> Titus &amp; Vaspasian<expan>us</expan><lb/>
+                        Obsederu<expan>n</expan>t &amp; distruxeru<expan>n</expan>t Ierusalem et vidicaru<expan>n</expan>t morte<expan>m</expan> d<expan>o</expan>m<expan>ini</expan> <choice><abbr>Iħu</abbr><expan><seg ana="#iesu">Iesu</seg></expan></choice> <choice><abbr>Xpi</abbr><expan>Christi</expan></choice><lb/>
+                        The Segge of Ierusalem<lb/>
+                        Off Tytus and Vaspasyane<lb/>
                     </head>
                     <milestone n="50r" unit="fol." entity="A050r"/>
                     
