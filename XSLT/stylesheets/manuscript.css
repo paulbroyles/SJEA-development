@@ -267,5 +267,6 @@
 .passus-marginLeft, .passus-marginRight { font-size: large }
 .passus-marginLeft { position: absolute; left: 47px }
 .passus-marginRight { position: absolute; padding-left: 575px }
+.passus { position:relative ; left:150px ; max-width:calc(97% - 150px) }
 
 div.origdate, div.support, div.extent, div.format, div.foliation, div.collation, div.condition, div.layout, div.handnote, div.deconote, div.binding, div.contents, div.provenance, div.listbibl { padding-bottom: 12px }

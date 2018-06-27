@@ -355,7 +355,19 @@
                         </div>
                     </h2>
                 </xsl:when>
+                
+                <xsl:otherwise>
+                    <h2>
+                        <div class="passus">
+                            <xsl:call-template name="generateMarginalia">
+                                <xsl:with-param name="marginals" select="key('marginal',generate-id())"/>
+                            </xsl:call-template>
+                            <xsl:apply-templates/>
+                        </div>
+                    </h2>
+                </xsl:otherwise>
             </xsl:choose>
+            
         </xsl:if>
     </xsl:template>
     
