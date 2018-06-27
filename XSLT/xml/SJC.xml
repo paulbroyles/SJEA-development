@@ -9502,6 +9502,8 @@
                     <fw type="runningHead" place="topCenter">† The sege †</fw>
                 </div2>
                 <div2 type="passus" n="4">
+                    
+                    <head place="marginRight">† Passus iiij<hi rend="sup">us</hi> †</head>
                 
                     <lg type="strophe">
                     <l xml:id="C.0621" n="HL.0639">
@@ -9522,7 +9524,6 @@
                         </seg>
                     </l>
                     
-                    <head place="marginRight">† Passus iiij<hi rend="sup">us</hi> †</head>
 
                     <l xml:id="C.0622" n="HL.0640">
                         <seg type="averse">
