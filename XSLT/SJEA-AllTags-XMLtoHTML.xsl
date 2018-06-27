@@ -506,6 +506,17 @@
         <!--<xsl:value-of disable-output-escaping="yes">&lt;br /&gt;</xsl:value-of>-->
     </xsl:template>
     
+    <!--*************************-->
+    <!--pab: lb template-->
+    <!--     ===         -->
+    <!--lb: insert a line break where <lb> element      -->
+    <!--     occurs                                     -->
+    <!--*************************-->
+    <xsl:template match="tei:lb">
+        <xsl:param name="view" tunnel="yes"/>
+        
+        <xsl:value-of disable-output-escaping="yes">&lt;br /&gt;</xsl:value-of>
+    </xsl:template>
     
     <!--*************************-->
     <!--mjc: seg template-->
