@@ -2521,7 +2521,7 @@
                             <seg ana="#the">The</seg>
                             <choice>
                                 <orig>.viij.</orig>
-                                <reg><seg ana="#eightethe#">eightethe</seg></reg>
+                                <reg><seg ana="#eightethe">eightethe</seg></reg>
                             </choice>
                             <seg ana="#man">man</seg>
                             <seg ana="#is">is</seg>

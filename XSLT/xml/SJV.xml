@@ -24,7 +24,7 @@
                     <p>No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic, mechanical, or otherwise, without the written permission of the publisher.</p>
                 </availability>
                 <date/>
-            </publicationStmt>73r
+            </publicationStmt>
             <sourceDesc>
                 <msDesc>
                     
@@ -1108,7 +1108,7 @@
                     </l>
                     
                     <milestone n="71r" unit="fol." entity="V071r"/>
-                    <fw type="guideLetter" palce="inline">n</fw>
+                    <fw type="guideLetter" place="inline">n</fw>
                     
                     <l xml:id="V.0060" n="HL.1025">
                         <seg type="averse">
@@ -2630,7 +2630,7 @@
                 <div2 type="passus" n="2">
                     <head place="marginRight">Septim<expan>us</expan> passus</head>
                     
-                    <fw type="guideLetter" palce="inline">a</fw>
+                    <fw type="guideLetter" place="inline">a</fw>
                     
                     <l xml:id="V.0148" n="HL.1113">
                         <seg type="averse">
