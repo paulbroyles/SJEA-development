@@ -65,11 +65,7 @@
                     </msDesc>
                </sourceDesc>
           </fileDesc>
-          <encodingDesc>
-               <!--<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../CHAR.xml" xpointer="CHAR-data"/>
-               <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../REND.xml" xpointer="REND-data"/>
-               <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../CLAS.xml" xpointer="CLAS-data"/>-->
-          </encodingDesc>
+          
           <profileDesc>
                <langUsage>
                     <language ident="lat">Latin</language>
@@ -89,11 +85,11 @@
                <change when="2017" who="#stinson #broyles">Proofread, corrected errors, and updated markup.</change>
           </revisionDesc>
      </teiHeader>
-     <text ana="#SJ">
+     <text>
           <body>
-               <div1 n="MsEx" type="fitt" org="uniform" sample="complete">
+               <div n="MsEx" type="fitt">
                     
-                    <milestone n="01ra" unit="fol." entity="Ex001r"/>
+                    <pb n="01ra" facs="Ex001r.jpg"/>
 
                     <l xml:id="Ex.0001" n="HL.0984">For y <gap extent="rest of line"/></l>
 
@@ -163,7 +159,7 @@
 
                     <l xml:id="Ex.0034" n="HL.1017">y nold this towne <gap extent="rest of line"/></l>
 
-                    <milestone n="01vb" unit="fol." entity="Ex001v"/>
+                    <pb n="01vb" facs="Ex001v.jpg"/>
                     
                     <l xml:id="Ex.0035" n="HL.1106"><gap extent="rest of line"/> tho g<gap quantity="4" unit="chars"/> thougħt</l>
 
@@ -217,8 +213,8 @@
                          <choice>
                          <orig>viij<hi rend="sup">C</hi></orig> 
                          <reg>
-                              <seg ana="#eighte">eighte</seg>
-                              <seg ana="#hundred">hundred</seg>
+                              <w>eighte</w>
+                              <w>hundred</w>
                          </reg>
                          </choice>
                          sperys</l>
@@ -238,7 +234,7 @@
                     <l xml:id="Ex.0066" n="HL.1137"><gap extent="rest of line"/><gap quantity="1" unit="chars"/>łł the Iewes ladde</l>
 
                     <l xml:id="Ex.0067" n="HL.1138"><gap extent="rest of line"/> forsoke þe p<expan>ro</expan>fer</l>
-               </div1>
+               </div>
           </body>
      </text>
 </TEI>
