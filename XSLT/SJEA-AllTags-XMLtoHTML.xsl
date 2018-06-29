@@ -294,12 +294,12 @@
     
     
     <!--*************************-->
-    <!--mjc: div2 template-->
+    <!--mjc/pab: div template for passus -->
     <!--     ====         -->
-    <!--mjc: turn <div2> into <div> and create headings -->
+    <!--mjc/pab: create passus headings -->
     <!--     based on view types.                       -->
     <!--*************************-->
-    <xsl:template match="tei:div2">
+    <xsl:template match="tei:div[@type='passus']">
         <xsl:param name="view" tunnel="yes"/>
         
         <div>
@@ -390,14 +390,16 @@
     <!--     img names given in @entity.                 -->
     <!--     path to imgs is "./MS <x> jpeg files".      -->
     <!--*************************-->
-    <xsl:template match="tei:milestone">
+    <xsl:template match="tei:pb">
         <xsl:param name="id" tunnel="yes"/>
         
         <!--mjc: for formatting, put a <br/> before every <milestone>   -->
         <xsl:value-of disable-output-escaping="yes">&lt;br /&gt;</xsl:value-of>
         
+        <xsl:variable name="imgbase" select="substring-before(@facs, '.jpg')"/>
+        
         <xsl:variable name="imgName">
-            <xsl:value-of select="concat($imgpath, @entity, '-thumbnail.jpg')"/>
+            <xsl:value-of select="concat($imgpath, $imgbase, '-thumbnail.jpg')"/>
         </xsl:variable>
         
         <!--mjc: if the <milestone> is immediately followed by a <marginalia>   -->
@@ -419,12 +421,12 @@
         <!--mjc:add a div around the img in order to add a coption div as well                       -->
         <div id="{@entity}" class="imageDiv">
             <div class="img">
-                <a class="imglightbox" href="{concat('/',concat(@entity, '-lb.html'))}">
+                <a class="imglightbox" href="{concat('/',concat($imgbase, '-lb.html'))}">
                     <img src='{$imgName}' class="image"></img>
                 </a>
             </div>
             <div class="caption">
-                <xsl:value-of select="@entity"/>
+                <xsl:value-of select="$imgbase"/>
             </div>
         </div>
     </xsl:template>
@@ -584,6 +586,18 @@
                 <xsl:apply-templates/><xsl:value-of xml:space="preserve"> </xsl:value-of>
             </xsl:otherwise>
         </xsl:choose>
+    </xsl:template>
+    
+    <xsl:template match="tei:w">
+        <xsl:param name="view" tunnel="yes"/>
+        
+        <xsl:apply-templates/>
+    </xsl:template>
+    
+    <xsl:template match="tei:pc">
+        <xsl:param name="view" tunnel="yes"/>
+        
+        <xsl:apply-templates/>
     </xsl:template>
     
     
