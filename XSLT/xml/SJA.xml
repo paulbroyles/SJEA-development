@@ -17014,8 +17014,7 @@
                         <seg type="averse">
                             <w>For</w>
                             <w>a</w>
-                            <w>ferthynge</w>
-                            <w>worthe</w>
+                            <w>ferthynge<seg type="shadowHyphen">-</seg>worthe</w>
                             <w>of</w>
                             <w>fude</w>
                         </seg>
