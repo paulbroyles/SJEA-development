@@ -150,7 +150,7 @@ module TaskUtilities
 
 			case node.name
 
-			when "hi", "expan", "add", "choice", "reg", "corr", "damage", "unclear", "seg"
+			when "hi", "expan", "add", "choice", "reg", "corr", "damage", "unclear", "seg", "w", "pc"
 				node.each_child( ) do |child|
 					content << processNodeInLine(child, hl)
 				end
