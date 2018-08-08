@@ -260,7 +260,7 @@ end
 				processLineNode( child, folio, linelist )
 				lines +=1
 
-			when "lb", "cb", "fw", "marginalia", "head", "trailer"
+			when "lb", "cb", "pb", "fw", "marginalia", "head", "trailer"
 				# These are expected elements that have no bearing on comparison or
 				# search, so ignore them.
 
