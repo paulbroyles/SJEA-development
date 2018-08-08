@@ -1221,7 +1221,7 @@
 
 
     <xsl:template match="text()">
-        <xsl:value-of select="normalize-space()" />
+        <xsl:value-of select="if (string-length(normalize-space()) ne 0) then normalize-space() else ." />
     </xsl:template>
     
     
