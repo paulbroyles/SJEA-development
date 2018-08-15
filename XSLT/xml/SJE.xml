@@ -20070,8 +20070,7 @@
                             <seg type="averse">
                                 <w>for</w>
                                 <w>o</w>
-                                <w>ferthyng</w>
-                                <w>wurtħ</w>
+                                <w>ferthyng<seg type="shadowHyphen">-</seg>wurtħ</w>
                                 <w>of</w>
                                 <w>food</w>
                             </seg>

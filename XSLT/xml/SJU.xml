@@ -18808,8 +18808,7 @@
                         <seg type="averse">
                             <w>For</w>
                             <w>a</w>
-                            <w>ferthing</w>
-                            <w>wortħ</w>
+                            <w>ferthing<seg type="shadowHyphen">-</seg>wortħ</w>
                             <w>of</w>
                             <w>fode</w>
                         </seg>

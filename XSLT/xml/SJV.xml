@@ -3158,8 +3158,7 @@
                         <seg type="averse">
                             <w>For</w>
                             <w>a</w>
-                            <w>ferthing</w>
-                            <w>worth</w>
+                            <w>ferthing<seg type="shadowHyphen">-</seg>worth</w>
                             <w>of</w>
                             <w>foode</w>
                         </seg>
