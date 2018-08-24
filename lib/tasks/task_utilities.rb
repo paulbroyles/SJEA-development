@@ -247,11 +247,9 @@ end
 
 			case child.name
 
-			when "milestone"
-				if child.attributes["unit"] == "fol."
-					folio = child.attributes["entity"]
-					pages += 1
-				end
+			when "pb"
+				folio = child.attributes["facs"]
+				pages += 1
 
 			when "div", "div1", "div2", "div3", "div4", "div5", "div6", "div7", "lg"
 				pages, lines, folio = processStructure( child, linelist, pages, lines, folio )
@@ -386,7 +384,7 @@ end
           case xmldoc.name
 
              # the initial tag for the start of a new page
-             when "milestone"
+					 when "pb"
 
                # always flush any pending data...
                if pending_page_content.empty? == false
@@ -398,7 +396,7 @@ end
                    pagecount += 1
                end
 
-               page_image_file = xmldoc[ "entity" ]
+               page_image_file = xmldoc[ "facs" ]
 
             when "note"
 
