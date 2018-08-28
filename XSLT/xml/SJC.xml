@@ -94,6 +94,7 @@
                     <pb n="111r" facs="C111r.jpg"/>
                     <fw type="runningHead" place="topCenter">† The Sege of ier<expan>usa</expan>l<expan>e</expan>m †</fw>
                     <lg type="strophe">
+                    <fw type="guideLetters" place="marginLeft">I</fw>
                     <l xml:id="C.0001" n="HL.0001">
                         <seg type="averse">
                             <w><supplied reason="guideletter">I</supplied>n<note>A guideletter for an initial <hi rend="it">I</hi> is in the left margin, and a space two lines in height was left for it, but the letter was never realized.</note></w>

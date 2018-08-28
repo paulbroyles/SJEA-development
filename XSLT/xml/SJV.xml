@@ -1104,7 +1104,7 @@
                     </l>
                     
                     <pb n="71r" facs="V071r.jpg"/>
-                    <fw type="guideLetter" place="inline">n</fw>
+                    <fw type="guideLetters" place="inline">n</fw>
                     
                     <l xml:id="V.0060" n="HL.1025">
                         <seg type="averse">
@@ -2632,7 +2632,7 @@
                 <div type="passus" n="2">
                     <head place="marginRight">Septim<expan>us</expan> passus</head>
                     
-                    <fw type="guideLetter" place="inline">a</fw>
+                    <fw type="guideLetters" place="inline">a</fw>
                     
                     <l xml:id="V.0148" n="HL.1113">
                         <seg type="averse">

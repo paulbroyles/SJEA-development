@@ -5124,6 +5124,7 @@
                         <fw type="guideWords" place="marginLeft" hand="#handX">ij</fw> 
                     </head>
                     <lg type="strophe">
+                    <fw type="guideLetters" place="inline">T</fw>
                     <l xml:id="U.0292" n="HL.0305">
                         <seg type="averse">
                             <w><hi rend="o2"><hi rend="bl">T</hi></hi>hei</w>
@@ -10547,6 +10548,7 @@
                         <fw type="guideWords" place="marginLeft" hand="#handX">iiij</fw>
                     </head>
                     <lg type="strophe">
+                    <fw type="guideLetters" place="inline">A</fw>
                     <l xml:id="U.0610" n="HL.0637">
                         <seg type="averse">
                             <w><hi rend="o2"><hi rend="bl">A</hi></hi>lsone</w>
@@ -14585,6 +14587,7 @@
                         <hi rend="bl">¶</hi><hi rend="BinR"><hi rend="rb">Sextus passus</hi></hi>
                     </head>
                     <lg type="strophe">
+                    <fw type="guideLetters" place="inline">I</fw>
                     <l xml:id="U.0846" n="HL.0897">
                         <seg type="averse">
                             <w><hi rend="o6"><hi rend="bl">I</hi></hi>N</w>
