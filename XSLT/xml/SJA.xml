@@ -747,7 +747,7 @@
                             <w>that</w>
                             <w>soghte</w>
                             <w>ou<expan>er</expan></w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>salte</w>
                             <w>see</w>
                         </seg>
@@ -819,7 +819,7 @@
                         <damage type="tear"><gap quantity="13" unit="chars"/></damage>
                         <seg><gap quantity="5" unit="chars"/>de</seg> 
                         <w>fro</w> 
-                        <w>þ<expan>e</expan></w> 
+                        <w>þe</w> 
                         <w>Iewes</w> </l>
 
                     <l xml:id="A.0047" n="HL.0051"> 
@@ -1141,7 +1141,7 @@
                         <seg type="bverse">
                             <w>vp</w>
                             <w>to<seg type="shadowHyphen">-</seg>warde</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>heuen</w>
                         </seg>
                     </l>
@@ -1321,7 +1321,7 @@
                             <w>ferre</w>
                         </seg>
                         <seg type="bverse">
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>flode</w>
                             <w>hade</w>
                             <w>þam</w>
@@ -2118,10 +2118,10 @@
                     <l xml:id="A.0127" n="HL.0130">
                         <seg type="averse">
                             <w>bothe</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>dome</w>
                             <w>and</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>defe</w>
                         </seg>
                         <seg type="bverse">
@@ -2987,7 +2987,7 @@
                         </seg>
                         <seg type="bverse">
                             <w>worthi</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>tiłł</w>
                         </seg>
                     </l>
@@ -5266,7 +5266,7 @@
                         <seg type="bverse">
                             <w>or</w>
                             <w>ełłs</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>burghe</w>
                             <w>wynn</w>
                         </seg>
@@ -5799,7 +5799,7 @@
                             <w>ten</w>
                             <w>thowsande</w>
                             <w>of</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>tayle</w>
                         </seg>
                         <seg type="bverse">
@@ -5877,7 +5877,7 @@
                             <w>and</w>
                             <w>owt</w>
                             <w>of</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>Cete</w>
                             <w>come</w>
                         </seg>
@@ -6175,7 +6175,7 @@
                         <seg type="bverse">
                             <w>by</w>
                             <w>þ<expan>a</expan>t</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>fyghte</w>
                             <w>Endide</w>
                         </seg>
@@ -7340,7 +7340,7 @@
                         </seg>
                         <seg type="bverse">
                             <w>vn<seg type="shadowHyphen">-</seg>to</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>colde</w>
                             <w>ertħe</w>
                         </seg>
@@ -7469,7 +7469,7 @@
                         <seg type="bverse">
                             <w>whils</w>
                             <w>þ<expan>a</expan>t</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>blade</w>
                             <w>lastis</w>
                         </seg>
@@ -7591,7 +7591,7 @@
                         <seg type="bverse">
                             <w>heldis</w>
                             <w>to</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>grownde</w>
                         </seg>
                     </l>
@@ -8111,7 +8111,7 @@
                             <w>þ<expan>a</expan>t</w>
                             <w>þay</w>
                             <w>to</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>castełłe</w>
                             <w>myghte</w>
                             <w>come</w>
@@ -8127,7 +8127,7 @@
                         <seg type="averse">
                             <w>thaye</w>
                             <w>bonde</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>beschoppe</w>
                             <w>besyly</w>
                         </seg>
@@ -8273,7 +8273,7 @@
                             <w>thay</w>
                             <w>to<expan>ur</expan>nede</w>
                             <w>towarde</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>town</w>
                         </seg>
                         <seg type="bverse">
@@ -8420,7 +8420,7 @@
 
                     <l xml:id="A.0587" n="HL.0607">
                         <seg type="averse">
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>multytude</w>
                             <w>was</w>
                             <w>so</w>
@@ -8774,7 +8774,7 @@
                     <l xml:id="A.0609" n="HL.0630">
                         <seg type="averse">
                             <w>For</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>caste</w>
                             <w>was</w>
                             <w>so</w>
@@ -9549,7 +9549,7 @@
                         <seg type="bverse">
                             <w>and</w>
                             <w>clatered</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>towres</w>
                         </seg>
                     </l>
@@ -9909,7 +9909,7 @@
                             <w>halfe</w>
                         </seg>
                         <seg type="bverse">
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>hiddiłłs<note><hi rend="it">hiddiłłs</hi> is presumably a variation of <hi rend="it">hydeles</hi>, "hideless, excoriated," the reading found in L. It is possible that Thornton did not recognize the word and that this is a nonsensical reading.</note></w>
                             <w>enoyntede</w>
                         </seg>
@@ -9984,7 +9984,7 @@
                             <w>he</w>
                             <w>pyned</w>
                             <w>fro</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>pryme</w>
                         </seg>
                         <seg type="bverse">
@@ -10066,7 +10066,7 @@
                             <w>see</w>
                         </seg>
                         <seg type="bverse">
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>sorow</w>
                             <w>þ<expan>a</expan>t</w>
                             <w>þay</w>
@@ -10113,13 +10113,13 @@
                             <w>hent</w>
                             <w>thaym</w>
                             <w>by</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>hare</w>
                         </seg>
                         <seg type="bverse">
                             <w>and</w>
                             <w>fro</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>hede</w>
                             <w>pullede</w>
                         </seg>
@@ -10623,7 +10623,7 @@
                             <w>the</w>
                             <w>fourche</w>
                             <w>to</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>fote</w>
                         </seg>
                         <seg type="bverse">
@@ -10866,7 +10866,7 @@
                         </seg>
                         <seg type="bverse">
                             <w>vn<seg type="shadowHyphen">-</seg>to</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>prowde</w>
                             <w>corners</w>
                         </seg>
@@ -11131,7 +11131,7 @@
                             <w>fułł</w>
                             <w>bygge</w>
                             <w>appon</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>banke</w>
                         </seg>
                         <seg type="bverse">
@@ -11591,10 +11591,10 @@
                     <l xml:id="A.0784" n="HL.0807">
                         <seg type="averse">
                             <w>agayne</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>strenghe</w>
                             <w>of</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>stroke</w>
                         </seg>
                         <seg type="bverse">
@@ -11846,13 +11846,13 @@
                             <w>many</w>
                             <w>bent</w>
                             <w>one</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>banke</w>
                         </seg>
                         <seg type="bverse">
                             <w>and</w>
                             <w>at</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>burghe</w>
                             <w>thrawen</w>
                         </seg>
@@ -11913,7 +11913,7 @@
                             <w>it</w>
                             <w>fleghe</w>
                             <w>in<seg type="shadowHyphen">-</seg>to</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>felde</w>
                         </seg>
                         <seg type="bverse">
@@ -12011,7 +12011,7 @@
                         </seg>
                         <seg type="bverse">
                             <w>was</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>flore</w>
                             <w>thirlede</w>
                         </seg>
@@ -12026,7 +12026,7 @@
                             <w>tirlede</w>
                         </seg>
                         <seg type="bverse">
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>town</w>
                             <w>al</w>
                             <w>habowte</w>
@@ -12054,7 +12054,7 @@
                         <seg type="averse">
                             <w>Ne</w>
                             <w>had</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>folke</w>
                             <w>bene</w>
                             <w>so</w>
@@ -12586,7 +12586,7 @@
                             <w>vs</w>
                             <w>lympis</w>
                             <w>ay</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>werse</w>
                         </seg>
                     </l>
@@ -12769,7 +12769,7 @@
                             <w>there</w>
                             <w>als</w>
                             <w>fawtis</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>fude</w>
                         </seg>
                         <seg type="bverse">
@@ -12803,12 +12803,12 @@
                             <w>was</w>
                             <w>payede</w>
                             <w>&amp;</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>prynce</w>
                         </seg>
                         <seg type="bverse">
                             <w>if</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>pepiłł</w>
                             <w>walde</w>
                         </seg>
@@ -12882,7 +12882,7 @@
                         <seg type="averse">
                             <w>To</w>
                             <w>make</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>wa<del rend="overwritten">c</del><add place="inline" hand="#hand1">t</add>ches</w>
                             <w>w<expan>i</expan>t<expan>h</expan></w>
                             <w>witty</w>
@@ -13236,7 +13236,7 @@
                         <seg type="bverse">
                             <w>&amp;</w>
                             <w>ałłe</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>pepiłł</w>
                             <w>sewes</w>
                         </seg>
@@ -14868,7 +14868,7 @@
                             <w>als</w>
                             <w>fewle</w>
                             <w>of</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>daye</w>
                         </seg>
                         <seg type="bverse">
@@ -15396,7 +15396,7 @@
                         <seg type="bverse">
                             <w>ałł</w>
                             <w>þat</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>gome</w>
                             <w>askede</w>
                         </seg>
@@ -15591,7 +15591,7 @@
                             <w>than</w>
                             <w>sayde</w>
                             <w>Iosaphus</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>gentiłł</w>
                             <w>s<expan>ir</expan></w>
                         </seg>
@@ -15599,7 +15599,7 @@
                             <w>this</w>
                             <w>segge</w>
                             <w>hase</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>holpen</w>
                         </seg>
                     </l>
@@ -16050,7 +16050,7 @@
                         <seg type="averse">
                             <w>ałłe</w>
                             <w>w<expan>i</expan>t<expan>h</expan><seg type="shadowHyphen">-</seg>owttyn</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>burgħe</w>
                         </seg>
                         <seg type="bverse">
@@ -16415,7 +16415,7 @@
                         </seg>
                         <seg type="bverse">
                             <w>þ<expan>a</expan>t</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <del rend="linedThrough">go</del>
                             <w>gomes</w>
                             <w>thoghte</w>
@@ -16751,7 +16751,7 @@
                     <l xml:id="A.1097" n="HL.1127">
                         <seg type="averse">
                             <w>Bothe</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>hede</w>
                             <w>and</w>
                             <w>the</w>
@@ -16820,7 +16820,7 @@
                             <w>thay</w>
                             <w>fełłe</w>
                             <w>of</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>false</w>
                             <w>folke</w>
                         </seg>
@@ -17183,7 +17183,7 @@
                             <w>w<expan>i</expan>t<expan>h</expan></w>
                             <w>thaym</w>
                             <w>to</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>wallis</w>
                         </seg>
                         <seg type="bverse">
@@ -17542,7 +17542,7 @@
                         <seg type="bverse">
                             <w>or</w>
                             <w>þay</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>Cete</w>
                             <w>hade</w>
                         </seg>
@@ -17566,7 +17566,7 @@
                         <seg type="averse">
                             <w>Swelte</w>
                             <w>whils</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>sege</w>
                             <w>laste</w>
                         </seg>
@@ -17604,7 +17604,7 @@
                     <l xml:id="A.1148" n="HL.1178">
                         <seg type="averse">
                             <w>and</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>town</w>
                             <w>to</w>
                             <w>wynn</w>
@@ -17615,7 +17615,7 @@
                         <seg type="bverse">
                             <w>owt</w>
                             <w>of</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>warlawes</w>
                             <w>handis</w>
                         </seg>
@@ -17699,7 +17699,7 @@
                         <seg type="bverse">
                             <w>neghen</w>
                             <w>to</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>wallis</w>
                         </seg>
                     </l>
@@ -18059,7 +18059,7 @@
                         <seg type="bverse">
                             <w>and</w>
                             <w>weries</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>stownde</w>
                         </seg>
                     </l>
@@ -18364,7 +18364,7 @@
                         </seg>
                         <seg type="bverse">
                             <w>ou<expan>er</expan></w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>burghe</w>
                             <w>hange</w>
                         </seg>
@@ -18574,7 +18574,7 @@
                         <seg type="bverse">
                             <w>hade</w>
                             <w>thorowe</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>dynt</w>
                             <w>of</w>
                             <w>a</w>
@@ -18618,7 +18618,7 @@
                     <l xml:id="A.1209" n="HL.1243">
                         <seg type="averse">
                             <w>Fro</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>none</w>
                             <w>to</w>
                             <w>the</w>
@@ -18820,7 +18820,7 @@
                         </seg>
                         <seg type="bverse">
                             <w>ałłe</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>place</w>
                             <w>ou<expan>er</expan></w>
                         </seg>
@@ -18914,7 +18914,7 @@
                         <seg type="bverse">
                             <w>and</w>
                             <w>weryes</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>Iewes</w>
                         </seg>
                     </l>
@@ -19053,7 +19053,7 @@
                         <seg type="bverse">
                             <w>was</w>
                             <w>ałłe</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>place</w>
                             <w>ou<expan>er</expan></w>
                         </seg>
@@ -19276,7 +19276,7 @@
                         </seg>
                         <seg type="bverse">
                             <w>ałłe</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>woke</w>
                             <w>tym</w>
                         </seg>
@@ -19308,7 +19308,7 @@
                         </seg>
                         <seg type="bverse">
                             <w>þ<expan>er</expan></w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>wallis</w>
                             <w>stude</w>
                         </seg>
@@ -19317,7 +19317,7 @@
                     <l xml:id="A.1253" n="HL.1288">
                         <seg type="averse">
                             <w>Bothe</w>
-                            <w>þ<expan>e</expan></w>
+                            <w>þe</w>
                             <w>tempiłłe</w>
                             <w>and</w>
                             <w>the</w>
